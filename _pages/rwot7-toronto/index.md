@@ -8,6 +8,15 @@ This repository contains documents related to RWOT7, the seventh Rebooting the W
 
 _Please see the [Web of Trust Info website](http://www.weboftrust.info/) for more information about our community. Watch for our [next event](https://www.weboftrust.info/next-event-page.html) March 1st-3rd in Barcelona, Spain._
 
+## Index
+
+* [Draft Documents](draft-documents/)
+* [Event Documents](event-documents/)
+* [Supporting Files](supporting-files/)
+* [Topics and Advance Readings](topics-and-advance-readings/)
+* [Final-Documents](final-documents/)
+
+
 ## Final Papers
 
 

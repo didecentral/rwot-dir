@@ -1,1 +1,1 @@
-<embed src="https://infominer.id/yest/RWoT1/final-documents/dpki.pdf" width="100%" height="100%"></embed>
+<embed src="https://infominer.id/pub-yes/rwot1-sf/final-documents/dpki.pdf" width="100%" height="100%"></embed>

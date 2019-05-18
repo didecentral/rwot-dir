@@ -15,6 +15,15 @@ Visit http:/rwot8.eventbrite.com for more information and to purchase tickets.
 
 [Event details for attendees (schedule, hotels, transportation/) (pdf 14MB/)](https:/nbviewer.jupyter.org/github/WebOfTrustInfo/website/blob/gh-pages/welcome-pack/rwot8-barcelona-welcome-pack.pdf/)
 
+## Index
+
+* [Draft Documents](draft-documents/)
+* [Event Documents](event-documents/)
+* [Supporting Files](supporting-files/)
+* [Topics and Advance Readings](topics-and-advance-readings/)
+* [Final-Documents](final-documents/)
+
+
 ## Draft Documents
 
 These are the documents currently in process from RWOT8.

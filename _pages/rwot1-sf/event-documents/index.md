@@ -1,8 +1,7 @@
 ---
-title: Event Documents 
+title: RWoT 1 - Event Documents
+permalink: rwot1-sf/event-documents/
 ---
-
-# RWoT 1 - Event Documents 
 
 ## Process
 

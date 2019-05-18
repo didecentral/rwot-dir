@@ -1,4 +1,7 @@
-### 7 Myths of Self-Sovereign-Identity
+---
+title: "7 Myths of Self-Sovereign-Identity"
+permalink: self-sovereign-identity/7-myths-of-self-sovereign-identity/
+---
 
 This October, Evernym's Timmothy Ruff wrote about the [7 Myths of Self-Sovereign Identity](https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1), clearing up common misconceptions about SSI. That post was an excellent start, and a good model to build upon. What are the myths that need busted? I briefly summarized Timothy's 7 myths as a jumping off point. -infominer33
 

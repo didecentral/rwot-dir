@@ -10,6 +10,13 @@ _Please see the [Web of Trust Info website](http://www.weboftrust.info/) for mor
 
 *Unless otherwise noted, their home in [WebOfTrustInfo/rwot3-sf](https://github.com/WebOfTrustInfo/rwot3-sf) is the cannonical reference for these documents.*
 
+## Index
+
+* [Draft Documents](draft-documents/)
+* [Event Documents](event-documents/)
+* [Supporting Files](supporting-files/)
+* [Topics and Advance Readings](topics-and-advance-readings/)
+* [Final-Documents](final-documents/)
 
 ## Topics & Advance Readings
 

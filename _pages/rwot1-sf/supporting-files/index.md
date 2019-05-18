@@ -1,5 +1,6 @@
 ---
 title: Supporting Files
+permalink: rwot1-sf/supporting-files/
 ---
 
 # Supporting Files

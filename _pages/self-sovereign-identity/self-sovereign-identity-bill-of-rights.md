@@ -1,4 +1,7 @@
-# lifeID Self-Sovereign Identity Bill of Rights
+---
+title: "lifeID Self-Sovereign Identity Bill of Rights"
+permalink: self-sovereign-identity/self-sovereign-identity-bill-of-rights/
+---
 
 lifeID was founded with the vision that every person in the world deserves to own and control their identity. For lifeID and our world-wide community, the future of identity rests on the concept that controlling personally identifiable information (PII) — both online and in the real-world — is a foundational right. This right will ensure a future with simple, secure digital identities; a future with password-free online experiences; a future where individuals can establish who they are, or verify facts about their lives, without the intrusion or oversight from government entities or corporations.
 

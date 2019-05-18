@@ -9,6 +9,14 @@ _Please see the [Web of Trust Info website](http://www.weboftrust.info/) for mor
 
 *Unless otherwise noted, their home in [WebOfTrustInfo/rwot2-id2020](https://github.com/WebOfTrustInfo/rwot2-id2020/) is the cannonical reference for these documents.*
 
+## Index
+
+* [Draft Documents](draft-documents/)
+* [Event Documents](event-documents/)
+* [Supporting Files](supporting-files/)
+* [Topics and Advance Readings](topics-and-advance-readings/)
+* [Final-Documents](final-documents/)
+
 ##  Topics & Advance Readings
 
 In advance of the ID 2020 Design DesignShop, all participants were requested to submit a 1 or 2 page topics paper to be shared with other attendees on either:

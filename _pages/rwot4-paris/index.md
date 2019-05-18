@@ -8,6 +8,14 @@ This repository contains documents related to RWOT4, the fourth Rebooting the We
 
 _Please see the [Web of Trust Info website](http://www.weboftrust.info/) for more information about our community, including upcoming events._
 
+## Index
+
+* [Draft Documents](draft-documents/)
+* [Event Documents](event-documents/)
+* [Supporting Files](supporting-files/)
+* [Topics and Advance Readings](topics-and-advance-readings/)
+* [Final-Documents](final-documents/)
+
 ##  Topics & Advance Readings
 
 In advance of the design workshop, all participants produced a one-or-two page topic paper to be shared with the other attendees on either:

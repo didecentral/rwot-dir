@@ -1,4 +1,7 @@
-# The Path to Self-Sovereign Identity
+---
+title: The Path to Self-Sovereign Identity
+permalink: self-sovereign-identity/ThePathToSelf-SovereignIdentity/
+---
 
 Today I head out to a month-long series of events associated with identity: I’m starting with the 22st (!) [Internet Identity Workshop](http://www.internetidentityworkshop.com/) next week; then I’m speaking at the blockchain conference [Consensus](http://www.coindesk.com/events/consensus-2016/) about identity; next I am part of the team putting together the first [ID2020 Summit](http://id2020summit.org/) on Digital Identity at the United Nations; and finally I'm hosting the second [#RebootingWebOfTrust](http://www.weboftrust.info/) design workshop on decentralized identity.
 

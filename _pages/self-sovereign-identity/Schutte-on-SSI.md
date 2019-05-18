@@ -1,4 +1,8 @@
-#Schutte’s Critique of the Self-Sovereign Identity Principles
+---
+title: "Schutte’s Critique of the Self-Sovereign Identity Principles"
+permalink: self-sovereign-identity/Shutte-on-SSI/
+---
+
 I’m taking a quick pass through Christopher Allen’s 10 principles for Self-Sovereign Identity, with an eye toward highlighting the primary shortcomings that I perceive.  Note: I have a very unusual take on this.  I understand that.  I’m trying to be guided primarily by how mechanisms of coherence formation, perception and interaction amongst agents operate in complex adaptive systems.  
 
 I assume that the meta-patterns that we can observe in terms of how nature organizes itself are FUNCTIONAL ADAPTATIONS THAT HAVE EMERGED OVER COUNTLESS MILLENNIA OF TRIAL AND ERROR BECAUSE THEY BALANCE TENSIONS OF RESILIENCE (achieved through generation of diversity) AND EFFICIENCY (achieved through curation of diversity through actual interactions with surrounding entities, which cumulatively constitute an environment).  This process of GENERATION and CURATION, often referred to as “Evolution” has come up with some pretty decent patterns — after having tried pretty much darn near everything and finding these patterns to have persistently find formation / activation in our present day world.  And yes, I’m stating that the patterns themselves are a product of evolution.  The stuff that worked, continues to make an appearance.  The patterns that lead to self-extinguishing dead-ends, are not so common (though they have to potential to be generated anew)
