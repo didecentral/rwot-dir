@@ -3,6 +3,9 @@ title: RWOT2-ID2020 - Event Documtents
 permalink: rwot2-id2020/event-documents/
 ---
 
+* [Invite](invite1/)
+* [invite1.txt](invite1.txt)
+
 ## Photos
 
 ### Day 1 - People Pics
@@ -69,9 +72,16 @@ permalink: rwot2-id2020/event-documents/
 ![photos/Day-2-People-Pics/2016-05-22-10.40.24](photos/Day-2-People-Pics/2016-05-22-10.40.24.jpg)
 ![photos/Day-2-People-Pics/2016-05-22-10.31.35](photos/Day-2-People-Pics/2016-05-22-10.31.35.jpg)
 ![photos/Day-2-People-Pics/2016-05-22-10.40.31](photos/Day-2-People-Pics/2016-05-22-10.40.31.jpg)
-./invite1.md
+
 
 ## Graphic Recording
+
+* [graphic-recording/readme.md](graphic-recording/readme.md)
+
+### Day 1 01 Intro
+![graphic-recording/Day-1-01-Intro/01b-id2020-takeaways](graphic-recording/Day-1-01-Intro/01b-id2020-takeaways.jpg)
+![graphic-recording/Day-1-01-Intro/01c-tech-requirements](graphic-recording/Day-1-01-Intro/01c-tech-requirements.jpg)
+![graphic-recording/Day-1-01-Intro/01a-rebooting-web-of-trust-scribing](graphic-recording/Day-1-01-Intro/01a-rebooting-web-of-trust-scribing.jpg)
 
 ### Day 1 02 Take A Panel
 
@@ -84,6 +94,44 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/Day-1-02-Take-A-Panel/tap-ro-team-6](graphic-recording/Day-1-02-Take-A-Panel/tap-ro-team-6.jpg)
 ![graphic-recording/Day-1-02-Take-A-Panel/tap-ro-team-7](graphic-recording/Day-1-02-Take-A-Panel/tap-ro-team-7.jpg)
 
+### Day 1 03 Work Round 1
+
+#### Work-Round-1-Work-Walls
+
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.09](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.09.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.31](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.31.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.19](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.19.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.52](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.52.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.13.58](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.13.58.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.25](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.25.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.47](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.47.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.28](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.28.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.59](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.59.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.21](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.21.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.39](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.39.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.16](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.16.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.44](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.44.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.53](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.53.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.49](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.49.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.27](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.27.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.03](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.03.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.23](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.23.jpg)
+
+
+### Work-Round-1-Report-Out-Flips
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-graphs](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-graphs.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-1o2](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-1o2.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-2o2](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-2o2.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-as-correlation](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-as-correlation.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-chainpoint](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-chainpoint.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-containers](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-containers.jpg)
+![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-protecting-digital-identity](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-protecting-digital-identity.jpg)
+
+### Day 2 04 Manu Architecture Diagram
+![graphic-recording/Day-2-04-Manu-Architecture-Diagram/Day-2-04-Manu-Arch-Diagram](graphic-recording/Day-2-04-Manu-Architecture-Diagram/Day-2-04-Manu-Arch-Diagram.jpg)
+
+
+
 ### Day 2 05 DID Deep Dive
 
 #### 05-DID-Deep-Dive-Report-Out-Scribing
@@ -93,7 +141,8 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Report-Out-Scribing/05-did-ro-use-cases-1o2](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Report-Out-Scribing/05-did-ro-use-cases-1o2.jpg)
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Report-Out-Scribing/05-did-ro-did](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Report-Out-Scribing/05-did-ro-did.jpg)
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Report-Out-Scribing/05-did-ro-self-sov-id-arch](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Report-Out-Scribing/05-did-ro-self-sov-id-arch.jpg)
-./graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls
+
+#### 05 DID Deep Dive Work Walls
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.54](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.54.jpg)
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.25](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.25.jpg)
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.19](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.19.jpg)
@@ -103,8 +152,6 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.30.39](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.30.39.jpg)
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.52](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.52.jpg)
 ![graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.14](graphic-recording/Day-2-05-DID-Deep-Dive/05-DID-Deep-Dive-Work-Walls/2016-05-22-12.29.14.jpg)
-./graphic-recording/Day-2-05-DID-Deep-Dive/04-Manu-Diagram-self-sovereign-identity-arch-1
-![graphic-recording/Day-2-05-DID-Deep-Dive/04-Manu-Diagram-self-sovereign-identity-arch-1/Day-2-04-Self-Sovereign-Identity-Arch-1](graphic-recording/Day-2-05-DID-Deep-Dive/04-Manu-Diagram-self-sovereign-identity-arch-1/Day-2-04-Self-Sovereign-Identity-Arch-1.jpg)
 
 ### Day 2 06 Work Round 2 Work Walls
 
@@ -132,37 +179,16 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/Day-2-06-Work-Round-2-Work-Walls/Day-2-06-WR2-privacy-3](graphic-recording/Day-2-06-Work-Round-2-Work-Walls/Day-2-06-WR2-privacy-3.jpg)
 ![graphic-recording/Day-2-06-Work-Round-2-Work-Walls/Day-2-06-WR2-did-3](graphic-recording/Day-2-06-Work-Round-2-Work-Walls/Day-2-06-WR2-did-3.jpg)
 
-### Day 1 03 Work Round 1
+#### 04 Manu Diagram Self Sovereign Identity Arch 1
 
-#### Work-Round-1-Work-Walls
+![graphic-recording/Day-2-05-DID-Deep-Dive/04-Manu-Diagram-self-sovereign-identity-arch-1/Day-2-04-Self-Sovereign-Identity-Arch-1](graphic-recording/Day-2-05-DID-Deep-Dive/04-Manu-Diagram-self-sovereign-identity-arch-1/Day-2-04-Self-Sovereign-Identity-Arch-1.jpg)
 
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.09](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.09.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.31](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.31.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.19](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.19.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.52](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.52.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.13.58](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.13.58.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.25](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.25.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.47](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.47.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.28](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.28.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.59](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.59.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.21](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.21.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.39](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.39.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.16](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.16.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.44](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.44.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.53](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.53.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.49](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.49.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.27](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.15.27.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.03](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.03.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.23](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Work-Walls/2016-05-21-17.14.23.jpg)
-./graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-graphs](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-graphs.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-1o2](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-1o2.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-2o2](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-did-2o2.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-as-correlation](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-as-correlation.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-chainpoint](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-chainpoint.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-containers](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-identity-containers.jpg)
-![graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-protecting-digital-identity](graphic-recording/Day-1-03-Work-Round-1/Work-Round-1-Report-Out-Flips/wr1-protecting-digital-identity.jpg)
-./graphic-recording/Day-2-06-Work-Round-2-Report-Out
+
+### Day 2 06 Work Round 2 Report Out
+
+* [Day-2-06-WR2-WR2-Report-Out.pdf](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-WR2-Report-Out.pdf)
+
+
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Self-Sovereign-ID-Arch-2-1o3](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Self-Sovereign-ID-Arch-2-1o3.jpg)
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Cheap-Verifications](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Cheap-Verifications.jpg)
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Privacy](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Privacy.jpg)
@@ -171,16 +197,14 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Self-Sovereign-ID-Arch-2-2o3](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Self-Sovereign-ID-Arch-2-2o3.jpg)
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Wayne-Paper](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-Wayne-Paper.jpg)
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID.jpg)
-./graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-WR2-Report-Out.pdf
-!![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID-Link-to-ID-Container](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID-Link-to-ID-Container](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID-Link-to-ID-Container](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID-Link-to-ID-Container.jpg))
+!![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID-Link-to-ID-Container](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-DID-Link-to-ID-Container.jpg))
 ![graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-ID-as-Correlation](graphic-recording/Day-2-06-Work-Round-2-Report-Out/Day-2-06-WR2-ID-as-Correlation.jpg)
-./graphic-recording/Day-2-04-Manu-Architecture-Diagram
-![graphic-recording/Day-2-04-Manu-Architecture-Diagram/Day-2-04-Manu-Arch-Diagram](graphic-recording/Day-2-04-Manu-Architecture-Diagram/Day-2-04-Manu-Arch-Diagram.jpg)
-./graphic-recording/Day-1-01-Intro
-![graphic-recording/Day-1-01-Intro/01b-id2020-takeaways](graphic-recording/Day-1-01-Intro/01b-id2020-takeaways.jpg)
-![graphic-recording/Day-1-01-Intro/01c-tech-requirements](graphic-recording/Day-1-01-Intro/01c-tech-requirements.jpg)
-![graphic-recording/Day-1-01-Intro/01a-rebooting-web-of-trust-scribing](graphic-recording/Day-1-01-Intro/01a-rebooting-web-of-trust-scribing.jpg)
-./graphic-recording/id2020
+
+
+## graphic-recording/id2020
+
+* [graphic-recording/id2020/readme.md](graphic-recording/id2020/readme.md)
+
 ![graphic-recording/id2020/07-lunch-group-results](graphic-recording/id2020/07-lunch-group-results.jpg)
 ![graphic-recording/id2020/04-specific-problems-with-identity](graphic-recording/id2020/04-specific-problems-with-identity.jpg)
 ![graphic-recording/id2020/06-what-could-get-in-the-way](graphic-recording/id2020/06-what-could-get-in-the-way.jpg)
@@ -188,11 +212,11 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/id2020/05-what-can-tech-do](graphic-recording/id2020/05-what-can-tech-do.jpg)
 ![graphic-recording/id2020/08-getting-started](graphic-recording/id2020/08-getting-started.jpg)
 ![graphic-recording/id2020/09-call-to-action](graphic-recording/id2020/09-call-to-action.jpg)
-./graphic-recording/id2020/readme.md
 ![graphic-recording/id2020/03-what-makes-up-legal-identity](graphic-recording/id2020/03-what-makes-up-legal-identity.jpg)
 ![graphic-recording/id2020/02-what-is-the-reality](graphic-recording/id2020/02-what-is-the-reality.jpg)
-./graphic-recording/readme.md
-./graphic-recording/Day-2-07-Next-Steps
+
+
+## graphic-recording/Day-2-07-Next-Steps
 ![graphic-recording/Day-2-07-Next-Steps/Day-2-07b-goals-for-next-event](graphic-recording/Day-2-07-Next-Steps/Day-2-07b-goals-for-next-event.jpg)
 ![graphic-recording/Day-2-07-Next-Steps/Day-2-07c-work-going-forward](graphic-recording/Day-2-07-Next-Steps/Day-2-07c-work-going-forward.jpg)
 ![graphic-recording/Day-2-07-Next-Steps/Day-2-07g-links](graphic-recording/Day-2-07-Next-Steps/Day-2-07g-links.jpg)
@@ -200,21 +224,23 @@ permalink: rwot2-id2020/event-documents/
 ![graphic-recording/Day-2-07-Next-Steps/Day-2-07a-other-commitments-and-goals](graphic-recording/Day-2-07-Next-Steps/Day-2-07a-other-commitments-and-goals.jpg)
 ![graphic-recording/Day-2-07-Next-Steps/Day-2-07d-work-going-forward](graphic-recording/Day-2-07-Next-Steps/Day-2-07d-work-going-forward.jpg)
 ![graphic-recording/Day-2-07-Next-Steps/Day-2-07e-biometrics](graphic-recording/Day-2-07-Next-Steps/Day-2-07e-biometrics.jpg)
-./invite1.txt
 
 ## Plenaries
 
-./plenaries/1-opening.md
-./plenaries/2-reportout-weboftrust.md
-./plenaries/3-reportout-id2020.md
-./plenaries/4-identitypanels.md
-./plenaries/5-reportout.md
-./plenaries/6-self-sovereign-id-model.md
-./plenaries/7-did-reportout.md
-./plenaries/8-finalreportout.md
-./plenaries/9-finale.md
+* [plenaries/1-opening.md](plenaries/1-opening.md)
+* [plenaries/2-reportout-weboftrust.md](plenaries/2-reportout-weboftrust.md)
+* [plenaries/3-reportout-id2020.md](plenaries/3-reportout-id2020.md)
+* [plenaries/4-identitypanels.md](plenaries/4-identitypanels.md)
+* [plenaries/5-reportout.md](plenaries/5-reportout.md)
+* [plenaries/6-self-sovereign-id-model.md](plenaries/6-self-sovereign-id-model.md)
+* [plenaries/7-did-reportout.md](plenaries/7-did-reportout.md)
+* [plenaries/8-finalreportout.md](plenaries/8-finalreportout.md)
+* [plenaries/9-finale.md](plenaries/9-finale.md)
 
 ## Process - Pick-a-Panel
+
+* [process/pick-a-panel/readme.md](process/pick-a-panel/readme.md)
+
 
 ![process/pick-a-panel/erik](process/pick-a-panel/erik.jpg)
 ![process/pick-a-panel/thessy](process/pick-a-panel/thessy.jpg)
@@ -253,7 +279,6 @@ permalink: rwot2-id2020/event-documents/
 ![process/pick-a-panel/jason](process/pick-a-panel/jason.jpg)
 ![process/pick-a-panel/mark](process/pick-a-panel/mark.jpg)
 ![process/pick-a-panel/george1a](process/pick-a-panel/george1a.jpg)
-./process/pick-a-panel/readme.md
 ![process/pick-a-panel/nicola](process/pick-a-panel/nicola.jpg)
 ![process/pick-a-panel/jonathan](process/pick-a-panel/jonathan.jpg)
 ![process/pick-a-panel/darrell](process/pick-a-panel/darrell.jpg)
