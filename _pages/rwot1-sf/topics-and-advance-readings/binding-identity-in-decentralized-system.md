@@ -1,4 +1,8 @@
-#Binding Identity in a Decentralized System
+---
+title: "Binding Identity in a Decentralized System"
+permalink: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
+---
+
 
 *by Wayne Thayer [@wthayer](https://twitter.com/wthayer) \<wthayer@gmail.com\>*
 

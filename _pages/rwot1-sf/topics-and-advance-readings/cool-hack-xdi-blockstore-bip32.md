@@ -1,5 +1,8 @@
-A cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers
---------------------------------------------------------------------------------------
+---
+title: "A cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers"
+permalink: rwot1-sf/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32/
+---
+
 Markus Sabadello, Vienna, October 19th 2015
 
 XDI Graphs

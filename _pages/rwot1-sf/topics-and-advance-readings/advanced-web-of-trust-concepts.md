@@ -1,5 +1,7 @@
-Advanced Web of Trust Concepts
-==============================
+---
+title: "Advanced Web of Trust Concepts"
+permalink: rwot1-sf/topics-and-advance-readings/advanced-web-of-trust-concepts
+---
 
 By Christopher Allen - ChristopherA@LifeWithAlacrity.com
 

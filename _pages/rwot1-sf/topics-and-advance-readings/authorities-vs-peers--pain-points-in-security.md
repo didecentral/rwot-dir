@@ -1,5 +1,7 @@
-Authorities vs. Peers: Pain Points in Security
-==============================================
+---
+title: "Authorities vs. Peers: Pain Points in Security"
+permalink: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
+---
 
 By Christopher Allen - <ChristopherA@LifeWithAlacrity.com> & Shannon Appelcline - <ShannonA@skotos.net> with the the help of the #RebootingWebOfTrust Community www.WebOfTrust.info
 

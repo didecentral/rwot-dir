@@ -1,5 +1,6 @@
 ---
 title: "Topics & Advance Readings - RWoT1"
+permalink: rwot1-sf/topics-and-advance-readings/
 ---
 
 

@@ -1,5 +1,8 @@
-Avoiding Confused Deputy Attack Using Capabilities
-==================================================
+---
+title: "Avoiding Confused Deputy Attack Using Capabilities"
+permalink: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
+---
+
 
 By Tyler Close - tyler.close@gmail.com
 
