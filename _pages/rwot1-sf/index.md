@@ -1,8 +1,7 @@
 ---
-title: RWoT1 - Index
+title: "Rebooting the Web of Trust I: San Francisco (November 2015)"
 ---
 
-# Rebooting the Web of Trust I: San Francisco (November 2015)
 
 This repository contains documents related to RWOT1, the first Rebooting the Web of Trust design workshop, which ran in San Francisco, CA, on November 3rd & 4th, 2015. The goal of the workshop was to generate five technical white papers and/or proposals on topics decided by the group that would have the greatest impact on the future.
 
@@ -27,8 +26,8 @@ These white papers were produced as part of the Rebooting the Web of Trust desig
 * **Workshop Producer:** Christopher Allen
 * **Workshop Facilitators:** Christopher Allen and Brian Weller with graphic facilitation by Sonia Sawhney and additional paper editorial & layout by Shannon Appelcline
 
-### [Rebranding the Web of Trust](Final/rebranding-web-of-trust.pdf)
-_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/Final/rebranding-web-of-trust.docx?raw=true)]
+### [Rebranding the Web of Trust](final-documents/rebranding-web-of-trust/)
+_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/rebranding-web-of-trust.docx?raw=true)]
 
 By Shannon Appelcline, Dave Crocker, Randall Farmer, and Justin Newton
 
@@ -38,9 +37,9 @@ To build a contemporary Web of Trust, we need to better define it. To do so, we 
 
 * Lead Paper Editor: Shannon Appelcline
 
-### [Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data](Final/satisfying-real-world-use-cases.pdf)
+### [Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data](final-documents/satisfying-real-world-use-cases/)
 
-_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/Final/satisfying-real-world-use-cases.docx?raw=true)]
+_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/satisfying-real-world-use-cases.docx?raw=true)]
 
 by du5t, Kaliya "Identity Woman" Young (@identitywoman), John Edge, Drummond Reed, and Noah Thorp
 
@@ -60,8 +59,8 @@ Each case identifies basic technical implementation needs, presents a brief solu
 
 * Lead Paper Editors: du5t, Kaliya "Identity Woman" Young (@identitywoman)
 
-### [Decentralized Public Key Infrastructure](Final/dpki.pdf)
-_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/Final/dpki.docx?raw=true)]
+### [Decentralized Public Key Infrastructure](final-documents/dpki/)
+_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.docx?raw=true)]
 
 by (alphabetical by last name) Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist, Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, and Harlan T Wood
 
@@ -69,8 +68,8 @@ Today’s Internet places control of online identities into the hands of third-p
 
 * Lead Paper Editor: Greg Slepak, Drummond Reed
 
-### [Smart Signatures](Final/smart-signatures.pdf)
-_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/Final/smart-signatures.docx?raw=true)]
+### [Smart Signatures](final-documents/smart-signatures/)
+_A White Paper from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/smart-signatures.docx?raw=true)]
 
 by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close
 Abstract
@@ -81,8 +80,8 @@ Our inspiration for this authorization system is the bitcoin scripting language,
 
 * Lead Paper Editors: Christopher Allen, Ryan Shea
 
-### [Creating the New World of Trust](Final/whats-the-next-step.pdf)
-_Final Notes from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/Final/whats-the-next-step.docx?raw=true)]
+### [Creating the New World of Trust](final-documents/whats-the-next-step/)
+_Final Notes from Rebooting the Web of Trust_  [[docx](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.docx?raw=true)]
 
 What's Next? On November 3rd and 4th, the Rebuilding the Web of Trust design workshop looked at the future of decentralized trust on the internet with the goal of producing 3-5 white papers and specs. Those papers were polished for release in December, leaving the question: what's next?
 
@@ -99,14 +98,14 @@ If we can meet this goal, we can make our design ideas into reality.
 
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
 
-* [Rebooting the Web of Trust I: San Francisco (November 2015)](../RWoT1/)
-* [Rebooting the Web of Trust II: ID2020 (May 2016)](../RWoT2/)
-* [Rebooting the Web of Trust III: San Francisco (October 2016)](../RWoT3/)
-* [Rebooting the Web of Trust IV: Paris (April 2017)](../RWoT4/)
-* [Rebooting the Web of Trust V: Boston (October 2017)](../RWoT5/)
-* [Rebooting the Web of Trust VI: Santa Barbara (March 2018)](../RWoT6/)
-* [Rebooting the Web of Trust VII: Toronto (September 2018)](../RWoT7/)
-* [Rebooting the Web of Trust VIII: Barcelona](../RWoT8)
+* [Rebooting the Web of Trust I: San Francisco (November 2015)](/rwot1-sf/)
+* [Rebooting the Web of Trust II: ID2020 (May 2016)](/rwot2-id2020/)
+* [Rebooting the Web of Trust III: San Francisco (October 2016)](/rwot3-sf/)
+* [Rebooting the Web of Trust IV: Paris (April 2017)](/rwot4-paris/)
+* [Rebooting the Web of Trust V: Boston (October 2017)](/rwot5-boston/)
+* [Rebooting the Web of Trust VI: Santa Barbara (March 2018)](/rwot6-santabarbara/)
+* [Rebooting the Web of Trust VII: Toronto (September 2018)](/rwot7-toronto/)
+* [Rebooting the Web of Trust VIII: Barcelona](../rwot8-barcelona/)
 
 
 ## License

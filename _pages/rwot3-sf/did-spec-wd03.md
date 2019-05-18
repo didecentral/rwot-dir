@@ -1,4 +1,6 @@
-DID Specification
+---
+title: "DID Specification"
+---
 
 Editors:     Drummond Reed, Les Chasen
 Contributors:    Christopher Allen, Manu Sporny, David Longley, Jason Law, Daniel Hardman
@@ -13,7 +15,7 @@ STATUS: Working Draft 03, 17 October 2016
 
 [[TOC]]
 
-# 1. Introduction
+## 1. Introduction
 
 Conventional [identity management](https://en.wikipedia.org/wiki/Identity_management) systems are based on centralized authorities such as corporate [directory services](https://en.wikipedia.org/wiki/Directory_service), [certificate authorities](https://en.wikipedia.org/wiki/Certificate_authority), or [domain name registries](https://en.wikipedia.org/wiki/Domain_name_registry). From the standpoint of cryptographic trust verification, each of these centralized authorities serves as its own [root of trust](https://en.wikipedia.org/wiki/Trust_anchor). To make identity management work across these systems requires implementing [federated identity management](https://en.wikipedia.org/wiki/Federated_identity).
 
@@ -23,7 +25,7 @@ In a DIDM architecture, each identity owner can be identified on a ledger with a
 
 This architecture not only eliminates dependence on centralized registries for identifiers, but also on centralized certificate authorities for key management as is typical of hierarchical [PKI (public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)). Instead each identity owner serves as its own root authority via its own DID record(s) on the shared ledger—an architecture called a [DPKI (decentralized PKI)](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf).
 
-# 2. Purpose of this Specification
+## 2. Purpose of this Specification
 
 The purpose of this specification is to define the two logical components of DID records—DIDs and DDOs—in a manner capable of being implemented on any DLT or decentralized network capable of accepting DID records. It is out of scope for this specification to define the precise method by which DID records shall be implemented on any particular DLT or decentralized network—that is the job of a separate **DID method specification**.
 
@@ -31,7 +33,7 @@ Conceptually, the relationship of this specification and a DID method specificat
 
 This specification defines the requirements of a conformant DID method specification. The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
-# 2. Terminology and Acronyms
+## 2. Terminology and Acronyms
 
 **Alias.** A hash of a conventional globally unique identifier based on traditional registry services, such as a mobile telephone number, an email address, or a URI ([Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)). Aliases are a type of **NCID** used for **DID** discovery. See section 4.6.
 
@@ -95,7 +97,7 @@ This specification defines the requirements of a conformant DID method specifica
 
 **XDI.** Acronym for Extensible Data Interchange (also XRI Data Interchange)—a semantic graph format and semantic data interchange protocol defined by the [OASIS XDI Technical Committee](https://www.oasis-open.org/committees/xdi/).
 
-# 3. Design Goals & Principles
+## 3. Design Goals & Principles
 
 This section summarizes the design goals and principles of DID architecture.
 
@@ -139,7 +141,7 @@ To meet these design goals, DID architecture should be (to paraphrase Albert Ein
 
 When possible, DID architecture should enable extensibility provided it does not hinder interoperability, portability or simplicity.
 
-# 4. DIDs (Decentralized Identifiers)
+## 4. DIDs (Decentralized Identifiers)
 
 The foundation of DID architecture is the concept of the decentralized identifier. This concept is not new; the structure of [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) (Universally Unique IDentifiers) was first developed in the 1980s and later became a standard feature of the Open Software Foundation’s [Distributed Computing Environment](https://en.wikipedia.org/wiki/Distributed_Computing_Environment). UUIDs achieve global uniqueness without a centralized registry service by using an algorithm that generates 128-bit values with sufficient entropy that the chance of collision are infinitesimally small. UUIDs are formally a URN (Uniform Resource Name) namespace specified in [IETF RFC 4122](https://tools.ietf.org/html/rfc4122).
 
@@ -228,7 +230,7 @@ Aliases represent a tradeoff between convenience and privacy. When a DID record 
 
 3. Alternately, an additional password or passkey should be combined with the conventional address prior to hashing to allow the identity owner to control who can generate the alias and thus use it to discover the associated DID.
 
-# 5. DDOs (DID Descriptor Objects)
+## 5. DDOs (DID Descriptor Objects)
 
 If a DID is the index key in a [key-value pair](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair), the DDO is the value to which the index key points. A fundamental goal of this specification is to define DIDs and DDOs such that a DID will always returns a valid DDO regardless of the underlying DLT or decentralized network for which the DID method is defined. This enables the same layer of interoperable root identity objects to operate across all DLTs and decentralized networks that support DIDs.
 
@@ -532,7 +534,7 @@ Example:
 
 }
 
-# 6. DID Operations
+## 6. DID Operations
 
 To enable the full functionality of DIDs and DDOs on a particular DLT or decentralized network (called the *target system*), a DID method specification MUST specify how each of the following [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations is performed by a client. Each operation MUST be specified to the level of detail necessary to build and test interoperable client implementations with the target system.
 
@@ -564,7 +566,7 @@ The DID method specification MUST specify how a client can update a DID record o
 
 Although a core feature of distributed ledgers is immutability, the DID method specification MUST specify how a client can revoke a DID record on the target system, including all cryptographic operations necessary to establish proof of control.
 
-# 7. References
+## 7. References
 
 [RFC-KEYWORDS] Key words for use in RFCs to Indicate Requirement Levels. IETF RFC 2119. [https://www.ietf.org/rfc/rfc2119.txt](https://www.ietf.org/rfc/rfc2119.txt) 
 
@@ -590,7 +592,7 @@ Although a core feature of distributed ledgers is immutability, the DID method s
 
 [XML-DATETIME] W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes. W3C Recommendation. [https://www.w3.org/TR/xmlschema11-2/](https://www.w3.org/TR/xmlschema11-2/) 
 
-# Appendix A: The Sovrin DID Method
+## Appendix A: The Sovrin DID Method
 
 Sovrin is a public permissioned ledger for self-sovereign identity governed by the global non-profit [Sovrin Foundation](http://www.sovrin.org/). This appendix is the beginning of the DID method specification for the Sovrin DID method.
 
@@ -636,7 +638,7 @@ In any case, a Sovrin client MUST NOT ever rely on an abbreviated key by itself.
 
 [TODO]
 
-# Appendix B: Example DDO
+## Appendix B: Example DDO
 
 This is an example DDO conformant with this specification. The DIDs in this example are defined by the Sovrin DID method in Appendix A.
 

@@ -1,8 +1,7 @@
 ---
-title: Supporting Files
+title: "Supporting Files"
 ---
 
-# Supporting Files
 
 ![](physician-patient-image-fig1.png)
 ![](physician-patient-image-fig2.png)

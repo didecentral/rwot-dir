@@ -88,7 +88,7 @@ Some voting mechanisms have evolved to balance the power of individuals (or smal
 
 We’d like to also enable ad hoc and collaborative, grass-roots organizing. It needs to be possible to do tomorrow’s equivalent of the march on Selma, and have the organizations built for such efforts not be marginalized by status quo power, just because they are new.
 
-# Conclusion
+## Conclusion
 There are invisible architectures embedded in the systems that our society relies upon to make decisions and coordinate efforts.  Some of these are a result of the contexts and capabilities present at the time of their emergence.  However, they are not without consequences.
 
 Hence, as we go about designing and building new systems for fostering interaction and coordination through digital processes, we should be deliberate about what we are building.

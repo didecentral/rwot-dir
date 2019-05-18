@@ -1,4 +1,7 @@
-DID (Decentralized Identifier) Data Model and Generic Syntax 1.0 Implementer’s Draft 01
+---
+title: "DID (Decentralized Identifier) Data Model and Generic Syntax 1.0 Implementer’s Draft 01"
+---
+
 =====
 
 **Editors:** Drummond Reed, Les Chasen, Christopher Allen, Ryan Grant
@@ -21,9 +24,9 @@ Note: terms in **bold** are defined in the Terminology section.
 
 [[TOC]]
 
-# 1. Introduction
+## 1. Introduction
 
-## 1.1 Overview
+### 1.1 Overview
 
 Conventional [identity management](https://en.wikipedia.org/wiki/Identity_management) systems are based on centralized authorities such as corporate [directory services](https://en.wikipedia.org/wiki/Directory_service), [certificate authorities](https://en.wikipedia.org/wiki/Certificate_authority), or [domain name registries](https://en.wikipedia.org/wiki/Domain_name_registry). From the standpoint of cryptographic trust verification, each of these centralized authorities serves as its own [root of trust](https://en.wikipedia.org/wiki/Trust_anchor). To make identity management work across these systems requires implementing [federated identity management](https://en.wikipedia.org/wiki/Federated_identity).
 
@@ -37,7 +40,7 @@ This design eliminates dependence on centralized registries for identifiers as w
 
 Note that DID methods may also be developed for identities registered in federated identity management systems. For their part, federated identity systems may add support for DIDs. This creates an interoperability bridge between the worlds of centralized, federated, and decentralized identity.
 
-## 1.2. URIs, URLs, and URNs
+### 1.2. URIs, URLs, and URNs
 
 DIDs have a foundation in URIs, so it's important to understand how the W3C [clarified](https://www.w3.org/TR/uri-clarification/) the terms **URI** (Uniform Resource Identifier), **URL** (Uniform Resource Locator), and **URN** (Uniform Resource Name) in September 2001. The key difference between these three categories of identifiers are:
 
@@ -47,7 +50,7 @@ DIDs have a foundation in URIs, so it's important to understand how the W3C [cla
 
 3. **URN** is the term for a specific type of URI intended to persistently identify a resource, i.e., an identifier that will never change no matter how often the resource moves, changes names, changes owners, etc. URNs are intended to last forever.
 
-## 1.3. Motivations for DIDs
+### 1.3. Motivations for DIDs
 
 The growing need for decentralized identity has produced three specific requirements for a new type of URI that still fits within URI/URL/URN architecture but in a less than traditional way: 
 
@@ -57,7 +60,7 @@ The growing need for decentralized identity has produced three specific requirem
 
 3. **A URI whose ownership and associated metadata, including public keys, can be cryptographically verified.** Control of DIDs and DDOs leverages the same public/private key cryptography as distributed ledgers.
 
-## 1.4 The Role of Human-Friendly Identifiers
+### 1.4 The Role of Human-Friendly Identifiers
 
 DIDs achieve global uniqueness without the need for a central registration authority. This comes, however, at the cost of human memorability. The algorithms capable of generating globally unique identifiers automatically produce random strings of characters that have no human meaning. This demonstrates the axiom about identifiers known as [Zooko’s Triangle](https://en.wikipedia.org/wiki/Zooko%27s_triangle): "human-meaningful, decentralized, secure—pick any two".
 
@@ -65,7 +68,7 @@ There are of course many use cases where it is desirable to discover a DID when 
 
 Solutions to this problem (and there are many) should be defined in separate specifications that reference this specification. It is strongly recommended that such specifications carefully consider: (a) the numerous security attacks based on deceiving users about the true human-friendly identifier for a target entity, and (b) the privacy consequences of using human-friendly identifiers that are inherently correlatable, especially if they are globally unique.
 
-## 1.5. Purpose of This Specification
+### 1.5. Purpose of This Specification
 
 The first purpose of this specification is to define the generic DID scheme and a generic set of operations on DID records that can be implemented for any distributed ledger or network capable of accepting DID records. The second purpose of this specification to define the conformance requirements for a **DID method specification**—a separate specification that defines a specific DID scheme and specific set of DID record operations for a specific distributed ledger or network.
 
@@ -73,13 +76,13 @@ Conceptually, the relationship of this specification and a DID method specificat
 
 For a list of DID method specifications, see Appendix A.
 
-# 2. Example DIDs and DDOs
+## 2. Example DIDs and DDOs
 
 This example of a DID uses the Sovrin DID method listed in Appendix A:
 
 	did:sov:21tDAKCERh95uGgKbJNHYp
 
-## 2.1. Example Owner-Managed DDO
+### 2.1. Example Owner-Managed DDO
 
 Following is an example of a DDO that describes the DID above. This example assumes that the **identity owner**—the entity that controls the private keys for this identity—is authoritative for the DDO. See section 2.2 for an example of a DDO created by a **guardian**. For the authoritative JSON-LD context definition, see Appendix B (the URL for the @context property below is just for illustration). 
 
@@ -153,7 +156,7 @@ Following is an example of a DDO that describes the DID above. This example assu
 
 }
 
-## 2.2. Example Guardian-Managed DDO
+### 2.2. Example Guardian-Managed DDO
 
 Following is a second example of a DDO that describes the DID above. In this case the DDO describes a **dependent**—an entity who is not currently in a position to control the private keys for this identity. This DDO was created by a **guardian**—a separate identity owner with its own DID that serves as a trustee for the dependent. Note that while this DDO asserts a set of service endpoints, it does not yet contain a set of key descriptions because the dependent does not yet have its own set of private keys.
 
@@ -195,7 +198,7 @@ Following is a second example of a DDO that describes the DID above. In this cas
 
 }
 
-# 3. Terminology and Acronyms
+## 3. Terminology and Acronyms
 
 This specification defines the requirements of a conformant DID method specification. The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
@@ -269,7 +272,7 @@ All other terms used in this specification are defined in this glossary.
 
 **XDI (Extensible Data Interchange)** (also XRI Data Interchange)—a semantic graph format and semantic data interchange protocol defined by the [OASIS XDI Technical Committee](https://www.oasis-open.org/committees/xdi/).
 
-# 4. Design Goals & Principles
+## 4. Design Goals & Principles
 
 This section summarizes the design goals and principles of DID architecture.
 
@@ -332,13 +335,13 @@ This section summarizes the design goals and principles of DID architecture.
 </table>
 
 
-# 5. DIDs (Decentralized Identifiers)
+## 5. DIDs (Decentralized Identifiers)
 
 The foundation of DID architecture is the concept of the decentralized identifier. This concept is not new; [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) (Universally Unique IDentifiers) were first developed in the 1980s and later became a standard feature of the Open Software Foundation’s [Distributed Computing Environment](https://en.wikipedia.org/wiki/Distributed_Computing_Environment). UUIDs achieve global uniqueness without a centralized registry service by using an algorithm that generates 128-bit values with sufficient entropy that the chance of collision are infinitesimally small. UUIDs are formally a URN namespace specified in [IETF RFC 4122](https://tools.ietf.org/html/rfc4122).
 
 A DID is similar to a UUID except: (a) it can be resolved or dereferenced to a standard resource describing the identity owner (a DDO—see section 6), and (b) the DDO may contain public key descriptions that enable cryptographic verification of DID ownership.
 
-## 5.1. The Generic DID Scheme
+### 5.1. The Generic DID Scheme
 
 The generic DID scheme is a URI scheme conformant with [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). It consists of a DID followed by an optional path and/or fragment. The term **DID** refers only to the identifier conforming to the did rule in the ABNF below; when used alone, it does not include a path or fragment. A DID that may optionally include a path and/or fragment is called a **DID reference**.
 
@@ -354,7 +357,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 ```
 See sections 5.3 and 5.4 for the ABNF rules defining DID paths and fragments.
 
-## 5.2. Specific DID Method Schemes
+### 5.2. Specific DID Method Schemes
 
 A DID method specification MUST define exactly one specific DID scheme identified by exactly one method name (the method rule in section 5.1). Since DIDs are intended for decentralized identity infrastructure, it is NOT RECOMMENDED to establish a registry of unique DID method names. Rather the uniqueness of DID method names should be established via human consensus, i.e., a specific DID scheme MUST use a method name that is unique among all DID method names known to the specification authors at the time of publication. 
 
@@ -366,19 +369,19 @@ The DID method specification for the specific DID scheme MUST specify how to gen
 
 If needed, a specific DID scheme MAY define multiple specific specific-idstring formats. It is RECOMMENDED that a specific DID scheme define as few specific-idstring formats as possible.
 
-## 5.3 DID Paths
+### 5.3 DID Paths
 
 A generic DID path (the did-path rule in section 5.1) is identical to a URI path and MUST conform to the ABNF of the path-rootless ABNF rule in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). A DID path SHOULD be used to address resources available via a DID service endpoint. See section 6.6.
 
 A specific DID scheme MAY specify ABNF rules for DID paths that are more restrictive than the generic rules in this section.
 
-## 5.4 DID Fragments
+### 5.4 DID Fragments
 
 A generic DID fragment (the did-fragment rule in section 5.1) is identical to a URI fragment and MUST conform to the ABNF of the fragment ABNF rule in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). A DID fragment MUST be used only as a method-independent pointer into the DDO to identify a unique key description or other DDO component. To resolve this pointer, the complete DID reference including the DID fragment MUST be used as the value of the id key for the target JSON object.
 
 A specific DID scheme MAY specify ABNF rules for DID fragments that are more restrictive than the generic rules in this section.
 
-## 5.5 DID Normalization
+### 5.5 DID Normalization
 
 For the broadest interoperability, DID normalization should be as simple and universal as possible. Therefore:
 
@@ -388,7 +391,7 @@ For the broadest interoperability, DID normalization should be as simple and uni
 
 3. Case sensitivity and normalization of the value of the specific-idstring rule in section 5.1 MUST be defined by the governing DID method specification.
 
-## 5.6 DID Persistence
+### 5.6 DID Persistence
 
 A DID MUST be persistent and immutable, i.e., bound to an identity owner once and never changed (forever). Ideally a DID would be a completely abstract decentralized identifier (like a UUID) that could be bound to multiple underlying distributed ledgers or networks over time, thus maintaining its persistence independent of any particular ledger or network. However registering the same identifier on multiple ledgers or networks introduces extremely hard identity ownership and [start-of-authority](https://en.wikipedia.org/wiki/List_of_DNS_record_types#SOA) (SOA) problems. It also greatly increases implementation complexity for developers.
 
@@ -396,7 +399,7 @@ To avoid these issues, it is RECOMMENDED that DID method specifications only pro
 
 NOTE: Although not included in this version, future versions of this specification may support a DDO equivID property to establish verifiable equivalence relations between DID records representing the same identity owner on multiple ledgers or networks. Such equivalence relations can produce the practical equivalent of a single persistent abstract DID. See Future Work (section 11).
 
-# 6. DDOs (DID Descriptor Objects)
+## 6. DDOs (DID Descriptor Objects)
 
 If a DID is the index key in a key-value pair, then the DDO is the value to which the index key points. The combination of a DID and its associated DDO forms the root **identity record** for a  decentralized identity.
 
@@ -404,7 +407,7 @@ A DDO MUST be a single JSON object conforming to [RFC 7159](https://tools.ietf.o
 
 The following sections define the properties of this JSON object, including whether these properties are required or optional.
 
-## 6.1. Context (Required)
+### 6.1. Context (Required)
 
 JSON objects in JSON-LD format must include a JSON-LD context statement. The rules for this statement are:
 
@@ -426,7 +429,7 @@ Example (using an example URL):
 
 DID method specifications MAY define their own JSON-LD contexts. However it is NOT RECOMMENDED to define a new context unless necessary to properly implement the method. Method-specific contexts MUST NOT override the terms defined in the generic DID context listed in Appendix B.
 
-## 6.2. Primary DID (Required)
+### 6.2. Primary DID (Required)
 
 The primary DID is the primary index key for the DDO, i.e., it is DID described by DDO. The rules for a primary DID are:
 
@@ -446,7 +449,7 @@ Example:
 
 }
 
-## 6.3. Guardian (Required If No Proof of Ownership)
+### 6.3. Guardian (Required If No Proof of Ownership)
 
 A **guardian** is an identity owner who creates and maintains an identity record for a **dependent** who is not in a position to hold or control the necessary cryptographic keys (e.g., a parent creating an identity record for a child). In this case, there are no owner keys to represent the ultimate identity owner. So the DDO needs to assert the identity of the guardian.
 
@@ -470,7 +473,7 @@ Example:
 
 }
 
-## 6.4. Proof of Ownership (Required If No Guardian)
+### 6.4. Proof of Ownership (Required If No Guardian)
 
 Proof of Ownership is the mechanism by which an identity owner can cryptographically prove ownership of a DID and DDO by virtue of publishing a set of public key or verification key descriptions. See section 9.2. Note that Proof of Ownership is separate from Proof of Control because an identity owner may wish to enable other entities to update the DDO (for example, to assist with key recovery as discussed in section 6.5) without enabling them to prove ownership (and thus be able to impersonate the identity owner).
 
@@ -518,7 +521,7 @@ Example:
 
 Note that caching and expiration of the keys in DDO key descriptions is entirely the responsibility of DID resolvers and other clients. See section 9.6.
 
-## 6.5. Proof of Control (Optional and Method-Specific)
+### 6.5. Proof of Control (Optional and Method-Specific)
 
 Proof of Control is the mechanism by which an identity owner may give itself or other entities permission to update the DDO—for example to assist with key recovery. Note that Proof of Control is separate from Proof of Ownership as explained in section 6.4. This is particularly important for key recovery in the case of key loss, when the identity owner no longer has access to the keys described using the owner property (section 6.4), or key compromise, where the owner’s trusted third parties need to override malicious activity by an attacker. See section 9.
 
@@ -621,7 +624,7 @@ Following is an example of a Proof of Control property implementing these rules:
 
 }
 
-## 6.6. Service Endpoint References (Optional)
+### 6.6. Service Endpoint References (Optional)
 
 In addition to publication of cryptographic key material, the other primary purpose of DID records is to enable discovery of service endpoints for the identity owner. A service endpoint may represent any type of service the identity owner wishes to advertise, including decentralized identity management services for further discovery, authentication, authorization, or interaction.
 
@@ -653,7 +656,7 @@ Example:
 
 See sections 9.1 and 9.3 for further security considerations regarding authentication service endpoints.
 
-## 6.7. Created (Optional)
+### 6.7. Created (Optional)
 
 Standard metadata for identity records includes a timestamp of the original creation. The rules for including a creation timestamp are:
 
@@ -675,7 +678,7 @@ Example:
 
 }
 
-## 6.8. Updated (Optional)
+### 6.8. Updated (Optional)
 
 Standard metadata for identity records includes a timestamp of the most recent change. The rules for including a updated timestamp are:
 
@@ -693,7 +696,7 @@ Example:
 
 }
 
-## 6.9. Signature (Optional)
+### 6.9. Signature (Optional)
 
 A signature on a DDO is cryptographic proof of the integrity of the DDO according to either:
 
@@ -729,7 +732,7 @@ Example:
 
 }
 
-# 7. DID Operations
+## 7. DID Operations
 
 To enable the full functionality of DIDs and DDOs on a particular distributed ledger or network (called the *target system*), a DID method specification MUST specify how each of the following [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations is performed by a client. Each operation MUST be specified to the level of detail necessary to build and test interoperable client implementations with the target system.
 
@@ -745,23 +748,23 @@ Note that, due to the specified contents of DDOs, these operations can effective
 
 * Key expiration
 
-## 7.1. Create
+### 7.1. Create
 
 The DID method specification MUST specify how a client creates a DID record—the combination of a DID and its associated DDO—on the target system, including all cryptographic operations necessary to establish proof of ownership.
 
-## 7.2. Read/Verify
+### 7.2. Read/Verify
 
 The DID method specification MUST specify how a client uses a DID to request a DDO from the target system, including how the client can verify the authenticity of the response.
 
-## 7.3. Update
+### 7.3. Update
 
 The DID method specification MUST specify how a client can update a DID record on the target system, including all cryptographic operations necessary to establish proof of control.
 
-## 7.4. Delete/Revoke
+### 7.4. Delete/Revoke
 
 Although a core feature of distributed ledgers is immutability, the DID method specification MUST specify how a client can revoke a DID record on the target system, including all cryptographic operations necessary to establish proof of revocation.
 
-# 8. DID Resolvers
+## 8. DID Resolvers
 
 A DID resolver is a software component with an API designed to accept requests for DID lookups and execute the corresponding DID method to retrieve the authoritative DDO. To be conformant with this specification, a DID resolver:
 
@@ -773,7 +776,7 @@ A DID resolver is a software component with an API designed to accept requests f
 
 4. MAY offer the service of returning requested properties of the DDO.
 
-# 9. Security Considerations
+## 9. Security Considerations
 
 *NOTE TO IMPLEMENTERS: During the Implementer’s Draft stage, this section focuses on security topics that should be important in early implementations. The editors are also seeking feedback on threats and threat mitigations that should be reflected in this section or elsewhere in the spec.*
 
@@ -783,7 +786,7 @@ As such, DIDs are designed to operate under the general Internet threat model us
 
 For their part, the DLTs hosting DIDs and DDOs have special security properties for preventing active attacks. Their design uses public/private key cryptography to allow operation on passively monitored networks without risking compromise of private keys. This is what makes DID  architecture and decentralized identity possible.
 
-## 9.1. Requirements of DID Method Specifications
+### 9.1. Requirements of DID Method Specifications
 
 1. DID method specifications MUST include their own Security Considerations sections.
 
@@ -803,7 +806,7 @@ For their part, the DLTs hosting DIDs and DDOs have special security properties 
 
 8. DID methods that introduce new authentication service endpoint types (section 6.6) SHOULD consider the security requirements of the supported authentication protocol.
 
-## 9.2 Binding of Identity
+### 9.2 Binding of Identity
 
 ### 9.2.1 Proving Ownership of a DID and DDO
 
@@ -837,15 +840,15 @@ If the DDO is not signed, ownership of a public key described in the DDO may sti
 
 A DID and DDO do not inherently carry any [PII](https://en.wikipedia.org/wiki/Personally_identifiable_information) (personally-identifiable information). The process of binding a DID to the real-world owner of an identity using claims about the owner is out of scope for this specification. However this topic is the focus of the [verifiable claims](https://w3c.github.io/vctf/) standardization work at the W3C (where the term "DID" originated).
 
-## 9.3 Authentication Service Endpoints
+### 9.3 Authentication Service Endpoints
 
 If a DDO publishes a service endpoint intended for authentication or authorization of an identity owner (section 6.6), it is the responsibility of the service endpoint provider, identity owner, and/or relying party to comply with the requirements of the authentication protocol(s) supported at that service endpoint.
 
-## 9.4 Non-Repudiation
+### 9.4 Non-Repudiation
 
 Non-repudiation of DIDs and DDO updates is supported under the assumption that: (1) the  identity owner is monitoring for unauthorized updates (see section 9.5) and (2) the identity owner has had adequate opportunity to revoke malicious updates according to the DID method's access control mechanism (section 6.5). This capability is further supported if timestamps are included (sections 6.7 and 6.8) and the target DLT system supports timestamps.  
 
-## 9.5 Notification of DDO Changes
+### 9.5 Notification of DDO Changes
 
 One mitigation against unauthorized changes to a DDO is monitoring and actively notifying the identity owner when there are changes. This is analogous to helping prevent account takeover on conventional username/password accounts by sending password reset notifications to the email addresses on file.
 
@@ -857,11 +860,11 @@ In the case of a DID, where there is no intermediary registrar or account provid
 
 3. **Third-party monitoring.** An identity owner may rely on a third party monitoring service, however this introduces another vector of attack.
 
-## 9.6 Key and Signature Expiration
+### 9.6 Key and Signature Expiration
 
 In a decentralized identity architecture, there are no centralized authorities to enforce key or signature expiration policies. Therefore DID resolvers and other client applications SHOULD validate that keys have not expired. Since some use cases may have legitimate reasons why already-expired keys can be extended, a key expiration SHOULD NOT prevent any further use of the key, and implementations SHOULD attempt to update its status upon encountering it in a signature. 
 
-## 9.7 Key Revocation and Recovery
+### 9.7 Key Revocation and Recovery
 
 Section 7 specifies the DID operations that must be supported by a DID method specification, including revocation of a DDO by replacing it with an updated DDO. In general, checking for key revocation on DLT-based methods is expected to be handled in a manner similar to checking the balance of a cryptocurrency account on a distributed ledger: if the balance is empty, the entire DID is revoked.
 
@@ -869,7 +872,7 @@ DID method specifications SHOULD enable support for a quorum of trusted parties 
 
 Access control and key recovery in a DID method specification MAY also include a time lock feature to protect against key compromise by maintaining a second track of control for recovery.  Further specification of this type of control is a matter for future work (see section 11.4).
 
-# 10. Privacy Considerations
+## 10. Privacy Considerations
 
 It is critically important to apply the principles of Privacy by Design to all aspects of decentralized identity architecture, because DIDs and DDOs are—by design—administered directly by their owners. There is no registrar, hosting company, or other intermediate service provider to recommend or apply additional privacy safeguards.
 
@@ -877,67 +880,67 @@ The authors of this specification have applied all seven Privacy by Design princ
 
 This section lists additional privacy considerations that implementers, guardians, and identity owners should bear in mind.
 
-## 10.1 Requirements of DID Method Specifications
+### 10.1 Requirements of DID Method Specifications
 
 1. DID method specifications MUST include their own Privacy Considerations sections, if only to point to the general privacy considerations in this section.
 
 2. The DID method privacy section MUST discuss any subsection of section 5 of [RFC 6973](https://tools.ietf.org/html/rfc6973)[t](https://tools.ietf.org/html/rfc6973) that could apply in a method-specific manner. The subsections to consider are: *surveillance, stored data compromise, unsolicited traffic, misattribution, correlation, identification, secondary use, disclosure, exclusion*.
 
-## 10.2 Keep Personally-Identifiable Information (PII) Off-Ledger
+### 10.2 Keep Personally-Identifiable Information (PII) Off-Ledger
 
 If a DID method specification is written for a public ledger or network where all DIDs and DDOs will be publicly available, it is STRONGLY RECOMMENDED that DDOs contain no PII. All PII should be kept off-ledger behind service endpoints under the control of the identity owner. With this privacy architecture, PII may be exchanged on a private, peer-to-peer basis using communications channels identified and secured by key descriptions in DID records. This also enables identity owners and relying parties to implement the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) [right to be forgotten](https://en.wikipedia.org/wiki/Right_to_be_forgotten), as no PII will be written to an immutable ledger.
 
-## 10.3 DID Correlation Risks and Pseudonymous DIDs
+### 10.3 DID Correlation Risks and Pseudonymous DIDs
 
 Like any type of globally unique identifier, DIDs may be used for correlation. Identity owners can mitigate this privacy risk by using *pairwise unique DIDs*, i.e., by sharing a different private DID for every relationship. In effect, each DID acts as a pseudonym. A pseudonymous DID need only be shared with more than one party when the identity owner explicitly authorizes correlation between those parties.
 
 If pseudonymous DIDs are the default, then the only need for a public DID—a DID published openly or shared with a large number of parties—is when the identity owner explicitly desires public identification.
 
-## 10.4 DDO Correlation Risks
+### 10.4 DDO Correlation Risks
 
 The anti-correlation protections of pseudonymous DIDs are easily defeated if the data in the corresponding DDOs can be correlated. For example, using same public key descriptions or bespoke service endpoints in multiple DDOs can provide as much correlation information as using the same DID. Therefore the DDO for a pseudonymous DID SHOULD also use pairwise-unique public keys and pairwise-unique service endpoints.
 
-## 10.5 Herd Privacy
+### 10.5 Herd Privacy
 
 When an entity is indistinguishable from others in the herd, privacy is available.  When the act of engaging privately with another party is by itself a recognizable flag, privacy is greatly diminished.  
 
 DIDs and DID methods SHOULD work to improve herd privacy, particularly for those who legitimately need it most. Choose technologies and human interfaces that default to preserving anonymity and pseudonymity. In order to reduce [digital fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint), share common settings across client implementations, keep negotiated options to a minimum on wire protocols, use encrypted transport layers, and pad messages to standard lengths.
 
-# 11. Future Work
+## 11. Future Work
 
-## 11.1 Upper Limits on DID Character Length
+### 11.1 Upper Limits on DID Character Length
 
 The current specification does not take a position on maximum length of a DID. The maximum interoperable URL length is currently about 2K characters. QR codes can handle about 4K characters. Clients using DIDs will be responsible for storing many DIDs, and some methods would be able to externalize some of their costs onto clients by relying on more complicated signature schemes or by adding state into DIDs intended for temporary use. A future version of this specification should set reasonable limits on DID character length to minimize externalities.
 
-## 11.2 Equivalence
+### 11.2 Equivalence
 
 Including an equivalence property, such as equivID, in DDOs whose value is an array of DIDs would allow identity owners to assert two or more DIDs that represent the same identity owner. This capability has numerous uses, including supporting migration between ledgers and providing forward compatibility of existing DIDs to future DLTs. In theory, equivalent DIDs should have the same identity rights, allowing [verifiable claims](https://w3c.github.io/vctf/) made against one DID to apply to equivalent DIDs.
 
 Equivalence was not included in the current specification due to the complexity of verifying equivalence across different DLTs and different DID methods, and also of aggregating properties of equivalent DDOs. However equivalence should be supported in a future version of this specification.
 
-## 11.3 Timestamps
+### 11.3 Timestamps
 
 Verifiable timestamps have significant utility for identity records. This is a good fit for DLTs, since most offer some type of timestamp mechanism. Despite some transactional cost, they are the most censorship-resistant transaction ordering systems in the world, so they are nearly ideal for DDO timestamping. In some cases a DLT's immediate timing is approximate, however their sense of ["median time past" (see Bitcoin BIP 113)](https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki#Abstract) can be precisely defined. 
 
 A generic DDO timestamping mechanism could would work across all DLTs and might operate via a mechanism including either individual transactions or transaction batches. The generic mechanism was deemed out of scope for this version, although it may be included in a future version of this specification.
 
-## 11.4 Time Locks and DDO Recovery
+### 11.4 Time Locks and DDO Recovery
 
 Section 9.7 mentions one possible clever use of time locks to recover control of a DID after a key compromise. The technique relies on an ability to override the most recent update to a DDO with Proof of Control applied by an earlier version of the DDO in order to defeat the attacker. This protection depends on adding a [time lock (see Bitcoin BIP 65)](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki#Abstract) to protect part of the transaction chain, enabling a Proof of Control block to be used to recover control. We plan to add support for time locks in a future version of this specification.
 
-## 11.5 Smart Signatures
+### 11.5 Smart Signatures
 
 Not all DLTs can support the Proof of Control logic in section 6.5. Therefore, in this version of the specification, all Proof of Control logic must be delegated to DID method specifications. A potential future solution is a [Smart Signature](http://www.weboftrust.info/downloads/smart-signatures.pdf) specification that specifies the code any conformant DLT may implement to process signature control logic.
 
-## 11.6 Verifiable Claims
+### 11.6 Verifiable Claims
 
 Although DIDs and DDOs form a foundation for decentralized identity, they are only the first step in describing an identity owner. The rest of the descriptive power comes through collecting and selectively using [verifiable claims](https://w3c.github.io/vctf/). Future versions of the specification will describe in more detail how DIDs and DDO can be integrated with—and help enable—the verifiable claims ecosystem.
 
-## 11.7 Alternate Serializations and Graph Models
+### 11.7 Alternate Serializations and Graph Models
 
 This version of the specification relies on JSON-LD and the RDF graph model for expressing a DDO. Future versions of this specification MAY specify other semantic graph formats for a DDO, such as JXD (JSON XDI Data), a serialization format for the XDI graph model as defined by the [OASIS XDI Core 1.0 specification](http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml).
 
-# 12. References
+## 12. References
 
 [ABNF] Augmented BNF for Syntax Specifications: ABNF. IETF RFC 5234. [https://tools.ietf.org/html/rfc5234](https://tools.ietf.org/html/rfc5234) 
 
@@ -969,7 +972,7 @@ This version of the specification relies on JSON-LD and the RDF graph model for 
 
 [XML-DATETIME] W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes. W3C Recommendation. [https://www.w3.org/TR/xmlschema11-2/](https://www.w3.org/TR/xmlschema11-2/) 
 
-# Appendix A: Proposed DID Method Specifications
+## Appendix A: Proposed DID Method Specifications
 
 This table summarizes the DID method specifications currently in development. The links will be updated as subsequent Implementer’s Drafts are produced.
 
@@ -1007,7 +1010,7 @@ This table summarizes the DID method specifications currently in development. Th
 </table>
 
 
-# Appendix B: The Generic DID Context for JSON-LD
+## Appendix B: The Generic DID Context for JSON-LD
 
 This JSON-LD document is the generic context for all DDOs. See section 6.1 for the rules for using this context.
 
@@ -1075,11 +1078,11 @@ For this implementer’s draft, the URL for this context is:
 
 }
 
-# Appendix C: Standard Key Descriptions
+## Appendix C: Standard Key Descriptions
 
 As described in section 6, key description is a standard way to describe a public key or verification key in JSON-LD. This appendix contains a list of key descriptions recommended for use in DDOs.
 
-## RSA Keys
+### RSA Keys
 
 {
 
@@ -1097,7 +1100,7 @@ As described in section 6, key description is a standard way to describe a publi
 
 }
 
-## EdDSA Keys
+### EdDSA Keys
 
 {
 

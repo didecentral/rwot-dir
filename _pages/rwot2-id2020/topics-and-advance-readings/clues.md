@@ -1,6 +1,10 @@
+---
+title: "Clues"
+---
+
 I would like to thank all the friends that have supported this late unstructed draft submission over not submitting anything :)
 
-# Clues
+## Clues
 
 > Clue: something that serves to guide or direct in the solution of a problem or mystery.
 
@@ -8,8 +12,7 @@ The purpose of this paper is not to present final solutions, but to outline rele
 
 Note, this is an informal list of clues I have collected on content-addressable web and decentralized user security; for a matter of timing and future non-technical audiences reading this, clues will be short, unrelated and written in simple language. Forgive convoluted explanation.
 
-# Clues on the content-addressable web
-
+## Clues on the content-addressable web
 This first section is about clues towards a content-addressable web and is product of conversations with Juan Benet, Steven Allen, David Clark and Gerry Sussman
 
 > 1 The way we point to things should not be bound to a location
@@ -113,7 +116,7 @@ The following link is a submission by itself: [Separating high-level from low le
 
 --
 
-# Clues on using identity
+## Clues on using identity
 
 The following set of clues are from my draft on the [decentralized user security model](https://github.com/nicola/decentralized-user-security-model). In other words, clues on how decentralized application should interface with the user data.
 
@@ -144,7 +147,7 @@ The following set of clues are from my draft on the [decentralized user security
 
 --
 
-# Topics of further discussion
+## Topics of further discussion
 
 > Causal chains: We shouldn't use blockchain technology, unless global ordering is needed
 
