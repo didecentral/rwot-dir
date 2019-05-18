@@ -20,7 +20,7 @@ The 2017 RSA Signature Suite is based on [RFC
 Unencoded Payload Option specification.
 
 This approach avoids past concerns about JWT [raised in the LD signature
-adopters](../Topics/blockchain-extensions-for-linked-data-signatures),
+adopters](../topics-and-advance-readings/blockchain-extensions-for-linked-data-signatures),
 including:
 
 -   Increased space consumption associated with base-64 encoding.

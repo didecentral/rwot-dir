@@ -18,7 +18,7 @@ This is a listing of all the papers, specs, or other works in progress from Rebo
 | (-) Functional Identity | Joe A. | | | Early Stages |
 | (-) What is a Minimum Verifiable Claim? | Christopher | 
 
-_Numbering is based on the Topic Recap recording ![](../Docs/graphic-recording/Topic-Recap.jpg) solely to maintain consistency in keeping track of everything._
+_Numbering is based on the Topic Recap recording ![](../event-documents/graphic-recording/Topic-Recap.jpg) solely to maintain consistency in keeping track of everything._
 
 Cut due to challenges discovered at the Hackathon:
 

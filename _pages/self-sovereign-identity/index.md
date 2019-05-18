@@ -18,16 +18,16 @@ Articles and documents associated with designing and implementing identity techn
 
 ## Elsewhere
 
-* [A Technlogy-Free Definition of Self-Sovereign Identity](../RWoT3/Topics/a-technology-free-definition-of-self-sovereign-identity.pdf) - Topic paper for Rebooting Web of Trust III by [Joe Andrieu](http://www.github.com/jandrieu)
+* [A Technlogy-Free Definition of Self-Sovereign Identity](../RWoT3/topics-and-advance-readings/a-technology-free-definition-of-self-sovereign-identity.pdf) - Topic paper for Rebooting Web of Trust III by [Joe Andrieu](http://www.github.com/jandrieu)
    
 * [Identity and Digital Self-Sovereignty](https://medium.com/learning-machine-blog/identity-and-digital-self-sovereignty-1f3faab7d9e3#.3jcgvnbok) - Blog post by [Natalie Smolenski](https://medium.com/@nsmolenski)
 
   * [Sovereignty in Historical Context for Self-Sovereign Identity – Natalie Smolenski – Webinar 18](http://ssimeetup.org/sovereignty-historical-context-self-sovereign-identity-natalie-smolenski-webinar-18/)
 
-* [SSI: A Roadmap for Adoption](../RWoT6/Final/a-roadmap-for-ssi/) from Rebooting the web of trust, Spring 2018. 
+* [SSI: A Roadmap for Adoption](../RWoT6/final-documents/a-roadmap-for-ssi/) from Rebooting the web of trust, Spring 2018. 
   > This document proposes the formation of a short-term team to develop consistent messaging for the Self-Sovereign Identity (SSI) market.
 
-* [How to Convince Dad* of the Importance of Self-Sovereign Identity](../RWoT7/Final/convincing-dad/) \*and your sister and your daughter and your best friend and your nephew. (SSI Use-Cases)
+* [How to Convince Dad* of the Importance of Self-Sovereign Identity](../RWoT7/final-documents/convincing-dad/) \*and your sister and your daughter and your best friend and your nephew. (SSI Use-Cases)
 
 * [A Gentle Guide to Self Sovereign Identity](https://bitsonblocks.net/2017/05/17/gentle-introduction-self-sovereign-identity/) 
 

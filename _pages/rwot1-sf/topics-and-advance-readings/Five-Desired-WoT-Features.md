@@ -1,4 +1,6 @@
-# Five Desirable Features for the Next Generation Web of Trust
+---
+title: "Five Desirable Features for the Next Generation Web of Trust"
+---
 
 by David Strayhorn
 

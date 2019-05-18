@@ -239,7 +239,7 @@ Most important legal rules from which technical requirements can be elicited:
 
 # Decentralization Considerations
 
-What changes might blockchains, [DIDs](../../Topics/did-primer), and other decentralized web technologies bring to the digital signature process?
+What changes might blockchains, [DIDs](../../topics-and-advance-readings/did-primer), and other decentralized web technologies bring to the digital signature process?
 
 | Legal Rule or Requirement |  Technical Requirement | Decentralization Technology |
 | -------- | -------- | -------- | -------- |

@@ -3,18 +3,18 @@
 Name | Lead | Link | Status
 ---|---|---|---
 Agent Communication Protocols | Adrian | [Draft](Agent-Communication-Protocols/) | DROPPED
-BTCR | Ryan | [Final](../Final/btcr_0_1/) | DONE
+BTCR | Ryan | [Final](../final-documents/btcr_0_1/) | DONE
 Concept Map | Andrew, Ouri | [Map](https://kumu.io/andrewhughes3000/rwot#credentials-concepts) | DONE
-A DID for Everything | Sam | [Final](../Final/A_DID_for_everything/) | DONE
+A DID for Everything | Sam | [Final](../final-documents/A_DID_for_everything/) | DONE
 Digital Credential Wallet | Mikerah | [Draft](Digital%20Credential%20Wallet/) | June
-Digital Identity for the Homeless | Matt | [Topic](../Topics/Digital-Identity-for-the-Homeless/) | Dec 5
+Digital Identity for the Homeless | Matt | [Topic](../topics-and-advance-readings/Digital-Identity-for-the-Homeless/) | Dec 5
 Guidance and Standards for Interoperability of Decentralized Identity Systems | Manu, Mike J. | [Draft](Guidance_and_Standards_for_Interoperability_of_Decentralized_Identity_Systems/) | STALLED
-How to Convince Dad* | Lucas | [Final](../Final/convincing-dad/) | DONE
-IPLD as a General Pattern | Jonny | [Final](../Final/ipld-did/) | DONE
+How to Convince Dad* | Lucas | [Final](../final-documents/convincing-dad/) | DONE
+IPLD as a General Pattern | Jonny | [Final](../final-documents/ipld-did/) | DONE
 Mental Models | Joe | [Draft](mental-models/) | March
-Peer to Peer Degrees of Trust | Tyler | [Final](../Final/peer-to-peer-degrees-of-trust/) | DONE
-Resource Integrity Proofs | Ganesh | [Final](../Final/resource-integrity-proofs/) | DONE
-Use Cases and Proposed Solutions for Verifiable Offline Credentials | Mike L. | [Final](../Final/offline-use-cases/)| DONE
+Peer to Peer Degrees of Trust | Tyler | [Final](../final-documents/peer-to-peer-degrees-of-trust/) | DONE
+Resource Integrity Proofs | Ganesh | [Final](../final-documents/resource-integrity-proofs/) | DONE
+Use Cases and Proposed Solutions for Verifiable Offline Credentials | Mike L. | [Final](../final-documents/offline-use-cases/)| DONE
 
 # Draft Abstracts
 

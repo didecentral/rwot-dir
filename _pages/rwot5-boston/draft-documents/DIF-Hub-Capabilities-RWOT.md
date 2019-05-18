@@ -1,6 +1,6 @@
 # Hub Asset Access Control System (Revision: RWOT 2017-10)
 
-[Previous Version](../Topics/DIF-Hub-Permissions-RWOT-Intent.md)
+[Previous Version](../topics-and-advance-readings/DIF-Hub-Permissions-RWOT-Intent.md)
 
 ## Abstract
 We revised this proposal to support and require the identification of one or more `CapabilitySpecification`s (previously `PermissionSpecification`) during incoming requests, effectively converting this system from an ACL model to an Object Capability model.

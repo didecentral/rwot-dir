@@ -28,7 +28,7 @@ A lot of these identifiers are now wrapped in DIDs.
 
 Based on "DAD" and the Three R's of Key Management
 
-* [DecentralizedAutonomicData](../../../RWoT6/Final/DecentralizedAutonomicData/)
+* [DecentralizedAutonomicData](../../../RWoT6/final-documents/DecentralizedAutonomicData/)
 
 _SeedQuest_ uses a one-time-pad as key recovery.
 

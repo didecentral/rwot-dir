@@ -1,5 +1,6 @@
 ---
 title: "Rebooting the Web of Trust I: San Francisco (November 2015)"
+permalink: rwot1-sf/
 ---
 
 

@@ -1,6 +1,9 @@
-# Decentralized Public Key Infrastructure
+---
+title: "Decentralized Public Key Infrastructure"
+permalink: rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/
+---
 
-#### _by (alphabetical by last name) Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, and Harlan T Wood_
+**_by (alphabetical by last name) Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, and Harlan T Wood_**
 
 ## Abstract
 

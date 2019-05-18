@@ -1,6 +1,9 @@
-# Smart Signatures
+---
+title: "Smart Signatures"
+permalink: rwot1-sf/draft-documents/smart-signatures/
+---
 
-#### *by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close*
+**by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close***
 
 ## Abstract
 

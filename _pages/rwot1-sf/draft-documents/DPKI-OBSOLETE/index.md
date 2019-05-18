@@ -1,5 +1,6 @@
 ---
 title: DPKI-Obsolete
+permalink: rwot1-sf/draft-documents/DPKI-OBSOLETE/
 ---
 
 * [KeyLifecyclesinDPKI.html](KeyLifecyclesinDPKI.html)

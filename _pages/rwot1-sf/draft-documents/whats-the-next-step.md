@@ -1,5 +1,9 @@
-# Creating the New World of Trust
-#### _What's Next?_
+---
+title: "Creating the New World of Trust"
+permalink: rwot1-sf/draft-documents/whats-the-next-step/
+---
+
+## _What's Next?_
 
 On November 3rd and 4th, the Rebuilding the Web of Trust design workshop looked at the future of decentralized trust on the internet with the goal of producing 3-5 white papers and specs. Those papers were polished for release in December, leaving the question: what's next?
 
@@ -7,7 +11,7 @@ Our major goal is to produce something notable for the 25th anniversary of PGP, 
 
 If we can meet this goal, we can make our design ideas into reality.
 
-![Solution Diagram](../Docs/graphic-recording/09_Next_Step_Summary.JPG?raw=true)
+![Solution Diagram](../event-documents/graphic-recording/09_Next_Step_Summary.JPG?raw=true)
 
 ## What We're Building
 

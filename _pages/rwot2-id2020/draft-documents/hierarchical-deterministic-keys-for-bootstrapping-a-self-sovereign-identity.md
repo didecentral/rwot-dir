@@ -69,10 +69,10 @@ Bitcoin has prided itself on letting users 'be their own bank'. Cryptocurrency c
 
 Allen, Christopher. "[Principles of Self-Sovereign Identity](https://github.com/ChristopherA/self-sovereign-identity)." 2016.
 
-Allen, Christopher and Appelcline, Shannon. "[Hierarchical Deterministic Keys: BIP32 & Beyond](../../RWoT1/Topics/hierarchical-deterministic-keys--bip32-and-beyond.md)" 2015.
+Allen, Christopher and Appelcline, Shannon. "[Hierarchical Deterministic Keys: BIP32 & Beyond](../../RWoT1/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md)" 2015.
 
-Lundkvist, Christian and Heck, Rouven. "[Questions around key management for digital identity systems](../../RWoT1/Topics/Identity-Property-Simulation.md)". 2015.
+Lundkvist, Christian and Heck, Rouven. "[Questions around key management for digital identity systems](../../RWoT1/topics-and-advance-readings/Identity-Property-Simulation.md)". 2015.
 
-Shea, Ryan. "[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](../../RWoT1/Topics/Selective-Disclosure-of-Identity.md)". 2015.
+Shea, Ryan. "[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](../../RWoT1/topics-and-advance-readings/Selective-Disclosure-of-Identity.md)". 2015.
 
 Wuille, Pieter. "[Hierarchical Deterministic Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)". 2016.

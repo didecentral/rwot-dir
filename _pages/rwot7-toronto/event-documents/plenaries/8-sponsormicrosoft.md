@@ -2,7 +2,7 @@
 
 ## Microsoft
 
-[Standards play a huge role in enabling innovation](../../Topics/The_Role_of_Standards_in_Accelerating_Innovation.md)
+[Standards play a huge role in enabling innovation](../../topics-and-advance-readings/The_Role_of_Standards_in_Accelerating_Innovation.md)
 
 Believe a number of JSON standards are particularly critical.
 

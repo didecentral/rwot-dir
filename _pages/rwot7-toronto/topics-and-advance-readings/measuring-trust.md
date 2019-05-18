@@ -1,6 +1,6 @@
 # Measuring Trust
 
-The following is a digest of my paper [Measuring Trust](../Docs/supporting-files/measuring-trust.pdf).
+The following is a digest of my paper [Measuring Trust](../event-documents/supporting-files/measuring-trust.pdf).
 
 I created a visualizer to accompany this paper: https://wot-vis.firebaseapp.com/
 
@@ -45,7 +45,7 @@ To do this, I will borrow the concept of good nodes, confused nodes, and bad nod
 
 The definition of a confused node is rather open-ended, however. Does a confused node trust a single bad node, or multiple bad nodes, or an unlimited number of bad nodes? For the sake of clarity, I will define an edge from a confused node to a bad node as a confused edge. I will also define a puppet node as a fake identity in a web of trust created by an attacker for the purpose of gaming the system. More precisely: puppet nodes are the subset of bad nodes that are not adjacent to a confused edge.
 
-![trust node diagram](../Docs/supporting-files/trust-node-diagram.png?raw=true)
+![trust node diagram](../event-documents/supporting-files/trust-node-diagram.png?raw=true)
 
 I propose the following definition: a trust metric is Sybil-resistant if and only if the upper limit of the combined trust scores that can belong to bad nodes is bounded by the number of confused edges. Stated another way, a trust metric is Sybil-resistant if and only if there is a finite amount of combined trust an attacker can gain in a system merely by creating puppet nodes.
 This definition alone is not sufficient when considering Sybil attacks. While it helps to know that the impact that a Sybil attack can have is bounded, we might also wish to know the degree of Sybil-resistance that a metric has. I will define the degree of Sybil-resistance as the maximum trust that an attacker can have with a single bad node, divided by the maximum combined trust that can be accumulated by an attacker with an unlimited number of puppet nodes. A metric where puppet nodes have no effect has a Sybil-resistance degree of one. A metric where puppet nodes can increase the combined trust score of an attacker has a Sybil-resistance degree less than one. And a metric where puppet nodes can increase the combined trust score of an attacker without bound has a Sybil-resistance degree of zero (i.e. is not Sybil-resistant).

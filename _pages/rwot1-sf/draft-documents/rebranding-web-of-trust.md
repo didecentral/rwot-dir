@@ -1,6 +1,9 @@
-# Rebranding the Web of Trust
+---
+title: "Rebranding the Web of Trust"
+permalink: rwot1-sf/draft-documents/rebranding-web-of-trust/
+---
 
-#### *by Shannon Appelcline, Dave Crocker, Randall Farmer, and Justin Newton*
+***by Shannon Appelcline, Dave Crocker, Randall Farmer, and Justin Newton***
 
 The *_Web of Trust_*. It’s the buzzword for a new model of decentralized identity. However, it’s also a phrase that dates back almost twenty-five years and has been heavily overloaded with meaning during that time. The classic definition of Web of Trust derives from PGP, but the top Google results refer to a website reputation rating system created by a Finnish internet company. Meanwhile, some use it as a big tent that includes identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the classic concept.
 

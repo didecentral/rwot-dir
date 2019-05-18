@@ -25,7 +25,7 @@ This directory continues the drafts of the white papers and specs that are comin
    <tr>
      <td><b><i>Introducing the BTCR DID Method Spec</i></b></td>
     <td>Kim</td>
-    <td><a href="../Final/btcr-resolver.pdf">Final</a></td>
+    <td><a href="../final-documents/btcr-resolver.pdf">Final</a></td>
      <td>DONE</td>
   </tr>
   <tr>
@@ -36,7 +36,7 @@ This directory continues the drafts of the white papers and specs that are comin
   <tr>
     <td><b><i>DAD: Decentralized Autonomic Data</i></b></td>
     <td>Sam S.</td>
-    <td><a href="../Final/DecentralizedAutonomicData.pdf">Final</a></td>
+    <td><a href="../final-documents/DecentralizedAutonomicData.pdf">Final</a></td>
     <td>DONE</td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@ This directory continues the drafts of the white papers and specs that are comin
   <tr>
     <td><b><i>DID v1.0</i></b></td>
     <td>Manu</td>
-    <td><a href="../Final/did-spec-1.0.pdf">Update</a></td>
+    <td><a href="../final-documents/did-spec-1.0.pdf">Update</a></td>
      <td>DONE</td>    
   </tr>
   <tr>
@@ -58,7 +58,7 @@ This directory continues the drafts of the white papers and specs that are comin
   <tr>
     <td><b><i>DID-Auth</i></b></td>
     <td>Markus</td>
-    <td><a href="../Final/did-auth.pdf">Final</a></td>
+    <td><a href="../final-documents/did-auth.pdf">Final</a></td>
     <td>DONE</td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ This directory continues the drafts of the white papers and specs that are comin
    <tr>
      <td><b><i>Identity Hubs</i></b></td>
     <td>Daniel</td>
-    <td><a href="../Final/identity-hub-attestations.pdf">Final</a></td>
+    <td><a href="../final-documents/identity-hub-attestations.pdf">Final</a></td>
      <td>DONE</td>
   </tr>
   <tr>
@@ -91,7 +91,7 @@ This directory continues the drafts of the white papers and specs that are comin
    <tr>
      <td><b><i>Open Badge Are Verifiable Credentials</i></b></td>
     <td>Nate</td>
-    <td><a href="../Final/open-badges-are-verifiable-credentials.pdf">Final</a></td>
+    <td><a href="../final-documents/open-badges-are-verifiable-credentials.pdf">Final</a></td>
           <td>DONE</td>
   </tr>
   <tr>
@@ -102,7 +102,7 @@ This directory continues the drafts of the white papers and specs that are comin
    <tr>
      <td><b><i>Roadmap: Let's Go Exponential</i></b></td>
     <td>Moses</td>
-    <td><a href="../Final/a-roadmap-for-ssi.pdf">Final</a></td>
+    <td><a href="../final-documents/a-roadmap-for-ssi.pdf">Final</a></td>
           <td>DONE</td>
   </tr>
   <tr>
@@ -135,7 +135,7 @@ This directory continues the drafts of the white papers and specs that are comin
   <tr>
     <td><b><i>Towards a Sustainable Technology Commons</i></b></td>
     <td>Heather</td>
-    <td><a href="../Final/sustainable-commons.pdf">Final</a></td>
+    <td><a href="../final-documents/sustainable-commons.pdf">Final</a></td>
               <td>DONE</td>
   </tr>
   <tr>
@@ -168,4 +168,4 @@ This directory continues the drafts of the white papers and specs that are comin
 | Minimal Web of Trust Schema | Andrew | [Notes](topics-and-advance-readingsWeb%20Of%20Trust%20Schema%20RWOT%206) |
 | Permissionless, Replicated, Decentralised Storage Network | Kulpreet | [Draft](permissionless-replicated-decentralised-storage-network) |
 
-We also have primers on [functional identity](../Topics/functional-identity-primer) and [DIDs](../Topics/did-primer) that have been developed over two Web of Trust events and might be ready to release as final papers.
+We also have primers on [functional identity](../topics-and-advance-readings/functional-identity-primer) and [DIDs](../topics-and-advance-readings/did-primer) that have been developed over two Web of Trust events and might be ready to release as final papers.
