@@ -1,4 +1,8 @@
-**Identity Crisis**
+---
+title: Identity Crisis
+permalink: "rwot2-id2020/draft-documents/identity-crisis/"
+---
+
 ------------
 
 **Clearer Identity Through Correlation**

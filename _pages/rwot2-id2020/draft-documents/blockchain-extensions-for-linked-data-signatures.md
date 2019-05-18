@@ -1,4 +1,9 @@
-# Blockchain Extensions for Linked Data Signatures
+---
+title: "Blockchain Extensions for Linked Data Signatures"
+permalink: rwot2-id2020/draft-documents/blockchain-extensions-for-linked-data-signatures/
+---
+
+
 
 ***by Manu Sporny, Harlan Wood, Noah Thorp, Christopher Allen, and Dave Longley***
 

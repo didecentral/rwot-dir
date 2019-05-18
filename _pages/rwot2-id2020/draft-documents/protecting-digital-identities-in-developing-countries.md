@@ -1,3 +1,8 @@
+---
+title: Protecting Digital Identities in Developing Countries
+permalink: rwot2-id2020/draft-documents/protecting-digital-identities-in-developing-countries/
+---
+
 **Use Case: Protecting Digital Identities in Developing Countries**
 
 v1.3 June 3, 2016

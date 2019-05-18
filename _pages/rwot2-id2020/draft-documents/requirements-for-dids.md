@@ -1,8 +1,11 @@
-# Requirements for DIDs (Decentralized Identifiers)
+---
+title: "Requirements for DIDs (Decentralized Identifiers)"
+permalink: rwot2-id2020/draft-documents/requirements-for-dids/
+---
 
-### 26 June 2016
+## 26 June 2016
 
-#### by Drummond Reed and Les Chasen, Respect Network
+**by Drummond Reed and Les Chasen, Respect Network**
 
 Introduction
 ============

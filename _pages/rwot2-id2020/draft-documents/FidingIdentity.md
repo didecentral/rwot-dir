@@ -1,3 +1,8 @@
+---
+title: "Working definitions of identity - Draft Notes. May, 2016."
+permalink: rwot2-id2020/draft-documents/FindingIdentity/
+---
+
 Working definitions of identity
 Draft Notes. May, 2016.
 
@@ -11,14 +16,14 @@ Would be my true self?
 
 Outline:
 
-###1. Introduction
+## 1. Introduction
 
 
-####Problem Statement - Clarification of facets of Identity.
+### Problem Statement - Clarification of facets of Identity.
 	
 In order to build a system that works we should look at what identities we have today and mimic this world, not ask people to fit into our technology.
 	
-###2. What is Identity?
+## 2. What is Identity?
 
 *Input from Kaliya’s paper - need to summarize it here*
 
@@ -43,7 +48,7 @@ Each case identifies basic technical implementation needs, presents a brief solu
 5. Starting From Zero: Refugee
 6. Human Trafficking: Exiting Safe Houses
 
-###3. What are the identity types?
+## 3. What are the identity types?
 
 We have identified the following types of identities:
 
@@ -56,7 +61,7 @@ We have identified the following types of identities:
 1. **Me Offline** - My physical self
 1. **Sum** - The core of me. What creates me, how I define myself, what describes me best?
 
-###4. Taxonomy of Interactions.
+## 4. Taxonomy of Interactions.
 	
 What Kaliya proposed on the whiteboard
 	[IdentityWhiteboard1.jpg]
@@ -160,7 +165,7 @@ After many years of working on this some progress has been made but OpenID seems
 - Context management for people
 - People search across distributed networks of interest areas.
 
-### 5. What are the characteristics of various types? 
+## 5. What are the characteristics of various types? 
 
 *(description of the table and observations)*
 	
@@ -172,9 +177,9 @@ This further leads to a very important position on use cases for Self-Sovereign 
 
 Chart of Identity Categories
 
-[IdentityChart.png]
+![IdentityChart.png](IdentityChart.png)
 
-###6. Conclusions	
+## 6. Conclusions	
 	
 Why do we need Online Identity? because Self sovereign identity can only be online. 
 
@@ -182,7 +187,7 @@ Why do we need Online Identity? because Self sovereign identity can only be onli
 
 
 ************************
-###Random thoughts I want to put in:
+## Random thoughts I want to put in:
 
 Process of socialization is an interesting one. How much of it is us gaining identity in social terms versus us loosing our sum, our personality. We get adjusted, fitted, but we loose what our core is. We learn what is good or bad, what we can do. 
 

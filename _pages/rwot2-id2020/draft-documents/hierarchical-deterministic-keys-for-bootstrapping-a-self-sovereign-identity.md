@@ -1,16 +1,19 @@
-# Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity
+---
+title: "Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity"
+permalink: "rwot2-id2020/draft-documents/hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity/"
+---
 
 v0.2 July 18, 2016
 
 --- 
 
-### Abstract.
+## Abstract.
 
 In the context of Bitcoin, Hierarchical deterministic (HD) keys are predominately used to simplify wallet backups. Because the child key can operate independently and the parent key has the ability to monitor and control each child key, that parent key can still continue to operate even if the child key is compromised. When a Bitcoin or similar blockchain token is used to represent a person or an identity, the master HD key facilitates the creation and control of an identity that can then create subsequent child identities or personas. HD keys simplify key management in Bitcoin, and when HD keys are used to represent an identity it simplifies identity management on a blockchain.
 
 ---
 
-### Introduction
+## Introduction
 
 In 1991, PGP was the first piece of software to introduce the concept of identity-based cryptography by associating an individual to a cryptographic key pair for encrypted communication. One significant impediment to adoption of identity-based cryptography was its dependence on a centralized public-key infrastructure. The set of procedures needed to create, manage, distribute, use, store, revoke, and manage keys all take place locally to the user, then need to be broadcasted to the centralized public-key server.
 
@@ -64,7 +67,7 @@ In the context of governments, corporations, or families, the built-in hierarchy
 **Credit Reputation.**
 Bitcoin has prided itself on letting users 'be their own bank'. Cryptocurrency currently allows users to 'make deposits', transfer money, and prove ownership, yet there is no possibility of a credit system without identity. In managing a credit reputation, a borrower's repayment history is the basis of an individual's financial reputation for lenders to use when determining financial risk. It is possible to manage and prove an individual's credit history with HD keys by fragmenting a part of a user's identity into individual payments with child keys, then revealing some larger part of their identity with its parent key when it's required or relevant.
 
-### References
+## References
 ---
 
 Allen, Christopher. "[Principles of Self-Sovereign Identity](https://github.com/ChristopherA/self-sovereign-identity)." 2016.

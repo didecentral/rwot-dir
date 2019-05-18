@@ -1,9 +1,13 @@
-Smarter Signatures: Experiments in Verifications
+---
+title: "Smarter Signatures: Experiments in Verifications"
+permalink: rwot2-id2020/draft-documents/smarter-signatures/
+---
+
 ================================================
 
-***By Christopher Allen & Shannon Appelcline***
+## *By Christopher Allen & Shannon Appelcline*
 
-*A White Paper from Rebooting the Web of Trust II: The ID2020 Designshop*
+### *A White Paper from Rebooting the Web of Trust II: The ID2020 Designshop*
 
 Technologies like the Web of Trust and PKI lay the foundation for *identity* on the internet: they map a human persona to a cryptographic construct that is represented by a public key and protected by a private key. *Digital signatures* are fundamental to these digital identities and have been widely used in a variety of applications. They’re the heart of SSH, the foundation of certificates, and the core of newer technologies like blockchain.
 

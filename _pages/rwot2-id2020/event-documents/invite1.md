@@ -1,4 +1,9 @@
-# Initial Invitation
+---
+title: Initial Invitation
+permalink: rwot2-id2020/event-documents/invite1/
+---
+
+*see: [invite1.txt](invite1.txt)*
 
 ## Subject: Second #RebootingWebOfTrust Design Workshop to follow United Nations ID2020 Summit on May 21st & 22nd
 
