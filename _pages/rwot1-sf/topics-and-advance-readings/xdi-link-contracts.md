@@ -1,4 +1,8 @@
-# XDI Link Contracts: An Overview
+---
+title: "XDI Link Contracts: An Overview"
+permalink: rwot1-sf/topics-and-advance-readings/xdi-link-contracts/
+---
+
 By Drummond Reed, Co-Chair, OASIS XDI Technical Committee, drummond@respect.network
 
 One of the challenges in a distributed peer-to-peer data network, such as a web of trust, is how any two peers can quickly and easily negotiate a data sharing agreement, i.e., a human- and machine-understandable (and enforceable) description of what data the publisher is sharing with the subscriber under what permissions and conditions. Additional challenges include:

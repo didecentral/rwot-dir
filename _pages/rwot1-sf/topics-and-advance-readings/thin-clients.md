@@ -1,8 +1,11 @@
-# The Need For A Generic Thin Client Protocol
+---
+title: "The Need For A Generic Thin Client Protocol"
+permalink: rwot1-sf/topics-and-advance-readings/thin-clients/
+---  
 
 By [Greg Slepak](https://twitter.com/taoeffect), attending on behalf of the [okTurtles Foundation](https://okturtles.com/).
 
-##### Q: What Is A Protocol?
+## Q: What Is A Protocol?
 
 A __protocol__ is *a description of a fixed pattern of behavior*.
 
@@ -14,15 +17,15 @@ A protocol ***is not:***
 
 Or any other "thing". Protocols are how the _things_ themselves behave.
 
-##### Q: Why Are You Telling Me This?
+## Q: Why Are You Telling Me This?
 
 Because the Internet needs blockchains, and it needs to be able to access them securely from mobile devices. At the same time, it would be unwise for the entire Internet to rely on any _specific_ blockchain.
 
-##### Q: Why Does The Internet Need Blockchains?
+## Q: Why Does The Internet Need Blockchains?
 
 Because blockchains are how you do digital property on the Internet in a secure and decentralized fashion.
 
-##### Q: OK...? Why is that important?
+## Q: OK...? Why is that important?
 
 It's important and relevant for all the following applications:
 
@@ -36,7 +39,7 @@ No individual owns their online identity today. Companies and governments own yo
 
 Since blockchains make individual ownership of digital property possible, they make it possible for you to actually own (and therefore have control) of your online identity.
 
-##### Q: OK... So What's This About A "Generic Thin Client Protocol?"
+## Q: OK... So What's This About A "Generic Thin Client Protocol?"
 
 Blockchains are difficult to run on most end-user devices.
 
@@ -63,6 +66,6 @@ And there are very likely others. We do not know how many there might be and wha
 
 Such a protocol, if standardized and adopted, would allow any software to communicate securely with any blockchain. That would be highly valuable and useful.
 
-##### Further Reading
+## Further Reading
 
 - [DNSChain's (New-And-Not-Yet-Implemented) Security Model](https://github.com/okTurtles/dnschain/blob/master/docs/Security-Model.md)

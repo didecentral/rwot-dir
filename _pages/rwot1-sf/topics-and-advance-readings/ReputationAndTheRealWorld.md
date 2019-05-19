@@ -1,5 +1,8 @@
-Web Reputation Systems and the Real World
-=========================================
+---
+title: "Web Reputation Systems and the Real World"
+permalink: rwot1-sf/topics-and-advance-readings/ReputationAndTheRealWorld/
+--- 
+
 
 By Randy Farmer - randy.farmer@pobox.com - co-author with Bryce Glass of *Building Web Reputation Systems* (2010 Tor Books http://www.amazon.com/Building-Reputation-Systems-Randy-Farmer/dp/059615979X)
 

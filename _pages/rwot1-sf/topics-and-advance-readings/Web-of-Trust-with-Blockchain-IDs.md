@@ -1,4 +1,8 @@
-# Web of Trust with Blockchain IDs
+---
+title: " Web of Trust with Blockchain IDs"
+permalink: rwot1-sf/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs/
+---
+
 
 *by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 
@@ -12,9 +16,9 @@ All parties involved in the statement, including the issuer and the subject of t
 
 Statements can be revoked using updating one's zone file on Blockstore and appending a hash of the statement to a list of revoked statements.
 
-### Examples of Identity Statements
+## Examples of Identity Statements
 
-#### Relationships to Other People
+### Relationships to Other People
 
 ```json
 {
@@ -44,7 +48,7 @@ Statements can be revoked using updating one's zone file on Blockstore and appen
 }
 ```
 
-#### Employment by an Organization
+### Employment by an Organization
 
 ```json
 {

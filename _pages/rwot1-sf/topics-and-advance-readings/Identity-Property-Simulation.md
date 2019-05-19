@@ -1,7 +1,8 @@
-# rebooting-the-web-of-trust
+---
+title: "Identity, Property and Simulation"
+permalink: rwot1-sf/topics-and-advance-readings/Identity-Property-Simulation/
+---
 
-Identity, Property and Simulation
-============================================
 
 by Patrick Deegan - patrick@dac.tech
 

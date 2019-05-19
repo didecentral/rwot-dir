@@ -1,4 +1,8 @@
-# Dealing with private key loss or compromise in digital identity systems
+---
+title: "Dealing with private key loss or compromise in digital identity systems"
+permalink: rwot1-sf/topics-and-advance-readings/dealing_with_key_loss_in_digital_identity/
+---
+
 
 By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>
 

@@ -1,5 +1,6 @@
 ---
 title: "Five Desirable Features for the Next Generation Web of Trust"
+permalink: rwot1-sf/topics-and-advance-readings/Five-Desired-WoT-Features/
 ---
 
 by David Strayhorn

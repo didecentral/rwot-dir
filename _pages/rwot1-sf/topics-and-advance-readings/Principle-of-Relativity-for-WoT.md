@@ -1,8 +1,9 @@
 ---
 title: "Principle of Relativity for WoT"
----
+permalink: rwot1-sf/topics-and-advance-readings/Principle-of-Relativity-for-WoT/
+--- 
 
-#### _by David Strayhorn_
+**_by David Strayhorn_**
 
 ## Abstract
 

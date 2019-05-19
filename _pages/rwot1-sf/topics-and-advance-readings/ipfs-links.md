@@ -1,4 +1,7 @@
-# IPFS - The Permanent Web
+---
+title: "IPFS - The Permanent Web"
+permalink: rwot1-sf/topics-and-advance-readings/ipfs-links/
+---
 
 The InterPlanetary File System (IPFS) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.
 

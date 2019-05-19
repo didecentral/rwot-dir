@@ -1,4 +1,7 @@
-# Self-certifying File System
+---
+title: "Self-certifying File System"
+permalink: rwot1-sf/topics-and-advance-readings/sfs/
+---  
 
 For those unfamiliar, be sure to read this SFS paper:
 

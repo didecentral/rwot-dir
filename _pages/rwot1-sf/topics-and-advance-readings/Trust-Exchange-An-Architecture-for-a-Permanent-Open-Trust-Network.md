@@ -1,4 +1,8 @@
-# Trust Exchange: An Architecture for a Permanent Open Trust Network
+---
+title: "Trust Exchange: An Architecture for a Permanent Open Trust Network"
+permalink: rwot1-sf/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/
+---  
+
 
 By [Harlan T Wood](https://twitter.com/harlantwood)
 

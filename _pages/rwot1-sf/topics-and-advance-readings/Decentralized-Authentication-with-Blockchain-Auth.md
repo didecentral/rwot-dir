@@ -1,4 +1,7 @@
-# Decentralized Authentication with Blockchain Auth
+---
+title: "Decentralized Authentication with Blockchain Auth"
+permalink: rwot1-sf/topics-and-advance-readings/Decentralized-Authentication-with-Blockchain-Auth/
+---
 
 *by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 

@@ -1,5 +1,8 @@
-Real life application of WoT: Refugee Use Case
-==============================================
+---
+title: "Real life application of WoT: Refugee Use Case"
+permalink: rwot1-sf/topics-and-advance-readings/refugee-use-case/
+--- 
+
 
 By Alicia Carmona - alicia.carmona@id2020.org
 

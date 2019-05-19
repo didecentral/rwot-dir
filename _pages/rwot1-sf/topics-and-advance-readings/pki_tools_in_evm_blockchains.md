@@ -1,4 +1,7 @@
-# PKI Tools in EVM-based Blockchains
+---
+title: "PKI Tools in EVM-based Blockchains"
+permalink: rwot1-sf/topics-and-advance-readings/pki_tools_in_evm_blockchains/
+--- 
 
 By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>
 

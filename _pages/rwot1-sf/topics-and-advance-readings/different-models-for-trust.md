@@ -1,5 +1,8 @@
-Different Models for Trust
-==========================
+---
+title: "Different Models for Trust"
+permalink: rwot1-sf/topics-and-advance-readings/different-models-for-trust/
+---
+
 
 or "Trust, trust, trust? Accountability. Plus 11 Models of Trust, Social Justice, Understanding Lifecycle's and a Lexicon"
 

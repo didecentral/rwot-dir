@@ -1,4 +1,8 @@
-# Distributed multi-ledger model for financial industry
+---
+title: "Distributed multi-ledger model for financial industry"
+permalink: rwot1-sf/topics-and-advance-readings/DistributedMulti-ledgerModelForFinancialIndustry/
+---
+
 
 By Pavel Kravchenko
 

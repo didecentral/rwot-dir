@@ -1,5 +1,8 @@
-White Papers, Specifications & Proofs of Concept
-================================================
+---
+title: "White Papers, Specifications & Proofs of Concept"
+permalink: rwot1-sf/topics-and-advance-readings/white-papers--specifications---and-proof-of-concept-code/
+---
+
 
 by Christopher Allen - ChristopherA@LifeWithAlacrity.com
 

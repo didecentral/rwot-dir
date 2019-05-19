@@ -1,4 +1,8 @@
-Lightning Network and Web of Trust ==================================
+---
+title: "Lightning Network and Web of Trust"
+permalink: rwot1-sf/topics-and-advance-readings/lightning-network-and-web-of-trust/
+---
+
 
 By Joseph Poon <joseph@lightning.network>
 

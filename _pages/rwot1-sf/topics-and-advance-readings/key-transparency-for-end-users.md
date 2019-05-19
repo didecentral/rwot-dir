@@ -1,5 +1,7 @@
-Key Transparency for End Users
-==============================
+---
+title: "Key Transparency for End Users"
+permalink: rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/
+---
 
 By Joseph Bonneau - jbonneau@cs.stanford.edu
 

@@ -1,4 +1,8 @@
-Distributed Trust Systems and the Kenyesian Beauty Contest
+---
+title: "Distributed Trust Systems and the Kenyesian Beauty Contest"
+permalink: rwot1-sf/topics-and-advance-readings/Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest/
+---
+
 ==========================================================
 
 By Joel Dietz - jdietz@gmail.com

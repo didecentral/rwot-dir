@@ -1,5 +1,8 @@
+---
+title: "Notes on the IPFS Keychain (or the Web Keychain)"
+permalink: rwot1-sf/topics-and-advance-readings/ipfs-keychain/
+---
 
-# Notes on the IPFS Keychain (or the Web Keychain)
 
 (These are just short notes, becuase the idea is very simple, and obvious. It does not take much to understand it. But like SFS naming, it is _subtly powerful_).
 

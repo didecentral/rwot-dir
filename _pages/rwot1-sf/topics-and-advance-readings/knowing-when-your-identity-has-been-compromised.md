@@ -1,5 +1,7 @@
-Knowing When Your Digital Identity Has Been Compromised
-=======================================================
+---
+title: "Knowing When Your Digital Identity Has Been Compromised"
+permalink: rwot1-sf/topics-and-advance-readings/knowing-when-your-identity-has-been-compromised/
+---
 
 by Justin Newton @justinwnewton <justin@netki.com>
 

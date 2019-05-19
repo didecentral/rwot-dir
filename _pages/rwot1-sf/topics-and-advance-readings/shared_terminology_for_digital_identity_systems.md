@@ -1,4 +1,7 @@
-# Attempts at common terminology for Digital Identity systems
+---
+title: "Attempts at common terminology for Digital Identity systems"
+permalink: rwot1-sf/topics-and-advance-readings/shared_terminology_for_digital_identity_systems/
+---  
 
 By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>
 

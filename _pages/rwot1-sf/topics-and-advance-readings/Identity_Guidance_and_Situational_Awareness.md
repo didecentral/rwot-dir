@@ -1,4 +1,8 @@
-Identity, Guidance and Situational Awareness
+---
+title: "Identity, Guidance and Situational Awareness"
+permalink: rwot1-sf/topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness/
+---
+
 ============================================
 
 by Matthew Schutte - matt@calabs.org

@@ -1,4 +1,7 @@
-# Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens
+---
+title: "Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens"
+permalink: rwot1-sf/topics-and-advance-readings/Selective-Disclosure-of-Identity/
+---  
 
 *by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 

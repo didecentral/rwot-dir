@@ -1,4 +1,7 @@
-# multiplexed: a 'slightly radical' framing of identity
+---
+title: "multiplexed: a 'slightly radical' framing of identity"
+permalink: rwot1-sf/topics-and-advance-readings/multiplexed--a-slightly-radical-framing-of-identity/
+---
 
 - du5t@multiplexed.be
 

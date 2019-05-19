@@ -1,4 +1,7 @@
-# Building a web of trust for decentralized e-commerce platforms (e.g. OpenBazaar)
+---
+title: "Building a web of trust for decentralized e-commerce platforms (e.g. OpenBazaar)"
+permalink: rwot1-sf/topics-and-advance-readings/decentralized_e-commerce/
+---
 
 By [Michael Folkson] (https://twitter.com/michaelfolkson) (http://michaelfolkson.com/).
 

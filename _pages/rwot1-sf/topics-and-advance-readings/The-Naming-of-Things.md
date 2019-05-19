@@ -1,4 +1,8 @@
-The Naming of Things
+---
+title: "The Naming of Things"
+permalink: rwot1-sf/topics-and-advance-readings/The-Naming-of-Things/
+---  
+
 by Matthew Schutte
 
 

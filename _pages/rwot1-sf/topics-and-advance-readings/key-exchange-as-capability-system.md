@@ -1,4 +1,7 @@
-# Secret Handshake : Key Exchange as a Capability System
+---
+title: "Secret Handshake : Key Exchange as a Capability System"
+permalink: rwot1-sf/topics-and-advance-readings/key-exchange-as-capability-system/
+---
 
 By Dominic Tarr - dominic.tarr@gmail.com
 

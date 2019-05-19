@@ -1,4 +1,8 @@
-# How Not to build and Orwellian reputation system
+---
+title: "How Not to build and Orwellian reputation system"
+permalink: rwot1-sf/topics-and-advance-readings/How-Not-to-build-an-Orwellian-reputation-system/
+---
+
 Essay by [Juan S. Galt] (http://twitter.com/juansgalt) 
 
 ‘Rebooting the web of trust,’ a workshop taking place in San Francisco this November 3rd and 4th, is bringing together some impressive pioneers and could lead to world changing developments in the realm of online reputation systems and in the use of the blockchain.

@@ -1,5 +1,8 @@
-Schnorr Signatures: An Overview
-===============================
+---
+title: "Schnorr Signatures: An Overview"
+permalink: rwot1-sf/topics-and-advance-readings/Schnorr-Signatures--An-Overview/
+--- 
+
 By Christopher Allen - <ChristopherA@LifeWithAlacrity.com> & Shannon Appelcline - <ShannonA@skotos.net>
 
 Digital signatures have been around since Whitfield Diffie and Martin Hellman first described them in 1976. Early implementations based on the prime-number based RSA algorithm were dominant in the ‘90s. In recent years discrete logarithm and elliptic curve approaches have become more popular because they allow for improved computational efficiency and smaller key size without diminishing security.

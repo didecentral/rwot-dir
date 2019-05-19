@@ -1,4 +1,8 @@
-# Distributed Receptor-Based Computing
+---
+title: "Distributed Receptor-Based Computing"
+permalink: rwot1-sf/topics-and-advance-readings/Distributed_Receptor-Based_Computing/
+---
+
 By Arthur Brock @ http://artbrock.com & http://ceptr.org 
 
 The MetaCurrency Project’s requirements for decentralization combined with a commitment to leveraging organizing principles of living systems led us to invest a lot of time in the past 5 years developing Ceptr. Ceptr is a rebuild of much of the computing stack optimized for decentralized sense-making, computation and composability. This means semantics baked into the lowest levels of memory storage, self-describing protocols which let anything talk with anything else, blockchain-like abilities for decentralized data storage and computation.

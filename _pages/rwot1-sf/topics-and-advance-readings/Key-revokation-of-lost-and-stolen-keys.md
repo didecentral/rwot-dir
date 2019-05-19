@@ -1,4 +1,7 @@
-# Key revocation of lost and stolen keys
+---
+title: "Key revocation of lost and stolen keys"
+permalink: rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/
+---
 
 By Martin Koeppelmann - martin.koeppelmann@consensys.net
 

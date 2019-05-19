@@ -1,5 +1,8 @@
-Progressive Trust
-=================
+---
+title: "Progressive Trust"
+permalink: rwot1-sf/topics-and-advance-readings/progressive-trust/
+--- 
+
 By Christopher Allen - ChristopherA@LifeWithAlacrity.com
 
 *Originally published 2004-08-16 at http://www.lifewithalacrity.com/2004/08/progressive_tru.html with minor edits and a technical and historical updates in 2015.*

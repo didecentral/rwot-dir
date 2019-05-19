@@ -1,4 +1,8 @@
-# Decentralized Cooperation needs Decentralized Reputation
+---
+title: "Decentralized Cooperation needs Decentralized Reputation"
+permalink: rwot1-sf/topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation/
+---
+
 White Paper By [Noah Thorp](http://twitter.com/noahthorp)
 
 We are in the midst of a techno-cultural trend that re-envisions ownership, protocols of trust, organizational decision making, and ecosystems of work. This zeitgeist can broadly be called decentralized collaboration.

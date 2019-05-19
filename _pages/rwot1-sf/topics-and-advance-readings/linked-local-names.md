@@ -1,5 +1,8 @@
-Linked Local Names: An Overview
-=====
+---
+title: "Linked Local Names: An Overview"
+permalink: rwot1-sf/topics-and-advance-readings/linked-local-names/
+---
+
 By Christopher Allen - ChristopherA@LifeWithAlacrity.com
 
 How do you identify someone online? Traditionally, the answer has been to use a centralized naming system. Trusted authorities act as the root of a global name space that connects names with public keys to certify who people are.

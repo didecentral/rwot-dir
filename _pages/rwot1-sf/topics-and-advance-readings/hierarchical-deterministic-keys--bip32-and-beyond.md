@@ -1,5 +1,8 @@
-Hierarchical Deterministic Keys: BIP32 & Beyond
-===============================================
+---
+title: "Hierarchical Deterministic Keys: BIP32 & Beyond"
+permalink: rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/
+---
+
 By Christopher Allen - <ChristopherA@LifeWithAlacrity.com> & Shannon Appelcline - <ShannonA@skotos.net>
 
 When Bitcoin debuted it revealed one characteristic that was very different from the world of traditional PKI: a proliferation of keys. As used in PGP, in X.509 certificates used by TLS, and in other protocols, the number of private keys are few and they they do not expire for many years.

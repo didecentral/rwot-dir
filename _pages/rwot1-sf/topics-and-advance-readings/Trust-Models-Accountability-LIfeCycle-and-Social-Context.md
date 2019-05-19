@@ -1,5 +1,8 @@
-Trust Models, Accountability, Lifecycles, Social Context
---------------------------------------------------------
+---
+title: "Trust Models, Accountability, Lifecycles, Social Context"
+permalink: rwot1-sf/topics-and-advance-readings/Trust-Models-Accountability-LIfeCycle-and-Social-Context/
+---
+
 by Kaliya "[Identity Woman](http://www.identitywoman.net)" Young (formerly Hamlin)
 
 Intro 

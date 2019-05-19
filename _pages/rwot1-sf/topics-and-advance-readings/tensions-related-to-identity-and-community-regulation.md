@@ -1,10 +1,14 @@
-##Tensions related to identity and community regulation ##
+---
+title: "Tensions related to identity and community regulation"
+permalink: rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/
+---  
+
 White Paper by Matthew Schutte
 
-####Summary:####
+## Summary:
 Identity serves a critical role in the regulation of any community. However, it is not a simple role.  This paper attempts to describe the role that identity plays in enabling multiple actors, each operating from their own perspective, to rely upon one another to improve their own situational awareness and take action.  It then explores the expectations and pressures that identity enables actors to place upon one another, as well as the way that those expectations and pressures can change in response to shifts in the external environment.  It details the relationship between privacy and transparency in the identity realm and the impact that this has on the regulation of the community as a complex adaptive system more generally.  Finally, it concludes with a series of proposals for specific technical solutions to address some of the tension balancing requirements that are necessary to enable communities  to self-regulate amidst changing circumstances.
 
-####How does identity work?####
+## How does identity work?
 Identity is not just about putting a label on an entity. 
 
 In part, this is because there are not clear boundaries in the physical world, let alone in the world of “platonic forms” -- abstract patterns and their descriptions.  At any point in time, in order to understand context, and take action, any actor must operate from partial, and imperfect information.  
@@ -21,7 +25,7 @@ Furthermore, depending on the needs at any point in time, the details of the bou
 
 The name enabled me to quickly communicate information and -- more importantly -- delegate action taking to another member of the community -- you.
 
-####Beyond Ketchup -- The Identity of Actors####
+## Beyond Ketchup -- The Identity of Actors
 When it comes to actors -- humans, for example -- identity is a mechanism that fosters a balancing of two objectives that are always in tension within any community:
 
 1) The autonomy of an individual to determine which contexts she shows up in, which portion of her history (if any) she will provide for reference and how she will present herself more generally.
@@ -41,10 +45,10 @@ Consequently, there is a couple of other factors that play a role in determining
 2) The social norms that that actor perceives to be appropriate to that particular context.
 3) The confidence that each actor has that their expectations will be upheld.  
 
-#####Context#####
+## #Context#
 The assessment of context involves a variety of forms of information that contribute to that actor’s situational awareness.  A more detailed articulation of how situational awareness is developed through direct experience, indirect experience and contemplation is explored in my paper “[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness.md).”  However, it is important to note that this assessment always takes place from the perspective of the individual themselves.  It is their perception of the situation, and not the situation itself -- that will guide their decision making about how to behave.
 
-#####Social Norms#####
+## #Social Norms#
 Social norms develop over time as a result of interactions amongst community members in contexts of similar form and pattern.  Through trial and error, the members of a community learn what “works” and what doesn’t.  And over time they come to expect ways of behaving that align with the methods that have proven useful in the past.
 
 These expectations about behavior and appropriateness are usually informal and unwritten, but are nonetheless strongly held and almost always accompanied by some form of enforcement mechanism.
@@ -53,7 +57,7 @@ However, they are also context dependent.  As contexts change, expectations abou
 
 In a world where “the only constant is change,” this means that the community that is best able to sense shifts in context and adjust expectations to suit the new reality will tend to thrive whereas those that are slow to adapt their expectations as circumstances transform will tend to stumble -- and potentially, die.
 
-#####Confidence#####
+## #Confidence#
 The confidence that social norms will be upheld is a direct result of past experiences with similar circumstances.  Based on those experiences, actors will make predictions (consciously or unconsciously) about whether expectations will be met.  For instance, in contexts where norms are regularly violated, we may feel vulnerable and will demand additional forms of security before we become willing to interact or rely upon the other party.  That’s a fancy way of saying “once burned, twice shy.”
 
 On the other hand, where enforcement mechanisms are effective, they tend to fade into the background, and users cease to even be conscious of their existence. To paraphrase the [David Foster Wallace parable](http://web.ics.purdue.edu/~drkelly/DFWKenyonAddress2005.pdf), participants become like the fish who do not realize they are in water.
@@ -70,10 +74,10 @@ If enforcement mechanisms work poorly, trust breaks down and so does the ability
 
 Yet if enforcement mechanisms work too well, they end up locking us into ways of behaving that can quickly become outdated and irrelevant and can again lead to a breakdown in collaboration as it ceases to yield benefits.
 
-####So the question becomes: How can we balance effective enforcement of existing social norms with the capacity to adapt those norms as circumstances change?####
+## So the question becomes: How can we balance effective enforcement of existing social norms with the capacity to adapt those norms as circumstances change?
 
 Let’s start by exploring how norms typically get enforced within communities.
-#####Two types of enforcement mechanisms: violence and access control#####
+## #Two types of enforcement mechanisms: violence and access control#
 Let’s start with an example:
 Nancy tells Ed a secret and makes it clear that he should not tell Ruby, a rival.  She gets Ed to sign a non-disclosure agreement that covers the secret involved, but also goes beyond that saying “if you cross me, I will use every tool at my disposal and will go to the ends of the earth to hunt you down and break your legs.”  Ed says he gets the hint.
 
@@ -81,16 +85,16 @@ In general, communities have two types of enforcement mechanisms that can be use
 1) Violence 
 2) Access Control (I apologies for the name sounding confusingly like ACL, but bear with me on this -- I’m not endorsing that particular security architecture here)
 
-#####VIOLENCE#####
+## #VIOLENCE#
 I’ll describe violence as an attack on the body or a restraint of the body that is the subject of influence.  Threats of violence actually do the bulk of the heavy lifting in violence based regulation -- rather than violence itself.  Nonetheless, because those threats are backed by violence itself, I’ll make due with simply analyzing the way that actual violence operates. Violence based enforcement is the primary tool that underlies modern governmental systems of politicians, statutes, police, courts and prisons.  The threat of imprisonment is the “force” part of the “enforcement for everything from parking tickets, to commercial leases, to minimum wage laws.
 
 In our example, should Ed tell Ruby the secret, Nancy could pursue the matter in court.  Ed’s violation of the non-disclosure clause would likely result in a judgment for damages or actual imprisonment. (If he refuses to pay the damages, he definitely risks imprisonment).  
 In violence based enforcement, the enforcing action “locates” on the body of the individual -- in our instance, Ed.  To simplify things a bit -- Ed goes to jail.  Similarly, Nancy could “break his legs” as she had promised.  This fits a bit more in line with the tactics used by mafias and other extra-governmental organizations.
 
-#####Violence is efficient#####
+## #Violence is efficient#
 As an enforcement tool -- violence is incredibly efficient.  For violence to “work” on Ed requires only one actor (whether the nation state or one of Nancy’s goons) to imprison him or attack him.  It does not require coordination from everyone else in the community.  In fact, no one else needs to even be aware of what has happened.  As a result, often communities coordinate their use of violence in the form of a “justice system.”  Thanks to the nature of violence -- it only takes one action to enforce a rule -- norm selection has been formalized (laws) and enforcement “delegated” (arrest and imprisonment) to a “justice system.”  This is not without its own risks.  But it is a consequence of the fact that violence can be inflicted by an individual and does not require the involvement of other community members.
 
-#####Violence is binary#####
+## #Violence is binary#
 However, though violence is efficient, it is not much use in situations where community members disagree about which norms should apply.  Because a violent action locates on Ed directly, it forces the community into a consensus with regard to actions taken. It is not possible to both put Ed in jail AND ALSO not put Ed in jail.  In essence, violence does not allow for disagreement within the community to be expressed in the enforcement action itself.  
 
 That is not to say that people aren’t able to disagree with a decision.  They are free to disagree.  But their disagreement isn’t going to do Ed much good while he is rotting in jail or recovering from his broken legs.  In short, violence forces a consensus concerning social norms -- at least at the point of enforcement.  Something very particular will happen to Ed’s body -- whether that is imprisonment, broken legs, a slap on the wrist, or a determination that Ed’s offense is something worth celebrating rather than punishing.
@@ -101,12 +105,12 @@ We are aware of this at an intuitive level.  The fact that violence is such a bi
 
 However, communities also have a separate tool that has been used since the dawn of humanity -- access control.
 
-#####ACCESS CONTROL#####
+## #ACCESS CONTROL#
 Nancy can also choose to turn away from Ed.  She can refuse to ever do business with him again.  In addition to that, she can tell everyone she knows about his betrayal -- and each of them may decide to turn away from Ed as well.
 
 Access control is a result of the ability for individuals within a community to exercise autonomy over their own actions -- and consequently to turn toward those who behave in ways that they like or away from those who act in ways that they disapprove of.  
 
-#####Access Control admits for disagreement#####
+## #Access Control admits for disagreement#
 Unlike violence, where the enforcement action locates on Ed’s body, with access control, the enforcement action locates on the individuals that Ed might interact with and any resources under their control.  It is these individuals and resources that Ed is being granted or denied access to.  
 
 Nancy refuses to hire Ed again.  Ed loses access to that work opportunity and the pay and opportunities that could flow from it.  
@@ -129,14 +133,14 @@ To be fair, access control based systems can be every bit as brutal and coercive
 
 Because of this fact, access control systems enable distributed decision making about social norms and their relative importance.  As certain members of a community push particular boundaries and gain experience with new norms, they are able to discover different ways of behaving that might suit their present context better than established norms had.  With that, the “new best practices” have a chance of spreading within the community.  As a result, communities that rely upon access control structures to enforce social norms tend to be better at adapting to new circumstances.
 
-#####Access control requires greater coordination#####
+## #Access control requires greater coordination#
 However, significant coordination amongst the members of the community is required to have an access control-based enforcement regime work well enough to engender trust in any particular interaction. If Ed can betray Nancy, and can simply crash at Ruby’s house, and suffer no consequences -- individuals will regularly find that they can violate norms -- and as a result, confidence, and consequently collaboration will break down.
 
 Because of this fact, access control based enforcement has historically worked well within small groups, but begins to perform more poorly as group size scales.  On the other hand, violence based enforcement has historically worked well independent of group size.  This is the primary reason why humans have shifted more and more of our regulatory burden onto violence based systems as our populations have exploded and trade has expanded.
 
 Nonetheless, those violence systems simply cannot handle the diversity of worldviews present in our modern-day, global, interconnected world. The concept of a single global government to rule over everyone contains significant risk of becoming an oppressive tyrannical regime.  Furthermore, violence based systems, because of their “singular action” nature prove far less adaptable than access control based regimes and this is a critical shortcoming.
 
-#####Reputation#####
+## #Reputation#
 As anyone from a small town will tell you, “in a small group, everyone knows everybody else’s business.”  There is a feeling of constraint that exists.  That sense of constraint is the result of a highly functional reputation system that keeps people “behaving” well.  Gossip plays a major role in the information flow of a community like that.  The consequence is that when a person is engaging in an interaction 
 1) they generally know quite a bit about the other person they are interacting with and 
 2) they know that if they “misbehave” in some way, word of that misbehavior is likely to spread to the rest of the community.
@@ -147,7 +151,7 @@ However, as group size increases, the amount of information to keep track of inc
 
 The short version is: the building and maintenance of trust takes work.  And the amount of work to do increases as group size increases.
 
-#####Ratings Systems#####
+## #Ratings Systems#
 However, simple tools are able to reduce the effort involved for larger groups to do access control based regulation.  Reputation currencies that enable users to share information about one another -- and more importantly -- to synthesize that information down to some usable form -- enables individuals to distinguish between multiple options and take actions on the basis of that synthesis.
 
 Examples abound of communities of interest that regulate themselves relatively well as a result of simple ratings systems: credit scores enable lenders to assess loan candidates for likelihood of repayment.  eBay and amazon ratings enable purchasers to assess the likely accuracy, quality, timeliness and customer service of various merchants.
@@ -171,7 +175,7 @@ The result is that when a person faced with a decision, the distillation of larg
 
 However, beyond those areas covered by ratings systems, there are not particularly strong reputation currencies present.  Ratings systems are sometimes supplemented with text based feedback, and this has proven somewhat useful, but requires significant “interpretation” effort on the part of future users.  This is in contrast with the very clear signaling that is available within those values covered by the synthesizing mechanism of a ratings system.
 
-#####Privacy#####
+## #Privacy#
 Information Privacy centers around an individual’s ability to exercise control over the distribution of information -- and consequently value and risk.  Privacy is about being able to control with whom we want to share this insight. With whom we want to create this thing.
 
 Privacy doesn´t have to be perfect, but if our expectations about how far something I say or do is going to go are consistently violated, I will stop saying and doing those things.
@@ -188,7 +192,7 @@ The environment that we live within is not constant, it is changing. And the nor
 
 In this way, privacy solves two problems -- it serves as a critical component in giving individuals autonomy over their own lives -- something that is important for creating “a life worth living.”  At the same time, privacy provides benefit to society as a whole -- in the form of the resulting diversity and the resilience benefits that accompany that.  Consequently, communities tend to thrive where individuals are able to enjoy considerable control over who information will be distributed (information privacy).
 
-#####Balancing privacy and transparency#####
+## #Balancing privacy and transparency#
 If access control style systems are dependent on some level of transparency to create sufficient coordination to function -- but privacy is necessary to ensure autonomy, diversity and resilience -- the question becomes:
 “How can we find the appropriate balance?”
 
@@ -198,7 +202,7 @@ And similar to the earlier discussion of enforcement mechanisms -- social norms 
 
 Our job as identity systems architects is to design the tools that enable communities to “figure out these balances for themselves” rather than trying to determine it for them.
 
-#####The magically useful prioritization tool: pain#####
+## #The magically useful prioritization tool: pain#
 Pain is often seen as only a problem, and not an asset.  Yet pain is one of the most important tools for enabling individuals to set priorities and for communities to self-regulate.  Pain is quite literally our ability to “sense” the world around us.  
 
 That is not to say that pain is an unmitigated benefit -- or that it is always of use.  A little bit of pain can help us decide where to put our efforts.  Too much pain may leave us crippled and incapable of action.  Even here there is a balance.
@@ -209,7 +213,7 @@ The balance that is struck doesn’t need to be perfect in order to be functiona
 
 The path will never be perfect.  But that is ok.  Course correction -- not perfection -- is the goal.
 
-####What should we aim for?####
+## What should we aim for?
 And so we come to the thorny truths about both the promise, as well as the foreseeable limits of what a next-generation web of trust system might be able to accomplish.
 
 There is much value that our efforts can bring to the world -- but perfection is not within our grasp.  This is in part because the relative perfection or imperfection of any one thing is always a result of  the perspective of the observer.  Because there are many perspectives, no one structure will be “perfect” for all of them.
@@ -223,10 +227,10 @@ Let us build information system tools that enable
 
 By enabling the individuals within our communities to choose for themselves the appropriate trade-offs in each particular context, we stand the greatest chance of creating a world that will thrive -- regardless of what circumstances may come.
 
-####A few technical outlines####
+## A few technical outlines
 This paper is already way too tl;dr, but I’ll briefly outline a handful of issues and technical approaches related to the above stated goal:
 
-#####Criteria Based Publication#####
+## #Criteria Based Publication#
 In order to give individuals control over what they want to share and with whom, it is critical that they be able to discriminate on the basis of arbitrary criteria, from sources of their choosing.  In order for this to function well, there need to be forms of reputation signals available for them to rely upon.  Several areas of work may prove fruitful here:  
 + the trust signalling concepts being explored in TrustExchange, 
 + the pluggable protocols and semantic parsing available in CEPTR, 
@@ -253,7 +257,7 @@ If Alice gets burned, and this causes her considerable pain, she will likely alt
 In such a system, each of us will have access to the information that others -- operating in their own best interest -- are willing to share with us.  This makes our access dependent, in part, on the value judgments and risk assessments being made by our fellows.  In this way, each individual would have access to the information that is available publicly, as well as any information -- or synthesis of information -- that they are able to gain private access to.  
 
 
-#####Maintenance of pseudonymity#####
+## #Maintenance of pseudonymity#
 In a criteria based publication system, there is a risk that should be avoided.
 
 If we do not structure the interactions appropriately, someone in Alice’s position can monitor the activities of the users that are interacting with her -- and can “pierce the pseudonymity” of those users by tieing multiple pseudonyms together over time.
@@ -278,10 +282,10 @@ Here is a rough outline of how these two objectives can be balanced:
 
 This sort of structure can enable users in an interaction to strike a balance of privacy and transparency that works for both parties and that can respond to new tools, new threats and new shifts in the external environment.
 
-####Additional Questions####
+## Additional Questions
 Are there ways to make use of hierarchical keys or other methods for revealing greater and greater detail in a “progressive trust” style dance -- either related to a single pseudonym or to transitioning from one pseudonym to another while minimizing “accidental” tying of pseudonyms -- or limiting the publication of such tied pseudonyms to the intended recipients (an expectation that itself would be enforced by access control style considerations)?
 
 Can these types of architectures be instantiated in an economical fashion with layers of encryption in a single name space such as a single blockchain?
 
-####Resources#### 
+## Resources 
 Dunbar, R. I. M. (1992). "Neocortex size as a constraint on group size in primates". Journal of Human Evolution 22 (6): 469–493.doi:10.1016/0047-2484(92)90081-J
