@@ -1,4 +1,7 @@
-**Architecture of proof-of-stake blockchain that doesn’t have native coin and its applicability to decentralized trading**
+---
+title: "Architecture of proof-of-stake blockchain that doesn’t have native coin and its applicability to decentralized trading"
+permalink: rwot3-sf/topics-and-advance-readings/Proof-of-stake-without-native-coin/
+---   
 
 Dr. Pavel Kravchenko, Distributed Lab
 

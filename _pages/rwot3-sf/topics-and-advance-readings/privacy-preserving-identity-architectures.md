@@ -1,4 +1,7 @@
-# Privacy Preserving Web Identity Architectures
+---
+title: "Privacy Preserving Web Identity Architectures"
+permalink: rwot3-sf/topics-and-advance-readings/privacy-preserving-identity-architectures/
+---   
 
 ***by Anonymous (no, not that Anonymous, the other one)***
 _-- Dave Longley, Manu Sporny, Christopher Allen, Drummond Reed, and Marta Piekarska_

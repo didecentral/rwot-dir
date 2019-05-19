@@ -6,8 +6,6 @@ permalink: rwot2-id2020/event-documents/
 * [Invite](invite1/)
 * [invite1.txt](invite1.txt)
 
-
-
 ## Plenaries
 
 * [plenaries/1-opening.md](plenaries/1-opening.md)
@@ -20,8 +18,7 @@ permalink: rwot2-id2020/event-documents/
 * [plenaries/8-finalreportout.md](plenaries/8-finalreportout.md)
 * [plenaries/9-finale.md](plenaries/9-finale.md)
 
-
-# Photos
+## Photos
 
 * [photos](photos)
 

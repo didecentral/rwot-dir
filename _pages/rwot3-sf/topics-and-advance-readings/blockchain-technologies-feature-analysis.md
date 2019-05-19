@@ -1,4 +1,7 @@
-# Blockchain Technologies Feature Analysis
+---
+title: "Blockchain Technologies Feature Analysis"
+permalink: rwot3-sf/topics-and-advance-readings/blockchain-technologies-feature-analysis/
+---
 
 ```
 Copyright 2016 Digital Bazaar, Inc. (except for Data Structure sections)

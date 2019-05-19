@@ -1,4 +1,7 @@
-DID Specification
+---
+title: "DID Specification"
+permalink: rwot3-sf/topics-and-advance-readings/did-spec-wd03/
+---
 
 Editors:     Drummond Reed, Les Chasen
 Contributors:    Christopher Allen, Manu Sporny, David Longley, Jason Law, Daniel Hardman

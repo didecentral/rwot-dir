@@ -1,4 +1,7 @@
-# Digital Verification Advancements at RWoT III
+---
+title: "Digital Verification Advancements at RWoT III"
+permalink: rwot2-id2020/draft-documents/rwot3-digital-verification-outcomes/
+---
 
 ***by Manu Sporny, Christopher Allen, Harlan Wood, Jason Law, and ...(add other participants)***
 

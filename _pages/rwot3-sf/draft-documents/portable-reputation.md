@@ -1,4 +1,8 @@
-# Portable Reputation Toolkit
+---
+title: "Portable Reputation Toolkit"
+permalink: rwot2-id2020/draft-documents/portable-reputation/
+---
+
 
 This project has moved to its own repository:   
 

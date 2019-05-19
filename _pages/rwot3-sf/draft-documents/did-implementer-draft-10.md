@@ -1,5 +1,6 @@
 ---
 title: "DID (Decentralized Identifier) Data Model and Generic Syntax 1.0 Implementer’s Draft 01"
+permalink: rwot2-id2020/draft-documents/did-implementer-draft-10/
 ---
 
 =====

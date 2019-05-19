@@ -1,4 +1,8 @@
-Distributed Identity, Distributed Self
+---
+title: "Distributed Identity, Distributed Self"
+permalink: rwot3-sf/topics-and-advance-readings/Distributed-Identity-Distributed-Self/
+--- 
+
 
 Topic Paper for Web of Trust Working Group 
 October 2016

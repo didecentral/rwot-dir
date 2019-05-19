@@ -1,4 +1,8 @@
-# Fit for Purpose Blockchains
+---
+title: "Fit for Purpose Blockchains"
+permalink: rwot3-sf/topics-and-advance-readings/fit-for-purpose-blockchains/
+--- 
+
 
 ***by Manu Sporny, Dave Longley, Dave Lehn, and Adam Lake***
 

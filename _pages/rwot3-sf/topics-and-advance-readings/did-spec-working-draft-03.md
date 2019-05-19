@@ -1,4 +1,7 @@
-# DID (Decentralized Identifier) Specification
+---
+title: "DID (Decentralized Identifier) Specification"
+permalink: rwot3-sf/topics-and-advance-readings/did-spec-working-draft-03/
+--- 
 
 **STATUS: Working Draft 03, 17 October 2016**
 

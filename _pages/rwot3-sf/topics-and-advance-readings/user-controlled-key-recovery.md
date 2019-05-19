@@ -1,4 +1,8 @@
-# Recovery strategy for user-controlled keys for self-sovereign identity
+---
+title: "Recovery strategy for user-controlled keys for self-sovereign identity"
+permalink: rwot3-sf/topics-and-advance-readings/user-controlled-key-recovery/
+--- 
+
 
 ### By Glenn Willen
 

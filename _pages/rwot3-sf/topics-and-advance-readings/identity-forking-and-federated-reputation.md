@@ -1,4 +1,7 @@
-# Identity Forking and Federated Reputation
+---
+title: "Identity Forking and Federated Reputation"
+permalink: rwot3-sf/topics-and-advance-readings/identity-forking-and-federated-reputation/
+---  
 
 By Christopher Malon, Group Ring, Inc. (https://groupring.net)
 

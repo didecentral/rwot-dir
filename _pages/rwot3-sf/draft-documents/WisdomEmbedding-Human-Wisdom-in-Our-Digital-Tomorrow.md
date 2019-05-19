@@ -1,4 +1,7 @@
-# Embedding Human Wisdom in Our Digital Tomorrow
+---
+title: "Embedding Human Wisdom in Our Digital Tomorrow"
+permalink: rwot2-id2020/draft-documents/WisdomEmbedding-Human-Wisdom-in-Our-Digital-Tomorrow/
+---
 
 Humanness in Digital Identity Working Group:
 Daniel Hardman, Kaliya Young, Matthew Schutte

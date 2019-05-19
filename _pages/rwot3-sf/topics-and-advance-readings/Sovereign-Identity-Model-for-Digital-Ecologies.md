@@ -1,4 +1,7 @@
-## Sovereign Identity Model for Digital Ecologies
+---
+title: "Sovereign Identity Model for Digital Ecologies"
+permalink: rwot3-sf/topics-and-advance-readings/rgrant-user-interface-standards-rwot-fall2016/
+--- 
 
 By Patrick Deegan, PhD  
 DAC Technologies
@@ -7,14 +10,14 @@ DAC Technologies
 
 October 2016
 
-### OUTLINE
+## OUTLINE
 
 Self-Sovereign Identity
 * Definition of a next-generation digital identity stack 
 * Most pressing issue: Standardization of each interface between layers (e.g., emulate OSI model)
 * Proposal for some of those layers: RootID, CoreID, and Personas
 
-### BACKGROUND STATEMENT
+## BACKGROUND STATEMENT
 
 The world is becoming increasingly interdependent and digital for the individual, the corporation and the nation state.  Autonomous robots and Internet of Things devices may soon be as commonplace as PCs and smartphones are today.  Robots are machines that can take measurements, plan, and take actions in order to bring about desired outcomes. These systems are widely used for the automation of a manufacturing and supply chain, where physical goods and virtual assets are controlled via computational and algorithmic governance mechanisms.  However, there is significant risk when these systems are deployed in real-world, internet connected use cases.  In particular, an autonomous robot with many "users" must address many of the same interactive flows that humans experience when transacting internet based entities: authentication, authorization, claim verification, etc.  In both cases, these systems may have to exhibit transparency, consistent offline behavior, high assurance, high availability, self-deployment, and self-healing, for example.
 
@@ -24,7 +27,7 @@ In order to meet the needs of economies of the future that strive for inclusivit
 
 While this future has much promise to improve quality of life, care must be taken when computational/cognitive Artificial Intelligence (AI) and digital services are connected through new virtual and augmented interfaces.  This is especially the case when systems such as autonomous vehicles are allowed to impart forces on the real world (i.e., connect to feedback control systems that rely on a network of distributed sensors for truth and express their will through powerful actuators that reside in human environments).  Even cybersecurity experts are encouraging a more device and identity centric network topology to mitigate ongoing threats.  Therefore, it appears that a next-generation Identity Layer for the internet will be just as central for machines (on their continual evolution to sentience, IMO) as it will be for humans.  In particular, Self-Sovereign Identity Systems (SIS) research seems to hold the most promise to mediate the risk of entrusting these devices with critical infrastructure such as transportation or caring for the elderly.  
 
-### TOPICS OF INTEREST
+## TOPICS OF INTEREST
 
 A foundation for solving the problem of trust on the internet should include these pillars:
 
@@ -43,7 +46,7 @@ A foundation for solving the problem of trust on the internet should include the
 (Definition) A system for deploying and maintaining independently enforceable computational policies for the management (i.e., govern the state transitions) of immutable records, digital supply chain services, and robust, available, and trustworthy data stores.  
 (Perspective) I know that an independent mechanism ensures the system cannot be exploited for self-interest.  I rely on transparent and automatically enforced rules to ensure counterparty rights and obligations are met.
 
-### A MODEL FOR AN IDENTITY STACK
+## A MODEL FOR AN IDENTITY STACK
 
 In the real world we have seen rapid shifts in nearly every domain from face-to-face interactions to network mediated transactions that may occur over vast distances, often obfuscating the stakeholders from each other.  This introduces governance issues around trust, truth and accountability.  Arguably, the technology now exists to create systems that impart effective governance through every layer of the system (i.e., the stack of hardware and software technologies).  It turns out that myriad social or personal phenomena are readily measured via the "smart phones" that most of us in the developed nations now carry - inseparably throughout our day.  Moreover, vast amounts of data have already been collected and yet much of the potential is still unmet: managed in disparate silos or is just not readily accessible or computable due to any number of reasons or forms that it may take.  We are deploying sensors that can record nearly every nuance of any real-world situation at a very rapid pace.  Closing the loop on these systems will present the opportunity to automate the coordination of vast resources and bring about desired outcomes.  Many use cases will benefit from these advances, however when these systems are able to physically manipulate the real-world, we need to be absolutely certain these advances cannot be abused.  Fortunately, recent work is proving that we can enable anonymous transactions while ensuring that counterparties are held accountable for their agreed-to rights and obligations.  
 

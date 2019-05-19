@@ -1,4 +1,8 @@
-# Anonymous Credentials in Sovrin
+---
+title: "Anonymous Credentials in Sovrin"
+permalink: rwot3-sf/topics-and-advance-readings/anonymous-credentials-in-sovrin/
+---
+
 
 Jason Law and Daniel Hardman
 

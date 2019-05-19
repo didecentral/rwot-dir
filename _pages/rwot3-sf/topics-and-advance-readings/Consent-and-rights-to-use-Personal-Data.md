@@ -1,4 +1,7 @@
-## Smart Consent Protocol
+---
+title: "Smart Consent Protocol"
+permalink: rwot3-sf/topics-and-advance-readings/Consent-and-rights-to-use-Personal-Data
+---
 
 Dr Shaun Conway, Lohan Spies, Jonathan Endersby, Tim Daubenschütz
 

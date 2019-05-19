@@ -1,4 +1,7 @@
-# OpenTimestamps: Scalable, Trustless, Distributed Timestamping with Bitcoin
+---
+title: "OpenTimestamps: Scalable, Trustless, Distributed Timestamping with Bitcoin"
+permalink: rwot3-sf/topics-and-advance-readings/opentimestamps/
+---  
 
 By Peter Todd
 

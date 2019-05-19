@@ -1,4 +1,7 @@
-# Portable Reputation Toolkit Use Cases
+---
+title: "Portable Reputation Toolkit Use Cases"
+permalink: rwot2-id2020/draft-documents/reputation-toolkit/
+---
 
 **By Christopher Allen, Tim Daubenschütz, Manu Sporny, Noah Thorp, Harlan Wood, Glenn Willen, Alessandro Voto**
 

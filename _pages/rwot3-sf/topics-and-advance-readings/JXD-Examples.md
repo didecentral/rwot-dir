@@ -1,4 +1,7 @@
-# JXD Examples
+---
+title: "JXD Examples"
+permalink: rwot3-sf/topics-and-advance-readings/JXD-Examples/
+---  
 
 By Markus Sabadello, Danube Tech (https://danubetech.com)
 

@@ -1,4 +1,7 @@
-# Alternative Futures: Framework for Identity Scenarios
+---
+title: "Alternative Futures: Framework for Identity Scenarios"
+permalink: rwot3-sf/topics-and-advance-readings/alternative-futures-framework/
+---
 
 #### Submitted for the Web of Trust Design Workshop
 

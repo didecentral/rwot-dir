@@ -1,4 +1,7 @@
-# Identity as Linked Data on Immutable Ledgers
+---
+title: "Identity as Linked Data on Immutable Ledgers"
+permalink: rwot3-sf/topics-and-advance-readings/identity-as-linked-data-on-immutable-ledgers/
+---  
 
 By
 

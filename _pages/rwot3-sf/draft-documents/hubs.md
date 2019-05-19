@@ -1,4 +1,7 @@
-# Hubs
+---
+title: "Hubs"
+permalink: rwot2-id2020/draft-documents/hubs/
+---
 
 ## by Daniel Buchner, Wayne Vaughan, and Ryan Shea
 

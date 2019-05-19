@@ -1,5 +1,6 @@
 ---
 title: "Topics & Advance Readings - RWoT3"
+permalink: "rwot3-sf/topics-and-advance-readings/"
 ---
 
 In advance of the October DesignShop, all participants were requested to post in the [Topics and Advanced Readings](topics-and-advance-readings/) folder a 1 or 2 page topics paper to be shared with other attendees on either:

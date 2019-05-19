@@ -1,3 +1,7 @@
+---
+title: "European General Data Protection Regulation"
+permalink: rwot3-sf/topics-and-advance-readings/EU-General-Data-Protection-Regulation-Self-Sovereign-Identifiers/
+--- 
 The New European General Data Protection Regulation (EC Regulation 2016/679) which aims to give citizens back control of their 
 personal data and create a high, uniform level of data protection across the EU fit for the digital era 
 was given its final approval by European Parliament on the 14th  April 2016. 

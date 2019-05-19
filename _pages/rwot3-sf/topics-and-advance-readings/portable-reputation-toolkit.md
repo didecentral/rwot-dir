@@ -1,4 +1,7 @@
-# Portable Reputation Toolkit
+---
+title: "Portable Reputation Toolkit"
+permalink: rwot3-sf/topics-and-advance-readings/portable-reputation-toolkit/
+---   
 
 ### By Noah Thorp and Harlan T Wood
 

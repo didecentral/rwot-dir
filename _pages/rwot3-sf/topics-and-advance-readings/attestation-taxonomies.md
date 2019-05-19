@@ -1,4 +1,8 @@
-# Blockchain Attestation Taxonomies
+---
+title: "Blockchain Attestation Taxonomies"
+permalink: rwot3-sf/topics-and-advance-readings/attestation-taxonomies/
+---
+
 
 By Christian Lundkvist, ConsenSys
 

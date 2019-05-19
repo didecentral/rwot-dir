@@ -1,3 +1,15 @@
+# Drafts - Index
+
+* [DID (Decentralized Identifier) Data Model and Generic Syntax 1.0 Implementer’s Draft 01](did-implementer-draft-10/)
+* [Hubs](hubs/)
+* [Portable Reputation Toolkit](portable-reputation/)
+* [Portable Reputation Toolkit Use Cases](reputation-toolkit/)
+* [Digital Verification Advancements at RWoT III](rwot3-digital-verification-outcomes/)
+* [Smart Consent Protocol](smart-consent-protocol/)
+* [Embedding Human Wisdom in Our Digital Tomorrow](WisdomEmbedding-Human-Wisdom-in-Our-Digital-Tomorrow/)
+
+
+
 Here are the completed papers from RWOT3:
 
 | **Paper** | **Lead** | **Status** | **Link** |

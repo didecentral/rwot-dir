@@ -1,4 +1,7 @@
-## Smart Consent Protocol
+---
+title: "Smart Consent Protocol"
+permalink: rwot2-id2020/draft-documents/smart-consent-protocol/
+---
 
 Dr Shaun Conway, Lohan Spies, Jonathan Endersby, Tim Daubenschütz
 

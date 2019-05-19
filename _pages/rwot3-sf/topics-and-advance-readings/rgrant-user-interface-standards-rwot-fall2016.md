@@ -1,6 +1,10 @@
-# Towards a User Interface for Selectively Revealing Fine-Grained Personal Information to Transaction Counterparties
+---
+title: "Towards a User Interface for Selectively Revealing Fine-Grained Personal Information to Transaction Counterparties"
+permalink: rwot3-sf/topics-and-advance-readings/rgrant-user-interface-standards-rwot-fall2016/
+---   
 
-### by Ryan Grant &lt;rgrant@contract.design&gt;, for Web-of-Trust Design Workshop (fall2016)
+
+**by Ryan Grant &lt;rgrant@contract.design&gt;, for Web-of-Trust Design Workshop (fall2016)**
 
 In a world where identity is carried with dignity by the participants
 themselves, built through a stored history of social interactions,
