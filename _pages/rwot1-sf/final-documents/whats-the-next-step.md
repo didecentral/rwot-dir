@@ -13,7 +13,7 @@ contributors:
 	- "Brian Weller"
 	- "Sonia Sawhney"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
-pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
+
 ---
 
 Having trouble trying to embed the pdf.. would be great if a markdown version existed.

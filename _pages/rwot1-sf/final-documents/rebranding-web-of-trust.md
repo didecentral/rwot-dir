@@ -13,7 +13,6 @@ contributors:
 	- "Randall Farmer"
 	- "Justin Newton"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/rebranding-web-of-trust.pdf"
-pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/rebranding-web-of-trust.pdf"
 
 ---
 

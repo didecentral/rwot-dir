@@ -17,7 +17,6 @@ contributors:
   - "Joseph Poon"
   - "Tyler Close"round
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/smart-signatures.pdf"
-pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/smart-signatures.pdf"
 
 ---
 
