@@ -18,7 +18,7 @@ contributors:
   - "Tyler Close" #round
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/smart-signatures.pdf"
 header:
-  image: /rwot1-sf/assets/images/1-graphic-recording/07_Final-Report-Out_Smart-Signatures.jpg
+  image: /assets/images/1-graphic-recording/07_Final-Report-Out_Smart-Signatures.jpg
 
 ---
 

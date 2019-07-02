@@ -22,7 +22,7 @@ authors:
   - "Harlan T. Wood"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT.md"
 header:
-  image: /rwot1-sf/assets/images/1-graphic-recording/03_Team-Graphic_DPKI-drafts.jpg
+  image: /assets/images/1-graphic-recording/03_Team-Graphic_DPKI-drafts.jpg
 
 ---
 

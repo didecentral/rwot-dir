@@ -16,7 +16,7 @@ authors:
   - "Duke Dorje"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Distributed-Permanent-Identifier-Registry.md"
 header:
-  image: /rwot1-sf/assets/images/1-graphic-recording/07_Final-Report-Out_Creating-Distrib-Registry.jpg
+  image: /assets/images/1-graphic-recording/07_Final-Report-Out_Creating-Distrib-Registry.jpg
 
 ---
 

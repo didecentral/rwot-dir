@@ -18,7 +18,7 @@ contributors:
   - "Noah Thorp"
 gitlink: "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/satisfying-real-world-use-cases.pdf"
 header:
-  image: /rwot1-sf/assets/images/1-graphic-recording/07_Final-Report-Out_Use-Cases.jpg
+  image: /assets/images/1-graphic-recording/07_Final-Report-Out_Use-Cases.jpg
 
 ---
 

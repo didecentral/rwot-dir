@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 header:
-  image: /rwot1-sf/assets/images/RebootingWebOfTrust_2015-topics-advance-readings.JPG
+  image: /assets/images/RebootingWebOfTrust_2015-topics-advance-readings.JPG
 
 ---
 

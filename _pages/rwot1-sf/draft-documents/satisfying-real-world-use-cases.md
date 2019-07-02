@@ -13,7 +13,7 @@ authors:
   - "Noah Thorp"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/satisfying-real-world-use-cases.md"
 header:
-  image: /rwot1-sf/assets/images/Use-Cases.jpg
+  image: /assets/images/Use-Cases.jpg
 
 ---
 

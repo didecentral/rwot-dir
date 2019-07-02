@@ -13,7 +13,7 @@ authors:
   - "Justin Newton"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/rebranding-web-of-trust.md"
 header:
-  image: /rwot1-sf/assets/images/Rebrand-WOT.jpg
+  image: /assets/images/Rebrand-WOT.jpg
 
 ---
 
