@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Ryan Shea"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/Selective-Disclosure-of-Identity.md"
+
 ---  
 
 *by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*

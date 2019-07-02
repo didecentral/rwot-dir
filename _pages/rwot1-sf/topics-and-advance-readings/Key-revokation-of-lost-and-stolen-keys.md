@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Martin Koeppelmann"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys.md"
+
 ---
 
 By Martin Koeppelmann - martin.koeppelmann@consensys.net

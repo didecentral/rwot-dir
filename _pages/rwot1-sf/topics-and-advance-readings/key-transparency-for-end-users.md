@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Joseph Bonneau"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/key-transparency-for-end-users.md"
+
 ---
 
 By Joseph Bonneau - jbonneau@cs.stanford.edu

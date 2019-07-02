@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Shannon Appelcline"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/ipfs-links.md"
+
 ---
 
 The InterPlanetary File System (IPFS) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.

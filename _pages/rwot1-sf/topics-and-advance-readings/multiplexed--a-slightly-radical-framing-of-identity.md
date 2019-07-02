@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "du5t"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/multiplexed--a-slightly-radical-framing-of-identity.md"
+
 ---
 
 - du5t@multiplexed.be

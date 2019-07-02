@@ -6,6 +6,12 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+  - "Kaliya 'IdentityWoman' Young"
+  - "John Edge"
+	- "Drummond Reed"
+	- "Noah Thorp"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/satisfying-real-world-use-cases.md"
 
 ---
 

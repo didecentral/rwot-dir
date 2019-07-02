@@ -6,6 +6,18 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+  - "Christopher Allen"
+  - "Ryan Shea"
+contributors:
+  - "Greg Maxwell"
+  - "Peter Todd"
+  - "Pieter Wuille"
+  - "Joseph Bonneau"
+  - "Joseph Poon"
+  - "Tyler Close"round
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/smart-signatures.pdf"
+pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/smart-signatures.pdf"
 
 ---
 

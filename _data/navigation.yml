@@ -114,9 +114,9 @@ rwot1:
       - title: Binding Identity in a Decentralized System
         url: rwot1-sf/topics-and-advance-readings/binding-identity-in-decentralized-system/
       - title: Blockchain-based Trust for Software Components
-        url: rwot1-sf/topics-and-advance-readings/code-and-file-signing.adoc/
+        url: rwot1-sf/topics-and-advance-readings/code-and-file-signing/
       - title: Blockchain Tech Opportunities in the Web-of-Trust
-        url: rwot1-sf/topics-and-advance-readings/blockchain-opportunities.txt/
+        url: rwot1-sf/topics-and-advance-readings/blockchain-opportunities/
       - title: Building a Web of Trust for E-commerce
         url: rwot1-sf/topics-and-advance-readings/decentralized_e-commerce/
       - title: Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers

@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Drummond Reed"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/xdi-link-contracts.md"
+
 ---
 
 By Drummond Reed, Co-Chair, OASIS XDI Technical Committee, drummond@respect.network

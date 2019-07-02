@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Greg Slepak"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/thin-clients.md"
+
 ---  
 
 By [Greg Slepak](https://twitter.com/taoeffect), attending on behalf of the [okTurtles Foundation](https://okturtles.com/).
