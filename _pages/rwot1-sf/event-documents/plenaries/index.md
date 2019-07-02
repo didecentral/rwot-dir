@@ -1,6 +1,12 @@
 ---
 title: RWoT1-SF - Plenaries
 permalink: rwot1-sf/event-documents/plenaries/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 * [1-introduction](1-introduction.md)

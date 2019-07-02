@@ -1,6 +1,12 @@
 ---
 title: "Smart Signatures"
 permalink: rwot1-sf/draft-documents/smart-signatures/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 **by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close***

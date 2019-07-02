@@ -1,6 +1,12 @@
 ---
 title: RWoT 1 - Event Documents
 permalink: rwot1-sf/event-documents/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 ## Process

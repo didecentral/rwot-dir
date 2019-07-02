@@ -1,6 +1,12 @@
 ---
 title: "Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data"
 permalink: rwot1-sf/draft-documents/satisfying-real-world-use-cases/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 **_by [du5t](mailto::du5t@hitono.info), [Kaliya "Identity Woman" Young](http://www.identitywoman.net/), [John Edge](http://www.id2020.org/), [Drummond Reed](http://www.respect.network/), [Noah Thorp](http://www.citizencode.io/)_**

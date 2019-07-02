@@ -10,3 +10,97 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+rwotnav:
+  - title: RWoT1-SF
+    url: rwot1-sf/
+    children:
+      - title: "Draft Documents"
+        url: rwot1-sf/draft-documents/
+      - title: "Event Documents"
+        url: rwot1-sf/event-documents/
+      - title: "Final Documents"
+        url: rwot1-sf/final-documents/
+
+final1:
+  - title: RWoT1-SF
+    url: rwot1-sf/final-documents/
+    children:
+      - title: Decentralized Public Key Infrastructure
+        url: rwot1-sf/final-documents/dpki/
+      - title: Rebranding Web of Trust
+        url: rwot1-sf/final-documents/rebranding-web-of-trust/
+      - title: Satisfying Real World Use Cases
+        url: rwot1-sf/final-documents/satisfying-real-worl-use-cases/
+      - title: Smart Signatures
+        url: rwot1-sf/final-documents/smart-signatures/
+      - title: What's the Next Step?
+        url: rwot1-sf/final-documents/whats-the-next-step/
+  
+event1:
+  - title: RWoT1-SF
+    url: rwot1-sf/event-documents/
+  - title: -Process
+    url: rwot1-sf/event-documents/process/
+    children:
+      - title: Evaluation Survey
+        url: rwot1-sf/event-documents/process/Evaluation-Survey.pdf
+      - title: RebootingtheWebOfTrustProcess
+        url: rwot1-sf/event-documents/process/RebootingtheWebOfTrustProcess.pdf
+      - title: Specification-Guidelines
+        url: rwot1-sf/event-documents/process/Specification-Guidelines.pdf
+      - title: The-6-Types-of-Questions
+        url: rwot1-sf/event-documents/process/The-6-Types-of-Questions.pdf
+      - title: Use-Case-Problems Worksheet
+        url: rwot1-sf/event-documents/process/Use-Case-Problems-Worksheet.pdf
+      - title: White-Paper-Guidelines
+        url: rwot1-sf/event-documents/process/White-Paper-Guidelines.pdf
+  - title: -Plenaries
+    url: rwot1-sf/event-documents/plenaries/
+    children:
+      - title: 1-introduction
+        url: rwot1-sf/event-documents/plenaries/1-introduction/
+      - title: 2-top-topics
+        url: rwot1-sf/event-documents/plenaries/2-top-topics/
+      - title: 3-table-topics
+        url: rwot1-sf/event-documents/plenaries/3-table-topics/
+      - title: 4-dayonesummary
+        url: rwot1-sf/event-documents/plenaries/4-dayonesummary/
+      - title: 5-insights-and-building-trust
+        url: rwot1-sf/event-documents/plenaries/5-insights-and-building-trust/
+      - title: 6-presentations
+        url: rwot1-sf/event-documents/plenaries/6-presentations/
+      - title: 7-where-do-we-go-from-here
+        url: rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/
+      - title: 8-table-seven
+        url: rwot1-sf/event-documents/plenaries/8-table-seven/
+  - title: -Graphic Recording
+    url: rwot1-sf/event-documents/graphic-recording/
+  - title: -Photos
+    url: rwot1-sf/event-documents/photos/
+
+
+
+
+draft1:
+  - title: "RWoT1-SF"
+    url: rwot1-sf/draft-documents/
+    children:
+      - title: DPKI-OBSOLETE
+        url: rwot1-sf/draft-documents/DPKI-OBSOLETE/
+      - title: Decentralized-Public-Key-Infrastructure
+        url: rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/
+      - title: Detecting Key Misuse on a Blockchain
+        url: rwot1-sf/draft-documents/detecting-key-misuse-on-a-blockchain/
+      - title: Distributed Permanent Identifier Registry
+        url: rwot1-sf/draft-documents/Distributed-Permanent-Identifier-Registry
+      - title: Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data
+        url: rwot1-sf/draft-documents/satisfying-real-world-use-cases/
+      - title: Rebranding Web of Trust
+        url: rwot1-sf/draft-documents/rebranding-web-of-trust/
+      - title: Smart Signatures
+        url: rwot1-sf/draft-documents/smart-signatures/
+      - title: Creating the New World of Trust
+        url: rwot1-sf/draft-documents/whats-the-next-step/
+
+

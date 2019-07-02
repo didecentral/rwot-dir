@@ -1,6 +1,12 @@
 ---
 title: "Rebranding the Web of Trust"
 permalink: rwot1-sf/draft-documents/rebranding-web-of-trust/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 ***by Shannon Appelcline, Dave Crocker, Randall Farmer, and Justin Newton***

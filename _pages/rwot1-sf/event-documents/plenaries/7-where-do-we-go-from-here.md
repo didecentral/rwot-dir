@@ -1,4 +1,15 @@
-WHAT ARE WE GOING TO DO IN THE SHORT TERM?
+---
+title: "RWoT1-SF - Plenary #7. Where do we go from here?"
+permalink: rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
+---
+
+## WHAT ARE WE GOING TO DO IN THE SHORT TERM?
 
 We have rough drafts in Google Docs and Github.
 

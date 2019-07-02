@@ -1,4 +1,15 @@
-PLENARY #1: INTRODUCTION
+---
+title: "RWoT1-SF - Plenary #1: Introduction"
+permalink: rwot1-sf/event-documents/plenaries/1-introduction/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
+---
+
+## PLENARY #1: INTRODUCTION
 
 PGP is 25 years old, and we've had the opportunity to see some new ideas like Blockchain.
 

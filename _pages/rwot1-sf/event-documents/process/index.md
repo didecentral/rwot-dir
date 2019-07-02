@@ -1,7 +1,14 @@
 ---
 title: Process
 permalink: rwot1-sf/event-documents/process/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
+
 ![](Occupy-Gestures-CC-BY-Adam-Koford.jpg)
 
 * [Evaluation-Survey](Evaluation-Survey.pdf)

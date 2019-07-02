@@ -1,6 +1,12 @@
 ---
 title: "Creating the New World of Trust"
 permalink: rwot1-sf/draft-documents/whats-the-next-step/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 ## _What's Next?_

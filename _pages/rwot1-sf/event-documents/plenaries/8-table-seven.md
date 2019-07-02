@@ -1,3 +1,14 @@
+---
+title: "RWoT1-SF - Plenary #8. Table Seven"
+permalink: rwot1-sf/event-documents/plenaries/8-table-seven/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
+---
+
 # Table Seven Topics
 
 These were topics that were dot rated - and selectd but no engagement with the core topics was had and no paper was generated. 

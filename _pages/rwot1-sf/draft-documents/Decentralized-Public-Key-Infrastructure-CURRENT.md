@@ -1,6 +1,12 @@
 ---
 title: "Decentralized Public Key Infrastructure"
 permalink: rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 **_by (alphabetical by last name) Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, and Harlan T Wood_**

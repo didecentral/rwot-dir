@@ -1,3 +1,14 @@
+---
+title: "RWoT1-SF - Plenary #3. Table Topics"
+permalink: rwot1-sf/event-documents/plenaries/3-table-topics/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
+---
+
 TABLE 1
 What Are We Talking About When We Talk About Web of Trust?
 - What is Trust?

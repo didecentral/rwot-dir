@@ -1,6 +1,12 @@
 ---
 title: "Detecting Key Misuse on a Blockchain"
 permalink: rwot1-sf/draft-documents/detecting-key-misuse-on-a-blockchain/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 ***by Justin Newton***

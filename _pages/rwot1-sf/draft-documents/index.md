@@ -1,6 +1,13 @@
 ---
 title: RWoT1 - Draft Documents
 permalink: rwot1-sf/draft-documents/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
+
 ---
 
 

@@ -1,6 +1,12 @@
 ---
 title: Distributed Permanent Identifier Registry
 permalink: rwot1-sf/draft-documents/Distributed-Permenant-Identifier-Registry/
+sidebar:
+  - title: Draft Documents
+    nav: draft1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 by Juan Benet, Christopher Allen, Noah Thorp, Harlan T Wood, Markus Sabadello, Drummond Reed, Duke Dorje

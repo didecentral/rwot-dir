@@ -1,6 +1,12 @@
 ---
 title: RWoT1-SF - Photos
 permalink: rwot1-sf/event-documents/photos/
+sidebar:
+  - title: Event Documents
+    nav: event1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+
 ---
 
 ![](RebootingWebOfTrust_2015-11_01.JPG)

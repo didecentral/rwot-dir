@@ -1,6 +1,6 @@
 ---
-title: "The Insecurity of Charging for Authentication And How It Relates To "Decentralized Identifiers" (DIDs)"
-permalink: rwot2-id2020/draft-documents/the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers/
+title: 'The Insecurity of Charging for Authentication And How It Relates To Decentralized Identifiers" (DIDs)'
+permalink: rwot2-id2020/draft-documents/insecurity-charging-for-security-and-decentralized-identifiers/
 ---
 
 * **ID2020 Designshop**
