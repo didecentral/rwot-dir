@@ -6,6 +6,8 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+header:
+  image: /assets/images/07_Final-Report-Out_Rebrand-WOT_1of2.jpg
 
 ---
 
