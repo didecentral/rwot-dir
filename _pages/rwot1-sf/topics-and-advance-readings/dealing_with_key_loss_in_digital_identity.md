@@ -1,6 +1,11 @@
 ---
 title: "Dealing with private key loss or compromise in digital identity systems"
 permalink: rwot1-sf/topics-and-advance-readings/dealing_with_key_loss_in_digital_identity/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 

@@ -2,8 +2,8 @@
 title: "RWoT1-SF - Plenary #6. Presentations."
 permalink: rwot1-sf/event-documents/plenaries/6-presentations/
 sidebar:
-  - title: Event Documents
-    nav: event1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

@@ -1,6 +1,11 @@
 ---
 title: "Attempts at common terminology for Digital Identity systems"
 permalink: rwot1-sf/topics-and-advance-readings/shared_terminology_for_digital_identity_systems/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---  
 
 By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>

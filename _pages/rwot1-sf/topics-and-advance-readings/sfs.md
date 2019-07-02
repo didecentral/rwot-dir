@@ -1,6 +1,11 @@
 ---
 title: "Self-certifying File System"
 permalink: rwot1-sf/topics-and-advance-readings/sfs/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---  
 
 For those unfamiliar, be sure to read this SFS paper:

@@ -1,6 +1,11 @@
 ---
 title: "The Need For A Generic Thin Client Protocol"
 permalink: rwot1-sf/topics-and-advance-readings/thin-clients/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---  
 
 By [Greg Slepak](https://twitter.com/taoeffect), attending on behalf of the [okTurtles Foundation](https://okturtles.com/).

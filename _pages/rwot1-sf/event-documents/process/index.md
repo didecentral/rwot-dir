@@ -2,8 +2,8 @@
 title: Process
 permalink: rwot1-sf/event-documents/process/
 sidebar:
-  - title: Event Documents
-    nav: event1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

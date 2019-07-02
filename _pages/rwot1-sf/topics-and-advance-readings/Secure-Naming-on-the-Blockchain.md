@@ -1,6 +1,11 @@
 ---
 title: "Secure Naming on the Blockchain"
 permalink: rwot1-sf/topics-and-advance-readings/Secure-Naming-on-the-Blockchain/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 --- 
 
 *by Muneeb Ali [@muneeb](https://twitter.com/muneeb) \<muneeb@onename.com\>, Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>, and Jude Nelson [@judecnelson](https://twitter.com/judecnelson) \<jcnelson@cs.princeton.edu\>*

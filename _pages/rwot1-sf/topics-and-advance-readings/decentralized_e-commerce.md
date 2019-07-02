@@ -1,6 +1,11 @@
 ---
 title: "Building a web of trust for decentralized e-commerce platforms (e.g. OpenBazaar)"
 permalink: rwot1-sf/topics-and-advance-readings/decentralized_e-commerce/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By [Michael Folkson] (https://twitter.com/michaelfolkson) (http://michaelfolkson.com/).

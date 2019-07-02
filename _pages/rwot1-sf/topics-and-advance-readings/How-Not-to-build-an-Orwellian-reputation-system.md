@@ -1,6 +1,11 @@
 ---
 title: "How Not to build and Orwellian reputation system"
 permalink: rwot1-sf/topics-and-advance-readings/How-Not-to-build-an-Orwellian-reputation-system/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 Essay by [Juan S. Galt] (http://twitter.com/juansgalt) 

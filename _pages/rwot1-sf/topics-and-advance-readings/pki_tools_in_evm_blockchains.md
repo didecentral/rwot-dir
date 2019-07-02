@@ -1,6 +1,11 @@
 ---
 title: "PKI Tools in EVM-based Blockchains"
 permalink: rwot1-sf/topics-and-advance-readings/pki_tools_in_evm_blockchains/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 --- 
 
 By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>

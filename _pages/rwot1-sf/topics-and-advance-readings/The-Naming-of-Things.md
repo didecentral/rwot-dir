@@ -1,6 +1,11 @@
 ---
 title: "The Naming of Things"
 permalink: rwot1-sf/topics-and-advance-readings/The-Naming-of-Things/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---  
 
 by Matthew Schutte

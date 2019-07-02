@@ -21,9 +21,13 @@ rwotnav:
         url: rwot1-sf/event-documents/
       - title: "Final Documents"
         url: rwot1-sf/final-documents/
+      - title: "Supporting Files"
+        url: rwot1-sf/supporting-files/
+      - title: "Topics and Advance Readings"
+        url: rwot1-sf/topics-and-advance-readings/
 
-final1:
-  - title: RWoT1-SF
+rwot1:
+  - title: Final Documents
     url: rwot1-sf/final-documents/
     children:
       - title: Decentralized Public Key Infrastructure
@@ -36,13 +40,11 @@ final1:
         url: rwot1-sf/final-documents/smart-signatures/
       - title: What's the Next Step?
         url: rwot1-sf/final-documents/whats-the-next-step/
-  
-event1:
-  - title: RWoT1-SF
+  - title: Event Documents
     url: rwot1-sf/event-documents/
-  - title: -Process
-    url: rwot1-sf/event-documents/process/
     children:
+      - title: PROCESS
+        url: rwot1-sf/event-documents/process/
       - title: Evaluation Survey
         url: rwot1-sf/event-documents/process/Evaluation-Survey.pdf
       - title: RebootingtheWebOfTrustProcess
@@ -55,9 +57,8 @@ event1:
         url: rwot1-sf/event-documents/process/Use-Case-Problems-Worksheet.pdf
       - title: White-Paper-Guidelines
         url: rwot1-sf/event-documents/process/White-Paper-Guidelines.pdf
-  - title: -Plenaries
-    url: rwot1-sf/event-documents/plenaries/
-    children:
+      - title: PLENARIES
+        url: rwot1-sf/event-documents/plenaries/
       - title: 1-introduction
         url: rwot1-sf/event-documents/plenaries/1-introduction/
       - title: 2-top-topics
@@ -74,16 +75,11 @@ event1:
         url: rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/
       - title: 8-table-seven
         url: rwot1-sf/event-documents/plenaries/8-table-seven/
-  - title: -Graphic Recording
-    url: rwot1-sf/event-documents/graphic-recording/
-  - title: -Photos
-    url: rwot1-sf/event-documents/photos/
-
-
-
-
-draft1:
-  - title: "RWoT1-SF"
+      - title: GRAPHIC RECORDING
+        url: rwot1-sf/event-documents/graphic-recording/
+      - title: PHOTOS
+        url: rwot1-sf/event-documents/photos/
+  - title: "Draft Documents"
     url: rwot1-sf/draft-documents/
     children:
       - title: DPKI-OBSOLETE
@@ -102,5 +98,94 @@ draft1:
         url: rwot1-sf/draft-documents/smart-signatures/
       - title: Creating the New World of Trust
         url: rwot1-sf/draft-documents/whats-the-next-step/
-
-
+  - title: Supporting Files
+    url: rwot1-sf/supporting-files/
+  - title: Topics and Advance Readings
+    url: rwot1-sf/topics-and-advance-readings/
+    children: 
+      - title: Advanced Web-of-Trust Concepts
+        url: rwot1-sf/topics-and-advance-readings/advanced-web-of-trust-concepts/
+      - title: Attempts at common terminology for digital identity systems
+        url: rwot1-sf/topics-and-advance-readings/shared_terminology_for_digital_identity_systems/
+      - title: "Authorities vs. Peers: Pain Points in Security"
+        url: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
+      - title: Avoiding Confused Deputy Attack Using Capabilities
+        url: rwot1-sf/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities/
+      - title: Binding Identity in a Decentralized System
+        url: rwot1-sf/topics-and-advance-readings/binding-identity-in-decentralized-system/
+      - title: Blockchain-based Trust for Software Components
+        url: rwot1-sf/topics-and-advance-readings/code-and-file-signing.adoc/
+      - title: Blockchain Tech Opportunities in the Web-of-Trust
+        url: rwot1-sf/topics-and-advance-readings/blockchain-opportunities.txt/
+      - title: Building a Web of Trust for E-commerce
+        url: rwot1-sf/topics-and-advance-readings/decentralized_e-commerce/
+      - title: Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers
+        url: rwot1-sf/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32/
+      - title: Dealing with key loss in digital identity systems
+        url: rwot1-sf/topics-and-advance-readings/dealing_with_key_loss_in_digital_identity/
+      - title: Decentralized Authentication with Blockchain Auth
+        url: rwot1-sf/topics-and-advance-readings/Decentralized-Authentication-with-Blockchain-Auth/
+      - title: Decentralized Cooperation Needs Decentralized Reputation
+        url: rwot1-sf/topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation/
+      - title: Different Models for Trust
+        url: rwot1-sf/topics-and-advance-readings/different-models-for-trust/
+      - title: Distributed multi-ledger model for financial industry
+        url: rwot1-sf/topics-and-advance-readings/DistributedMulti-ledgerModelForFinancialIndustry/
+      - title: Distributed Receptor-Based Computing
+        url: rwot1-sf/topics-and-advance-readings/Distributed_Receptor-Based_Computing/
+      - title: Distributed Trust Systems and the Kenyesian Beauty Contest
+        url: rwot1-sf/topics-and-advance-readings/Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest/
+      - title: First Encounters with PGP
+        url: rwot1-sf/topics-and-advance-readings/FirstEncountersWithPGP/
+      - title: "Hierarchical Deterministic Keys: BIP32 & Beyond"
+        url: rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/
+      - title: How not to build an Orwellian reputation system
+        url: rwot1-sf/topics-and-advance-readings/How-not-to-build-an-orwellian-reputation-system/
+      - title: Identity, Guidance and Situational Awareness
+        url: rwot1-sf/topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness/
+      - title: Identity, Property and Simulation
+        url: rwot1-sf/topics-and-advance-readings/Identity-Property-Simulation/
+      - title: Key revocation of lost and stolen keys
+        url: rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/
+      - title: Key Transparency for End Users
+        url: rwot1-sf/topics-and-advance-readings/key-transparency-for-end-users/
+      - title: Knowing When Your Digital Identity Has Been Compromised
+        url: rwot1-sf/topics-and-advance-readings/knowing-when-your-identity-has-been-compromised/
+      - title: Lightning Network and Web of Trust
+        url: rwot1-sf/topics-and-advance-readings/lightning-network-and-web-of-trust/
+      - title: Linked Local Names
+        url: rwot1-sf/topics-and-advance-readings/linked-local-names/
+      - title: "Modern PKI: Identity Assertions Forming Trust Networks"
+        url: rwot1-sf/topics-and-advance-readings/modern-pki-identity-assertions/
+      - title: PGP Paradigm
+        url: rwot1-sf/topics-and-advance-readings/PGP-Paradigm.pdf
+      - title: PKI Tools in EVM-based blockchains
+        url: rwot1-sf/topics-and-advance-readings/pki_tools_in_evm_blockchains/
+      - title: Progressive Trust
+        url: rwot1-sf/topics-and-advance-readings/progressive-trust/
+      - title: "Real life application of WoT: Refugee Use Case"
+        url: rwot1-sf/topics-and-advance-readings/refugee-use-case/
+      - title: Reputation and the Real World
+        url: rwot1-sf/topics-and-advance-readings/ReputationAndTheRealWorld/
+      - title: "Schnorr Signatures: An Overview"
+        url: rwot1-sf/topics-and-advance-readings/Schnorr-Signatures--An-Overview/
+      - title: "Secret Handshake: Key Exchange as a Capability System"
+        url: rwot1-sf/topics-and-advance-readings/key-exchange-as-capability-system/
+      - title: Secure Naming on the Blockchain
+        url: rwot1-sf/topics-and-advance-readings/Secure-Naming-on-the-Blockchain/
+      - title: Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens
+        url: rwot1-sf/topics-and-advance-readings/Selective-Disclosure-of-Identity/
+      - title: Tensions related to identity and community regulation
+        url: rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/
+      - title: The Naming of Things
+        url: rwot1-sf/topics-and-advance-readings/The-Naming-of-Things.txt/
+      - title: Thin Clients
+        url: rwot1-sf/topics-and-advance-readings/thin-clients/
+      - title: "Trust Exchange: An Architecture for a Permanent Open Trust Network"
+        url: rwot1-sf/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/
+      - title: Web of Trust with Blockchain IDs
+        url: rwot1-sf/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs/
+      - title: White Papers, Specifications & Proofs of Concept
+        url: rwot1-sf/topics-and-advance-readings/white-papers-specifications-proof-of-concept-code/
+      - title: "XDI Link Contracts: An Overview"
+        url: rwot1-sf/topics-and-advance-readings/xdi-link-contracts/

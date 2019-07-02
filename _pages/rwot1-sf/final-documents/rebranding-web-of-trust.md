@@ -2,8 +2,8 @@
 title: Rebranding Web of Trust
 permalink: rwot1-sf/final-documents/rebranding-web-of-trust/
 sidebar:
-  - title: Final Documents
-    nav: final1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

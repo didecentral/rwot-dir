@@ -1,6 +1,11 @@
 ---
 title: "Identity, Property and Simulation"
 permalink: rwot1-sf/topics-and-advance-readings/Identity-Property-Simulation/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 

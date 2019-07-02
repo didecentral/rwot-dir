@@ -2,8 +2,8 @@
 title: Decentralized Public Key Infrastructure
 permalink: rwot1-sf/final-documents/dpki/
 sidebar:
-  - title: Final Documents
-    nav: final1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

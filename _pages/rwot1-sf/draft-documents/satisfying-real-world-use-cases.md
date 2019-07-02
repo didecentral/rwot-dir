@@ -2,8 +2,8 @@
 title: "Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data"
 permalink: rwot1-sf/draft-documents/satisfying-real-world-use-cases/
 sidebar:
-  - title: Draft Documents
-    nav: draft1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

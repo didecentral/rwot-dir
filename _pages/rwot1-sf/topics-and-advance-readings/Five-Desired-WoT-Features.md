@@ -1,6 +1,11 @@
 ---
 title: "Five Desirable Features for the Next Generation Web of Trust"
 permalink: rwot1-sf/topics-and-advance-readings/Five-Desired-WoT-Features/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 by David Strayhorn

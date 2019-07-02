@@ -1,6 +1,11 @@
 ---
 title: "Secret Handshake : Key Exchange as a Capability System"
 permalink: rwot1-sf/topics-and-advance-readings/key-exchange-as-capability-system/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By Dominic Tarr - dominic.tarr@gmail.com

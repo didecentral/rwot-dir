@@ -1,6 +1,11 @@
 ---
 title: "Knowing When Your Digital Identity Has Been Compromised"
 permalink: rwot1-sf/topics-and-advance-readings/knowing-when-your-identity-has-been-compromised/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 by Justin Newton @justinwnewton <justin@netki.com>

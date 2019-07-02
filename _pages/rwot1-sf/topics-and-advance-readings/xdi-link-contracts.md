@@ -1,6 +1,11 @@
 ---
 title: "XDI Link Contracts: An Overview"
 permalink: rwot1-sf/topics-and-advance-readings/xdi-link-contracts/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By Drummond Reed, Co-Chair, OASIS XDI Technical Committee, drummond@respect.network

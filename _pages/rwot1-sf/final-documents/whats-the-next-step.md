@@ -2,8 +2,8 @@
 title: "What's the Next Step?"
 permalink: rwot1-sf/final-documents/whats-the-next-step/
 sidebar:
-  - title: Final Documents
-    nav: final1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

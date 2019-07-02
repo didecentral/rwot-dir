@@ -1,6 +1,11 @@
 ---
 title: "Decentralized Authentication with Blockchain Auth"
 permalink: rwot1-sf/topics-and-advance-readings/Decentralized-Authentication-with-Blockchain-Auth/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 *by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*

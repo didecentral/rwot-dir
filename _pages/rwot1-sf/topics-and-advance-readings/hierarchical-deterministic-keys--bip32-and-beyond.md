@@ -1,6 +1,11 @@
 ---
 title: "Hierarchical Deterministic Keys: BIP32 & Beyond"
 permalink: rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By Christopher Allen - <ChristopherA@LifeWithAlacrity.com> & Shannon Appelcline - <ShannonA@skotos.net>

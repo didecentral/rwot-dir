@@ -1,6 +1,11 @@
 ---
 title: "Key Transparency for End Users"
 permalink: rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By Joseph Bonneau - jbonneau@cs.stanford.edu

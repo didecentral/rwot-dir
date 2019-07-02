@@ -1,6 +1,11 @@
 ---
 title: "Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens"
 permalink: rwot1-sf/topics-and-advance-readings/Selective-Disclosure-of-Identity/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---  
 
 *by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*

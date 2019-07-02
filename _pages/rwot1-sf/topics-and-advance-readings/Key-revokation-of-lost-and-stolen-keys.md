@@ -1,6 +1,11 @@
 ---
 title: "Key revocation of lost and stolen keys"
 permalink: rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By Martin Koeppelmann - martin.koeppelmann@consensys.net

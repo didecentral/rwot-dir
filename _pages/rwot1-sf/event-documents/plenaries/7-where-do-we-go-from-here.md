@@ -2,8 +2,8 @@
 title: "RWoT1-SF - Plenary #7. Where do we go from here?"
 permalink: rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/
 sidebar:
-  - title: Event Documents
-    nav: event1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

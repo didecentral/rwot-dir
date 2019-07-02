@@ -2,8 +2,8 @@
 title: "Decentralized Public Key Infrastructure"
 permalink: rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/
 sidebar:
-  - title: Draft Documents
-    nav: draft1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

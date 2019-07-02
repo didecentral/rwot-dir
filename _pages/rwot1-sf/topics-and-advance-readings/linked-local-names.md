@@ -1,6 +1,11 @@
 ---
 title: "Linked Local Names: An Overview"
 permalink: rwot1-sf/topics-and-advance-readings/linked-local-names/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 By Christopher Allen - ChristopherA@LifeWithAlacrity.com

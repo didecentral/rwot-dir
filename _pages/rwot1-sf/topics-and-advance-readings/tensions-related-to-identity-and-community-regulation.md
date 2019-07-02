@@ -1,6 +1,11 @@
 ---
 title: "Tensions related to identity and community regulation"
 permalink: rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---  
 
 White Paper by Matthew Schutte

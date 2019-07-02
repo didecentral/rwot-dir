@@ -2,8 +2,8 @@
 title: "Smart Signatures"
 permalink: rwot1-sf/final-documents/smart-signatures/
 sidebar:
-  - title: Final Documents
-    nav: final1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

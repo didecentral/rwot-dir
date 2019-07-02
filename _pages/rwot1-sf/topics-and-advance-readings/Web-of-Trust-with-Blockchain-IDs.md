@@ -1,6 +1,11 @@
 ---
 title: " Web of Trust with Blockchain IDs"
 permalink: rwot1-sf/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 

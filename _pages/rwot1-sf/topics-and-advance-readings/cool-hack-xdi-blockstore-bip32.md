@@ -1,6 +1,11 @@
 ---
 title: "A cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers"
 permalink: rwot1-sf/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 Markus Sabadello, Vienna, October 19th 2015

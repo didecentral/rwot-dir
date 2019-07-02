@@ -1,6 +1,11 @@
 ---
 title: "Modern PKI: Identity Assertions Forming Trust Networks"
 permalink: rwot1-sf/topics-and-advance-readings/modern-pki-identity-assertions/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
 ---
 
 by Duke Dorje - *[@dukedorje](https://twitter.com/dukedorje) <duke@citizencode.io>*

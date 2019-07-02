@@ -2,8 +2,8 @@
 title: Distributed Permanent Identifier Registry
 permalink: rwot1-sf/draft-documents/Distributed-Permenant-Identifier-Registry/
 sidebar:
-  - title: Draft Documents
-    nav: draft1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 

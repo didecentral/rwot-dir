@@ -2,8 +2,8 @@
 title: "RWoT1-SF - Plenary #4. Day One Summary"
 permalink: rwot1-sf/event-documents/plenaries/4-dayonesummary/
 sidebar:
-  - title: Event Documents
-    nav: event1
+  - title: RWoT1-SF
+    nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 
