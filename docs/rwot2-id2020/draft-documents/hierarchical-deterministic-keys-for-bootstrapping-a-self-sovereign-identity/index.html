@@ -1,0 +1,422 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity - Pub YES!!</title>
+<meta name="description" content="RWOT Index Test">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pub YES!!">
+<meta property="og:title" content="Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity">
+<meta property="og:url" content="https://decentralized-id.com/rwot-dir/rwot2-id2020/draft-documents/hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://decentralized-id.com/rwot-dir/rwot2-id2020/draft-documents/hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://decentralized-id.com/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Pub YES!! Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/rwot-dir/">Pub YES!!</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>v0.2 July 18, 2016</p>
+
+<hr />
+
+<h2 id="abstract">Abstract.</h2>
+
+<p>In the context of Bitcoin, Hierarchical deterministic (HD) keys are predominately used to simplify wallet backups. Because the child key can operate independently and the parent key has the ability to monitor and control each child key, that parent key can still continue to operate even if the child key is compromised. When a Bitcoin or similar blockchain token is used to represent a person or an identity, the master HD key facilitates the creation and control of an identity that can then create subsequent child identities or personas. HD keys simplify key management in Bitcoin, and when HD keys are used to represent an identity it simplifies identity management on a blockchain.</p>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+
+<p>In 1991, PGP was the first piece of software to introduce the concept of identity-based cryptography by associating an individual to a cryptographic key pair for encrypted communication. One significant impediment to adoption of identity-based cryptography was its dependence on a centralized public-key infrastructure. The set of procedures needed to create, manage, distribute, use, store, revoke, and manage keys all take place locally to the user, then need to be broadcasted to the centralized public-key server.</p>
+
+<p>The blockchain offers a solution to the centralized public-key infrastructure by decentralizing key management. When HD keys are implemented on a blockchain specific to identity, key management is improved further still.</p>
+
+<p>There are two primary benefits of using HD keys over random non-deterministic keys.</p>
+
+<ol>
+  <li>Improved privacy
+    <ul>
+      <li>Because the child key is generated from a known seed there is a relationship between the parent and child keys that is invisible to anyone without that seed.</li>
+      <li>HD keys allow the user to securely hand out child keys with no risk to the parent key. This makes for greater security usage on a server: since the public keys are generated for each transaction in a receive-only capacity the server does not have any of the private keys to spend those funds.</li>
+    </ul>
+  </li>
+  <li>Prudent key management
+    <ul>
+      <li>If a child key is lost or compromised it can be derived again from its parent, providing the functionality of revocation and recovery of those exact child keys with ownership of the seed.</li>
+      <li>Best practices with bitcoin wallets dictate that each key be considered single use and HD keys offer a unification of all the keys under a users control.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>For Bitcoin, HD keys are functionally master wallets defined by the BIP0032 standard.</p>
+
+<p><strong>BIP0032</strong> Specifies a system for deriving a tree of key pairs from a single seed.</p>
+
+<p>The HD keys can generate a nearly infinite number of child keys from its parent, although BIP0032 standardizes this at three max deviations.</p>
+
+<p>The standard or specific blockchain where HD key are used is somewhat less relevant than the functionality of the HD keys themselves. The BIP0032 standard was designed specifically for Bitcoin transactions and to create a uniformity of Bitcoin wallets. Implementations of HD keys on blockchains specifically designed for identity may take a verity of different approaches to their HD key targeted uses, derivations, and standards.</p>
+
+<h3 id="1-derivations-and-standards">1. Derivations and Standards</h3>
+
+<p>[Still Drafting..]</p>
+
+<h3 id="2-identity-models">2. Identity Models</h3>
+
+<p>Identities can be represented at any key pair of a hierarchical deterministic key set. Because the master key has the control of every subsequent child key, position of the master key is the only form of truly self-sovereign identity model. For use cases where the user chooses to differ key management of the master key to a third party such that they control one of the child keys of the master, they do so by compromising on the degree of access an individual has over their keys and related identity.</p>
+
+<p><img src="http://i.imgur.com/cgvgbWf.jpg?1" alt="" /></p>
+
+<p><strong>1.1 Self-Sovereign Model.</strong> 
+Placing the individual at the core root of the derivation (depth 0), where the user is the holder of the seed and master key is the self-sovereign identity model. Here the user has the greatest degree of control and responsibility in managing their identity client-side.</p>
+
+<p><strong>1.2 Trusted Third-party Model.</strong>
+Placing the individual at a depth of 1 or any subsequent derivation is the trusted third-party model. In some cases where an individual is not willing or capable of managing their own keys on their device.</p>
+
+<h3 id="3-use-cases">3. Use-cases</h3>
+
+<p><strong>Browser Authorization.</strong>
+HD keys allow for greater control on the part of the user since the parent keys can easily revoke its child keys. An individual can give their browser a key pair and permission to sign certificates with a newly generated child from that key pair each time. If the user ever wants to revoke that ability their parent key can revoke the authority of the child key it gave to the browser.</p>
+
+<p><strong>Multiple Personas.</strong>
+In an identity system where the user creates and manages multiple identities for different purposes, separating child keys to create a distinct persona would allow for a greater degree of control and manageability for the user while maintaining privacy between the individual personas.</p>
+
+<p><strong>Governance.</strong>
+In the context of governments, corporations, or families, the built-in hierarchy of HD keys could mirror a real-life separation of control. It could also express meaning: branches of keys can be used to separate different departments in these various systems. Finally, it can offer a crypto identity for related financial systems.</p>
+
+<p><strong>Credit Reputation.</strong>
+Bitcoin has prided itself on letting users ‘be their own bank’. Cryptocurrency currently allows users to ‘make deposits’, transfer money, and prove ownership, yet there is no possibility of a credit system without identity. In managing a credit reputation, a borrower’s repayment history is the basis of an individual’s financial reputation for lenders to use when determining financial risk. It is possible to manage and prove an individual’s credit history with HD keys by fragmenting a part of a user’s identity into individual payments with child keys, then revealing some larger part of their identity with its parent key when it’s required or relevant.</p>
+
+<h2 id="references">References</h2>
+<hr />
+
+<p>Allen, Christopher. “<a href="https://github.com/ChristopherA/self-sovereign-identity">Principles of Self-Sovereign Identity</a>.” 2016.</p>
+
+<p>Allen, Christopher and Appelcline, Shannon. “<a href="../../RWoT1/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md">Hierarchical Deterministic Keys: BIP32 &amp; Beyond</a>” 2015.</p>
+
+<p>Lundkvist, Christian and Heck, Rouven. “<a href="../../RWoT1/topics-and-advance-readings/Identity-Property-Simulation.md">Questions around key management for digital identity systems</a>”. 2015.</p>
+
+<p>Shea, Ryan. “<a href="../../RWoT1/topics-and-advance-readings/Selective-Disclosure-of-Identity.md">Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens</a>”. 2015.</p>
+
+<p>Wuille, Pieter. “<a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">Hierarchical Deterministic Wallets</a>”. 2016.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Hierarchical+Deterministic+Keys+for+Bootstrapping+a+Self-Sovereign+Identity%20https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

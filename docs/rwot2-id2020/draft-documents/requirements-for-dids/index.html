@@ -1,0 +1,610 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Requirements for DIDs (Decentralized Identifiers) - Pub YES!!</title>
+<meta name="description" content="RWOT Index Test">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pub YES!!">
+<meta property="og:title" content="Requirements for DIDs (Decentralized Identifiers)">
+<meta property="og:url" content="https://decentralized-id.com/rwot-dir/rwot2-id2020/draft-documents/requirements-for-dids/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://decentralized-id.com/rwot-dir/rwot2-id2020/draft-documents/requirements-for-dids/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://decentralized-id.com/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Pub YES!! Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/rwot-dir/">Pub YES!!</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Requirements for DIDs (Decentralized Identifiers)">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Requirements for DIDs (Decentralized Identifiers)
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="26-june-2016">26 June 2016</h2>
+
+<p><strong>by Drummond Reed and Les Chasen, Respect Network</strong></p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Respect Network is conducting a research project for the U.S. Department of Homeland Security, HSHQDC-16-C-00061, to analyze the applicability of blockchain technologies to a decentralized identifier system. Our thesis is that blockchains, or more generically distributed ledgers, are a potentially powerful new tool for “identity roots” — the starting points for an Internet identity. However “blockchain identity” may not fully address the core security and privacy principles needed in a complete identity system. In this case DIDs — Decentralized Identifiers rooted on a distributed ledger — may end up being a foundational building block for higher level identity management solutions.</p>
+
+<p>During this phase of our work, we interviewed industry experts in identity and blockchain technology, both in informal discussions at major identity conferences as well as in-depth interviews. This included a series of sessions on DIDs at the ID2020 Design Workshop held in New York City on May 21-22. Attendees included Drummond Reed, Les Chasen, Christopher Allen, Manu Sporny, Markus Sabadello, Juan Bennet, Ryan Shea, Christian lundkvist, Rouven Heck, and Greg Slepak.</p>
+
+<p>From those sessions and our interviews, we have gathered the following set of requirements for DIDs.</p>
+
+<h1 id="summary-of-requirements">Summary of Requirements</h1>
+
+<h2 id="principles">Principles</h2>
+
+<p>The following principles were originally drafted by the XDI.org Registry Working Group (XRWG) to describe their requirements for an XDI registry. Our discussions have lead us to believe they apply to DID as well, so we have included them as guiding principles for design.</p>
+
+<ul>
+  <li><strong>Maximum Interoperability.</strong> DID infrastructure must conform to open standards and should enable any set of users and communities to discover and interoperate with each other.</li>
+  <li><strong>Maximum Decentralization.</strong> DID infrastructure should be designed to minimize central points of control and attack.</li>
+  <li><strong>Critical Infrastructure.</strong> DID infrastructure must provide for a high level of reliability, stability, scalability, security, sustainability and other requirements typical of critical internet infrastructure.</li>
+  <li><strong>Sovereign Identity.</strong> DID infrastructure should enable any principal (person or organization) to fully administer the principal’s own set of DIDs without the need to rely on an external administrative authority.</li>
+  <li><strong>Neutrality.</strong> DID infrastructure should be available to all members of the public and should not discriminate against any party that wishes to use it for any lawful purpose.</li>
+</ul>
+
+<h2 id="design-goals">Design Goals</h2>
+
+<p>At the ID2020 Design Workshop, there was broad consensus on the following two major goals for the DID specifications:</p>
+
+<ol>
+  <li>
+    <p><strong>DID:</strong> Define the structure of a universally unique system-independent discoverable identifier (a decentralized identifier) that can serve as the key to a value</p>
+  </li>
+  <li>
+    <p><strong>DID Object:</strong> Define the structure of a value for that key that can meet four requirements:</p>
+
+    <ol>
+      <li>
+        <p>Provide cryptographic proof of:</p>
+
+        <ol>
+          <li>
+            <p>Ownership of the DID</p>
+          </li>
+          <li>
+            <p>Permission to update the DID object</p>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p>Provide pointers to:</p>
+
+        <ol>
+          <li>
+            <p>Other sources of claims</p>
+          </li>
+          <li>
+            <p>Other peer DIDs</p>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<p>The combination of a DID and its associated DID object is called a <strong>DID Registration</strong>. From the standpoint of <a href="https://en.wikipedia.org/wiki/Claims-based_identity"><em>claims-based identity</em></a>, a DID registration is “the genesis claim” for an identity.</p>
+
+<h2 id="public-and-private-dids">Public and Private DIDs</h2>
+
+<p>In developing DID architecture, it has become clear that DIDs will exist in two different contexts: public and private. A <strong>Public DID</strong> is discoverable and enables a high degree of correlation (i.e., it is associated with “public” identity, or what Kim Cameron in the <a href="https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf"><em>Laws of Identity</em></a> calls an <strong>Omnidirectional Identifier</strong>).</p>
+
+<p>A <strong>private DID</strong> is a DID registration that is shared just between two parties, or a limited number of parties. It is intentionally not discoverable, or discoverable only in a limited context, so that correlation can be controlled (i.e., it’s what Kim Cameron in the <a href="https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf"><em>Laws of Identity</em></a> calls a <strong>Unidirectional Identifier</strong>).</p>
+
+<h1 id="registration-and-discovery-architecture">Registration and Discovery Architecture</h1>
+
+<p>At the ID2020 Design Workshop, there was considerable exploration and debate about the most desirable way to perform registration and discovery of DID objects via blockchains, distributed ledgers, or DHTs. For the purposes of this document, these different DID database options will be referred to as “ledgers”. Discussion revolved around five specific ledgers:</p>
+
+<ul>
+  <li>
+    <p>Bitcoin</p>
+  </li>
+  <li>
+    <p>Ethereum</p>
+  </li>
+  <li>
+    <p>Stellar</p>
+  </li>
+  <li>
+    <p>IPFS</p>
+  </li>
+  <li>
+    <p>Sovrin</p>
+  </li>
+</ul>
+
+<p>Following is a summary of four major approaches discussed by the group.</p>
+
+<h2 id="approach-1-peer-ledgers"><strong>Approach 1: Peer Ledgers</strong></h2>
+
+<h3 id="approach">Approach</h3>
+
+<p>A DID conforming to standard DID specifications may be registered in any qualified ledger (i.e., any ledger capable of accepting DID registration). The structure of a DID and DID object would be logically the same on any qualified ledger. Each qualified ledger would define its own way of registering a DID and storing a DID object so a client can look up and return the associated DID object and perform updates as governed by the access control policy in the DID object.</p>
+
+<h3 id="advantages">Advantages</h3>
+
+<ul>
+  <li>
+    <p>DIDs are atomic and portable.</p>
+  </li>
+  <li>
+    <p>Principals can register DIDs in the ledger of their choice.</p>
+  </li>
+  <li>
+    <p>No consensus is required across ledgers.</p>
+  </li>
+  <li>
+    <p>Each ledger can optimize the implementation of a DID registration for its format/protocol.</p>
+  </li>
+  <li>
+    <p>Lookups can be very efficient on each specific ledger.</p>
+  </li>
+</ul>
+
+<h3 id="disadvantages">Disadvantages</h3>
+
+<ul>
+  <li>
+    <p>Discovery of a DID requires searching across all possible ledgers; there is no known starting point.</p>
+  </li>
+  <li>
+    <p>There is no clear source of authority if the same DID registration is registered on multiple ledgers.</p>
+  </li>
+  <li>
+    <p>DID impersonation attacks are difficult or impossible to prevent.</p>
+  </li>
+</ul>
+
+<h2 id="approach-2-addressable-ledgers"><strong>Approach 2: Addressable Ledgers</strong></h2>
+
+<h3 id="approach-1">Approach</h3>
+
+<p>Unify all qualified ledgers into a global namespace in which each qualified ledger is addressable using a prefix. There are two options for the prefix:</p>
+
+<p>Option #1: Use a URI or URN scheme:</p>
+
+<blockquote>
+  <p>urn:btc:&lt;ledger-specific-address&gt;</p>
+</blockquote>
+
+<p>Option #2: Use a meta-ledger that assigns DIDs to other ledgers. DIDs become hierarchical pairs in the format:</p>
+
+<blockquote>
+  <p>&lt;ledger-location-did&gt;&lt;ledger-specific-address&gt;
+ did:33ad7beb-1abc-4a26-b892-466df4379a51/&lt;ledger-specific-address&gt;</p>
+</blockquote>
+
+<h3 id="advantages-1">Advantages</h3>
+
+<ul>
+  <li>
+    <p>Principals can make DID registrations in the ledger of their choice.</p>
+  </li>
+  <li>
+    <p>DID impersonation attacks are impossible because any DID hierarchical pair is unique and only registered once.</p>
+  </li>
+  <li>
+    <p>No direct consensus is required across ledgers.</p>
+  </li>
+  <li>
+    <p>Each ledger can optimize the implementation of a DID registration for its format.</p>
+  </li>
+  <li>
+    <p>Lookups can efficiently follow a two-level path, the first leg being pre-cached and the second leg being very efficient on each specific ledger.</p>
+  </li>
+</ul>
+
+<h3 id="disadvantages-1">Disadvantages</h3>
+
+<ul>
+  <li>
+    <p>DIDs become location-specific so portability must be provided using semantic equivalence statements.</p>
+  </li>
+  <li>
+    <p>If a meta-ledger is used, community consensus must be reached on implementing and maintaining the meta ledger.</p>
+  </li>
+  <li>
+    <p>If a meta-ledger is not used, all relying parties must keep track of all ledger prefix addresses.</p>
+  </li>
+</ul>
+
+<h2 id="approach-3-meta-consensus-protocol"><strong>Approach 3: Meta-Consensus Protocol</strong></h2>
+
+<h3 id="approach-2">Approach</h3>
+
+<p>All participating ledgers implement a meta-consensus protocol that ensures uniqueness of a DID across all participating ledgers.</p>
+
+<h3 id="advantages-2">Advantages</h3>
+
+<ul>
+  <li>
+    <p>DIDs are atomic and portable.</p>
+  </li>
+  <li>
+    <p>Principals can register DIDs in the ledger of their choice.</p>
+  </li>
+  <li>
+    <p>DID impersonation attacks are impossible because a DID can only be registered once.</p>
+  </li>
+  <li>
+    <p>Each ledger can optimize the implementation of DID for its format.</p>
+  </li>
+  <li>
+    <p>Lookups can be very efficient on each specific ledger.</p>
+  </li>
+</ul>
+
+<h3 id="disadvantages-2">Disadvantages</h3>
+
+<ul>
+  <li>
+    <p>DID transactions require direct consensus across all participating ledgers — a nearly impossible burden for each of the ledgers.</p>
+  </li>
+  <li>
+    <p>Discovery of a DID requires searching across all possible ledgers.</p>
+  </li>
+</ul>
+
+<h2 id="approach-4-index-ledger-aka-did-registry"><strong>Approach 4: Index Ledger aka “DID Registry”</strong></h2>
+
+<h3 id="approach-3">Approach</h3>
+
+<p>Create a new DID index ledger that maps a unique DID to any ledger or repository that can store a DID object. The DID itself is a UUID or similar identifier and the value is either:</p>
+
+<ol>
+  <li>
+    <p>A DID object, OR</p>
+  </li>
+  <li>
+    <p>A pointer to a DID object on another ledger or repository.</p>
+  </li>
+</ol>
+
+<h3 id="advantages-3">Advantages</h3>
+
+<ul>
+  <li>
+    <p>DIDs are atomic and portable.</p>
+  </li>
+  <li>
+    <p>Principals can register DID objects in the ledger or repository of their choice.</p>
+  </li>
+  <li>
+    <p>DID impersonation attacks are impossible because a DID can only be registered once.</p>
+  </li>
+  <li>
+    <p>Each ledger can optimize the implementation of a DID object for its format.</p>
+  </li>
+  <li>
+    <p>Discovery is easy and authoritative because it always starts with the index ledger.</p>
+  </li>
+  <li>
+    <p>Lookups are efficient due to following a two-level path, the first leg being optimized for the index ledger and the second leg optimized for each specific ledger or repository.</p>
+  </li>
+</ul>
+
+<h3 id="disadvantages-3">Disadvantages</h3>
+
+<ul>
+  <li>Community consensus must be reached on implementing and maintaining an index ledger.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Requirements+for+DIDs+%28Decentralized+Identifiers%29%20https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Frequirements-for-dids%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Frequirements-for-dids%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Frequirements-for-dids%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

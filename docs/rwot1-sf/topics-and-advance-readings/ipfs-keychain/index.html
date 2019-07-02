@@ -1,0 +1,415 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Notes on the IPFS Keychain (or the Web Keychain) - Pub YES!!</title>
+<meta name="description" content="RWOT Index Test">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pub YES!!">
+<meta property="og:title" content="Notes on the IPFS Keychain (or the Web Keychain)">
+<meta property="og:url" content="https://decentralized-id.com/rwot-dir/rwot1-sf/topics-and-advance-readings/ipfs-keychain/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://decentralized-id.com/rwot-dir/rwot1-sf/topics-and-advance-readings/ipfs-keychain/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://decentralized-id.com/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Pub YES!! Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/rwot-dir/">Pub YES!!</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Notes on the IPFS Keychain (or the Web Keychain)">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Notes on the IPFS Keychain (or the Web Keychain)
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(These are just short notes, becuase the idea is very simple, and obvious. It does not take much to understand it. But like SFS naming, it is <em>subtly powerful</em>).</p>
+
+<p><em>Abstract:</em>  <em><strong>The Keychain</strong></em> is a datastructure for cryptographic artifacts, on top of IPFS. The Keychain allows users to place public keys, signatures, certificates, and all sorts of proofs directly on top of IPFS, creating a merkle-graph of artifacts. This way, one artifact contains merkle links to artifacts used to produce it or necessary for its verification – e.g. a signature links to the raw data and to the key. This enables easy retrieval and verification of all necessary pieces of data. Moreover, entire swaths (graphs) of artifacts can be retrieved pre-emptively and stored locally for fast access, and even disconnected operation.</p>
+
+<h3 id="what-is-ipfs-how-is-it-useful">What is IPFS? How is it useful?</h3>
+
+<p>IPFS is a new hypermedia distribution protocol, with Merkle Links and with Key Links! Think HTTP but with content-addressed and key-addressed links – so content can be verified for integrity and authenticity. In short, think Git + BitTorrent + the Web. Learn more about IPFS at <a href="https://ipfs.io">the IPFS website</a> or <a href="https://www.youtube.com/watch?v=HUVmypx9HGI">at this seminar talk</a>.</p>
+
+<p>IPFS provides several useful properties:</p>
+
+<ul>
+  <li>a decentralized, peer-to-peer distribution system</li>
+  <li>content-addressed and key-addressed links (URIs)</li>
+  <li>subnet, disconnected, or offline operation</li>
+  <li>support for a wide variety of transports</li>
+  <li>targetting web, mobile, and IoT use cases</li>
+  <li>provides a very simple JSON-friendly data model (cbor)</li>
+  <li>But most importantly: <strong>IPFS is a transport for arbitrary merkle datastructures.</strong> This means a huge merkle DAG of objects, where files, cryptographic artifacts, websites, repositories, cryptocurrencies, and more, can all link to each other through permanent, cryptographic links.</li>
+</ul>
+
+<h3 id="what-is-the-keychain-then">What is The Keychain, then?</h3>
+
+<p><strong>The Keychain</strong> is a datastructure that rides on top of IPFS. It is a PKI-over-IPFS, where all of the artifacts (keys, signatures, certificates) are first-class IPFS objects with merkle-links to the artifacts used to produce them or needed to verify them. It can include all sorts of cryptographic artifacts, like signatures, certificates, proofs, and so on.</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Consider objects like these:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// a signature</span>
+<span class="p">{</span>
+  <span class="c1">// the key used to sign the signature</span>
+  <span class="dl">"</span><span class="s2">key</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">/ipfs/Qmbatr97vqpmrXg6tubdpUBwJrLzvYPHe9vS7xc9b7y3nk</span><span class="dl">"</span><span class="p">,</span>
+
+  <span class="c1">// the target object signed</span>
+  <span class="dl">"</span><span class="s2">target</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">/ipfs/Qmbatr97vqpmrXg6tubdpUBwJrLzvYPHe9vS7xc9b7y3nk</span><span class="dl">"</span><span class="p">,</span>
+
+  <span class="c1">// the signature bytes</span>
+  <span class="dl">"</span><span class="s2">sigdata</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">&lt;raw-signature-over-target-hash&gt;</span><span class="dl">"</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The links can be used to retrieve and verify the other artifcats. Protocols can thus only <em>require</em> transmitting (or embedding) small links – or single objects – but get the entire power of distributing an entire chain of artifacts.</p>
+
+<p>This is particularly important in storage or bandwidth constrained environments, like blockchains. Protocols can prepare all the artifacts in a merkle graph, add them to IPFS, ensure the survival of the data, embed the link in the blockchain, and disappear.</p>
+
+<h3 id="how-does-this-improve-on-status-quo">How does this improve on status quo?</h3>
+
+<p>Today, artifacts will include hashes of relevant other artifacts, but no easy, decentralized way to resolve that hash to the other artifact. IPFS and its tooling makes all of this a pleasant experience.</p>
+
+<h3 id="what-about-other-data">What about other data?</h3>
+
+<p>The Keychain coexists with other data and datastructures in IPFS and can link to them directly, using the same kind of links.</p>
+
+<h3 id="self-description--links-to-the-algorithms-themselves">Self Description – Links to the algorithms themselves</h3>
+
+<p>By being able to link artifacts to anything in IPFS, the Keychain also makes it easy to link directly to the algorithms used to create artifacts. These links could be to <em>the actual code</em> used to generate and verify them. This code could be in many languages. This enables users or agents to fetch the code necessary to run a protocol, enabling a much faster system upgrade as new algorithms are adopted. (And with a pure language and VM sandboxing, this can be automated).</p>
+
+<h3 id="survival-of-data">Survival of Data</h3>
+
+<p>The <a href="https://github.com/ipfs/faq/issues/47">IPFS Content Model</a> leaves it up to protocols layers on top to guarantee survival of data. Other tools and protocols can be used on top to ensure its survival: IPFS nodes publicly accessible, <a href="https://github.com/ipfs/notes/issues/58">ipfs-cluster</a>, and <a href="http://filecoin.io">Filecoin</a>. This can be as simple as making the data available through an IPFS node available to the network, as straight-forward as using one of today’s cloud storage systems, or as robust as hiring a large network of agents to back things up. The choice matters less because IPFS addresses do not include location, so the system can be upgraded over time (e.g. start with an IPFS node in front of S3, and then upgrade to a federation of interested parties, or to a large decentralized network).</p>
+
+<h3 id="encryption">Encryption</h3>
+
+<p>Objects in IPFS can be encrypted, so objects need not be accessible to the public– they can be held in private and revealed only to select users.</p>
+
+<h3 id="applications">Applications</h3>
+
+<ul>
+  <li><strong>Key Signing:</strong> Keychain makes key-signing easier as all of the artifacts can be tracked and accessed via IPFS.</li>
+  <li><strong>Key Hierarchies:</strong> Keychain makes it easy to model hierarchies of keys, with signatures of the children always pointing to the parent (signers). That way the hash of a single signature can “pull out” the entire graph going all the way to the root key.</li>
+  <li><strong>Certificate chains:</strong> Certificates can link to their parents.</li>
+  <li><strong>Web of Trust:</strong> collecting and being able to crawl all of the signatures can make the Web of Trust much easier to account for and resolve.</li>
+  <li><strong>Proof Schemes:</strong> Protocols requiring proofs can make proofs that link to the related (and often necessary) other artifacts, such as keys, agreed-upon randomness, commitments, and so on.</li>
+</ul>
+
+<p>and many more. Basically, any protocol that includes <em>producing</em> and <em>distributing</em> cryptographic artifacts could benefit from using IPFS and The Keychain.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Notes+on+the+IPFS+Keychain+%28or+the+Web+Keychain%29%20https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fipfs-keychain%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fipfs-keychain%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fipfs-keychain%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

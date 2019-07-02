@@ -1,0 +1,511 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Scaling a BFT Consensus Protocol for Identity - Pub YES!!</title>
+<meta name="description" content="RWOT Index Test">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pub YES!!">
+<meta property="og:title" content="Scaling a BFT Consensus Protocol for Identity">
+<meta property="og:url" content="https://decentralized-id.com/rwot-dir/_pages/rwot2-id2020/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://decentralized-id.com/rwot-dir/_pages/rwot2-id2020/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://decentralized-id.com/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Pub YES!! Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/rwot-dir/">Pub YES!!</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Scaling a BFT Consensus Protocol for Identity">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Scaling a BFT Consensus Protocol for Identity
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  12 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>========</p>
+
+<p>Jason Law &amp; Lovesh Harchandani</p>
+
+<p>18 May 2016</p>
+
+<p>Submission for the ID2020 Design Workshop</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Byzantine Fault-Tolerant protocols are traditionally not very scalable. In fact, last year when I first approached Dr. Pierre Louis Aublin, one of the authors of the RBFT paper on which the Plenum protocol is based, and I asked his thoughts about scaling a BFT protocol, he started to laugh.</p>
+
+<p>BFT protocols are hard to scale.</p>
+
+<p>In contrast to traditional enterprise distributed systems, adding more nodes does not improve the throughput. In fact, adding nodes, while increasing the integrity of the system, actually reduces its overall throughput.</p>
+
+<p>In this paper, we will briefly describe Plenum, the consensus protocol used for the Sovrin Distributed Identity Ledger. Then we’ll discuss a set of mechanisms that allow us to scale it.</p>
+
+<h2 id="background-and-framing">Background and Framing</h2>
+
+<h3 id="byzantine-fault-tolerant-protocols">Byzantine Fault-Tolerant Protocols</h3>
+
+<p>The Byzantine generals problem was first introduced in a paper of the same name by Lamport, Shostak, Pease in 1982. However, crash fault-tolerant protocols like Paxos are not equipped to deal with compromised (malicious) nodes. In 1999, Miguel Castro and Barbara Liskov introduced the venerable “Practical Byzantine Fault Tolerance” (PBFT) algorithm, which has become the starting point for many investigations in this space. However, PBFT has several limitations.</p>
+
+<p>First, as described in the Aardvark paper (Clement et al., Making Byzantine fault tolerant systems tolerate Byzantine faults, NSDI ‘09), a malicious client can trigger view changes at will that will stop the progression of the protocol. Second, from an implementation point of view it does not separate the logic of accepting client requests and ordering them, which leads to possible DoS attacks from the client. Third, a malicious primary can order requests at an arbitrary speed without being detected. These problems are fixed in Aardvark.</p>
+
+<p>RBFT improves Aardvark by executing several protocol instances with different primaries in parallel to detect any performance problem in real-time, without assuming anything about the previous or future performance/condition of the system. Aardvark raises the expected throughput expectation based on the past and triggers a view change as soon as the primary fails to match those expectations. This is fine when the load is static. But fails to detect a poor performing primary when load is not near the peak. RBFT resolves this.</p>
+
+<h3 id="plenum">Plenum</h3>
+
+<p>Plenum extends RBFT in several ways.</p>
+
+<ol>
+  <li>
+    <p>Plenum uses digital signatures for inter-node communication, whereas RBFT uses MAC authenticators. MAC authenticators are faster, but digital signatures supply non-repudiation.</p>
+  </li>
+  <li>
+    <p>In Plenum, the client is not required to send requests to all the nodes like in RBFT but only to <em>f+1</em> nodes, <em>f</em> being the number of faulty nodes.</p>
+  </li>
+  <li>
+    <p>RBFT leaves the Primary election process up to implementation, Plenum provides 2 Primary election mechanisms, one deterministic and one non-deterministic.</p>
+  </li>
+  <li>
+    <p>In RBFT each replica is required to communicate its 3PC message to other replicas in a point-to-point fashion whereas in Plenum replicas can gossip their received 3 phase messages which allows Plenum to progress faster in partially partitioned networks.</p>
+  </li>
+  <li>
+    <p>RBFT leaves the implementation details of blacklisting clients and node on the implementation whereas Plenum defines multiple blacklisting strategies. Plenum considers the severity of the fault and applies the appropriate blacklisting strategy.</p>
+  </li>
+  <li>
+    <p>Plenum adds a mechanism for crashed/recovered nodes or new nodes to efficiently and securely catch up.</p>
+  </li>
+</ol>
+
+<h3 id="throughput-requirements-of-an-identity-ledger">Throughput requirements of an identity ledger</h3>
+
+<p>Assumptions about the number of transactions for a global scale identity system can vary widely. For example, we could take the stance that we simply store identifiers (double-spend-proof) and some hashes for attributes/credentials/claims which are stored off-chain. Attribute exchange and all interactions happen off-chain. In this case, the number of transactions that would need to be supported would be minimal, even for very large populations.</p>
+
+<p>Another set of assumptions could see us storing encrypted attributes in a ledger. What if authentication attempts and their results were stored in the ledger? It could be argued that your identity is ultimately best defined by your reputation (<a href="https://openreputation.net/open-reputation-low-level-whitepaper.pdf">https://openreputation.net/open-reputation-low-level-whitepaper.pdf</a>). If added to a ledger, reputation events could result in a very high number of transactions.</p>
+
+<p>Some privacy-preserving protocols can be particularly heavy. For example, take the case where I have access to certain benefits because I’m an employee of XYZ Corp. XYZ Corp provides a credential, but they need to be able to revoke it. For example, at the time of issuance, they won’t know *when *I might be fired for cause. Revocation of that credential could be stored in a distributed ledger. But, in order to avoid unwanted correlation, XYZ Corp could publish a number of anonymous commitments, and I could provide a non-interactive zero knowledge proof for set membership (<a href="https://infoscience.epfl.ch/record/128718/files/CCS08.pdf">https://infoscience.epfl.ch/record/128718/files/CCS08.pdf</a>), in this case, the set of employees of XYZ Corp. This scheme would require a periodic (perhaps daily) update of those commitments, which, for a large organization, would be quite intensive.</p>
+
+<p>It is hard to predict how a system will ultimately be used, so it is safest to base assumptions on the worst case scenarios.</p>
+
+<h3 id="geography">Geography</h3>
+
+<p>A sovereign identity ledger intended to operate at global scale needs validator nodes spread around the globe. This is the best insurance against undue influence from any single legal jurisdiction. It must also survive natural disasters. This physical distance means latency between nodes can vary greatly. The fastest an electromagnetic signal can travel around the earth is roughly 130 ms. Add in slower media and internet routers and you are looking at 200 to 300 ms for a round trip. Factor in the “chatty” nature of BFT protocols and suddenly those milliseconds start to add up.</p>
+
+<h3 id="double-spend-proof">Double-Spend-Proof</h3>
+
+<p>Not all transactions need to be double-spend-proof. For example, adding a unique identifier needs to be double-spend-proof. I don’t want to register a unique identifier only to find that someone else has the same unique identifier. However other transactions, such as adding an attribute to that unique identifier, may not need to be double-spend-proof. This allows for flexibility in allocating validators for particular transactions. Not all validators need to participate in every transaction.</p>
+
+<h3 id="governance">Governance</h3>
+
+<p>A sovereign identity system needs to be trusted. If that system is a permissioned distributed ledger, then it needs world-class governance. Some basic requirements for this include:</p>
+
+<ol>
+  <li>
+    <p>As light as possible but no lighter.</p>
+  </li>
+  <li>
+    <p>Trustees dispersed across multiple geographies, industries, domains.</p>
+  </li>
+  <li>
+    <p>Formation of a small number of committed working groups.</p>
+  </li>
+  <li>
+    <p>Stewards selected based on meeting a core set of requirements and ledger-based voting</p>
+  </li>
+  <li>
+    <p>Push as much to the algorithms as possible</p>
+
+    <ol>
+      <li>
+        <p>A dedicated ledger for consensus pool membership</p>
+      </li>
+      <li>
+        <p>Probationary period for new validators</p>
+      </li>
+      <li>
+        <p>Performance metrics published to the ledger, with Tattling protocol</p>
+      </li>
+      <li>
+        <p>Blacklisting, time-out, three-strikes, and ledger-based appeal</p>
+      </li>
+      <li>
+        <p>Observer nodes serve as hot-standby nodes</p>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="how-to-scale-it">How to Scale It</h2>
+
+<p>As a BFT consensus pool grows, the number of faulty nodes it can tolerate grows. Adding nodes incurs greater networking and CPU costs. At a certain point, the marginal utility of being able to tolerate an additional faulty node is vanishingly small. Thus there is a sweet spot for the size of the consensus pool that balances cost with system integrity.</p>
+
+<p>The following is an initial proposal for how to scale a consensus protocol that is widely considered difficult to scale.</p>
+
+<h3 id="pools">Pools</h3>
+
+<p>Validators can be broken up into pools. Pools would grow deterministically as nodes are added. Pools would maintain diversity of administration. New pools would be formed according to thresholds based on the optimum pool size. Validation in the pool would happen against the replicated master ledger plus any local (pool) transactions not yet applied to the master. Periodically, the pools would post their local transactions to those validators designated as Supernodes. Supernodes could ultimately be responsible for committing those validated transactions to the master ledger.</p>
+
+<h3 id="key-segregation">Key Segregation</h3>
+
+<p>If independent pools will be validating transactions, then those transactions will either need to be double-spend-proof, or the protocol will need to allow for pool-validated transactions to be rejected at the Supernode level. Though this is possible, it is not ideal because it defeats one benefit of BFT protocols: fast commits. If the Supernodes can invalidate a previously validated transaction, then a transaction that takes less than one second to be committed could now take five seconds.</p>
+
+<p>One way to solve this is key segregation, i.e., having the protocol deterministically allocate identifiers to a pool. If the number of pools is 5, then a hash of an identifier mod 5 could tell us which pool to use to validate transactions for that identifier. This could be: a) determined by the client; b) part of the validation rules of a pool, and c) double-checked quickly by the Supernodes. It is essentially load balancing a BFT protocol.</p>
+
+<p>The protocol would need to handle the case when a pool is added or removed. This should be relatively simple since it does not matter which pool validates a transaction, just as long as it the transaction is validated and added to the ledger.</p>
+
+<p>Of course, this makes an assumption about how transactions are structured. There may be some types of transactions that need to be validated against the master ledger, not just against the master ledger plus locally validated transactions. This might require treating Plenum as a closed-loop protocol. Since it is currently an open-loop consensus protocol, this might require that the caller wait for validation of one transaction before submitting subsequent transactions.</p>
+
+<h3 id="multiple-discrete-ledgers">Multiple Discrete Ledgers</h3>
+
+<p>A BFT consensus protocol, as a mechanism for replicating state machines, allows for multiple independent or semi-dependent ledgers. For example, Plenum actually maintains a different ledger for pool membership, i.e., who can be a Validator. In the same way, each of the pools described above could maintain its own ledger. Validation of incoming transactions can be performed across these multiple ledgers. The “master ledger” mentioned above could be a logical ledger, with the physical implementation being a collection of these separate ledgers. Alternately, these ledgers could be checkpointed against each other as an alternative to having one master ledger.</p>
+
+<h3 id="backpressure">Backpressure</h3>
+
+<p>Supernodes could signal to pools how often to push local transactions. The frequency of local transaction submissions could be fairly high, e.g., once per second. But if the Supernodes had trouble keeping up with the frequency of submissions, they could signal submitting nodes to batch more local transactions and submit them less frequently, establishing a tradeoff between throughput and latency.</p>
+
+<h3 id="ensuring-diversity-of-administration">Ensuring Diversity of Administration</h3>
+
+<p>By giving nodes attributes for administrative and jurisdictional domains, a governance algorithm can enforce diversity within a pool. For example, if an organization was allowed to have more than one Validator node, the algorithm could restrict those validators from being in the same sub-pool at the same time. A governance rule could also limit the potential influence of any one legal jurisdiction. For example, no sub-pool could have more than 5% of its nodes residing in any one country.</p>
+
+<h3 id="mitigating-some-attack-vectors">Mitigating Some Attack Vectors</h3>
+
+<p>To reduce the risk of a critical mass of nodes in a pool being compromised, pool membership could change dynamically. Because at least ⌊(n+2)/3⌋ nodes need to be compromised to stop a pool, at least 7 nodes  would need to be compromised in a pool of 19. Assuming an attacker could successfully compromise that many nodes, dynamically changing pool membership would make it vastly harder since now those 7 nodes would periodically be assigned to different pools.</p>
+
+<p>Based on the entropy provided from the current merkle root hash, nodes could independently propose a switch with another node—essentially swapping places. The request to switch places can be justified by an algorithm based on the hash of the shared ledger along with other factors such as how long each node has been in its respective pool. If a node refused to switch places, it would be clearly visible and the node could be flagged as suspicious. Inappropriate requests to switch places would also be clearly visible.</p>
+
+<h3 id="understudies">“Understudies”</h3>
+
+<p>In Sovrin, not all nodes are Validators. In a permissioned model, there will need to be some mechanism for allowing new Stewards (those entities responsible for administering a node), and new Validators. One way to do that is to allow new candidate Stewards to stand up nodes that act as understudies, They will serve for a time in this capacity, paying their dues so to speak, and establishing themselves to some degree. When the algorithm requirements are met, they are called up to be full Validators.</p>
+
+<h3 id="-reads-vs-writes"># Reads vs. Writes</h3>
+
+<p>Understudies can serve as read-only nodes. Because Writes are expensive computationally and network-wise, offloading reads from the Validators will free them up to be able to focus on writes. These Understudies can effectively be the Content Delivery Network for the distributed ledger, moving reliable copies of the data closer to consumers of that data. In fact, an organization might want to host an Understudy just to have very fast local lookups against the ledger. Of course clients could host a full copy of the ledger, but with strong consistency and inclusion proofs against the merkle tree, clients having full copies of the ledger may not be necessary.</p>
+
+<h3 id="-hot-spares"># Hot-Spares</h3>
+
+<p>BFT protocols typically follow the rule that the number of nodes needed to tolerate f faulty nodes is 3f+1. Once a node is compromised, if it behaves inappropriately it is blacklisted. There are provisions in the governance that allow for a Validator’s Steward to respond to a blacklisting with an assertion that the problem is rectified, which would allow it to be trusted again. But if a node is blacklisted, or is simply down for a period of time, this consumes one of the slots for allowed faulty nodes.</p>
+
+<p>A way to mitigate this is to employ Understudy nodes as hot-standbys like with a RAID system. Because Validator pool membership is managed with a ledger, the nodes themselves could independently recognize a missing member, and propose the admission of the highest-ranking Understudy, assuming it meets the diversity of administration requirements. Through consensus, the other nodes would agree to the change.</p>
+
+<h3 id="a-cluster-of-hosts-as-a-logical-node">A Cluster of Hosts as a Logical Node</h3>
+
+<p>A node can be abstracted so it can be run as one physical machine <em>or</em> as a cluster of several physical machines. So we could define a node as a collection of servers, where the different components (monitoring, dispatch, propagation, validation, replicas, etc.) are dispersed among the servers. The throughput of the system as a whole would increase as more of these clusters came up. Of course, if a node is deemed malicious, the collection of servers constituting that node is considered malicious. That node still gets only one vote no matter how powerful it is.</p>
+
+<h2 id="in-conclusion">In Conclusion</h2>
+
+<p>Some of the mechanisms discussed above are in place and working in Plenum and Sovrin today. Others will be implemented as real-world observations dictate. There are a myriad of optimization opportunities, and the use cases will drive which will happen, and when.</p>
+
+<p>We welcome the discussion.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Scaling+a+BFT+Consensus+Protocol+for+Identity%20https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fscaling-a-bft-consensus-protocol-for-identity%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fscaling-a-bft-consensus-protocol-for-identity%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fscaling-a-bft-consensus-protocol-for-identity%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

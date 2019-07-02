@@ -1,0 +1,369 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Recovery strategy for user-controlled keys for self-sovereign identity - Pub YES!!</title>
+<meta name="description" content="RWOT Index Test">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pub YES!!">
+<meta property="og:title" content="Recovery strategy for user-controlled keys for self-sovereign identity">
+<meta property="og:url" content="https://decentralized-id.com/rwot-dir/rwot3-sf/topics-and-advance-readings/user-controlled-key-recovery/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://decentralized-id.com/rwot-dir/rwot3-sf/topics-and-advance-readings/user-controlled-key-recovery/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://decentralized-id.com/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Pub YES!! Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/rwot-dir/">Pub YES!!</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Recovery strategy for user-controlled keys for self-sovereign identity">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Recovery strategy for user-controlled keys for self-sovereign identity
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h3 id="by-glenn-willen">By Glenn Willen</h3>
+
+<p>Self-sovereign identity requires that users retain ultimate control of their own authenticators – in a cryptography-based system, this means cryptographic keys. This is problematic, because even highly-skilled end users have trouble maintaining the security posture required for safe key storage, as demonstrated by Bitcoin hacks – now that stolen keys are worth money, we’re suddenly seeing a lot more keys get stolen, even from large companies with IT and security departments. Obviously this is not tenable for an individual user.</p>
+
+<p>I think a two-pronged strategy is appropriate here: (1) help the user store and use their own keys safely and securely, and (2) help the user recover their keys in case of loss or theft. I separate these because I am convinced that the best solution to the second is going to be a slow offline recovery procedure, which is incompatible with day-to-day use of key material. In any system for storing cryptographic material, there is always a balance between availability – ensuring that keys can always be used by authorized users – and confidentiality – ensuring that they cannot be used by unauthorized users. If the recovery procedure is allowed to be slow, with plenty of time for notification to the key owner, then we can bias the recovery procedure towards availability (and the day-to-day storage towards confidentiality).</p>
+
+<p>I will focus here on part (2), key recovery. In my view the most fundamental way of identifying an individual is not via something we know, which can be forgotten, or something we have, which can be lost; or even the traditional “something we are”, biometrics, which can be compromised. Instead, I claim the most fundamental way of identifying an individual is via their connections to other people. Facebook has already introduced friend-based account recovery to a huge audience with “Trusted Contacts” – see https://www.facebook.com/notes/facebook-security/introducing-trusted-contacts/10151362774980766/. Although I’ve liked this idea for a long time, the introduction of Trusted Contacts shows promise that people would accept the idea of their contacts collectively having ultimate control of their digital identity.</p>
+
+<p>To implement friend-based key recovery, an obvious choice is to use some K-of-N secret sharing scheme. With arbitrary data, we can use SSSS (https://en.wikipedia.org/wiki/Shamir’s_Secret_Sharing). Depending on the specific secrets involved, we may have better options – with Bitcoin script-based keys, we can use the built-in multisignature system, while also having flexibility to require a time- or block-based notice period before recovery, for example.</p>
+
+<p>In such a system, we must ensure the probability is negligible that too many people lose their keys all at once and prevent reasonable recovery. A key aspect of ensuring that recovery is possible is ensuring that failures are detected promptly. Imagine a simple 1-of-N system wherein failure of a ‘friend shard’ is a poisson process – fixed probability per unit time. The probability of losing enough shards to prevent recovery is highly dependent on the time to notice a failure. If a shard has a 90% probability of failure per year (17.5% per month), then the probability of losing three shards over a year is 72.9% – a dismal figure. But if we reliably detect and repair failure of a shard within a month, then the probability of total failure each month is about half a percent, and the total yearly chance of failure is only about 6.2% – hugely better!</p>
+
+<p>From this back of the envelope computation, I take away two lessons:</p>
+
+<ol>
+  <li>
+    <p>On the meta level: A system like this MUST be analyzed quantitatively to determine whether its properties are reasonable. You can’t easily eyeball the system description above, and correctly conclude that monthly checks are safe even though yearly checks are disastrous. Arguing about what is a sufficiently safe way to store keys can only be done with math.</p>
+  </li>
+  <li>
+    <p>On the object level: It’s hugely important for key backups to be stored in a way that allows fast verification that they’re still alive. This makes a HUGE difference to durability; that in turn means that keys can be sharded with significantly higher thresholds for reassembly, which improves confidentiality (protection from compromise).</p>
+  </li>
+</ol>
+
+<p>To maximize the aggregate probability of success in maintaining both availability and confidentiality, beyond carefully selecting the parameters of the system – number of shards, reassembly threshold, frequency of verification – we also want to maximize the availability and confidentiality properties of the individual shards. We do not need, and in fact do not desire immediate online access to the shards, and we DO require other properties such as rapid discovery of loss or compromise. The best way to ensure these things would seem to be a hardware device to store key shards and enforce the properties we want.<sup>1</sup> It needs to frequently broadcast to the outside world, to provide positive confirmation that the secret data remains intact, but should not be able to transmit the secret data itself under any circumstances. If the secret data is a key, this could be done by signing a timestamp with it; stronger proof of availability could be enforced by signing nonces, but this would require two-way communication with the outside world, which is less safe against compromise than a one-way broadcast. When commanded to perform a recovery the device must stop broadcasting the all-clear, and instead broadcast the fact that the key shard has been released (and the key owner must presume that the absence of any broadcast at all might also mean that the key shard is compromised.)</p>
+
+<p>A huge number of open questions remain, but I see this as a productive way forward in answering the question of how self-sovereign identity might be maintained safely and securely with cryptographic keys, despite the inability of typical users to maintain any reasonable level of computer security.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p>[1] I am indebted to Greg Maxwell for quite a bit of discussion about how such a device might be designed, but all errors and poor design choices herein are my own.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Recovery+strategy+for+user-controlled+keys+for+self-sovereign+identity%20https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fuser-controlled-key-recovery%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fuser-controlled-key-recovery%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fuser-controlled-key-recovery%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

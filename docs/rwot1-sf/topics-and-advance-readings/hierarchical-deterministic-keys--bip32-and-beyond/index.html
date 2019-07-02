@@ -1,0 +1,462 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Hierarchical Deterministic Keys: BIP32 &amp; Beyond - Pub YES!!</title>
+<meta name="description" content="RWOT Index Test">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pub YES!!">
+<meta property="og:title" content="Hierarchical Deterministic Keys: BIP32 &amp; Beyond">
+<meta property="og:url" content="https://decentralized-id.com/rwot-dir/rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://decentralized-id.com/rwot-dir/rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://decentralized-id.com/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Pub YES!! Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/rwot-dir/">Pub YES!!</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hierarchical Deterministic Keys: BIP32 &amp; Beyond">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Hierarchical Deterministic Keys: BIP32 &amp; Beyond
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>By Christopher Allen - <a href="mailto:ChristopherA@LifeWithAlacrity.com">ChristopherA@LifeWithAlacrity.com</a> &amp; Shannon Appelcline - <a href="mailto:ShannonA@skotos.net">ShannonA@skotos.net</a></p>
+
+<p>When Bitcoin debuted it revealed one characteristic that was very different from the world of traditional PKI: a proliferation of keys. As used in PGP, in X.509 certificates used by TLS, and in other protocols, the number of private keys are few and they they do not expire for many years.</p>
+
+<p>Instead, to maximize privacy Bitcoin rapidly cycles through keys, discarding old keys from past transactions as soon as the public key is revealed and the coins are spent. Since each address is hashed from a public key, this means that a Bitcoin user needs to deal with a large lot of keypairs. The traditional answer for this problem has been wallets — which collect and manage keys so that users don’t have to.</p>
+
+<p>The earliest Bitcoin wallets still faced challenges. That’s because the Bitcoin Core and early clients generated each key randomly. Unfortunately, this methodology requires careful (and constant) backups to ensure continued access to all funds. It also opens some privacy loopholes; because new key generation wasn’t trivial, single keys were often reused when they shouldn’t have been. Transactions could be correlated if they used the same address (and thus keypair) for change, requiring even more keys.</p>
+
+<p>A bit over two years ago, this standard methodology began to change with the advent of BIP32, which laid out a new model for Hierarchical Deterministic Keys (HDKs).</p>
+
+<ul>
+  <li>
+    <p><strong>Deterministic</strong> means that keys are no longer created randomly, but instead generated as part of a linked chain. Regular backups are no longer required as long as the private-key seed that created the chain is safe. This makes key management very simple, and even allows easy caching of the master key in a paper wallet or cold storage–only having child keys stored on more vulnerable computer hardware.</p>
+  </li>
+  <li>
+    <p><strong>Hierarchical</strong> means that the chain of keys is ranked so that lower-rank keys cannot reveal information about their higher-ranked brethren. This also allows selective sharing of public keys for auditing purposes.</p>
+  </li>
+</ul>
+
+<p>BIP32 implements HDKs using the secp256k1 curve to create an ordered tree of 512-bit extended keys — each of which contains both a 256-bit public key and a 256-bit chain code. Below the root of the tree are extended child keys that are derived from a parent public key, a parent chain code, and an index number. New-style HD wallets are then used to hold these extended keys.</p>
+
+<p>One of the advantages of BIP32 is that new child public keys can be created exclusively from the child’s extended key (its public key + its chain code), allowing for considerable expandability without ever knowing any private key. Of course, the parent’s private key can also be used to create this derivation (and to determine child private keys).</p>
+
+<p>This leads to an obvious drawback: if a child’s private key is leaked and combined with the child’s chain code, that can be used to reveal all the private keys of the children. Worse, if the child’s private key is combined with the parent’s chain code, it can be used to figure out the private key of the parent!</p>
+
+<p>To resolve this, HD wallets can use an alternative hardened derivation of HDKs, which combine the parent’s private key (rather than its public key), the parent’s chain code, and an index number. Though this hardened derivation sacrifices one of the important elements of HDKs (the ability to generate children without a private key), it’s important for the security of the most important keys in a hierarchy. Since hardened and normal derivations can be combined in a wallet, it’s become standard to use hardened derivations for the root and the specific key levels of an HD wallet.</p>
+
+<p>A number of additional Bitcoin Improvement Proposals have built on the ideas of HDKs.</p>
+
+<p><strong>BIP39</strong> describes a methodology for generating word lists that can be used to easily recreate the root of a HDK hierarchy.</p>
+
+<p><strong>BIP43</strong> expands on the structure that was introduced for HD wallets in BIP32. It suggests that the first tier should always be used to define a “purpose”, which describes the structure of the other tiers and the keys in the hierarchy.</p>
+
+<p><strong>BIP44</strong>  offers a default structure (“purpose”) for HD wallets, to help standardize their usage. Combining the ideas from BIP32 and BIP43, it lays out the following organization:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>m / purpose' / coin_type' / account' / change / address_index
+</code></pre></div></div>
+
+<p>Each of these divisions represents a new level of the keypair hierarchy, with tiers marked with a ‘ being levels that are hardened. The standard format for BIP44 is then:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>m/44'/0'/0'/0/0
+</code></pre></div></div>
+
+<p>This means:</p>
+
+<ul>
+  <li>
+    <p>Purpose: 44 (aka BIP44), hardened</p>
+  </li>
+  <li>
+    <p>Cointype: 0 (0 for Bitcoin, but could be others), hardened</p>
+  </li>
+  <li>
+    <p>Account: 0 (user account), hardened</p>
+  </li>
+  <li>
+    <p>Change: 0 (addresses for change), unhardened to allow creation of child keys</p>
+  </li>
+  <li>
+    <p>Address Index: 0 (the first key)</p>
+  </li>
+</ul>
+
+<h2 id="the-future">The Future</h2>
+
+<p>Though BIP44 nicely brings together much of the previous work on HDKs, there is still considerable room for expansion of HDK’s capabilities.</p>
+
+<p>We can  improve the core functionality of HDKs:</p>
+
+<ul>
+  <li>
+    <p><strong>Different Curves:</strong> HDKs should be possible with curves other than secp256k1. They would be particularly useful with curve 25519. There also have been some interesting provably secure concepts by Eduarda Friere for HD keys that use quantum-resistant lattice cryptography, some of which maybe can be brought into elliptic curves.</p>
+  </li>
+  <li>
+    <p><strong>HDK Security:</strong> There’s been some research into preventing key leakage when multiple keys are revealed. Using M of N multisignatures might resolve the security issues that rise up when both a key and a chain code are revealed. Gutoski and Stebila propose a different technique. These approaches need more examination and analysis.</p>
+  </li>
+</ul>
+
+<p>We can use it for better key management:</p>
+
+<ul>
+  <li>
+    <p><strong>Improved Delegation:</strong> HDKs give us considerable ability to delegate actions out to the cloud without sacrificing security — such as by only giving a child key to an iPhone. The key could then be discarded if the phone was lost or compromised, without having to recreate a root key. We could even have each session have its own key.</p>
+  </li>
+  <li>
+    <p><strong>Rotation &amp; Revocation:</strong> Child keys can be rotated. Parent keys can revoke child keys.</p>
+  </li>
+</ul>
+
+<p>There’s also the opportunity to use HDKs for more than Bitcoin transactions, taking the advantages of hierarchy, ease-of-key-creation, and ease-of-storage into additional fields:</p>
+
+<ul>
+  <li>
+    <p><strong>One-Time Auth:</strong> Parts of the HDK structure could be used to create one-time authentication keys for various web sites. You could log into Google two billion times without ever repeating yourself!</p>
+  </li>
+  <li>
+    <p><strong>Independent Signatures:</strong> HDKs provides the ability to use different hierarchical branches for encryption and for signing so that the same key is not used for both.</p>
+  </li>
+  <li>
+    <p><strong>Hierarchical Identity:</strong> Parts of the HDK structure could be specifically designated for identity. Techniques for storing master keys (paper wallets, BIP38 phrases, cold storage, etc.) can be used to protect identity.</p>
+  </li>
+  <li>
+    <p><strong>Increased Privacy:</strong> Pseudo-anonymous branches can be revealed later to belong together under the same parent. One-time signatures can used with group and ring signatures for additional privacy.</p>
+  </li>
+</ul>
+
+<p>Each of these topics deserves more attention — to see what improvements they could create for the Web of Trust and to determine what their repercussions would be.</p>
+
+<h2 id="references">References</h2>
+
+<p>Antonopoulos, Andreas M.  “Chapter 4: Keys, Addresses, Wallets”. Mastering Bitcoin. 2015. http://chimera.labs.oreilly.com/books/1234000001802/ch04.html#hd_wallets.</p>
+
+<p>Freire, Eduarda and Simoes Veloso. “Non-Interactive Key Exchange and Key Assignment Schemes”. 2014. http://www.isg.rhul.ac.uk/~kp/theses/EFthesis.pdf.</p>
+
+<p>Gutoski, Gus and Stebila, Douglas. “Hierarchical deterministic Bitcoin wallets that tolerate key leakage”. Cryptology ePrint Archive. 2015. https://eprint.iacr.org/2014/998.pdf</p>
+
+<p>Palatinus, Marek, Pavol Rusnak, Aaron Voisine, and Sean Bow. “BIP39: Mnemonic Codes for Generating Deterministic Keys”. 2013. https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki.</p>
+
+<p>Palatinus, Marek, and Pavol Rusnak. “BIP43: Purpose Field for Deterministic Wallets”. 2014. https://github.com/bitcoin/bips/blob/master/bip-0043.mediawiki.</p>
+
+<p>Palatinus, Marek, and Pavol Rusnak. “BIP44: Multi-Account Hierarchy for Deterministic Wallets”. 2014. https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki.</p>
+
+<p>Wuille, Pieter. “BIP32: Hierarchical Deterministic Wallets”. 2012. https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Hierarchical+Deterministic+Keys%3A+BIP32+%26+Beyond%20https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fhierarchical-deterministic-keys--bip32-and-beyond%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fhierarchical-deterministic-keys--bip32-and-beyond%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdecentralized-id.com%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fhierarchical-deterministic-keys--bip32-and-beyond%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

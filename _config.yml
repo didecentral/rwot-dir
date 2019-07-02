@@ -13,7 +13,7 @@
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+destination: docs
 # Site Settings
 locale                   : "en-US"
 title                    : "Pub YES!!"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Web.of Trust Info"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
