@@ -23,6 +23,8 @@ contributors:
   - "Harlan T. Wood"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf"
 pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf"
+header:
+  image: /assets/images/DPKI-final.jpg
 
 ---
 

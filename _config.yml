@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : didecentral
 facebook:
   username               :
   app_id                 :
@@ -110,7 +110,7 @@ author:
   name             : "DIDecentral"
   avatar           : /assets/images/did-square.png
   bio              : "Open Source, Public Domain, Educational UnOrganization"
-  location         : "In the heart of everyone wanting to eliminate data-silos and password-based authentication."
+  location         : "Curation Station"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -6,6 +6,7 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+<<<<<<< HEAD
 authors:
   - "Christopher Allen"
   - "Arthur Brock"
@@ -21,6 +22,8 @@ authors:
   - "Noah Thorp"
   - "Harlan T. Wood"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT.md"
+header:
+  image: /rwot1-sf/assets/images/graphic-recording-1/03_Team-Graphic_DPKI-drafts.jpg
 
 ---
 

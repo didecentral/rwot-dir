@@ -6,7 +6,8 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
-
+header:
+  image: /assets/images/1-graphic-recording/06_Day2_Plenary-Mind-Map_3of3.JPG
 ---
 
 ![](Occupy-Gestures-CC-BY-Adam-Koford.jpg)
