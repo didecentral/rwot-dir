@@ -131,12 +131,12 @@
         
         <a class="site-title" href="/rwot-dir/">Drafts, Documents, Literature</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://decentralized-id.com/" >DIDecentral</a>
+              <a href="https://decentralized-id.com/" target="_blank" rel="noopener noreferrer">DIDecentral</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
             <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
           </svg>
         </button>
@@ -166,9 +166,7 @@
 
 
 
-<div class="page__hero"
-  style=" "
->
+<div class="page__hero" style=" ">
   
     <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Blockchain Extensions for Linked Data Signatures" class="page__hero-image">
   
@@ -200,7 +198,7 @@
 
 <nav class="nav__list">
   <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
@@ -407,7 +405,7 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>The term <a href="https://en.wikipedia.org/wiki/Linked_data">Linked Data</a>
+<p>The term <a href="https://en.wikipedia.org/wiki/Linked_data" target="_blank" rel="noopener noreferrer">Linked Data</a>
 is used to describe a recommended best practice for exposing, sharing, and
 connecting information on the Web using standards, such as URLs, to identify
 things and their properties. When information is presented as Linked Data,
@@ -417,16 +415,17 @@ reducing barriers to large scale integration.</p>
 
 <p>With the increase in usage of Linked Data for a variety of applications, there
 is a need to be able to verify the authenticity and integrity of Linked Data
-documents. The <a href="https://web-payments.org/specs/source/ld-signatures/">Linked Data Signatures specification</a> added authentication and integrity protection to linked data documents through the use of public/private key cryptography without sacrificing Linked Data features such as extensibility and composability.</p>
+documents. The <a href="https://web-payments.org/specs/source/ld-signatures/" target="_blank" rel="noopener noreferrer">Linked Data Signatures specification</a> added authentication and integrity protection to linked data documents through the use of public/private key cryptography without sacrificing Linked Data features such as extensibility and composability.</p>
 
 <p>Recently, there has been interest in extending Linked Data Signatures to
 support new use cases surfaced in the Blockchain and Verifiable Claims
 ecosystems. These use cases include:</p>
 
 <ul>
-  <li>Bitcoin-style <a href="http://www.secg.org/sec2-v2.pdf">secp256k1</a> signatures</li>
-  <li><a href="https://web-payments.org/specs/source/pop2016/">Proof of Publication</a>,
-<a href="http://www.chainpoint.org/">Chainpoint</a>, and other Blockchain anchoring
+  <li>Bitcoin-style <a href="http://www.secg.org/sec2-v2.pdf" target="_blank" rel="noopener noreferrer">secp256k1</a> signatures</li>
+  <li>
+<a href="https://web-payments.org/specs/source/pop2016/" target="_blank" rel="noopener noreferrer">Proof of Publication</a>,
+<a href="http://www.chainpoint.org/" target="_blank" rel="noopener noreferrer">Chainpoint</a>, and other Blockchain anchoring
 use cases</li>
   <li>Pure JSON normalization and clear-text signing algorithms</li>
   <li>JOSE JSON Web Token-style signatures</li>
@@ -451,16 +450,18 @@ block that looks like the following:</p>
 </code></pre></div></div>
 
 <p>This signature would require the creation of a new
-<a href="https://web-payments.org/specs/source/lds2016/">Linked Data Signature Suite</a>
+<a href="https://web-payments.org/specs/source/lds2016/" target="_blank" rel="noopener noreferrer">Linked Data Signature Suite</a>
 specification defining the following parameters:</p>
 
 <ul>
   <li>canonicalizationAlgorithm - https://w3id.org/security#URDNA2015 defined in
 [RDF-DATASET-NORMALIZATION]</li>
   <li>digestAlgorithm - https://w3id.org/security#sha256 defined in
-<a href="https://tools.ietf.org/html/rfc6234">RFC6234</a></li>
+<a href="https://tools.ietf.org/html/rfc6234" target="_blank" rel="noopener noreferrer">RFC6234</a>
+</li>
   <li>signatureAlgorithm - http://w3id.org/security#secp256k1 defined in
-<a href="http://www.secg.org/sec2-v2.pdf">SEC2v2</a></li>
+<a href="http://www.secg.org/sec2-v2.pdf" target="_blank" rel="noopener noreferrer">SEC2v2</a>
+</li>
 </ul>
 
 <p>There are a few open questions that need to be discussed at Rebooting
@@ -520,16 +521,18 @@ block that looks like the following:</p>
 </code></pre></div></div>
 
 <p>This signature would require the creation of a new
-<a href="https://web-payments.org/specs/source/lds2016/">Linked Data Signature Suite</a>
+<a href="https://web-payments.org/specs/source/lds2016/" target="_blank" rel="noopener noreferrer">Linked Data Signature Suite</a>
 specification defining the following parameters:</p>
 
 <ul>
   <li>canonicalizationAlgorithm - https://w3id.org/security#NCA (no
 canonicalization algoirthm)</li>
   <li>digestAlgorithm - https://w3id.org/security#sha256 defined in
-<a href="https://tools.ietf.org/html/rfc6234">RFC6234</a></li>
+<a href="https://tools.ietf.org/html/rfc6234" target="_blank" rel="noopener noreferrer">RFC6234</a>
+</li>
   <li>signatureAlgorithm - http://w3id.org/security#camlys defined in
-<a href="http://groups.csail.mit.edu/cis/pubs/lysyanskaya/cl02b.pdf">CAMLYS</a></li>
+<a href="http://groups.csail.mit.edu/cis/pubs/lysyanskaya/cl02b.pdf" target="_blank" rel="noopener noreferrer">CAMLYS</a>
+</li>
 </ul>
 
 <h2 id="blockchain-anchoring">Blockchain Anchoring</h2>
@@ -542,15 +545,15 @@ it’s possible to verify that the data existed at a specific time.</p>
 
 <p>Merkle trees are often used to store and hash the data, enabling large volumes
 of data to be stored into blockchains like the Bitcoin blockchain. These
-mechanisms, such as <a href="http://www.chainpoint.org/">Chainpoint</a> and
-<a href="https://petertodd.org//2016/opentimestamps-announcement">OpenTimestamps</a>,
+mechanisms, such as <a href="http://www.chainpoint.org/" target="_blank" rel="noopener noreferrer">Chainpoint</a> and
+<a href="https://petertodd.org//2016/opentimestamps-announcement" target="_blank" rel="noopener noreferrer">OpenTimestamps</a>,
 are currently in
 the experimental standardization phase. It is possible to merge approaches like
 Chainpoint with Linked Data Signatures. The Linked Data Signatures
-<a href="https://web-payments.org/specs/source/pop2016/">Proof of Publication</a>
+<a href="https://web-payments.org/specs/source/pop2016/" target="_blank" rel="noopener noreferrer">Proof of Publication</a>
 specification is one such approach, where the blockchain receipt may be
 embedded in the Linked Data Signature without any modification to
-the <a href="https://web-payments.org/specs/source/lds2016/">LinkedDataSignature2016</a>
+the <a href="https://web-payments.org/specs/source/lds2016/" target="_blank" rel="noopener noreferrer">LinkedDataSignature2016</a>
 signature suite.</p>
 
 <p>Included is an example of a Proof of Publication style Linked Data signature:</p>
@@ -610,12 +613,12 @@ as well?</li>
 
 <h2 id="json-normalized-clear-text-signatures">JSON Normalized Clear Text Signatures</h2>
 
-<p>The <a href="https://tools.ietf.org/html/rfc7515">JSON Web Signatures</a> (JWS)
+<p>The <a href="https://tools.ietf.org/html/rfc7515" target="_blank" rel="noopener noreferrer">JSON Web Signatures</a> (JWS)
 specification defines how one may perform digital signatures on a block of
 JSON data. While ideal for a number of use cases that require digital
 signatures, the approach is not a good fit for other use cases that require
 digital signatures. For example, data signed using JWS, called
-<a href="https://tools.ietf.org/html/rfc7519">JSON Web Tokens</a> (JWT), are base-64
+<a href="https://tools.ietf.org/html/rfc7519" target="_blank" rel="noopener noreferrer">JSON Web Tokens</a> (JWT), are base-64
 encoded. This creates a number of problems for developers:</p>
 
 <ul>
@@ -658,9 +661,11 @@ Signature Suite with the following properties:</p>
   <li>canonicalizationAlgorithm - https://w3id.org/security#JNA2017 which needs
 to be defined.</li>
   <li>digestAlgorithm - https://w3id.org/security#sha256 defined in
-<a href="https://tools.ietf.org/html/rfc6234">RFC6234</a></li>
+<a href="https://tools.ietf.org/html/rfc6234" target="_blank" rel="noopener noreferrer">RFC6234</a>
+</li>
   <li>signatureAlgorithm - http://www.w3.org/2000/09/xmldsig#rsa-sha1
-defined in <a href="https://tools.ietf.org/html/rfc3447">RFC3447</a></li>
+defined in <a href="https://tools.ietf.org/html/rfc3447" target="_blank" rel="noopener noreferrer">RFC3447</a>
+</li>
 </ul>
 
 <p>There are a few open questions that need to be discussed at
@@ -706,9 +711,11 @@ Signature Suite with the following properties:</p>
   <li>canonicalizationAlgorithm - https://w3id.org/security#JWT2017 which needs
 to be defined.</li>
   <li>digestAlgorithm - https://w3id.org/security#sha256 defined in
-<a href="https://tools.ietf.org/html/rfc6234">RFC6234</a></li>
+<a href="https://tools.ietf.org/html/rfc6234" target="_blank" rel="noopener noreferrer">RFC6234</a>
+</li>
   <li>signatureAlgorithm - http://www.w3.org/2000/09/xmldsig#rsa-sha1
-defined in <a href="https://tools.ietf.org/html/rfc3447">RFC3447</a></li>
+defined in <a href="https://tools.ietf.org/html/rfc3447" target="_blank" rel="noopener noreferrer">RFC3447</a>
+</li>
 </ul>
 
 <p>This would raise the following open questions that would need to be discussed
@@ -745,11 +752,11 @@ findings during the course of the workshop.</p>
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=didecentral&text=Blockchain+Extensions+for+Linked+Data+Signatures%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fblockchain-extensions-for-linked-data-signatures%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=Blockchain+Extensions+for+Linked+Data+Signatures%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fblockchain-extensions-for-linked-data-signatures%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fblockchain-extensions-for-linked-data-signatures%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fblockchain-extensions-for-linked-data-signatures%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fblockchain-extensions-for-linked-data-signatures%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fblockchain-extensions-for-linked-data-signatures%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -767,8 +774,10 @@ findings during the course of the workshop.</p>
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-    <div id="results" class="results"></div></div>
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
 
       </div>
     
@@ -791,15 +800,15 @@ findings during the course of the workshop.</p>
         
       
         
-          <li><a href="https://decentralized-id.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          <li><a href="https://decentralized-id.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
         
       
         
-          <li><a href="https://twitter.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://github.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
     
@@ -808,7 +817,7 @@ findings during the course of the workshop.</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">© 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

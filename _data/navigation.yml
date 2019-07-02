@@ -215,7 +215,7 @@ rwot1:
       - title: PHOTOS
         url: rwot1-sf/event-documents/photos/
       - title: PROCESS
-        url: https://github.com/WebOfTrustInfo/rwot1-sf/raw/master/event-documents/process/
+        url: /rwot1-sf/event-documents/process/
       - title: Evaluation Survey
         url: https://github.com/WebOfTrustInfo/rwot1-sf/raw/master/event-documents/process/Evaluation-Survey.pdf
       - title: RebootingtheWebOfTrustProcess

@@ -131,12 +131,12 @@
         
         <a class="site-title" href="/rwot-dir/">Drafts, Documents, Literature</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://decentralized-id.com/" >DIDecentral</a>
+              <a href="https://decentralized-id.com/" target="_blank" rel="noopener noreferrer">DIDecentral</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
             <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
           </svg>
         </button>
@@ -166,9 +166,7 @@
 
 
 
-<div class="page__hero"
-  style=" "
->
+<div class="page__hero" style=" ">
   
     <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Anonymous Credentials in Sovrin" class="page__hero-image">
   
@@ -200,7 +198,7 @@
 
 <nav class="nav__list">
   <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
@@ -407,11 +405,11 @@
 
 <h2 id="distributed-consensus">Distributed Consensus</h2>
 
-<p>Sovrin leverages an advanced Byzantine Fault Tolerant protocol, <a href="https://github.com/evernym/plenum/wiki">Plenum</a>, to achieve distributed consensus. Plenum makes several security improvements on the <a href="http://pakupaku.me/plaublin/rbft/report.pdf">Redundant Byzantine Fault Tolerant</a> (RBFT) protocol, such as digital signatures over MAC authenticators, and full end-to-end encryption.</p>
+<p>Sovrin leverages an advanced Byzantine Fault Tolerant protocol, <a href="https://github.com/evernym/plenum/wiki" target="_blank" rel="noopener noreferrer">Plenum</a>, to achieve distributed consensus. Plenum makes several security improvements on the <a href="http://pakupaku.me/plaublin/rbft/report.pdf" target="_blank" rel="noopener noreferrer">Redundant Byzantine Fault Tolerant</a> (RBFT) protocol, such as digital signatures over MAC authenticators, and full end-to-end encryption.</p>
 
 <p>RBFT is itself is an improvement on the <a href="ftp://ftp.cs.utexas.edu/pub/techreports/tr08-27.pdf">Aardvark</a> protocol. RBFT executes several protocol instances with different primaries in parallel to detect any performance problems in real-time, without making assumptions about the previous or future performance/condition of the system. Aardvark sets the expected throughput based on past performance and triggers a view change as soon as the primary fails to match those expectations. This works well when the load is static but fails to detect a poor performing primary when load is not near the peak. RBFT resolves this.</p>
 
-<p>Aardvark addresses several known vulnerabilities of <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.127.6130">Practical Byzantine Fault Tolerance</a> (PBFT): (1) a malicious client can trigger view changes at will that will stop the progression of the protocol, (2) it does not separate the logic of accepting client requests and ordering them, which leads to possible DoS attacks from the client, and (3) a malicious primary can order requests at an arbitrary speed without being detected.</p>
+<p>Aardvark addresses several known vulnerabilities of <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.127.6130" target="_blank" rel="noopener noreferrer">Practical Byzantine Fault Tolerance</a> (PBFT): (1) a malicious client can trigger view changes at will that will stop the progression of the protocol, (2) it does not separate the logic of accepting client requests and ordering them, which leads to possible DoS attacks from the client, and (3) a malicious primary can order requests at an arbitrary speed without being detected.</p>
 
 <p>Consensus protocols will continue to advance, and the goal of the Sovrin Foundation is to continually leverage these advances over time. Although Plenum represents some of the best current thinking in the space, if a stronger protocol emerges that meets the requirements and has suitable licensing, Sovrin will migrate to it.</p>
 
@@ -492,7 +490,7 @@
 
 <p>Anonymous credentials on Sovrin provides at least one clear solution using proof of group membership. Take the case of Alice as an employee of XYZ Corp. XYZ Corp gives Alice an employee credential that it must be able to revoke if Alice leaves or is fired. However, to protect Alice’s privacy, XYZ Corp does not want to publicly announce revocation of the credential.</p>
 
-<p>To solve this problem, XYZ Corp can publish a number of anonymous commitments in a format and at a URL published on Sovrin. XYZ Corp would regularly update these anonymous commitments to reflect its active employees. The publication would include a digital signature for the updates, verifiable with XYZ Corp’s current public keys on Sovrin. When Alice presents her proof of employment, the presentation could also include a non-interactive zero knowledge proof for set membership (<a href="https://infoscience.epfl.ch/record/128718/files/CCS08.pdf">https://infoscience.epfl.ch/record/128718/files/CCS08.pdf</a>). In this case, the set would be the current employees of XYZ Corp.</p>
+<p>To solve this problem, XYZ Corp can publish a number of anonymous commitments in a format and at a URL published on Sovrin. XYZ Corp would regularly update these anonymous commitments to reflect its active employees. The publication would include a digital signature for the updates, verifiable with XYZ Corp’s current public keys on Sovrin. When Alice presents her proof of employment, the presentation could also include a non-interactive zero knowledge proof for set membership (<a href="https://infoscience.epfl.ch/record/128718/files/CCS08.pdf" target="_blank" rel="noopener noreferrer">https://infoscience.epfl.ch/record/128718/files/CCS08.pdf</a>). In this case, the set would be the current employees of XYZ Corp.</p>
 
 <p>Using this scheme, if Alice is an employee, the credential will be valid; as soon as she is removed from the employee list, the credential will fail. The proof will be anonymous, and Alice will have no way to fake being a current employee of XYZ Corp.</p>
 
@@ -519,11 +517,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=didecentral&text=Anonymous+Credentials+in+Sovrin%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fanonymous-credentials-in-sovrin%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=Anonymous+Credentials+in+Sovrin%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fanonymous-credentials-in-sovrin%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fanonymous-credentials-in-sovrin%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fanonymous-credentials-in-sovrin%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fanonymous-credentials-in-sovrin%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot3-sf%2Ftopics-and-advance-readings%2Fanonymous-credentials-in-sovrin%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -541,8 +539,10 @@
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-    <div id="results" class="results"></div></div>
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
 
       </div>
     
@@ -565,15 +565,15 @@
         
       
         
-          <li><a href="https://decentralized-id.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          <li><a href="https://decentralized-id.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
         
       
         
-          <li><a href="https://twitter.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://github.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
     
@@ -582,7 +582,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">© 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
