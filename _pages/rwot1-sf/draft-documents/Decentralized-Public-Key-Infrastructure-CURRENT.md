@@ -6,6 +6,8 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+header:
+  image: /rwot1-sf/assets/images/graphic-recording-1/03_Team-Graphic_DPKI-drafts.jpg
 
 ---
 

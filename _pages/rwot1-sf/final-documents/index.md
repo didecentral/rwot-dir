@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 header:
-  image: /rwot1-sf/event-documents/graphic-recording/09_Next_Step_Summary.JPG
+  image: /assets/images/1-graphic-recording/09_Next_Step_Summary.JPG
 ---
 
 These white papers were produced as part of the Rebooting the Web of Trust design workshop. On November 3rd and 4th 2015, over 40 tech visionaries came together in San Francisco, California to talk about the future of decentralized trust on the internet with the goal of writing 3-5 white papers and specs.
