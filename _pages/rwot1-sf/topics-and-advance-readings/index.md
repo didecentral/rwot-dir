@@ -20,8 +20,8 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[Authorities vs. Peers: Pain Points in Security](authorities-vs-peers--pain-points-in-security/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Avoiding Confused Deputy Attack Using Capabilities](AvoidingConfusedDeputyAttackUsingCapabilities/)** - by Tyler Close *\<tyler.close@gmail.com\>*
 * **[Binding Identity in a Decentralized System](binding-identity-in-decentralized-system/)** - Wayne Thayer *[@WThayer](https://twitter.com/wthayer) \<wthayer@gmail.com\>*
-* **[Blockchain-based Trust for Software Components](code-and-file-signing.adoc/)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
-* **[Blockchain Tech Opportunities in the Web-of-Trust](blockchain-opportunities.txt/)** - by Peter Todd *[@PeterToddBTC](https://twitter.com/PeterToddBTC) \<pete@petertodd.org\>*
+* **[Blockchain-based Trust for Software Components](code-and-file-signing/)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
+* **[Blockchain Tech Opportunities in the Web-of-Trust](blockchain-opportunities/)** - by Peter Todd *[@PeterToddBTC](https://twitter.com/PeterToddBTC) \<pete@petertodd.org\>*
 * **[Building a Web of Trust for E-commerce](decentralized_e-commerce/)** - by Michael Folkson *[@michaelfolkson](https://twitter.com/michaelfolkson) \<michaelfolkson@gmail.com\>*
 * **[Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers](cool-hack-xdi-blockstore-bip32/)** - by Markus Sabadello *[@Peacekeeper](https://twitter.com/Peacekeeper) \<markus@projectdanube.org\>*
 * **[Dealing with key loss in digital identity systems](dealing_with_key_loss_in_digital_identity/)** - by Christian Lundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
@@ -32,6 +32,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[Distributed Receptor-Based Computing](Distributed_Receptor-Based_Computing/)** - by Arthur Brock - *[@ArtBrock](https://twitter.com/artbrock) \<artbrock@gmail.com>*
 * **[Distributed Trust Systems and the Kenyesian Beauty Contest](Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest/)** - by Joel Dietz *[@fractastical](https://twitter.com/fractastical) \<jdietz@gmail.com\>*
 * **[First Encounters with PGP](FirstEncountersWithPGP/)** - by Kiara Robles *[@anarchoass](https://twitter.com/anarchoass) \<kiara.robles@gmail.com\>*
+* **[Five Desirable Features for the Next Generation Web of Trust"](Five-Desired-WoT-Features/)** - by David Strayhorn 
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](hierarchical-deterministic-keys--bip32-and-beyond/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[How not to build an Orwellian reputation system](How-not-to-build-an-orwellian-reputation-system/)** - by Juan S. Galt *[@juansgalt](https://twitter.com/juansgalt) \<juans.galt@tuta.io\>*
 * **[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness/)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
@@ -44,6 +45,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[Modern PKI: Identity Assertions Forming Trust Networks](modern-pki-identity-assertions/)** — by Duke Dorje  *[@dukedorje](https://twitter.com/dukedorje) \<duke@citizencode.io\>*
 * **[PGP Paradigm](PGP-Paradigm.pdf)** - by Jon Callas - *[@JonCallas](https://twitter.com/joncallas) \<jon@crypto.expert>* & Phil Zimmerman - *\<prz@mit.edu\>*
 * **[PKI Tools in EVM-based blockchains](pki_tools_in_evm_blockchains/)** - by ChristianLundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
+* **[Principle of Relativity for Web of Trust](Principle-of-Relativity-for-WoT/)** - by David Strayhorn
 * **[Progressive Trust](progressive-trust/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[Real life application of WoT: Refugee Use Case](refugee-use-case/)** - by Alicia Carmona *\<alicia.carmona@id2020.org\>*
 * **[Reputation and the Real World](ReputationAndTheRealWorld/)** - by Randy Farmer *[@FRandallFarmer](https://twitter.com/FRandallFarmer) \<randy.farmer@pobox.com\>*

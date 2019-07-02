@@ -1,5 +1,18 @@
-Blockchain tech opportunities in the Web-of-Trust
--------------------------------------------------
+---
+title: "Blockchain tech opportunities in the Web-of-Trust"
+permalink: rwot1-sf/topics-and-advance-readings/blockchain-opportunities/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+authors:
+	- "Peter Todd"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/blockchain-opportunities.txt"
+
+---
+
+*by Peter Todd*
 
 Before we ask how "blockchain" tech can improve the web-of-trust, lets first
 look at what they have in common. We'll use the example of OpenPGP, the most

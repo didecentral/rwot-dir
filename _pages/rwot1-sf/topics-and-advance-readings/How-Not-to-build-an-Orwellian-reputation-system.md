@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Juan S. Galt"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/How-Not-to-build-an-Orwellian-reputation-system.md"
+
 ---
 
 Essay by [Juan S. Galt] (http://twitter.com/juansgalt) 

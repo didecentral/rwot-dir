@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Kaliya Young"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/Trust-Models-Accountability-LIfeCycle-and-Social-Context.md"
+
 ---
 
 by Kaliya "[Identity Woman](http://www.identitywoman.net)" Young (formerly Hamlin)

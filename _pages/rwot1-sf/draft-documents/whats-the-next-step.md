@@ -6,6 +6,11 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Shannon Appelcine"
+contributors:
+	- "Kaliya Young"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/whats-the-next-step.md"
 
 ---
 

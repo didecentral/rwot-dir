@@ -6,6 +6,9 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+  - "Justin Newton"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/detecting-key-misuse-on-a-blockchain.md"
 
 ---
 

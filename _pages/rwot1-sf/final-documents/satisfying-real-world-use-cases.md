@@ -8,6 +8,14 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Kaliya Young"
+	- "du5t"
+contributors:
+	- "Drummond Reed"
+	- "Noah Thorp"
+gitlink: "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/satisfying-real-world-use-cases.pdf"
+pdflink: "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/satisfying-real-world-use-cases.pdf"
 
 ---
 

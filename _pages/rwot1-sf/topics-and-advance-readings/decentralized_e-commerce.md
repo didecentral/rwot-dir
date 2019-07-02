@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Michael Folkson"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/decentralized_e-commerce.md"
+
 ---
 
 By [Michael Folkson] (https://twitter.com/michaelfolkson) (http://michaelfolkson.com/).

@@ -6,6 +6,21 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+  - "Christopher Allen"
+  - "Arthur Brock"
+  - "Vitalik Buterin"
+  - "Jon Callas"
+  - "Duke Dorje"
+  - "Christian Lundkvist"
+  - "Pavel Kravchenko"
+  - "Jude Nelson"
+  - "Drummond Reed"
+  - "Markus Sabadello"
+  - "Greg Slepak"
+  - "Noah Thorp"
+  - "Harlan T. Wood"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT.md"
 
 ---
 

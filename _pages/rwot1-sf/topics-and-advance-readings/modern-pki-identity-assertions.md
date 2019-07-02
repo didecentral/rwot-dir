@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Duke Dorje"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/modern-pki-identity-assertions.md"
+
 ---
 
 by Duke Dorje - *[@dukedorje](https://twitter.com/dukedorje) <duke@citizencode.io>*

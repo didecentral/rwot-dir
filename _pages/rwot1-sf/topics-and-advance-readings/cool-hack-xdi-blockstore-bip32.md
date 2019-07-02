@@ -6,6 +6,10 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+authors:
+	- "Markus Sabadello"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32.md"
+
 ---
 
 Markus Sabadello, Vienna, October 19th 2015

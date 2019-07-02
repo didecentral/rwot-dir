@@ -1,5 +1,18 @@
-= Blockchain-based Trust for Software Components
-Sean Gilligan <https://github.com/msgilligan>
+---
+title: "Blockchain-based Trust for Software Components"
+permalink: rwot1-sf/topics-and-advance-readings/code-and-file-signing/
+sidebar:
+  - title: RWoT1-SF
+    nav: rwot1
+  - title: "Rebooting the Web of Trust"
+    nav: rwotnav
+authors:
+	- "Sean Gilligan"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/code-and-file-signing.adoc"
+
+---
+
+*by Sean Gilligan <https://github.com/msgilligan>*
 v0.1
 :description: Rough draft of topic paper for Rebooting Web of Trust.
 

@@ -1,12 +1,19 @@
 ---
-title: "What's the Next Step?"
+title: "Creating the New World of Trust"
 permalink: rwot1-sf/final-documents/whats-the-next-step/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
-
+authors:
+	- "Shannon Appelcline"
+contributors:
+	- "Christopher Allen"
+	- "Brian Weller"
+	- "Sonia Sawhney"
+gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
+pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
 ---
 
 Having trouble trying to embed the pdf.. would be great if a markdown version existed.
