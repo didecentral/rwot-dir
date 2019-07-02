@@ -288,3 +288,5 @@ defaults:
       sidebar:
         title: "Rebooting the Web of Trust"
         nav: "rwotnav"
+      header:
+        image: /assets/images/rebooting-the-web-of-trust-header.jpeg
