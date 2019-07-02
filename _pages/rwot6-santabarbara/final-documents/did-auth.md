@@ -1,4 +1,6 @@
-# Introduction to DID Auth
+---
+title: Introduction to DID Auth
+---
 
 **Authors:** Markus Sabadello, Kyle Den Hartog, Christian Lundkvist, Cedric Franz, Alberto Elias, Andrew Hughes, John Jordan, Dmitri Zagidulin
 
