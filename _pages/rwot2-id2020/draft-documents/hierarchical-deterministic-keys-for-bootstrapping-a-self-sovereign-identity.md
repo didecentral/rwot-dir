@@ -22,12 +22,12 @@ The blockchain offers a solution to the centralized public-key infrastructure by
 There are two primary benefits of using HD keys over random non-deterministic keys. 
 
 1. Improved privacy
-	- Because the child key is generated from a known seed there is a relationship between the parent and child keys that is invisible to anyone without that seed. 
-	- HD keys allow the user to securely hand out child keys with no risk to the parent key. This makes for greater security usage on a server: since the public keys are generated for each transaction in a receive-only capacity the server does not have any of the private keys to spend those funds.
-	
+  - Because the child key is generated from a known seed there is a relationship between the parent and child keys that is invisible to anyone without that seed. 
+  - HD keys allow the user to securely hand out child keys with no risk to the parent key. This makes for greater security usage on a server: since the public keys are generated for each transaction in a receive-only capacity the server does not have any of the private keys to spend those funds.
+  
 2. Prudent key management
-	- If a child key is lost or compromised it can be derived again from its parent, providing the functionality of revocation and recovery of those exact child keys with ownership of the seed.
-	- Best practices with bitcoin wallets dictate that each key be considered single use and HD keys offer a unification of all the keys under a users control.
+  - If a child key is lost or compromised it can be derived again from its parent, providing the functionality of revocation and recovery of those exact child keys with ownership of the seed.
+  - Best practices with bitcoin wallets dictate that each key be considered single use and HD keys offer a unification of all the keys under a users control.
 
 For Bitcoin, HD keys are functionally master wallets defined by the BIP0032 standard. 
 

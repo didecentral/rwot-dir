@@ -81,7 +81,7 @@ For a list of DID method specifications, see Appendix A.
 
 This example of a DID uses the Sovrin DID method listed in Appendix A:
 
-	did:sov:21tDAKCERh95uGgKbJNHYp
+  did:sov:21tDAKCERh95uGgKbJNHYp
 
 ### 2.1. Example Owner-Managed DDO
 
@@ -89,71 +89,71 @@ Following is an example of a DDO that describes the DID above. This example assu
 
 {
 
-	"@context": "https://example.org/did/v1",
+  "@context": "https://example.org/did/v1",
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp",
+  "id": "did:sov:21tDAKCERh95uGgKbJNHYp",
 
-	"owner": [{
+  "owner": [{
 
-		"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-1",
+    "id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-1",
 
-		"type": ["CryptographicKey", "EdDsaPublicKey"],
+    "type": ["CryptographicKey", "EdDsaPublicKey"],
 
-		"curve": "ed25519",
+    "curve": "ed25519",
 
-		"expires": "2017-02-08T16:02:20Z",
+    "expires": "2017-02-08T16:02:20Z",
 
-		"publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
+    "publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
 
-	}, {
+  }, {
 
-		"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-2",
+    "id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-2",
 
-		"type": ["CryptographicKey", "RsaPublicKey"],
+    "type": ["CryptographicKey", "RsaPublicKey"],
 
-		"expires": "2017-03-22T00:00:00Z",
+    "expires": "2017-03-22T00:00:00Z",
 
-		"publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
+    "publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
 
-	}],
+  }],
 
-	"control": [{
+  "control": [{
 
-		"type": "OrControl",
+    "type": "OrControl",
 
-		"signer": [
+    "signer": [
 
-			"did:sov:21tDAKCERh95uGgKbJNHYp",
+      "did:sov:21tDAKCERh95uGgKbJNHYp",
 
-			"did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+      "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
 
-		]
+    ]
 
-	}],
+  }],
 
-	"service": {
+  "service": {
 
-		"openid": "https://openid.example.com/456",
+    "openid": "https://openid.example.com/456",
 
-		"xdi": "https://xdi.example.com/123"
+    "xdi": "https://xdi.example.com/123"
 
-	},
+  },
 
-	"created": "2002-10-10T17:00:00Z",
+  "created": "2002-10-10T17:00:00Z",
 
-	"updated": "2016-10-17T02:41:00Z",
+  "updated": "2016-10-17T02:41:00Z",
 
-	"signature": {
+  "signature": {
 
-		"type": "RsaSignature2016",
+    "type": "RsaSignature2016",
 
-		"created": "2016-02-08T16:02:20Z",
+    "created": "2016-02-08T16:02:20Z",
 
-		"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key/1",
+    "creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key/1",
 
-		"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+    "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 
-	}
+  }
 
 }
 
@@ -163,39 +163,39 @@ Following is a second example of a DDO that describes the DID above. In this cas
 
 {
 
-	"@context": "https://example.org/did/v1",
+  "@context": "https://example.org/did/v1",
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp",
+  "id": "did:sov:21tDAKCERh95uGgKbJNHYp",
 
-	"guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+  "guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
 
-	"control": [ "did:sov:8uQhQMGzWxR8vw5P3UWH1j" ],
+  "control": [ "did:sov:8uQhQMGzWxR8vw5P3UWH1j" ],
 
-	"service": {
+  "service": {
 
-		"openid": "https://openid.example.com/456",
+    "openid": "https://openid.example.com/456",
 
-		"xdi": "https://xdi.example.com/123"
+    "xdi": "https://xdi.example.com/123"
 
-	},
+  },
 
-	"type": "http://schema.org/Person",
+  "type": "http://schema.org/Person",
 
-	"created": "2002-10-10T17:00:00Z",
+  "created": "2002-10-10T17:00:00Z",
 
-	"updated": "2016-10-17T02:41:00Z",
+  "updated": "2016-10-17T02:41:00Z",
 
-	"signature": {
+  "signature": {
 
-		"type": "RsaSignature2016",
+    "type": "RsaSignature2016",
 
-		"created": "2016-02-08T16:02:20Z",
+    "created": "2016-02-08T16:02:20Z",
 
-		"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key-1",
+    "creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key-1",
 
-		"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+    "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 
-	}
+  }
 
 }
 
@@ -424,7 +424,7 @@ Example (using an example URL):
 
 {
 
-	"@context": "https://example.org/did/v1"
+  "@context": "https://example.org/did/v1"
 
 }
 
@@ -446,7 +446,7 @@ Example:
 
 {
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp"
+  "id": "did:sov:21tDAKCERh95uGgKbJNHYp"
 
 }
 
@@ -470,7 +470,7 @@ Example:
 
 {
 
-	"guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+  "guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
 
 }
 
@@ -494,29 +494,29 @@ Example:
 
 {
 
-	"owner": [{
+  "owner": [{
 
-		"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
+    "id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
 
-		"type": ["CryptographicKey", "EdDsaSAPublicKey"],
+    "type": ["CryptographicKey", "EdDsaSAPublicKey"],
 
-		"curve": "ed25519",
+    "curve": "ed25519",
 
-		"expires": "2017-02-08T16:02:20Z",
+    "expires": "2017-02-08T16:02:20Z",
 
-		"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+    "publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 
-	}, {
+  }, {
 
-		"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
+    "id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
 
-		"type": ["CryptographicKey", "RsaPublicKey"],
+    "type": ["CryptographicKey", "RsaPublicKey"],
 
-		"expires": "2017-03-22T00:00:00Z",
+    "expires": "2017-03-22T00:00:00Z",
 
-		"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
+    "publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
 
-	}]
+  }]
 
 }
 
@@ -582,22 +582,22 @@ Following is an example of a Proof of Control property implementing these rules:
 
 {
 
-	"control": [{
+  "control": [{
 
-		"type": "OrControl",
+    "type": "OrControl",
 
-		"signer": [
+    "signer": [
                 "did:sov:21tDAKCERh95uGgKbJNHYp", 
 
                 "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
 
            ]
 
-	}, {
+  }, {
 
-		"type": "AndControl",
+    "type": "AndControl",
 
-		"signer": [
+    "signer": [
 
                 "did:sov:7P7xfv5AeTSSWcuq6hPptQ", 
 
@@ -605,13 +605,13 @@ Following is an example of a Proof of Control property implementing these rules:
 
            ]
 
-	}, {
+  }, {
 
-		"type": "MofNControl",
+    "type": "MofNControl",
 
-		"minimumSignatures": 2,
+    "minimumSignatures": 2,
 
-		"signer": [
+    "signer": [
 
                 "did:sov:4XirzuHiNnTrwfjCMtBEJ6", 
 
@@ -621,7 +621,7 @@ Following is an example of a Proof of Control property implementing these rules:
 
            ]
 
-	}]
+  }]
 
 }
 
@@ -645,13 +645,13 @@ Example:
 
 {
 
-	"service": {
+  "service": {
 
-		"openid": "https://openid.example.com/456",
+    "openid": "https://openid.example.com/456",
 
-		"xdi": "https://xdi.example.com/123"
+    "xdi": "https://xdi.example.com/123"
 
-	}
+  }
 
 }
 
@@ -675,7 +675,7 @@ Example:
 
 {
 
-	"created": "2002-10-10T17:00:00Z"
+  "created": "2002-10-10T17:00:00Z"
 
 }
 
@@ -693,7 +693,7 @@ Example:
 
 {
 
-	"updated": "2016-10-17T02:41:00Z"
+  "updated": "2016-10-17T02:41:00Z"
 
 }
 
@@ -719,17 +719,17 @@ Example:
 
 {
 
-	"signature": {
+  "signature": {
 
-		"type": "LinkedDataSignature2015",
+    "type": "LinkedDataSignature2015",
 
-		"created": "2016-02-08T16:02:20Z",
+    "created": "2016-02-08T16:02:20Z",
 
-		"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
+    "creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
 
-		"signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
+    "signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
 
-	}
+  }
 
 }
 
@@ -1021,61 +1021,61 @@ For this implementer’s draft, the URL for this context is:
 
 {
 
-	"@context": ["https://w3id.org/identity/v1", {
+  "@context": ["https://w3id.org/identity/v1", {
 
-		"ctrl": "https://w3id.org/control#",
+    "ctrl": "https://w3id.org/control#",
 
-		"ddo": "https://w3id.org/ddo#",
+    "ddo": "https://w3id.org/ddo#",
 
-		"control": {
+    "control": {
 
-			"@id": "ddo:control",
+      "@id": "ddo:control",
 
-			"@type": "@id"
+      "@type": "@id"
 
-		},
+    },
 
-		"curve": "sec:curve",
+    "curve": "sec:curve",
 
-		"guardian": "ddo:guardian",
+    "guardian": "ddo:guardian",
 
-		"minimumSignatures": {
+    "minimumSignatures": {
 
-			"@id": "ctrl:minimumSignatures",
+      "@id": "ctrl:minimumSignatures",
 
-			"@type": "xsd:integer"
+      "@type": "xsd:integer"
 
-		},
+    },
 
-		"openid": "ddo:openid",
+    "openid": "ddo:openid",
 
-		"publicKeyBase64": "sec:publicKeyBase64",
+    "publicKeyBase64": "sec:publicKeyBase64",
 
-		"service": "ddo:service",
+    "service": "ddo:service",
 
-		"signer": "sec:signer",
+    "signer": "sec:signer",
 
-		"updated": {
+    "updated": {
 
-			"@id": "ddo:updated",
+      "@id": "ddo:updated",
 
-			"@type": "xsd:dateTime"
+      "@type": "xsd:dateTime"
 
-		},
+    },
 
-		"xdi": "ddo:xdi",
+    "xdi": "ddo:xdi",
 
-		"EdDsaPublicKey": "sec:EdDsaPublicKey",
+    "EdDsaPublicKey": "sec:EdDsaPublicKey",
 
-		"RsaPublicKey": "sec:RsaPublicKey",
+    "RsaPublicKey": "sec:RsaPublicKey",
 
-		"OrControl": "ctrl:OrControl",
+    "OrControl": "ctrl:OrControl",
 
-		"AndControl": "ctrl:AndControl",
+    "AndControl": "ctrl:AndControl",
 
-		"MofNControl": "ctrl:MofNControl"
+    "MofNControl": "ctrl:MofNControl"
 
-	}]
+  }]
 
 }
 
@@ -1087,17 +1087,17 @@ As described in section 6, key description is a standard way to describe a publi
 
 {
 
-	"owner": [{
+  "owner": [{
 
-		"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
+    "id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
 
-		"type": ["CryptographicKey", "RsaPublicKey"],
+    "type": ["CryptographicKey", "RsaPublicKey"],
 
-		"expires": "2017-03-22T00:00:00Z",
+    "expires": "2017-03-22T00:00:00Z",
 
-		"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
+    "publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
 
-	}]
+  }]
 
 }
 
@@ -1105,18 +1105,18 @@ As described in section 6, key description is a standard way to describe a publi
 
 {
 
-	"owner": [{
+  "owner": [{
 
-		"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
+    "id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
 
-		"type": ["CryptographicKey", "EdDsaSAPublicKey"],
+    "type": ["CryptographicKey", "EdDsaSAPublicKey"],
 
-		"curve": "ed25519",
+    "curve": "ed25519",
 
-		"expires": "2017-02-08T16:02:20Z",
+    "expires": "2017-02-08T16:02:20Z",
 
-		"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+    "publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 
-	}]
+  }]
 
 }

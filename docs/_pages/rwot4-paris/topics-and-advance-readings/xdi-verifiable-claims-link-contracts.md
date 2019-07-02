@@ -17,36 +17,36 @@ While the larger verifiable claims community at the moment may be unlikely to ba
 
 A claim as an assertion of the value of an attribute of a subject (see **[5]**) can be represented as a simple XDI statement (in this case, an XDI "relational" statement):
 
-	=!:did:sov:21tD/$is#/#doctor
+  =!:did:sov:21tD/$is#/#doctor
 
 The fact that the subject of the claim is also the claimant, i.e. it is the subject itself making the assertion, can be represented using an XDI peer root:
 
-	(=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
+  (=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
 
 Expressing that the claimant is different from the subject could also be done using an XDI peer root: 
 
-	(+!:did:sov:QQiF)=!:did:sov:21tD/$is#/#doctor
+  (+!:did:sov:QQiF)=!:did:sov:21tD/$is#/#doctor
 
 In order to express that the assertion is made specifically within the context of the relationship between claimant and subject, an XDI inner root can be used:
 
-	(+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
+  (+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
 
 To make the claim "verifiable", an XDI signature and other data such as a timestamp are added:
 
-	(+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
-	(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/&/"R0wdp.....Y5w=="
-	(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/$is#/$sha$256$rsa$2048
-	(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig><$t>/&/"2017-04-13T05:14:38Z"
+  (+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
+  (+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/&/"R0wdp.....Y5w=="
+  (+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/$is#/$sha$256$rsa$2048
+  (+!:did:sov:QQiF/=!:did:sov:21tD)<$sig><$t>/&/"2017-04-13T05:14:38Z"
 
 XDI Link Contracts
 ------------------
 
 An XDI link contract with a policy that grants permissions if a certain verifiable claim is presented could look like this:
 
-	(+hospital/#doctor)$contract$do/$add/+hospital[#patient]
-	(+hospital/#doctor)($contract$do$if$and/$true){$msg}<$sig><$valid>/&/true
-	(+hospital/#doctor)($contract$do$if$and/$true)(+!:did:sov:QQiF/{$from}){$from}/$is#/#doctor
-	(+hospital/#doctor)($contract$do$if$and/$true)(+!:did:sov:QQiF/{$from})<$sig><$valid>/&/true
+  (+hospital/#doctor)$contract$do/$add/+hospital[#patient]
+  (+hospital/#doctor)($contract$do$if$and/$true){$msg}<$sig><$valid>/&/true
+  (+hospital/#doctor)($contract$do$if$and/$true)(+!:did:sov:QQiF/{$from}){$from}/$is#/#doctor
+  (+hospital/#doctor)($contract$do$if$and/$true)(+!:did:sov:QQiF/{$from})<$sig><$valid>/&/true
 
 Note that the variable `{$from}` stands for the requesting authority that is using the link contract.
 
@@ -55,20 +55,20 @@ Issuing XDI Verifiable Claims
 
 Using XDI, a verifiable claim could be "issued" by requesting an assertion to be signed by a claimant (issuer), using the XDI `$do$sign` operation:
 
-	=!:did:sov:21tD[$msg]@~0/$from/(=!:did:sov:21tD)
-	=!:did:sov:21tD[$msg]@~0/$to/(+!:did:sov:QQiF)
-	=!:did:sov:21tD[$msg]@~0/$contract/(+!:did:sov:QQiF/=!:did:sov:21tD)$contract
-	(=!:did:sov:21tD[$msg]@~0$do/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
+  =!:did:sov:21tD[$msg]@~0/$from/(=!:did:sov:21tD)
+  =!:did:sov:21tD[$msg]@~0/$to/(+!:did:sov:QQiF)
+  =!:did:sov:21tD[$msg]@~0/$contract/(+!:did:sov:QQiF/=!:did:sov:21tD)$contract
+  (=!:did:sov:21tD[$msg]@~0$do/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
 
 Response:
 
-	+!:did:sov:QQiF[$msg]@~0/$from/(+!:did:sov:QQiF)
-	+!:did:sov:QQiF[$msg]@~0/$to/(=!:did:sov:21tD)
-	+!:did:sov:QQiF[$msg]@~0/$is$msg/=!:did:sov:21tD[$msg]@~0
-	(+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
-	(+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/&/"R0wdp.....Y5w=="
-	(+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/$is#/$sha$256$rsa$2048
-	(+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig><$t>/&/"2017-04-13T05:14:38Z"
+  +!:did:sov:QQiF[$msg]@~0/$from/(+!:did:sov:QQiF)
+  +!:did:sov:QQiF[$msg]@~0/$to/(=!:did:sov:21tD)
+  +!:did:sov:QQiF[$msg]@~0/$is$msg/=!:did:sov:21tD[$msg]@~0
+  (+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)=!:did:sov:21tD/$is#/#doctor
+  (+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/&/"R0wdp.....Y5w=="
+  (+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig>/$is#/$sha$256$rsa$2048
+  (+!:did:sov:QQiF[$msg]@~0/$do$sign)(+!:did:sov:QQiF/=!:did:sov:21tD)<$sig><$t>/&/"2017-04-13T05:14:38Z"
 
 The response contains the XDI verifiable claim as described earlier in this document.
 

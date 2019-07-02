@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Noah Thorp"
+  - "Noah Thorp"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation.md"
 
 ---

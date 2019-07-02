@@ -77,26 +77,26 @@ Example `authentication` and `publicKey` objects in a DID Document:
 
 ```
 {
-	"@context": "https://w3id.org/did/v1",
-	"id": "did:example:123456789abcdefghi",
-	"authentication": [{
-		"type": "RsaSignatureAuthentication2018",
-		"publicKey": "did:example:123456789abcdefghi#keys-1"
-	}, {
-		"type": "Ed25519SignatureAuthentication2018",
-		"publicKey": "did:example:123456789abcdefghi#keys-2"
-	}],
-	"publicKey": [{
-		"id": "did:example:123456789abcdefghi#keys-1",
-		"type": "RsaVerificationKey2018",
-		"owner": "did:example:123456789abcdefghi",
-		"publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-	}, {
-		"id": "did:example:123456789abcdefghi#keys-2",
-		"type": "Ed25519VerificationKey2018",
-		"owner": "did:example:123456789abcdefghi",
-		"publicKeyBase58": "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
-	}]
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "authentication": [{
+    "type": "RsaSignatureAuthentication2018",
+    "publicKey": "did:example:123456789abcdefghi#keys-1"
+  }, {
+    "type": "Ed25519SignatureAuthentication2018",
+    "publicKey": "did:example:123456789abcdefghi#keys-2"
+  }],
+  "publicKey": [{
+    "id": "did:example:123456789abcdefghi#keys-1",
+    "type": "RsaVerificationKey2018",
+    "owner": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }, {
+    "id": "did:example:123456789abcdefghi#keys-2",
+    "type": "Ed25519VerificationKey2018",
+    "owner": "did:example:123456789abcdefghi",
+    "publicKeyBase58": "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
+  }]
 }
 ```
 
@@ -106,12 +106,12 @@ Example DID Auth service endpoint in a DID Document:
 
 ```
 {
-	"@context": "https://w3id.org/did/v1",
-	"id": "did:example:123456789abcdefghi",
-	"service": {
-		"type": "DidAuthService",
-		"serviceEndpoint": "https://auth.example.com/did:example:123456789abcdefg"
-	}
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "service": {
+    "type": "DidAuthService",
+    "serviceEndpoint": "https://auth.example.com/did:example:123456789abcdefg"
+  }
 }
 ```
 
@@ -226,10 +226,10 @@ Example: Verifiable Credentials
 
 ```
 {
-	"type": ["Credential"],
-	"claim": {
-		"publicKey"
-	}
+  "type": ["Credential"],
+  "claim": {
+    "publicKey"
+  }
 }
 ```
 
@@ -273,20 +273,20 @@ The following Verifiable Credential contains a claim of a certain public key as 
 
 ```
 {
-	"type": ["VerifiablePresentation"],
-	"issuer": "did:example:123456789abcdefghi",
-	"issued": "2018-03-07",
-	"claim": {
-		"id": "did:example:123456789abcdefghi",
-		"publicKey": "did:example:123456789abcdefghi#keys-2"
-	},
-	"proof": {
-		"type": "Ed25519Signature2018",
-		"created": "2018-01-01T21:19:10Z",
-		"creator": "did:example:123456789abcdefghi#keys-2",
-		"nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-		"signatureValue": "..."
-	}
+  "type": ["VerifiablePresentation"],
+  "issuer": "did:example:123456789abcdefghi",
+  "issued": "2018-03-07",
+  "claim": {
+    "id": "did:example:123456789abcdefghi",
+    "publicKey": "did:example:123456789abcdefghi#keys-2"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2018-01-01T21:19:10Z",
+    "creator": "did:example:123456789abcdefghi#keys-2",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "..."
+  }
 }
 ```
 
@@ -330,14 +330,14 @@ A _relying party_ web site may deliver a DID Auth challenge to the _identity own
 Example: Browser Credential Handler API
 
 ```
-	const credential = await navigator.credentials.get({
-	  web: {
-	    VerifiableProfile: {
-	      name: true
-	    }
-	  }
-	});
-	console.log('credential received', credential);
+  const credential = await navigator.credentials.get({
+    web: {
+      VerifiableProfile: {
+        name: true
+      }
+    }
+  });
+  console.log('credential received', credential);
 ```
 
 References:
@@ -351,10 +351,10 @@ A _relying party_ web site may deliver a DID Auth challenge to the _identity own
 Example:
 
 ```
-	<form action="https://auth.example.com/did:example:123456789abcdefg" method="post">
-		<input type="hidden" name="challenge" value="...">
-		<input type="submit" value="Submit!">
-	</form>
+  <form action="https://auth.example.com/did:example:123456789abcdefg" method="post">
+    <input type="hidden" name="challenge" value="...">
+    <input type="submit" value="Submit!">
+  </form>
 ```
 
 ## Device-to-device Communication
@@ -499,10 +499,10 @@ References:
 Example:
 
 ```
-	POST /api/v1/issuerservices HTTP/1.1
-	Host: testhost.gov.bc.ca
-	Accept: */*
-	Authorization: Signature keyId="did:example:123456789abcdefghi#keys-1",algorithm="rsa-sha256",headers="(request-target) accept user-agent",signature="214BeK0YJ9P2wmMXBjZNNXDMT4prNlc32ZkslillkJYkJeLp3zbz4r1WfgCltd103m7AyY734qbau+GsWENDXaqxeTaP6LSMLWr6FexWMVgBbMzH1KDMhJlozTMFPkMsGlbuDpRKwEPqnX1Yy6ldHLe8mIJfSAEUy5P/Hf3y1b1kI8XyHNVbChFJLiUkOocF7XsFuTfoB+MJSEUqJDnuKibiF+Ap9rxI7J7Uroe6EjaVYqLXnGbpu8j8Oxn5QzGBZFCA/j6XgHy4NK9fG9pcCyyAPGzSYi1RWjDWFyS0RDQAXFBBNgyskXAgssKuVS2AFwPvXcHb5mhvKFUYMvMESg=="
+  POST /api/v1/issuerservices HTTP/1.1
+  Host: testhost.gov.bc.ca
+  Accept: */*
+  Authorization: Signature keyId="did:example:123456789abcdefghi#keys-1",algorithm="rsa-sha256",headers="(request-target) accept user-agent",signature="214BeK0YJ9P2wmMXBjZNNXDMT4prNlc32ZkslillkJYkJeLp3zbz4r1WfgCltd103m7AyY734qbau+GsWENDXaqxeTaP6LSMLWr6FexWMVgBbMzH1KDMhJlozTMFPkMsGlbuDpRKwEPqnX1Yy6ldHLe8mIJfSAEUy5P/Hf3y1b1kI8XyHNVbChFJLiUkOocF7XsFuTfoB+MJSEUqJDnuKibiF+Ap9rxI7J7Uroe6EjaVYqLXnGbpu8j8Oxn5QzGBZFCA/j6XgHy4NK9fG9pcCyyAPGzSYi1RWjDWFyS0RDQAXFBBNgyskXAgssKuVS2AFwPvXcHb5mhvKFUYMvMESg=="
 ```
 
 

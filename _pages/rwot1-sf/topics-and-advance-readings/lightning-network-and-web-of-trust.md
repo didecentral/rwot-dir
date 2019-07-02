@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Joseph Poon"
+  - "Joseph Poon"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/lightning-network-and-web-of-trust.md"
 
 ---

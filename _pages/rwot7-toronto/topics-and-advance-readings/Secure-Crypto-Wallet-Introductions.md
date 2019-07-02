@@ -93,8 +93,8 @@ Encoded as JSON, a request-for-identity might look like this:
 
 ```JSON
 {
-	"type": "IdentityRequest",
-	"challenge": "c82d1db4c4c2be4ee11815c1260de15193d5b83c4b430f3a"
+  "type": "IdentityRequest",
+  "challenge": "c82d1db4c4c2be4ee11815c1260de15193d5b83c4b430f3a"
 }
 ```
 
@@ -108,17 +108,17 @@ Alice’s response is also JSON:
 
 ```JSON
 {
-	"type": "IdentityResponse",
-	"publicKey": "026faef965fcbce6ab3df4d881481e0cf578246710fb99187697df8bcba3d2a058",
-	"proposedName": "Alice",
-	"challenge": "c82d1db4c4c2be4ee11815c1260de15193d5b83c4b430f3a",
-	"signature": "H6F4CXKQOaiTfDT93fOaX8/5PEZZA+pfWXRa0Olws/jnC887x7HFgjv/7r95dmTPPo60fRCyWuxIkzXURFULNNU="
+  "type": "IdentityResponse",
+  "publicKey": "026faef965fcbce6ab3df4d881481e0cf578246710fb99187697df8bcba3d2a058",
+  "proposedName": "Alice",
+  "challenge": "c82d1db4c4c2be4ee11815c1260de15193d5b83c4b430f3a",
+  "signature": "H6F4CXKQOaiTfDT93fOaX8/5PEZZA+pfWXRa0Olws/jnC887x7HFgjv/7r95dmTPPo60fRCyWuxIkzXURFULNNU="
 }
 ```
 
 It’s signature is formed by signing the concatenation:
 
-	publicKey || challenge || proposedName (UTF-8)
+  publicKey || challenge || proposedName (UTF-8)
 
 DID-Auth [DIDAuth] provides a standardized way to verify ownership of DIDs, but is more complicated than the above barebones example. This document uses public/private key pairs for simplicity of explanation and implementation of a software proof-of-concept.
 
@@ -134,11 +134,11 @@ If Alice and Bob want to fully exchange keys, then Alice can include her own cha
 
 ```JSON
 {
-	"type": "IdentityResponseRequest",
-	"publicKey": "026faef965fcbce6ab3df4d881481e0cf578246710fb99187697df8bcba3d2a058",
-	"proposedName": "Alice",
-	"challenge": "c82d1db4c4c2be4ee11815c1260de15193d5b83c4b430f3a",
-	"signature": "H6F4CXKQOaiTfDT93fOaX8/5PEZZA+pfWXRa0Olws/jnC887x7HFgjv/7r95dmTPPo60fRCyWuxIkzXURFULNNU="
+  "type": "IdentityResponseRequest",
+  "publicKey": "026faef965fcbce6ab3df4d881481e0cf578246710fb99187697df8bcba3d2a058",
+  "proposedName": "Alice",
+  "challenge": "c82d1db4c4c2be4ee11815c1260de15193d5b83c4b430f3a",
+  "signature": "H6F4CXKQOaiTfDT93fOaX8/5PEZZA+pfWXRa0Olws/jnC887x7HFgjv/7r95dmTPPo60fRCyWuxIkzXURFULNNU="
 }
 ```
 
@@ -152,11 +152,11 @@ Bob now creates the same sort of response, containing his public key and signed 
 
 ```JSON
 {
-	"type": "IdentityResponse",
-	"publicKey": "0298e1b791e33200001b5eb457e162d88f01ebee6ca1526ba2da7f49bfc92e30b3",
-	"proposedName": "Bob Smith",
-	"challenge": "8c01711683ce69bb706235f322b62d0172cc0007b0ec93c1",
-	"signature": "IJRQrUeeOfCdtCAGVQepYdEfciWfxAC7q3eMBdcaDgVySrsutTKMP5bm6DbHKsjm7TMhms2CND9nyHN8FxoHXSo="
+  "type": "IdentityResponse",
+  "publicKey": "0298e1b791e33200001b5eb457e162d88f01ebee6ca1526ba2da7f49bfc92e30b3",
+  "proposedName": "Bob Smith",
+  "challenge": "8c01711683ce69bb706235f322b62d0172cc0007b0ec93c1",
+  "signature": "IJRQrUeeOfCdtCAGVQepYdEfciWfxAC7q3eMBdcaDgVySrsutTKMP5bm6DbHKsjm7TMhms2CND9nyHN8FxoHXSo="
 }
 ```
 

@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "David Strayhorn"
+  - "David Strayhorn"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/a8c6058e56bef5cea62162585c1e0bf9f795521b/Principle-of-Relativity-for-WoT.md"
 
 --- 

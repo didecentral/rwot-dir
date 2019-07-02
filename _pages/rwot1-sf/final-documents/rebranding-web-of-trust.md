@@ -9,13 +9,14 @@ sidebar:
 header:
   image: /assets/images/07_Final-Report-Out_Rebrand-WOT_1of2.jpg
 authors:
-	- "Shannon Appelcline"
+  - "Shannon Appelcline"
 contributors:
-	- "Dave Crocker"
-	- "Randall Farmer"
-	- "Justin Newton"
+  - "Dave Crocker"
+  - "Randall Farmer"
+  - "Justin Newton"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/rebranding-web-of-trust.pdf"
-pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/rebranding-web-of-trust.pdf"
+header:
+  image: /assets/images/1-graphic-recording/07_Final-Report-Out_Rebrand-WOT_1of2.jpg
 
 ---
 

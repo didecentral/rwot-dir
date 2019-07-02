@@ -33,9 +33,9 @@ Virtual Personas are the core block at Holonet’s center. Now that technology a
 This platform change brings upon us a great chance to change how we manage information, giving humans back ownership over their identities, ownership of what makes them, them. We will be sharing even more information and ensuring privacy is necessary. Virtual Personas can selectively share discreet pieces of data about them with specific sites, to get a personalized experience without giving over control over the identity. It is also possible to have multiple Virtual Personas to be anonymous in certain contexts.
 
 Another important aspect is that humans need to feel safe, both in the physical and the digital world. This means 3 things:
--	Appropriating/Stealing/Imitating an identity is almost impossible, with an easy, quick and secure recovery system.
--	Having control over their near view, so different applications are not summoning bothersome objects in front of them and they have an easy way out to a comfortable place.
--	Being able to avoid harassment by making use of the control of the near view and being able to decide with whom they share a space (only with friends, family, people you know, or with everyone).
+-  Appropriating/Stealing/Imitating an identity is almost impossible, with an easy, quick and secure recovery system.
+-  Having control over their near view, so different applications are not summoning bothersome objects in front of them and they have an easy way out to a comfortable place.
+-  Being able to avoid harassment by making use of the control of the near view and being able to decide with whom they share a space (only with friends, family, people you know, or with everyone).
 
 Even though we are human centered, Virtual Personas work for all kinds of identities, as they are capable of having multiple owners. They can be tied to organizations, bots or even blockchain smart contracts.
 
@@ -69,11 +69,11 @@ uPort implements a way to recover an identity in case you lose your phone associ
 DIDs also support having multiple owners of an identity, which works great for organizations and bots. It is also important for underage humans, so their guardians can have control over their identities.
 
 To sum up, the benefits of this identity system are:
-•	The identity can be trusted, as it is provable that a DID points to a DID document, and said document is owned by a set of keys.
-•	There can be provable Verified Claims from reputed third parties that can add all kinds of identity information such as age, if it is a human, passport, payment methods etc.
-•	Virtual Personas are great, not only for humans, but also organizations and bots. Everything, including all devices, can have one or more Virtual Personas associated to them.
-•	It is a very secure implementation as it is hard to take control of an identity, and very easy to revoke that control from malevolent parties.
-•	Privacy can be ensured, as only the appropriate keys can modify or view the data in the DID document. Humans decide what to share with whom, and the data that is shared is minimized as much as possible. (For example, you would not share your date of birth, but only the fact that your over 18)
-•	It is censorship resistant, as Virtual Personas are built on top of decentralized networks, and DIDs are interoperable with other. This means, that in the case that one decentralized network is compromised, Virtual Personas can be transferred to another network.
-•	They work everywhere, with all devices, and with all sites. You carry your Virtual Persona with you, and authenticate with whatever service you attempt to use, wherever you are.
+•  The identity can be trusted, as it is provable that a DID points to a DID document, and said document is owned by a set of keys.
+•  There can be provable Verified Claims from reputed third parties that can add all kinds of identity information such as age, if it is a human, passport, payment methods etc.
+•  Virtual Personas are great, not only for humans, but also organizations and bots. Everything, including all devices, can have one or more Virtual Personas associated to them.
+•  It is a very secure implementation as it is hard to take control of an identity, and very easy to revoke that control from malevolent parties.
+•  Privacy can be ensured, as only the appropriate keys can modify or view the data in the DID document. Humans decide what to share with whom, and the data that is shared is minimized as much as possible. (For example, you would not share your date of birth, but only the fact that your over 18)
+•  It is censorship resistant, as Virtual Personas are built on top of decentralized networks, and DIDs are interoperable with other. This means, that in the case that one decentralized network is compromised, Virtual Personas can be transferred to another network.
+•  They work everywhere, with all devices, and with all sites. You carry your Virtual Persona with you, and authenticate with whatever service you attempt to use, wherever you are.
 

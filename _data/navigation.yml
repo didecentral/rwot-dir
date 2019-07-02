@@ -25,6 +25,84 @@ rwotnav:
         url: rwot1-sf/supporting-files/
       - title: "Topics and Advance Readings"
         url: rwot1-sf/topics-and-advance-readings/
+  - title: RWoT2-ID2020
+    url: rwot2-id2020/
+    children:
+      - title: "Draft Documents"
+        url: rwot2-id2020/draft-documents/
+      - title: "Event Documents"
+        url: rwot2-id2020/event-documents/
+      - title: "Final Documents"
+        url: rwot2-id2020/final-documents/
+      - title: "Supporting Files"
+        url: rwot2-id2020/supporting-files/
+      - title: "Topics and Advance Readings"
+        url: rwot2-id2020/topics-and-advance-readings/
+  - title: RWoT3-SF
+    url: rwot3-sf/
+    children:
+      - title: "Draft Documents"
+        url: rwot3-sf/draft-documents/
+      - title: "Event Documents"
+        url: rwot3-sf/event-documents/
+      - title: "Final Documents"
+        url: rwot3-sf/final-documents/
+      - title: "Supporting Files"
+        url: rwot3-sf/supporting-files/
+      - title: "Topics and Advance Readings"
+        url: rwot3-sf/topics-and-advance-readings/
+#  - title: RWoT4-Paris
+#    url: rwot4-paris/
+#    children:
+#      - title: "Draft Documents"
+#        url: rwot4-paris/draft-documents/
+#      - title: "Event Documents"
+#        url: rwot4-paris/event-documents/
+#      - title: "Final Documents"
+#        url: rwot4-paris/final-documents/
+#      - title: "Supporting Files"
+#        url: rwot4-paris/supporting-files/
+#      - title: "Topics and Advance Readings"
+#        url: rwot4-paris/topics-and-advance-readings/
+#  - title: RWoT5-Boston
+#    url: rwot5-boston/
+#    children:
+#      - title: "Draft Documents"
+#        url: rwot5-boston/draft-documents/
+#      - title: "Event Documents"
+#        url: rwot5-boston/event-documents/
+#      - title: "Final Documents"
+#        url: rwot5-boston/final-documents/
+#      - title: "Supporting Files"
+#        url: rwot5-boston/supporting-files/
+#      - title: "Topics and Advance Readings"
+#        url: rwot5-boston/topics-and-advance-readings/
+#  - title: RWoT6-SantaBarbara
+#    url: rwot6-santabarbara/
+#    children:
+#      - title: "Draft Documents"
+#        url: rwot6-santabarbara/draft-documents/
+#      - title: "Event Documents"
+#        url: rwot6-santabarbara/event-documents/
+#      - title: "Final Documents"
+#        url: rwot6-santabarbara/final-documents/
+#      - title: "Supporting Files"
+#        url: rwot6-santabarbara/supporting-files/
+#      - title: "Topics and Advance Readings"
+#        url: rwot6-santabarbara/topics-and-advance-readings/
+#  - title: RWoT1-SF
+#    url: rwot1-sf/
+#    children:
+#      - title: "Draft Documents"
+#        url: rwot1-sf/draft-documents/
+#      - title: "Event Documents"
+#        url: rwot1-sf/event-documents/
+#      - title: "Final Documents"
+#        url: rwot1-sf/final-documents/
+#      - title: "Supporting Files"
+#        url: rwot1-sf/supporting-files/
+#      - title: "Topics and Advance Readings"
+#        url: rwot1-sf/topics-and-advance-readings/
 
 rwot1:
   - title: Final Documents

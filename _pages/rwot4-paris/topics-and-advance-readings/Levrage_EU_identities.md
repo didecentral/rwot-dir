@@ -24,9 +24,9 @@ Example: ES/AT/02635542Y (Spanish eIDNumber for an Austrian SP)
 
 We believe there is room for alternative eID exchange frameworks, which complement (and may eventually replace) the proxy approach, especially for the commercial sector. The distributed identity paradigm may well fit this role, in two ways: 
 
-   *	At minimum, a self-sovereign identifier could be included on request of the identity owner as an  information in the cross-border exchanges. Proxies may have  a role here in enriching the basic information from the national eID infrastructure with the supplementary identifier, with no impact on the existing national infrastructure (which are normally strongly regulated). The counterpart proxy could then propagate this identifier (if the calling service  has the capability to deal with it) or discard it.
+   *  At minimum, a self-sovereign identifier could be included on request of the identity owner as an  information in the cross-border exchanges. Proxies may have  a role here in enriching the basic information from the national eID infrastructure with the supplementary identifier, with no impact on the existing national infrastructure (which are normally strongly regulated). The counterpart proxy could then propagate this identifier (if the calling service  has the capability to deal with it) or discard it.
 
-   *	On a larger perspective, eIDAS attributes provided by national identity schemas (directly, or through eIDAS nodes) could be derived into identity claims, through an intermediary which acts as a “claim broker”:
+   *  On a larger perspective, eIDAS attributes provided by national identity schemas (directly, or through eIDAS nodes) could be derived into identity claims, through an intermediary which acts as a “claim broker”:
  
 In this scenario the production of identity information and its usage would be neatly separated by  the derivation process.
 

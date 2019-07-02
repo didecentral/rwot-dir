@@ -7,13 +7,14 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Shannon Appelcline"
+  - "Shannon Appelcline"
 contributors:
-	- "Christopher Allen"
-	- "Brian Weller"
-	- "Sonia Sawhney"
+  - "Christopher Allen"
+  - "Brian Weller"
+  - "Sonia Sawhney"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
-pdflink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
+header:
+  image: /rwot1-sf/assets/images/1-graphic-recording/09_Next_Step_Summary.JPG
 ---
 
 Having trouble trying to embed the pdf.. would be great if a markdown version existed.

@@ -45,7 +45,7 @@ materials used to verify any of the credentials issued using the definition.
 
 Credential definitions are specified in JSON-LD.
 
-### Mapping	
+### Mapping  
 A mapping contains an ordered selection of properties from the source schema. 
 For each property a corresponding encoding is specified to prepare the data for 
 ZKP signatures. 
@@ -62,7 +62,7 @@ trust framework may choose to trust credentials from the framework.
 
 Mappings are specified in JSON-LD.
 
-### Schema	
+### Schema  
 A schema defines the structure and type of data for claim data. 
 Schemas can contain sub-schemas. Schemas can represent complex data objects. 
 Schemas include properties such as type, label, and description. 
@@ -83,7 +83,7 @@ credential should be included in a derived presentation created by a holder.
 Multiple presentations can share schemas.  
 
 Schemas are specified in JSON-LD.
-	
+  
 ### Context
 A context is a collection of shortcut term definitions. 
 Contexts establish definitions that promote efficiency while preserving accuracy. 
@@ -94,7 +94,7 @@ mappings, encodings, presentation requests, presentations, etc.
 Changing a context could change the meaning of a signed verifiable credential.
 
 Contexts are specified in JSON-LD.
-	
+  
 ### Encoding 
 An encoding specifies the source data type and conversion algorithm used to 
 transform a claim property to an attribute that can be signed using a 

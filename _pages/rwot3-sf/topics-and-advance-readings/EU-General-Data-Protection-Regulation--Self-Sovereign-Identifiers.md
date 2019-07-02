@@ -9,14 +9,14 @@ was given its final approval by European Parliament on the 14th  April 2016.
 The reform also sets minimum standards on use of data for policing and judicial purposes.
 
 The new rules include provisions on:
-•	a right to be forgotten,
-•	the right to object and the right to erasure;
-•	"clear and affirmative consent" to the processing of private data by the person concerned,
-•	the right to inhibit additional processing of data
-•	a right to transfer your data to another service provider,
-•	the right to know when your data has been hacked,
-•	ensuring that privacy policies are explained in clear and understandable language, and
-•	stronger enforcement and fines up to 4% of firms' total worldwide annual turnover, as a deterrent to breaking the rules
+•  a right to be forgotten,
+•  the right to object and the right to erasure;
+•  "clear and affirmative consent" to the processing of private data by the person concerned,
+•  the right to inhibit additional processing of data
+•  a right to transfer your data to another service provider,
+•  the right to know when your data has been hacked,
+•  ensuring that privacy policies are explained in clear and understandable language, and
+•  stronger enforcement and fines up to 4% of firms' total worldwide annual turnover, as a deterrent to breaking the rules
 
 But how to actually implement the rights set forth in the GDPR and subsequent legislations and regulations? 
 More generally, how to operationalise the growing international, supranational and national standards aiming 
@@ -48,26 +48,26 @@ and usage control.
 
 Benefits to all stakeholders
 
-•	For Institutions and Academics:
+•  For Institutions and Academics:
         ISÆN is a framework that will ease Data 'A Posteriori' compliance audits as recommended by the European General Data Protection Regulation (GDPR) 
         with an application as early as May 2018.
         ISÆN acts as a data provider framework towards the National and European Digital ID provider, facilitating the 'Know Your Customer' 
         governance (KYC). 
         
-•	For the Private sector:
+•  For the Private sector:
         ISÆN will help businesses to add a new 'Private Data Accountability' dimension in their Sustainability report: 
         economic, environmental, social and private data governance.
         ISÆN will help businesses leverage Privacy by Design (PbD) as a unique differentiator
         ISÆN will reduce ambiguity for secondary usage of personal data.
         
-•	For Citizens:
+•  For Citizens:
         ISÆN provides an answer to Digital Citizens’ main concern 'Where are my Data? Who is Using them?' 
         ISÆN will help them to self-administer their online consents, authorizations, revocation (OptIn/OptOut) 
         and set the roadmap for a Public Smart Contract/Consent on data privacy.
         ISÆN will help them to minimize the disclosure of their persona’s attributes while complying with most “KYC” 
         requirements.
         
-•	For All stakeholders:
+•  For All stakeholders:
         ISAEN will promote the creation of innovative data services and businesses where all the stakeholders 
         transparently monitor the common public governance and share the benefits of the new personal data economy.
 

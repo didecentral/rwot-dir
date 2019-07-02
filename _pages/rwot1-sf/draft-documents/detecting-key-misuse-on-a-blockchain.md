@@ -9,6 +9,8 @@ sidebar:
 authors:
   - "Justin Newton"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/detecting-key-misuse-on-a-blockchain.md"
+header:
+  image: /rwot1-sf/assets/images/1-graphic-recording/07_Final-Report-Out_Rebrand-WOT_2of2.jpg
 
 ---
 

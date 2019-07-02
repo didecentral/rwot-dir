@@ -557,7 +557,7 @@
             
             
 
-            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/code-and-file-signing.adoc/" class="">Blockchain-based Trust for Software Components</a></li>
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/code-and-file-signing/" class="">Blockchain-based Trust for Software Components</a></li>
           
             
             
@@ -565,7 +565,7 @@
             
             
 
-            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/blockchain-opportunities.txt/" class="">Blockchain Tech Opportunities in the Web-of-Trust</a></li>
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/blockchain-opportunities/" class="">Blockchain Tech Opportunities in the Web-of-Trust</a></li>
           
             
             
@@ -928,6 +928,116 @@
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot2-id2020/"><span class="nav__sub-title">RWoT2-ID2020</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot3-sf/"><span class="nav__sub-title">RWoT3-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
   </ul>
 </nav>
     
@@ -961,10 +1071,9 @@
 
       <section class="page__content" itemprop="text">
         
-        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RLPx: Cryptographic Network &amp; Transport Protocol
-Alex Leverington
-Version 0.3
-</code></pre></div></div>
+        <p>RLPx: Cryptographic Network &amp; Transport Protocol
+  Alex Leverington
+  Version 0.3</p>
 
 <ul>
   <li>Protocol Overview
@@ -1114,81 +1223,78 @@ Version 0.3
 
 <p>Packet Encapsulation:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hash || signature || packet-type || packet-data
-	hash: sha3(signature || packet-type || packet-data)	// used to verify integrity of datagram
-	signature: sign(privkey, sha3(packet-type || packet-data))
-	signature: sign(privkey, sha3(pubkey || packet-type || packet-data)) // implementation w/MCD
-	packet-type: single byte &lt; 2**7 // valid values are [1,4]
-	packet-data: RLP encoded list. Packet properties are serialized in the order in which they're defined. See packet-data below.
-</code></pre></div></div>
+<p>hash || signature || packet-type || packet-data
+    hash: sha3(signature || packet-type || packet-data)  // used to verify integrity of datagram
+    signature: sign(privkey, sha3(packet-type || packet-data))
+    signature: sign(privkey, sha3(pubkey || packet-type || packet-data)) // implementation w/MCD
+    packet-type: single byte &lt; 2**7 // valid values are [1,4]
+    packet-data: RLP encoded list. Packet properties are serialized in the order in which they’re defined. See packet-data below.</p>
 
 <p>DRAFT Encrypted Packet Encapsulation:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mac || header || frame
-	header: frame-size || header-data
-    frame-size: 3-byte integer size of frame, big endian encoded
-    header-data:
-        normal: rlp.list(protocol-type[, context-id])
-        chunked-0: rlp.list(protocol-type, context-id, total-packet-size)
-		chunked-n: rlp.list(protocol-type, context-id)
-        values:
-            protocol-type: &lt; 2**16
-            context-id: &lt; 2**16 (this value is optional for normal frames)
-            total-packet-size: &lt; 2**32
-</code></pre></div></div>
+<p>mac || header || frame
+    header: frame-size || header-data
+      frame-size: 3-byte integer size of frame, big endian encoded
+      header-data:
+          normal: rlp.list(protocol-type[, context-id])
+          chunked-0: rlp.list(protocol-type, context-id, total-packet-size)
+      chunked-n: rlp.list(protocol-type, context-id)
+          values:
+              protocol-type: &lt; 2<strong>16
+              context-id: &lt; 2</strong>16 (this value is optional for normal frames)
+              total-packet-size: &lt; 2**32</p>
 
 <p>Packet Data (packet-data):</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>All data structures are RLP encoded.
-Total payload of packet (excluding IP headers) must be no greater than 1280 bytes.
-NodeId: The node's public key.
-inline: Properties are appened to current list instead of encoded as list.
-Maximum byte size of packet is noted for reference.
-timestamp: When packet was created (number of seconds since epoch).
+<p>All data structures are RLP encoded.
+  Total payload of packet (excluding IP headers) must be no greater than 1280 bytes.
+  NodeId: The node’s public key.
+  inline: Properties are appened to current list instead of encoded as list.
+  Maximum byte size of packet is noted for reference.
+  timestamp: When packet was created (number of seconds since epoch).</p>
 
-PingNode packet-type: 0x01
-struct PingNode
-{
-	h256 version = 0x3;
-	Endpoint from;
-	Endpoint to;
-	uint32_t timestamp;
-};
+<p>PingNode packet-type: 0x01
+  struct PingNode
+  {
+    h256 version = 0x3;
+    Endpoint from;
+    Endpoint to;
+    uint32_t timestamp;
+  };</p>
 
-Pong packet-type: 0x02
-struct Pong
-{
-	Endpoint to;
-	h256 echo;
-	uint32_t timestamp;
-};
+<p>Pong packet-type: 0x02
+  struct Pong
+  {
+    Endpoint to;
+    h256 echo;
+    uint32_t timestamp;
+  };</p>
 
-FindNeighbours packet-type: 0x03
-struct FindNeighbours
-{
-	NodeId target; // Id of a node. The responding node will send back nodes closest to the target.
-	uint32_t timestamp;
-};
+<p>FindNeighbours packet-type: 0x03
+  struct FindNeighbours
+  {
+    NodeId target; // Id of a node. The responding node will send back nodes closest to the target.
+    uint32_t timestamp;
+  };</p>
 
-Neighbors packet-type: 0x04
-struct Neighbours
-{
-	list nodes: struct Neighbour
-	{
-		inline Endpoint endpoint;
-		NodeId node;
-	};
-	
-	uint32_t timestamp;
-};
+<p>Neighbors packet-type: 0x04
+  struct Neighbours
+  {
+    list nodes: struct Neighbour
+    {
+      inline Endpoint endpoint;
+      NodeId node;
+    };</p>
 
-struct Endpoint
-{
-	bytes address; // BE encoded 4-byte or 16-byte address (size determines ipv4 vs ipv6)
-	uint16_t udpPort; // BE encoded 16-bit unsigned
-	uint16_t tcpPort; // BE encoded 16-bit unsigned
-}
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uint32_t timestamp;   };
 </code></pre></div></div>
+
+<p>struct Endpoint
+  {
+    bytes address; // BE encoded 4-byte or 16-byte address (size determines ipv4 vs ipv6)
+    uint16_t udpPort; // BE encoded 16-bit unsigned
+    uint16_t tcpPort; // BE encoded 16-bit unsigned
+  }</p>
 
 <h1 id="encrypted-handshake">Encrypted Handshake</h1>
 <p>Connections are established via a handshake and, once established, packets are encapsulated as frames which are encrypted using AES-256 in CTR mode. Key material for the session is derived via a KDF with ECDHE-derived keying material. ECC uses secp256k1 curve (ECP). Note: “remote” is host which receives the connection.</p>
@@ -1205,14 +1311,14 @@ struct Endpoint
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>New: authInitiator -&gt; E(remote-pubk, S(ephemeral-privk, static-shared-secret ^ nonce) || H(ephemeral-pubk) || pubk || nonce || 0x0)
      authRecipient -&gt; E(remote-pubk, remote-ephemeral-pubk || nonce || 0x0)
-	 
+ 
 Known: authInitiator = E(remote-pubk, S(ephemeral-privk, token ^ nonce) || H(ephemeral-pubk) || pubk || nonce || 0x1)
        authRecipient = E(remote-pubk, remote-ephemeral-pubk || nonce || 0x1) // token found
        authRecipient = E(remote-pubk, remote-ephemeral-pubk || nonce || 0x0) // token not found
-
-static-shared-secret = ecdh.agree(privkey, remote-pubk)
-ephemeral-shared-secret = ecdh.agree(ephemeral-privk, remote-ephemeral-pubk)
 </code></pre></div></div>
+
+<p>static-shared-secret = ecdh.agree(privkey, remote-pubk)
+  ephemeral-shared-secret = ecdh.agree(ephemeral-privk, remote-ephemeral-pubk)</p>
 
 <p>Values generated following the handshake (see below for steps):</p>
 
@@ -1241,28 +1347,29 @@ ingress-mac = sha3.update(mac-secret ^ recipient-nonce || auth-recvd-init)
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. initiator generates auth from ecdhe-random, static-shared-secret, and nonce (auth = authInitiator handshake)
 2. initiator connects to remote and sends auth
-
+  
 3. optionally, remote decrypts and verifies auth (checks that recovery of signature == H(ephemeral-pubk))
 4. remote generates authAck from remote-ephemeral-pubk and nonce (authAck = authRecipient handshake)
+</code></pre></div></div>
 
-optional: remote derives secrets and preemptively sends protocol-handshake (steps 9,11,8,10)
+<p>optional: remote derives secrets and preemptively sends protocol-handshake (steps 9,11,8,10)</p>
 
-5. initiator receives authAck
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5. initiator receives authAck
 6. initiator derives shared-secret, aes-secret, mac-secret, ingress-mac, egress-mac
 7. initiator sends protocol-handshake
-
+  
 8. remote receives protocol-handshake
 9. remote derives shared-secret, aes-secret, mac-secret, ingress-mac, egress-mac
 10. remote authenticates protocol-handshake
 11. remote sends protocol-handshake
-
+  
 12. initiator receives protocol-handshake
 13. initiator authenticates protocol-handshake
 13. cryptographic handshake is complete if mac of protocol-handshakes are valid; permanent-token is replaced with token
 14. begin sending/receiving data
-
-All packets following auth, including protocol negotiation handshake, are framed.
 </code></pre></div></div>
+
+<p>All packets following auth, including protocol negotiation handshake, are framed.</p>
 
 <p>Either side may disconnect if and only if authentication of the first framed packet fails, or, if the protocol handshake isn’t appropriate (ex: version is too old).</p>
 
@@ -1327,16 +1434,16 @@ ingress-mac: h256, continuously updated with ingress-bytes*
 <p>Dynamic framing is a process by which both sides send frames which are limited in size by the sender window size and the number of active protocols. Dynamic framing provides flow control and is implemented by a sender transfer window and protocol window. The data transfer window is a 32-bit value set by the sender and indicates how many bytes of data the sender can transmit. The protocol window is the transfer window, divided by the number of active protocols. After a connection is established, but before any frames have been transmitted, the sender begins with the initial window size. This window size is a measure of the buffering capability of the recipient. The sender must not send a data frame larger than the protocol window size. After sending each data frame, the sender decrements its transfer window size by the amount of data transmitted. When the window size becomes less than or equal to 0, the sender must pause transmitting data frames. At the other end of the stream, the recipient sends a DeltaUpdate packet back to notify the sender that it has consumed some data and freed up buffer space to receive more data. When a connection is first established the initial window size is 8KB.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pws = protocol-window-size = window-size / active-protocol-count
-
+  
 The initial window-size is 8KB.
 A protocol is considered active if it's queue contains one or more packets.
-
-DeltaUpdate protocol-type: 0x0, packet-type: 0x0
-struct DeltaUpdate
-{
-	unsigned size; // &lt; 2**31
-}
 </code></pre></div></div>
+
+<p>DeltaUpdate protocol-type: 0x0, packet-type: 0x0
+  struct DeltaUpdate
+  {
+    unsigned size; // &lt; 2**31
+  }</p>
 
 <p>Multiplexing of protocols is performed via dynamic framing and fair queueing. Dequeuing packets is performed in a cycle which dequeues one or more packets from the queue(s) of each active protocol. The multiplexor determines the amount of bytes to send for each protocol prior to each round of dequeuing packets.</p>
 

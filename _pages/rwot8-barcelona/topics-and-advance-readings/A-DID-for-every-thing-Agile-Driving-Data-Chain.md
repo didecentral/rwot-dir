@@ -29,9 +29,9 @@ When a DID and hence data chain of the resultant data is extended to machines, t
 The applications of verifiable data chains stretch across multiple use cases including real-time vehicle value, dangerous driving, road and obstacle mapping, usage-based insurance (UBI), reliable feedback loops into driver assistance system (DAS) and autonomous driving infrastructures, V2V/V2I interactions and cooperative mobility systems.
 
 Benefits of data provenance along a digitized value chain include:
--	reliability of data and ML labels in distributed systems
--	increased safety
--	maximized efficiency with less congestion, impact, costs and better services.
+-  reliability of data and ML labels in distributed systems
+-  increased safety
+-  maximized efficiency with less congestion, impact, costs and better services.
 
 Our verifiable data chain concept supports the overall goal to demonstrate the working BC/DLT technology components can be used and scaled today for data provenance in digital value chains. 
 
@@ -116,9 +116,9 @@ For establishing a verifiable data chain, we link signed objects together. The f
 The data chain object can be verified by validating the signature of the payload. Cryptographic data chains enable users to validate the provenance of entire driving event data processing chains including the authenticity and integrity of the input data, the output data and the provenance of sensing devices and the processing algorithms.
 
 We recommend to
--	establish verifiable data chains for driving event data processing,
--	provide a DID for every entity and data set,
--	integrate the data chains with DID registries (e.g. validated list of OEMs).
+-  establish verifiable data chains for driving event data processing,
+-  provide a DID for every entity and data set,
+-  integrate the data chains with DID registries (e.g. validated list of OEMs).
 
 The verifiable digital twins are addressable by their DIDs and providing information about organizations, sensors telematics devices, data sets, external data sources, software algorithms and users involved in the data chain.
 
@@ -150,26 +150,26 @@ The two classes of driving events may occur simultaneously and lead to certain s
 > Key question: How can I trust vehicle identity data, 3rd party data and machine learning labels that are created and processed along a distributed mobility value chain?
 
 To achieve trustworthiness of output labels we are planning to blend our verifiable data chain technology with historic driving event data and black box algorithms to build a verifiable agile driving solution:
--	Interoperable decentral identity and verifiable digital twinning protocol
--	Cryptographically secured and blockchain-enabled data chains
--	E2E integration of remote sensing (telematics) data and machine learning algorithms
+-  Interoperable decentral identity and verifiable digital twinning protocol
+-  Cryptographically secured and blockchain-enabled data chains
+-  E2E integration of remote sensing (telematics) data and machine learning algorithms
 
 Our approach demonstrates how the following **trust** problems can be addressed with DLT:
--	Vehicle provenance and configuration
--	Provenance, verifiability and integrity of the driving event input data (or telematics data)
--	Integrity and transparency of driving event data chain when multiple 3rd party intermediaries are involved
--	Credentials about benchmarking of ML algorithms and training data
--	Aggregated accuracy and trustworthiness of predicted ML labels and attributes
+-  Vehicle provenance and configuration
+-  Provenance, verifiability and integrity of the driving event input data (or telematics data)
+-  Integrity and transparency of driving event data chain when multiple 3rd party intermediaries are involved
+-  Credentials about benchmarking of ML algorithms and training data
+-  Aggregated accuracy and trustworthiness of predicted ML labels and attributes
 
 ## Challenges we ran into
 
 Over the course of the implementation of our verifiable data chain we ran into the following challenges:
-1.	Providing DID identity to individual data sets and algorithms
-2.	No reference implementations for verifiable data chains
-3.	No common semantic standards for automotive digital twin
-4.	Lack of validated source code for scalable issuing and anchoring of verifiable claims (>100.000 Tx/s)
-5.	Getting access to sensible OEM agile driving data and real algorithms
-6.	Lack of E2E driving event data models and architectures (location, transport, events, processing)
+1.  Providing DID identity to individual data sets and algorithms
+2.  No reference implementations for verifiable data chains
+3.  No common semantic standards for automotive digital twin
+4.  Lack of validated source code for scalable issuing and anchoring of verifiable claims (>100.000 Tx/s)
+5.  Getting access to sensible OEM agile driving data and real algorithms
+6.  Lack of E2E driving event data models and architectures (location, transport, events, processing)
 
 We solved (1.) and (2.) with our data chain implementation. We researched W3C vehicle signalling standards and semantic web as well industry 4.0 standards to address (3.).
 
@@ -182,25 +182,25 @@ Data model implementation patterns need to be created in order to enable effecti
 ## Accomplishments that we are proud of
 
 We accomplished the development of verifiable data chains including the following technology components:
--	DID manager
--	Secure key management
--	HD identity wallet
--	Verifiable claims
--	Deployment on severless cloud functions on AWS
--	Integration of tensor flow algorithms for image processing
--	Implementation of corporate requirements for vault/wallet policies
+-  DID manager
+-  Secure key management
+-  HD identity wallet
+-  Verifiable claims
+-  Deployment on severless cloud functions on AWS
+-  Integration of tensor flow algorithms for image processing
+-  Implementation of corporate requirements for vault/wallet policies
 
 We are now planning to integrate historic agile driving data and a black box algorithm with our existing data chain solution on Amazon Web Services. We are planning to demonstarte our solution on RWoT 8.
 
 ## What we learned
 
 Our primary leanings are around the following areas of interest:
--	Abstraction of the DID method to any object
--	Identity solutions for machine learning agents
--	Scalability of off-chain data structures
--	Integration of serverless cloud infrastructure with key management and identity wallets
--	Verifiability of data chains
--	Applicability of data chains for above mentioned data-driven business solutions
+-  Abstraction of the DID method to any object
+-  Identity solutions for machine learning agents
+-  Scalability of off-chain data structures
+-  Integration of serverless cloud infrastructure with key management and identity wallets
+-  Verifiability of data chains
+-  Applicability of data chains for above mentioned data-driven business solutions
 
 ## What's next: our broader objective
 

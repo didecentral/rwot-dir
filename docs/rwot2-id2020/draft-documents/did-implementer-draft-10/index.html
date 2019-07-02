@@ -259,6 +259,116 @@
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot2-id2020/"><span class="nav__sub-title">RWoT2-ID2020</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot3-sf/"><span class="nav__sub-title">RWoT3-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
   </ul>
 </nav>
     
@@ -381,8 +491,7 @@
 
 <p>This example of a DID uses the Sovrin DID method listed in Appendix A:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>did:sov:21tDAKCERh95uGgKbJNHYp
-</code></pre></div></div>
+<p>did:sov:21tDAKCERh95uGgKbJNHYp</p>
 
 <h3 id="21-example-owner-managed-ddo">2.1. Example Owner-Managed DDO</h3>
 
@@ -390,72 +499,76 @@
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": "https://example.org/did/v1",
+<p>“@context”: “https://example.org/did/v1”,</p>
 
-"id": "did:sov:21tDAKCERh95uGgKbJNHYp",
+<p>“id”: “did:sov:21tDAKCERh95uGgKbJNHYp”,</p>
 
-"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-1",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-1",
 
-	"type": ["CryptographicKey", "EdDsaPublicKey"],
+"type": ["CryptographicKey", "EdDsaPublicKey"],
 
-	"curve": "ed25519",
+"curve": "ed25519",
 
-	"expires": "2017-02-08T16:02:20Z",
+"expires": "2017-02-08T16:02:20Z",
 
-	"publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
-
-}, {
-
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-2",
-
-	"type": ["CryptographicKey", "RsaPublicKey"],
-
-	"expires": "2017-03-22T00:00:00Z",
-
-	"publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
-
-}],
-
-"control": [{
-
-	"type": "OrControl",
-
-	"signer": [
-
-		"did:sov:21tDAKCERh95uGgKbJNHYp",
-
-		"did:sov:8uQhQMGzWxR8vw5P3UWH1j"
-
-	]
-
-}],
-
-"service": {
-
-	"openid": "https://openid.example.com/456",
-
-	"xdi": "https://xdi.example.com/123"
-
-},
-
-"created": "2002-10-10T17:00:00Z",
-
-"updated": "2016-10-17T02:41:00Z",
-
-"signature": {
-
-	"type": "RsaSignature2016",
-
-	"created": "2016-02-08T16:02:20Z",
-
-	"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key/1",
-
-	"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}
+"publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
 </code></pre></div></div>
+
+<p>}, {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-2",
+
+"type": ["CryptographicKey", "RsaPublicKey"],
+
+"expires": "2017-03-22T00:00:00Z",
+
+"publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
+</code></pre></div></div>
+
+<p>}],</p>
+
+<p>“control”: [{</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "OrControl",
+
+"signer": [
+
+  "did:sov:21tDAKCERh95uGgKbJNHYp",
+
+  "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+
+]
+</code></pre></div></div>
+
+<p>}],</p>
+
+<p>“service”: {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"openid": "https://openid.example.com/456",
+
+"xdi": "https://xdi.example.com/123"
+</code></pre></div></div>
+
+<p>},</p>
+
+<p>“created”: “2002-10-10T17:00:00Z”,</p>
+
+<p>“updated”: “2016-10-17T02:41:00Z”,</p>
+
+<p>“signature”: {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "RsaSignature2016",
+
+"created": "2016-02-08T16:02:20Z",
+
+"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key/1",
+
+"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+</code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
@@ -465,40 +578,41 @@
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": "https://example.org/did/v1",
+<p>“@context”: “https://example.org/did/v1”,</p>
 
-"id": "did:sov:21tDAKCERh95uGgKbJNHYp",
+<p>“id”: “did:sov:21tDAKCERh95uGgKbJNHYp”,</p>
 
-"guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+<p>“guardian”: “did:sov:8uQhQMGzWxR8vw5P3UWH1j”</p>
 
-"control": [ "did:sov:8uQhQMGzWxR8vw5P3UWH1j" ],
+<p>“control”: [ “did:sov:8uQhQMGzWxR8vw5P3UWH1j” ],</p>
 
-"service": {
+<p>“service”: {</p>
 
-	"openid": "https://openid.example.com/456",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"openid": "https://openid.example.com/456",
 
-	"xdi": "https://xdi.example.com/123"
-
-},
-
-"type": "http://schema.org/Person",
-
-"created": "2002-10-10T17:00:00Z",
-
-"updated": "2016-10-17T02:41:00Z",
-
-"signature": {
-
-	"type": "RsaSignature2016",
-
-	"created": "2016-02-08T16:02:20Z",
-
-	"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key-1",
-
-	"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}
+"xdi": "https://xdi.example.com/123"
 </code></pre></div></div>
+
+<p>},</p>
+
+<p>“type”: “http://schema.org/Person”,</p>
+
+<p>“created”: “2002-10-10T17:00:00Z”,</p>
+
+<p>“updated”: “2016-10-17T02:41:00Z”,</p>
+
+<p>“signature”: {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "RsaSignature2016",
+
+"created": "2016-02-08T16:02:20Z",
+
+"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key-1",
+
+"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+</code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
@@ -738,8 +852,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": "https://example.org/did/v1"
-</code></pre></div></div>
+<p>“@context”: “https://example.org/did/v1”</p>
 
 <p>}</p>
 
@@ -768,8 +881,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp"
-</code></pre></div></div>
+<p>“id”: “did:sov:21tDAKCERh95uGgKbJNHYp”</p>
 
 <p>}</p>
 
@@ -801,8 +913,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
-</code></pre></div></div>
+<p>“guardian”: “did:sov:8uQhQMGzWxR8vw5P3UWH1j”</p>
 
 <p>}</p>
 
@@ -834,30 +945,31 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
 
-	"type": ["CryptographicKey", "EdDsaSAPublicKey"],
+"type": ["CryptographicKey", "EdDsaSAPublicKey"],
 
-	"curve": "ed25519",
+"curve": "ed25519",
 
-	"expires": "2017-02-08T16:02:20Z",
+"expires": "2017-02-08T16:02:20Z",
 
-	"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}, {
-
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
-
-	"type": ["CryptographicKey", "RsaPublicKey"],
-
-	"expires": "2017-03-22T00:00:00Z",
-
-	"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
-
-}]
+"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 </code></pre></div></div>
+
+<p>}, {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
+
+"type": ["CryptographicKey", "RsaPublicKey"],
+
+"expires": "2017-03-22T00:00:00Z",
+
+"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
+</code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -953,36 +1065,38 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"control": [{
+<p>“control”: [{</p>
 
-	"type": "OrControl",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "OrControl",
 
-	"signer": [
+"signer": [
             "did:sov:21tDAKCERh95uGgKbJNHYp", 
 
             "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
 
        ]
+</code></pre></div></div>
 
-}, {
+<p>}, {</p>
 
-	"type": "AndControl",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "AndControl",
 
-	"signer": [
+"signer": [
 
             "did:sov:7P7xfv5AeTSSWcuq6hPptQ", 
 
             "did:sov:X2v8rvzoCxayhYV5mhESQ1"
 
        ]
+</code></pre></div></div>
 
-}, {
+<p>}, {</p>
 
-	"type": "MofNControl",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "MofNControl",
 
-	"minimumSignatures": 2,
+"minimumSignatures": 2,
 
-	"signer": [
+"signer": [
 
             "did:sov:4XirzuHiNnTrwfjCMtBEJ6", 
 
@@ -991,9 +1105,9 @@ idchar             = ALPHA / DIGIT / "." / "-"
             "did:sov:WUoAyXB7mhfcVESjypm5ty"
 
        ]
-
-}]
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1025,14 +1139,14 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"service": {
+<p>“service”: {</p>
 
-	"openid": "https://openid.example.com/456",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"openid": "https://openid.example.com/456",
 
-	"xdi": "https://xdi.example.com/123"
-
-}
+"xdi": "https://xdi.example.com/123"
 </code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
@@ -1064,8 +1178,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"created": "2002-10-10T17:00:00Z"
-</code></pre></div></div>
+<p>“created”: “2002-10-10T17:00:00Z”</p>
 
 <p>}</p>
 
@@ -1089,8 +1202,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"updated": "2016-10-17T02:41:00Z"
-</code></pre></div></div>
+<p>“updated”: “2016-10-17T02:41:00Z”</p>
 
 <p>}</p>
 
@@ -1127,18 +1239,18 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"signature": {
+<p>“signature”: {</p>
 
-	"type": "LinkedDataSignature2015",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "LinkedDataSignature2015",
 
-	"created": "2016-02-08T16:02:20Z",
+"created": "2016-02-08T16:02:20Z",
 
-	"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
+"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
 
-	"signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
-
-}
+"signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
 </code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
@@ -1484,62 +1596,62 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": ["https://w3id.org/identity/v1", {
+<p>“@context”: [“https://w3id.org/identity/v1”, {</p>
 
-	"ctrl": "https://w3id.org/control#",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"ctrl": "https://w3id.org/control#",
 
-	"ddo": "https://w3id.org/ddo#",
+"ddo": "https://w3id.org/ddo#",
 
-	"control": {
+"control": {
 
-		"@id": "ddo:control",
+  "@id": "ddo:control",
 
-		"@type": "@id"
+  "@type": "@id"
 
-	},
+},
 
-	"curve": "sec:curve",
+"curve": "sec:curve",
 
-	"guardian": "ddo:guardian",
+"guardian": "ddo:guardian",
 
-	"minimumSignatures": {
+"minimumSignatures": {
 
-		"@id": "ctrl:minimumSignatures",
+  "@id": "ctrl:minimumSignatures",
 
-		"@type": "xsd:integer"
+  "@type": "xsd:integer"
 
-	},
+},
 
-	"openid": "ddo:openid",
+"openid": "ddo:openid",
 
-	"publicKeyBase64": "sec:publicKeyBase64",
+"publicKeyBase64": "sec:publicKeyBase64",
 
-	"service": "ddo:service",
+"service": "ddo:service",
 
-	"signer": "sec:signer",
+"signer": "sec:signer",
 
-	"updated": {
+"updated": {
 
-		"@id": "ddo:updated",
+  "@id": "ddo:updated",
 
-		"@type": "xsd:dateTime"
+  "@type": "xsd:dateTime"
 
-	},
+},
 
-	"xdi": "ddo:xdi",
+"xdi": "ddo:xdi",
 
-	"EdDsaPublicKey": "sec:EdDsaPublicKey",
+"EdDsaPublicKey": "sec:EdDsaPublicKey",
 
-	"RsaPublicKey": "sec:RsaPublicKey",
+"RsaPublicKey": "sec:RsaPublicKey",
 
-	"OrControl": "ctrl:OrControl",
+"OrControl": "ctrl:OrControl",
 
-	"AndControl": "ctrl:AndControl",
+"AndControl": "ctrl:AndControl",
 
-	"MofNControl": "ctrl:MofNControl"
-
-}]
+"MofNControl": "ctrl:MofNControl"
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1551,18 +1663,18 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
 
-	"type": ["CryptographicKey", "RsaPublicKey"],
+"type": ["CryptographicKey", "RsaPublicKey"],
 
-	"expires": "2017-03-22T00:00:00Z",
+"expires": "2017-03-22T00:00:00Z",
 
-	"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
-
-}]
+"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1570,20 +1682,20 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
 
-	"type": ["CryptographicKey", "EdDsaSAPublicKey"],
+"type": ["CryptographicKey", "EdDsaSAPublicKey"],
 
-	"curve": "ed25519",
+"curve": "ed25519",
 
-	"expires": "2017-02-08T16:02:20Z",
+"expires": "2017-02-08T16:02:20Z",
 
-	"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}]
+"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 

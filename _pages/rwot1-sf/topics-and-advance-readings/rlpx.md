@@ -7,29 +7,29 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Alex Leverington"
+  - "Alex Leverington"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/rlpx.md"
 
 --- 
 
-	RLPx: Cryptographic Network & Transport Protocol
-	Alex Leverington
-	Version 0.3
+  RLPx: Cryptographic Network & Transport Protocol
+  Alex Leverington
+  Version 0.3
 
 * Protocol Overview
-	* [Introduction](#introduction)
-	* [Features](#features)
-	* [Security Overview](#security-overview)
-	* [Network Formation](#network-formation)
-	* [Transport](#transport)
-	* [Implementation Overview](#implementation-overview)
-	* [Node Discovery](#node-discovery)
-	* [Encrypted Handshake](#encrypted-handshake)
-	* [Framing](#framing)
-	* [Flow Control](#flow-control)
+  * [Introduction](#introduction)
+  * [Features](#features)
+  * [Security Overview](#security-overview)
+  * [Network Formation](#network-formation)
+  * [Transport](#transport)
+  * [Implementation Overview](#implementation-overview)
+  * [Node Discovery](#node-discovery)
+  * [Encrypted Handshake](#encrypted-handshake)
+  * [Framing](#framing)
+  * [Flow Control](#flow-control)
 * Status
-	* [Release History](#release-history)
-	* [Implementation Status](#implementation-status)
+  * [Release History](#release-history)
+  * [Implementation Status](#implementation-status)
 * [References](#references)
 * [Contributors](#contributors)
 
@@ -39,22 +39,22 @@ RLPx is a cryptographic peer-to-peer network and protocol suite which provides a
 The current version of RLPx provides a network layer for Ethereum. Roadmap:
 
 * Completed:
-	* UDP Node Discovery for single protocol
-	* ECDSA Signed UDP
-	* Encrypted Handshake/Authentication
-	* Peer Persistence
-	* Encrypted/Authenticated TCP
-	* TCP Framing
+  * UDP Node Discovery for single protocol
+  * ECDSA Signed UDP
+  * Encrypted Handshake/Authentication
+  * Peer Persistence
+  * Encrypted/Authenticated TCP
+  * TCP Framing
 * Beta
-	* Node Discovery for single protocol
-	* Transport is feature complete
-	* Encrypted UDP
+  * Node Discovery for single protocol
+  * Transport is feature complete
+  * Encrypted UDP
 * Released Candidate
-	* Revisit node table algorithm
-	* Discovery support for multiple protocols
+  * Revisit node table algorithm
+  * Discovery support for multiple protocols
 * 1.0
-	* Node Discovery for multiple protocols
-	* Feature complete UDP
+  * Node Discovery for multiple protocols
+  * Feature complete UDP
 
 # Features
 * Node Discovery and Network Formation
@@ -65,13 +65,13 @@ The current version of RLPx provides a network layer for Ethereum. Roadmap:
 * Peer Preference Strategies
 * Peer Reputation
 * Security
-	* authenticated connectivity (ECDH+ECDHE, AES128)
-	* authenticated discovery protocol (ECDSA)
-	* encrypted transport (AES256)
-	* protocols sharing a connection are provided uniform bandwidth (framing)
-	* nodes have access to a uniform network topology
-	* peers can uniformly connect to network
-	* localised peer reputation model
+  * authenticated connectivity (ECDH+ECDHE, AES128)
+  * authenticated discovery protocol (ECDSA)
+  * encrypted transport (AES256)
+  * protocols sharing a connection are provided uniform bandwidth (framing)
+  * nodes have access to a uniform network topology
+  * peers can uniformly connect to network
+  * localised peer reputation model
 
 # Transport
 ### Objectives
@@ -129,79 +129,79 @@ Other connection strategies which can be manually implemented by a protocol; a p
 
 Packet Encapsulation:
 
-	hash || signature || packet-type || packet-data
-		hash: sha3(signature || packet-type || packet-data)	// used to verify integrity of datagram
-		signature: sign(privkey, sha3(packet-type || packet-data))
-		signature: sign(privkey, sha3(pubkey || packet-type || packet-data)) // implementation w/MCD
-		packet-type: single byte < 2**7 // valid values are [1,4]
-		packet-data: RLP encoded list. Packet properties are serialized in the order in which they're defined. See packet-data below.
+  hash || signature || packet-type || packet-data
+    hash: sha3(signature || packet-type || packet-data)  // used to verify integrity of datagram
+    signature: sign(privkey, sha3(packet-type || packet-data))
+    signature: sign(privkey, sha3(pubkey || packet-type || packet-data)) // implementation w/MCD
+    packet-type: single byte < 2**7 // valid values are [1,4]
+    packet-data: RLP encoded list. Packet properties are serialized in the order in which they're defined. See packet-data below.
 
 
 DRAFT Encrypted Packet Encapsulation:
 
-	mac || header || frame
-		header: frame-size || header-data
-	    frame-size: 3-byte integer size of frame, big endian encoded
-	    header-data:
-	        normal: rlp.list(protocol-type[, context-id])
-	        chunked-0: rlp.list(protocol-type, context-id, total-packet-size)
-			chunked-n: rlp.list(protocol-type, context-id)
-	        values:
-	            protocol-type: < 2**16
-	            context-id: < 2**16 (this value is optional for normal frames)
-	            total-packet-size: < 2**32
+  mac || header || frame
+    header: frame-size || header-data
+      frame-size: 3-byte integer size of frame, big endian encoded
+      header-data:
+          normal: rlp.list(protocol-type[, context-id])
+          chunked-0: rlp.list(protocol-type, context-id, total-packet-size)
+      chunked-n: rlp.list(protocol-type, context-id)
+          values:
+              protocol-type: < 2**16
+              context-id: < 2**16 (this value is optional for normal frames)
+              total-packet-size: < 2**32
 
 Packet Data (packet-data):
 
-	All data structures are RLP encoded.
-	Total payload of packet (excluding IP headers) must be no greater than 1280 bytes.
-	NodeId: The node's public key.
-	inline: Properties are appened to current list instead of encoded as list.
-	Maximum byte size of packet is noted for reference.
-	timestamp: When packet was created (number of seconds since epoch).
-	
-	PingNode packet-type: 0x01
-	struct PingNode
-	{
-		h256 version = 0x3;
-		Endpoint from;
-		Endpoint to;
-		uint32_t timestamp;
-	};
-	
-	Pong packet-type: 0x02
-	struct Pong
-	{
-		Endpoint to;
-		h256 echo;
-		uint32_t timestamp;
-	};
-	
-	FindNeighbours packet-type: 0x03
-	struct FindNeighbours
-	{
-		NodeId target; // Id of a node. The responding node will send back nodes closest to the target.
-		uint32_t timestamp;
-	};
-	
-	Neighbors packet-type: 0x04
-	struct Neighbours
-	{
-		list nodes: struct Neighbour
-		{
-			inline Endpoint endpoint;
-			NodeId node;
-		};
-		
-		uint32_t timestamp;
-	};
-	
-	struct Endpoint
-	{
-		bytes address; // BE encoded 4-byte or 16-byte address (size determines ipv4 vs ipv6)
-		uint16_t udpPort; // BE encoded 16-bit unsigned
-		uint16_t tcpPort; // BE encoded 16-bit unsigned
-	}
+  All data structures are RLP encoded.
+  Total payload of packet (excluding IP headers) must be no greater than 1280 bytes.
+  NodeId: The node's public key.
+  inline: Properties are appened to current list instead of encoded as list.
+  Maximum byte size of packet is noted for reference.
+  timestamp: When packet was created (number of seconds since epoch).
+  
+  PingNode packet-type: 0x01
+  struct PingNode
+  {
+    h256 version = 0x3;
+    Endpoint from;
+    Endpoint to;
+    uint32_t timestamp;
+  };
+  
+  Pong packet-type: 0x02
+  struct Pong
+  {
+    Endpoint to;
+    h256 echo;
+    uint32_t timestamp;
+  };
+  
+  FindNeighbours packet-type: 0x03
+  struct FindNeighbours
+  {
+    NodeId target; // Id of a node. The responding node will send back nodes closest to the target.
+    uint32_t timestamp;
+  };
+  
+  Neighbors packet-type: 0x04
+  struct Neighbours
+  {
+    list nodes: struct Neighbour
+    {
+      inline Endpoint endpoint;
+      NodeId node;
+    };
+    
+    uint32_t timestamp;
+  };
+  
+  struct Endpoint
+  {
+    bytes address; // BE encoded 4-byte or 16-byte address (size determines ipv4 vs ipv6)
+    uint16_t udpPort; // BE encoded 16-bit unsigned
+    uint16_t tcpPort; // BE encoded 16-bit unsigned
+  }
 
 # Encrypted Handshake
 Connections are established via a handshake and, once established, packets are encapsulated as frames which are encrypted using AES-256 in CTR mode. Key material for the session is derived via a KDF with ECDHE-derived keying material. ECC uses secp256k1 curve (ECP). Note: "remote" is host which receives the connection.
@@ -218,13 +218,13 @@ Handshake:
 
     New: authInitiator -> E(remote-pubk, S(ephemeral-privk, static-shared-secret ^ nonce) || H(ephemeral-pubk) || pubk || nonce || 0x0)
          authRecipient -> E(remote-pubk, remote-ephemeral-pubk || nonce || 0x0)
-		 
+     
     Known: authInitiator = E(remote-pubk, S(ephemeral-privk, token ^ nonce) || H(ephemeral-pubk) || pubk || nonce || 0x1)
            authRecipient = E(remote-pubk, remote-ephemeral-pubk || nonce || 0x1) // token found
            authRecipient = E(remote-pubk, remote-ephemeral-pubk || nonce || 0x0) // token not found
     
-	static-shared-secret = ecdh.agree(privkey, remote-pubk)
-	ephemeral-shared-secret = ecdh.agree(ephemeral-privk, remote-ephemeral-pubk)
+  static-shared-secret = ecdh.agree(privkey, remote-pubk)
+  ephemeral-shared-secret = ecdh.agree(ephemeral-privk, remote-ephemeral-pubk)
 
 Values generated following the handshake (see below for steps):
 
@@ -252,27 +252,27 @@ Creating authenticated connection:
 
     1. initiator generates auth from ecdhe-random, static-shared-secret, and nonce (auth = authInitiator handshake)
     2. initiator connects to remote and sends auth
-	
+  
     3. optionally, remote decrypts and verifies auth (checks that recovery of signature == H(ephemeral-pubk))
     4. remote generates authAck from remote-ephemeral-pubk and nonce (authAck = authRecipient handshake)
-	
-	optional: remote derives secrets and preemptively sends protocol-handshake (steps 9,11,8,10)
-	
+  
+  optional: remote derives secrets and preemptively sends protocol-handshake (steps 9,11,8,10)
+  
     5. initiator receives authAck
     6. initiator derives shared-secret, aes-secret, mac-secret, ingress-mac, egress-mac
     7. initiator sends protocol-handshake
-	
+  
     8. remote receives protocol-handshake
     9. remote derives shared-secret, aes-secret, mac-secret, ingress-mac, egress-mac
     10. remote authenticates protocol-handshake
     11. remote sends protocol-handshake
-	
+  
     12. initiator receives protocol-handshake
     13. initiator authenticates protocol-handshake
     13. cryptographic handshake is complete if mac of protocol-handshakes are valid; permanent-token is replaced with token
     14. begin sending/receiving data
-	
-	All packets following auth, including protocol negotiation handshake, are framed.
+  
+  All packets following auth, including protocol negotiation handshake, are framed.
 
 Either side may disconnect if and only if authentication of the first framed packet fails, or, if the protocol handshake isn't appropriate (ex: version is too old).
 
@@ -336,15 +336,15 @@ Padding is used to prevent buffer starvation, such that frame components are byt
 Dynamic framing is a process by which both sides send frames which are limited in size by the sender window size and the number of active protocols. Dynamic framing provides flow control and is implemented by a sender transfer window and protocol window. The data transfer window is a 32-bit value set by the sender and indicates how many bytes of data the sender can transmit. The protocol window is the transfer window, divided by the number of active protocols. After a connection is established, but before any frames have been transmitted, the sender begins with the initial window size. This window size is a measure of the buffering capability of the recipient. The sender must not send a data frame larger than the protocol window size. After sending each data frame, the sender decrements its transfer window size by the amount of data transmitted. When the window size becomes less than or equal to 0, the sender must pause transmitting data frames. At the other end of the stream, the recipient sends a DeltaUpdate packet back to notify the sender that it has consumed some data and freed up buffer space to receive more data. When a connection is first established the initial window size is 8KB.
 
     pws = protocol-window-size = window-size / active-protocol-count
-	
+  
     The initial window-size is 8KB.
     A protocol is considered active if it's queue contains one or more packets.
 
-	DeltaUpdate protocol-type: 0x0, packet-type: 0x0
-	struct DeltaUpdate
-	{
-		unsigned size; // < 2**31
-	}
+  DeltaUpdate protocol-type: 0x0, packet-type: 0x0
+  struct DeltaUpdate
+  {
+    unsigned size; // < 2**31
+  }
 
 Multiplexing of protocols is performed via dynamic framing and fair queueing. Dequeuing packets is performed in a cycle which dequeues one or more packets from the queue(s) of each active protocol. The multiplexor determines the amount of bytes to send for each protocol prior to each round of dequeuing packets.
 
@@ -360,25 +360,25 @@ If the size of a frame is less than 1 KB then the protocol may request that the 
 # Release History
 
 * Upcoming
-	* flow control
-	* capabilities
+  * flow control
+  * capabilities
 * Version 0.x (in progress)
-	* IPv6 and split-port endpoints
-	* External IP & Public Key discovery
-	* Move protocol-type to frame
+  * IPv6 and split-port endpoints
+  * External IP & Public Key discovery
+  * Move protocol-type to frame
 * Version 0.3:
-	* ignore unsolicited messages
-	* persistence (Go)
+  * ignore unsolicited messages
+  * persistence (Go)
 * Version 0.2:
-	* versioning
-	* persistence (C++)
+  * versioning
+  * persistence (C++)
 * Version 0.1:
-	* Encrypted/Authenticated TCP
-	* Basic TCP Framing (only frame-size is used)
-	* Signed UDP (via ecdsa)
-	* Basic Node Discovery
-	* removal of TCP peer sharing
-	
+  * Encrypted/Authenticated TCP
+  * Basic TCP Framing (only frame-size is used)
+  * Signed UDP (via ecdsa)
+  * Basic Node Discovery
+  * removal of TCP peer sharing
+  
 # Implementation Status
 
 Client implementation status of RLPx.  

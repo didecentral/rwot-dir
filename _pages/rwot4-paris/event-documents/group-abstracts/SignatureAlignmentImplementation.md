@@ -116,11 +116,11 @@ ASCII(BASE64URL(UTF8(JWS Protected Header)) || '.' || JWS Payload
 Let's break apart the protected header handling into the steps:
 
 - stringify the protected header JSON, sorting the keys. 
-	- sorting is an implementation choice to allow predictability
+  - sorting is an implementation choice to allow predictability
 - encode the stringified header as follows:
-	- utf-8 encode
-	- base64 url encode
-	- ascii encode
+  - utf-8 encode
+  - base64 url encode
+  - ascii encode
 
 
 To sign, we do the following steps, where `input` is the normalized JSON-LD.
@@ -129,8 +129,8 @@ To sign, we do the following steps, where `input` is the normalized JSON-LD.
 - RSASHA256 sign the JWS input.
 - base64 url encode the signature value
 - form the complete signature to be placed in `signatureValue` as <header> + ".." + <base64Signature>
-	- In JWS, the payload would normally be between the middle 2 dots, but this is a detached payload
-	- Note that the header is included in the signature, so the sorting done in the first step isn't technically necessarily. Verification would need to ensure it uses the same encoded header.
+  - In JWS, the payload would normally be between the middle 2 dots, but this is a detached payload
+  - Note that the header is included in the signature, so the sorting done in the first step isn't technically necessarily. Verification would need to ensure it uses the same encoded header.
 
 
 ## Steps to verify
@@ -193,34 +193,34 @@ The only modifications are:
 
 ```
 if(options.algorithm === 'RsaSignature2017') {
-	var crypto = api.use('crypto');
-	var signer = crypto.createSign('RSA-SHA256');
+  var crypto = api.use('crypto');
+  var signer = crypto.createSign('RSA-SHA256');
 
-	// detached signature headers for JWS
-	var protectedHeader = {"alg":"RS256","b64":false,"crit":["b64"]};
+  // detached signature headers for JWS
+  var protectedHeader = {"alg":"RS256","b64":false,"crit":["b64"]};
 
-	// ensure the stringified version of the protected header has a consistent ordering
-	var stringifiedHeader = JSON.stringify(protectedHeader, Object.keys(protectedHeader).sort());
+  // ensure the stringified version of the protected header has a consistent ordering
+  var stringifiedHeader = JSON.stringify(protectedHeader, Object.keys(protectedHeader).sort());
 
-	// utf-8 encode and base64 url encode the protected header.
-	// Note that base64url.encode does the following, and Buffer(str) default encoding is utf-8:
-	// new Buffer(str).toString('base64')
-	var b64UrlEncodedHeader = base64url.encode(stringifiedHeader);
+  // utf-8 encode and base64 url encode the protected header.
+  // Note that base64url.encode does the following, and Buffer(str) default encoding is utf-8:
+  // new Buffer(str).toString('base64')
+  var b64UrlEncodedHeader = base64url.encode(stringifiedHeader);
 
-	// ensure resulting string is ascii
-	var asciiHeader = Buffer.from(b64UrlEncodedHeader, 'utf-8').toString('ascii');
+  // ensure resulting string is ascii
+  var asciiHeader = Buffer.from(b64UrlEncodedHeader, 'utf-8').toString('ascii');
 
-	// jws input to sign
-	var to_sign = asciiHeader + "." + input;
+  // jws input to sign
+  var to_sign = asciiHeader + "." + input;
 
-	signer.update(to_sign);
-	var signatureBytes = signer.sign(options.privateKeyPem);
+  signer.update(to_sign);
+  var signatureBytes = signer.sign(options.privateKeyPem);
 
-	var base64Signature = base64url.encode(signatureBytes);
+  var base64Signature = base64url.encode(signatureBytes);
 
-	// JWS signature is encoded proctected header + '..' + signature
-	// .. is because this is a detached payload
-	signature = b64UrlEncodedHeader + ".." + base64Signature;
+  // JWS signature is encoded proctected header + '..' + signature
+  // .. is because this is a detached payload
+  signature = b64UrlEncodedHeader + ".." + base64Signature;
 }
 ```
 

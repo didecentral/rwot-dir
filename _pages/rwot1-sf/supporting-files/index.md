@@ -6,6 +6,8 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
+header:
+  image: /rwot1-sf/assets/images/1-photos/RebootingWebOfTrust_2015-11_13.JPG
 ---
 
 # Supporting Files

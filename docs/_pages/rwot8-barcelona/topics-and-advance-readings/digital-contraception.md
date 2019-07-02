@@ -2,7 +2,7 @@
 By Mitzi László <email@mitzilaszlo.org>
 
  “Personal Data means any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;”
--	General Data Protection Regulation Article 4 (1)
+-  General Data Protection Regulation Article 4 (1)
 The collective of one individual's personal data forms a digital identity (or perhaps digital alter ego is more fitting). A digital identity encompasses all of our personal data shadowing, representing and connected to our physical and ideological self. 
 
 Data points are linked in meaning. For example, the genetic profile of one person can give insight into the genetic profile of family members. Data points can lead to deductions that result in other data points. When does one digital identity start and another digital identity stop? At what point does data become public as a result of describing a crowd?  

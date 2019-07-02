@@ -1,0 +1,1284 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Blockchain-based Trust for Software Components - Rebooting the Web of Trust</title>
+<meta name="description" content="RWOT Index - Drafts, Documents, Photos, Topics, Advance Readings, and Final Whitepapers">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Rebooting the Web of Trust">
+<meta property="og:title" content="Blockchain-based Trust for Software Components">
+<meta property="og:url" content="http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/code-and-file-signing/">
+
+
+
+
+  <meta property="og:image" content="http://localhost:4000/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg">
+
+
+
+  <meta name="twitter:site" content="@didecentral">
+  <meta name="twitter:title" content="Blockchain-based Trust for Software Components">
+  <meta name="twitter:description" content="RWOT Index - Drafts, Documents, Photos, Topics, Advance Readings, and Final Whitepapers">
+  <meta name="twitter:url" content="http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/code-and-file-signing/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg">
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/code-and-file-signing/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "DIDecentral",
+      "url": "http://localhost:4000/rwot-dir",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/rwot-dir/feed.xml" type="application/atom+xml" rel="alternate" title="Rebooting the Web of Trust Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/rwot-dir/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/rwot-dir/"><img src="/rwot-dir/assets/images/wot-logo.png" alt=""></a>
+        
+        <a class="site-title" href="/rwot-dir/">Drafts, Documents, Literature</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://decentralized-id.com/" >DIDecentral</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" "
+>
+  
+    <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Blockchain-based Trust for Software Components" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      <h3>RWoT1-SF</h3>
+      
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/final-documents/"><span class="nav__sub-title">Final Documents</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/dpki/" class="">Decentralized Public Key Infrastructure</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/rebranding-web-of-trust/" class="">Rebranding Web of Trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/satisfying-real-worl-use-cases/" class="">Satisfying Real World Use Cases</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/smart-signatures/" class="">Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/whats-the-next-step/" class="">What's the Next Step?</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/event-documents/"><span class="nav__sub-title">Event Documents</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/" class="">PROCESS</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/Evaluation-Survey.pdf" class="">Evaluation Survey</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/RebootingtheWebOfTrustProcess.pdf" class="">RebootingtheWebOfTrustProcess</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/Specification-Guidelines.pdf" class="">Specification-Guidelines</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/The-6-Types-of-Questions.pdf" class="">The-6-Types-of-Questions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/Use-Case-Problems-Worksheet.pdf" class="">Use-Case-Problems Worksheet</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/process/White-Paper-Guidelines.pdf" class="">White-Paper-Guidelines</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/" class="">PLENARIES</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/1-introduction/" class="">1-introduction</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/2-top-topics/" class="">2-top-topics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/3-table-topics/" class="">3-table-topics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/4-dayonesummary/" class="">4-dayonesummary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/5-insights-and-building-trust/" class="">5-insights-and-building-trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/6-presentations/" class="">6-presentations</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/" class="">7-where-do-we-go-from-here</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/plenaries/8-table-seven/" class="">8-table-seven</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/graphic-recording/" class="">GRAPHIC RECORDING</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/photos/" class="">PHOTOS</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/draft-documents/"><span class="nav__sub-title">Draft Documents</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/DPKI-OBSOLETE/" class="">DPKI-OBSOLETE</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/" class="">Decentralized-Public-Key-Infrastructure</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/detecting-key-misuse-on-a-blockchain/" class="">Detecting Key Misuse on a Blockchain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/Distributed-Permanent-Identifier-Registry" class="">Distributed Permanent Identifier Registry</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/satisfying-real-world-use-cases/" class="">Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/rebranding-web-of-trust/" class="">Rebranding Web of Trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/smart-signatures/" class="">Smart Signatures</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/whats-the-next-step/" class="">Creating the New World of Trust</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/supporting-files/"><span class="nav__sub-title">Supporting Files</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/"><span class="nav__sub-title">Topics and Advance Readings</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/advanced-web-of-trust-concepts/" class="">Advanced Web-of-Trust Concepts</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/shared_terminology_for_digital_identity_systems/" class="">Attempts at common terminology for digital identity systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/" class="">Authorities vs. Peers: Pain Points in Security</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities/" class="">Avoiding Confused Deputy Attack Using Capabilities</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/binding-identity-in-decentralized-system/" class="">Binding Identity in a Decentralized System</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/code-and-file-signing/" class="">Blockchain-based Trust for Software Components</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/blockchain-opportunities/" class="">Blockchain Tech Opportunities in the Web-of-Trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/decentralized_e-commerce/" class="">Building a Web of Trust for E-commerce</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32/" class="">Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/dealing_with_key_loss_in_digital_identity/" class="">Dealing with key loss in digital identity systems</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Decentralized-Authentication-with-Blockchain-Auth/" class="">Decentralized Authentication with Blockchain Auth</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation/" class="">Decentralized Cooperation Needs Decentralized Reputation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/different-models-for-trust/" class="">Different Models for Trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/DistributedMulti-ledgerModelForFinancialIndustry/" class="">Distributed multi-ledger model for financial industry</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Distributed_Receptor-Based_Computing/" class="">Distributed Receptor-Based Computing</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest/" class="">Distributed Trust Systems and the Kenyesian Beauty Contest</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/FirstEncountersWithPGP/" class="">First Encounters with PGP</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/" class="">Hierarchical Deterministic Keys: BIP32 & Beyond</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/How-not-to-build-an-orwellian-reputation-system/" class="">How not to build an Orwellian reputation system</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness/" class="">Identity, Guidance and Situational Awareness</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Identity-Property-Simulation/" class="">Identity, Property and Simulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/" class="">Key revocation of lost and stolen keys</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/key-transparency-for-end-users/" class="">Key Transparency for End Users</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/knowing-when-your-identity-has-been-compromised/" class="">Knowing When Your Digital Identity Has Been Compromised</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/lightning-network-and-web-of-trust/" class="">Lightning Network and Web of Trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/linked-local-names/" class="">Linked Local Names</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/modern-pki-identity-assertions/" class="">Modern PKI: Identity Assertions Forming Trust Networks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/PGP-Paradigm.pdf" class="">PGP Paradigm</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/pki_tools_in_evm_blockchains/" class="">PKI Tools in EVM-based blockchains</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/progressive-trust/" class="">Progressive Trust</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/refugee-use-case/" class="">Real life application of WoT: Refugee Use Case</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/ReputationAndTheRealWorld/" class="">Reputation and the Real World</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Schnorr-Signatures--An-Overview/" class="">Schnorr Signatures: An Overview</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/key-exchange-as-capability-system/" class="">Secret Handshake: Key Exchange as a Capability System</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Secure-Naming-on-the-Blockchain/" class="">Secure Naming on the Blockchain</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Selective-Disclosure-of-Identity/" class="">Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/" class="">Tensions related to identity and community regulation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/The-Naming-of-Things.txt/" class="">The Naming of Things</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/thin-clients/" class="">Thin Clients</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/" class="">Trust Exchange: An Architecture for a Permanent Open Trust Network</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs/" class="">Web of Trust with Blockchain IDs</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/white-papers-specifications-proof-of-concept-code/" class="">White Papers, Specifications & Proofs of Concept</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/xdi-link-contracts/" class="">XDI Link Contracts: An Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+      
+      <h3>Rebooting the Web of Trust</h3>
+      
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot1-sf/"><span class="nav__sub-title">RWoT1-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot2-id2020/"><span class="nav__sub-title">RWoT2-ID2020</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot3-sf/"><span class="nav__sub-title">RWoT3-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Blockchain-based Trust for Software Components">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Blockchain-based Trust for Software Components
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>by Sean Gilligan <a href="https://github.com/msgilligan">https://github.com/msgilligan</a></em>
+v0.1
+:description: Rough draft of topic paper for Rebooting Web of Trust.</p>
+
+<p>== Zooko’s Triangle Stalks the Bazaar</p>
+
+<p>A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software – both source code and binaries – generally rely on the same flawed, hierarchical systems as our network connections do.</p>
+
+<p>Blockchain technology allows us to sidestep Zooko’s Triangle «zooko» and provide systems of identification that are decentralized, secure, and human-meaningful. Today’s dominant code signing and verification technologies rely on centralized certificate authorities and/or centralized hardware or operating system vendors. These solutions are typically oriented toward end-user installation of applications and do not address the needs of software developers who increasingly rely on externally developed components in both source and binary form. Open Source Software has moved us in the direction of the Bazaar «catb» and created an incredibly powerful and diverse supply chain, but has brought with it new risks.</p>
+
+<p>Language-specific software component repositories such as Maven, NPM, RubyGems, and CocoaPods are not as secure as they should be and yet most developers have no alternative but to assume their component downloads have not been tampered with. In the rare circumstances where developers are validating their downloaded components they’re using homegrown validation tools and often manually verifying hashes. Typically file hashes are stored on the same server as the hashed file to be validated. If the download is compromised, the hash will  be too. Developers need a way of sending and receiving decentralized, secure, and human meaningful information that can be used to secure software components and applications.</p>
+
+<p>== Blockchain-based ID Systems Can Help</p>
+
+<p>As blockchain-based identity solutions become increasingly viable and search for early adopters, they can be applied to the software development process itself.</p>
+
+<p>Namecoin is (one of?) the first blockchain-based identity solutions and currently provides enough functionality to solve some of the major issues involved in secure software distribution. Blockchain-agnostic middleware like DNSChain «dnschain» can provide servers and APIs for integrating with software build tools to provide the decentralized identity and other functions that are needed. Developing tools that are blockchain-agnostic will reassure tool developers that they can migrate to another blockchain based upon future adoption and technology trends.</p>
+
+<p>One area of concern is “blockchain bloat”, but it is unclear whether file signatures would be stored on a blockchain and, if so, how many would really need to be store. There has been preliminary discussion within the Namecoin community about blockchain-based signing/hashing of file contents although simply using a blockchain user id or domain id may be enough to significantly improve some of the current pain points.</p>
+
+<p>== Proposed directions</p>
+
+<p>We propose discussing these issues at the conference and unless presented with more attractive options, proceed with developing a working prototype for the Java ecosystem that uses Namecoin and DNSChain. Why Java? It is large, it generally distributes binaries rather than sources, it is clearly in need of solution, and (this author) knows it best.</p>
+
+<p>== Java &amp; Maven Repositories</p>
+
+<p>For years the default option for the leading Java repository, http://central.sonatype.org[Maven Central], was to use HTTP rather than HTTPS. This weakness was common knowledge, but generally ignored. In 2014 an exploit was demonstrated «veytsman» that used a MITM attack to insert unwanted code into any downloaded JAR file. Shortly thereafter https became the default option. However, there are still no reliable, automated methods for ensuring that files weren’t corrupted on the Maven Central servers themselves «jbaruch1». https://bintray.com/bintray/jcenter[JCenter] provides additional identity information about component developers but does not provide a truly decentralized solution «jbaruch2».</p>
+
+<p>Maven is the build tool that standardized the Maven repository format. Currently the https://maven.apache.org/enforcer/maven-enforcer-plugin/[Maven Enforcer Plugin] and the https://github.com/gary-rowe/BitcoinjEnforcerRules[BitcoinJEnforcerRules Plugin] are available for validating file hashes «bitcoinj». Gradle is a newer build-tool that has been gaining in popularity and is now the standard build tool for the Android platform. The https://github.com/WhisperSystems/gradle-witness[Gradle Witness Plugin] seems to be the best (only) choice for validating downloads.</p>
+
+<p>Given the author’s preference for and familiarity with Gradle, it is likely that the Gradle Witness Plugin will be the starting point for the project.</p>
+
+<p>== Issues</p>
+
+<p>The issues are grouped into short-term (roughly corresponding with the coming “Rebooting the Web of Trust Hackathon”) and longer-term issues.</p>
+
+<p>=== Short-term</p>
+
+<ul>
+  <li>It looks like Namecoin is going to be the first implementation, but feedback is welcome.</li>
+  <li>Which namespaces will be used? <code class="highlighter-rouge">d/</code>, <code class="highlighter-rouge">id/</code>, or both?</li>
+  <li>Integration with Gradle and Maven build tools (most likely via plugins)</li>
+  <li>Focus on new releases that can use new methods and tools</li>
+  <li>Other languages welcome if Hackathon volunteers.</li>
+</ul>
+
+<p>=== Longer-term</p>
+
+<ul>
+  <li>How to validate older, existing releases.</li>
+  <li>Tools for languages and repositories other than Java</li>
+  <li>How to handle name expiration</li>
+  <li>Solutions for blockchains other than Namecoin</li>
+  <li>Hierarchical authority and delegation for larger organizations</li>
+  <li>Multi-signature key management (both blockchain address and code signing key)</li>
+  <li>Code-signing certificate issuance and revocation</li>
+</ul>
+
+<p>== Appendix: Language-Specific Tools &amp; Software Repositories</p>
+
+<p>This section will be updated as we collect additional information on the tools and repositories of other languages.</p>
+
+<p>=== Ruby</p>
+
+<ul>
+  <li>https://rubygems.org[RubyGems]</li>
+</ul>
+
+<p>=== JavaScript (Node.js)</p>
+
+<ul>
+  <li>https://www.npmjs.com/[NPM]</li>
+  <li>http://bower.io/[Bower]</li>
+</ul>
+
+<p>Early work on using hashes for validation of scripts loaded from CDNs: https://hacks.mozilla.org/2015/09/subresource-integrity-in-firefox-43/</p>
+
+<p>=== Objective-C/Swift</p>
+
+<ul>
+  <li>https://cocoapods.org/[CocoaPods]</li>
+</ul>
+
+<p>== Bibliography</p>
+
+<p>[bibliography]</p>
+<ul>
+  <li>
+    <p>[[[zooko]]] Wilcox-O’Hearn, Zooko, “Names: Distributed, Secure, Human-Readable: Choose Two”, 2001, http://web.archive.org/web/20011020191610/http://zooko.com/distnames.html</p>
+  </li>
+  <li>
+    <p>[[[catb]]] Raymond, Eric Steven, “The Cathedral and the Bazaar”, 2000, http://www.catb.org/esr/writings/cathedral-bazaar/introduction/</p>
+  </li>
+  <li>
+    <p>[[[veytsman]]] Veytsman, Max, “How to take over the computer of any Java (or Clojure or Scala) developer”, http://blog.ontoillogical.com/blog/2014/07/28/how-to-take-over-any-java-developer/</p>
+  </li>
+  <li>
+    <p>[[[jbaruch1]]] Sadogursky, Baruch, “Feel secure with SSL? Think again.”, Aug 14, 2014, http://blog.bintray.com/2014/08/04/feel-secure-with-ssl-think-again/</p>
+  </li>
+  <li>
+    <p>[[[jbaruch2]]] Sadogursky, Baruch, “Feeling secure with Bintray downloads”, May 14, 2015, http://blog.bintray.com/2015/05/14/feeling-secure-with-bintray-downloads/</p>
+  </li>
+  <li>
+    <p>[[[bitcoinj]]] “How to depend on bitcoinj with Maven using projects” https://bitcoinj.github.io/using-maven</p>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=didecentral&text=Blockchain-based+Trust+for+Software+Components%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fcode-and-file-signing%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fcode-and-file-signing%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2Fcode-and-file-signing%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="mailto:identitydecentralized@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://decentralized-id.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/rwot-dir/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/rwot-dir/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/rwot-dir/assets/js/lunr/lunr.min.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-store.js"></script>
+<script src="/rwot-dir/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

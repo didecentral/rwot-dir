@@ -64,12 +64,12 @@ To address the above needs we must solve 2 requirements. These requirements are 
     - Empower Government use cases like:
       - Government programs like food stamps and Medicare where the government is providing the funding.
       - Grants. So how were those funds utilized?
-	  - Permissioned Government Oversight and regulation without building independent systems
+    - Permissioned Government Oversight and regulation without building independent systems
     - Empower business use cases like:
       - Business processes for a shared role or delegable usage in instances of vacations,
       - Incase of death's, willable/transferable assets that were bound to the identity of the deceased.
-	  - Role based permissions tied to identity.
-	    Example: Bank handlers of corporate dept can be delegated authority to pay vendor invoices for their client immediately to win the highest NET discount.
+    - Role based permissions tied to identity.
+      Example: Bank handlers of corporate dept can be delegated authority to pay vendor invoices for their client immediately to win the highest NET discount.
     - Empower individual use cases like:
       - willable/transferable assets that were bound to the identity of the deceased.
       - Persona's and pure merit based identities and scoring mechanisms for online purchases. When Objective measurements of reliability is bound to a person, the merit becomes far more valuable than the drivers license.
@@ -78,7 +78,7 @@ To address the above needs we must solve 2 requirements. These requirements are 
     - Usage of secure objects:
       - Secure objects allow the access controls for its contents to be integrated with the object. Regardless of where the object is stored, how it is transported, the data is secure.
       - Secure objects have access control mechanisms where in roles can be granted to view various different levels of the objects contents.
-	  - Identity is interweaved throughout the objects such that those identities are custodians of the objects information.
+    - Identity is interweaved throughout the objects such that those identities are custodians of the objects information.
     - Secure Objects permissioned by an organization chart and employee roles.
        - Objects are always secure. Even internal employees go through the same permissioning system as 2nd & 3rd parties.
     - There is no back door, only an algorithmic construction for keys to the front door.
@@ -115,7 +115,7 @@ Direct Financial Services beneficiaries of Identity/Credentials/Verifiable asset
       - Bond coupons
       - Dividens
       - Corporate Debt
-	    - Shared ledger so that bank handlers of corporate dept can pay vendor invoices for their client immediately, win the highest NET discount, immediately client notification & validation that the invoice was executed and paid.
+      - Shared ledger so that bank handlers of corporate dept can pay vendor invoices for their client immediately, win the highest NET discount, immediately client notification & validation that the invoice was executed and paid.
       - Syndicated loans
       - Private securities
       - Asset back instruments
@@ -173,26 +173,26 @@ Direct Financial Services beneficiaries of Identity/Credentials/Verifiable asset
 Requirements:
   - Non-repudiable shared ledger for single source of truth for that issued identity
     - Any identity, once issued, cannot be changed by any party, and no parties can make copies of that identity
-	- All stakeholders should have direct access to the share repository of identity management yet permission controls prevent 'unauthorized' violation of privacy
+  - All stakeholders should have direct access to the share repository of identity management yet permission controls prevent 'unauthorized' violation of privacy
   - Secure, tamperproof identity
     - Impossible to take the individual attributes out of the public identity usage and use for unintended purposes.
-	- Any credential (or attribute), once bound into the creation chain of that identity, is deemed infeasible to reverse the chain to extract/hijack the raw attribute and use for unintended purposes.
+  - Any credential (or attribute), once bound into the creation chain of that identity, is deemed infeasible to reverse the chain to extract/hijack the raw attribute and use for unintended purposes.
   - Private, unlinkble identity per each usage
     - Each identity is of singular use for 1 transaction.
-	- Walking the forensic of the usage of that identity requires permission elevation from the owner(s) of that identity.
+  - Walking the forensic of the usage of that identity requires permission elevation from the owner(s) of that identity.
   - Longevity:
     - Able to meet 25 year half-life requirements (5x25 for a 125 year total life storage requirement)
-	- Resiliant to the effects of quantum computing attacks on the end identity key outputs
+  - Resiliant to the effects of quantum computing attacks on the end identity key outputs
   - Permission controls:
     - Allowable confidential sharing of:
-	  - Individual attributes of identity (aka a credential)
-	    Example: Diploma, Financial Accreditation, Driver's License Number
-	  - Verifiable attributes such as a address, over the age of 21
-	  - Any attribute, once shared, is 3 way bound between the owning party, verifying party, and the receiving shared party to whom it was shared. It must be impractical for any of the 3 parties to reuse the attribute outside the context of what it was shared for.
+    - Individual attributes of identity (aka a credential)
+      Example: Diploma, Financial Accreditation, Driver's License Number
+    - Verifiable attributes such as a address, over the age of 21
+    - Any attribute, once shared, is 3 way bound between the owning party, verifying party, and the receiving shared party to whom it was shared. It must be impractical for any of the 3 parties to reuse the attribute outside the context of what it was shared for.
   - Auditable:
     - Can prove ownership of the identity
-	- Its noted, certain conditions exist to allow Regulatory auditing of the identity usage without empowering regulatory snooping nor penetration of the privacy veil. Essentially this means a Regulator may see that Erik Anderson performed a transaction on this date but they dont have permissions to view the underlying transactions metadata.
-	- There exists, certain anonymous attributes, that can be publically shared. This is necessary for development of statistics. Example: Trade flows, economic health, etc.
+  - Its noted, certain conditions exist to allow Regulatory auditing of the identity usage without empowering regulatory snooping nor penetration of the privacy veil. Essentially this means a Regulator may see that Erik Anderson performed a transaction on this date but they dont have permissions to view the underlying transactions metadata.
+  - There exists, certain anonymous attributes, that can be publically shared. This is necessary for development of statistics. Example: Trade flows, economic health, etc.
   - Malware:
     - What if Grandpa's computer is infected with malware? Key management is the hard problem to solve.
       - Keys should be stored on an external device that doesnt have online connectivity?

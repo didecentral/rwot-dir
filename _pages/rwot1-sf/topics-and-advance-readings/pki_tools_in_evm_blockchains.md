@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Christian Lundkvist"
+  - "Christian Lundkvist"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/pki_tools_in_evm_blockchains.md"
 
 --- 
@@ -60,7 +60,7 @@ contract KeyRevocationList {
 
   mapping (address => bool) public isKeyRevoked;
   mapping (address => uint) public keyExpiry;
-	
+  
   function revokeKey() {
     isKeyRevoked[msg.sender] = true;
   }

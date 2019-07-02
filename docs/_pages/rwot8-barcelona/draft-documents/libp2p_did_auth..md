@@ -33,12 +33,12 @@ The [DID specification](https://github.com/w3c-ccg/did-spec) allows for attribut
 Example 1:  DID authentication declaration inside an example DID document [3]: 
 ```
 {
-	"@context": "https://w3id.org/did/v1",
-	"id": "did:example:123456789abcdefghi",
-	"service": {
-		"type": "DidAuthService",
-		"serviceEndpoint": "https://auth.example.com/did:example:123456789abcdefg"
-	}
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "service": {
+    "type": "DidAuthService",
+    "serviceEndpoint": "https://auth.example.com/did:example:123456789abcdefg"
+  }
 }
 ```
 
@@ -47,7 +47,7 @@ Example 2.  DID authentication declaration using libp2p as a service endpoint
 ```
 {
     "@context": "https://w3id.org/did/v1",
-	"id": "did:ipid:12D3KooWMHdrzcwpjbdrZs5GGqERAvcgqX3b5dpuPtPa9ot69yew",
+  "id": "did:ipid:12D3KooWMHdrzcwpjbdrZs5GGqERAvcgqX3b5dpuPtPa9ot69yew",
     "service":  {
       "type": "DidAuthService",
       "serviceEndpoint": "/ip4/108.241.29.82/tcp/1265/ipfs/QmZTefe4V1KYwLUfhGVMMBbAkAa4E9vynzSNx5vPtrG4dv",
@@ -109,7 +109,7 @@ Example 3.  DID authentication declaration using libp2p as a service endpoint wi
 ```
 {
     "@context": "https://w3id.org/did/v1",
-	"id": "did:ipid:12D3KooWMHdrzcwpjbdrZs5GGqERAvcgqX3b5dpuPtPa9ot69yew",
+  "id": "did:ipid:12D3KooWMHdrzcwpjbdrZs5GGqERAvcgqX3b5dpuPtPa9ot69yew",
     "service":  {
       "type": "DidAuthService",
       "serviceEndpoint": "/p2p-circuit/QmTwo",

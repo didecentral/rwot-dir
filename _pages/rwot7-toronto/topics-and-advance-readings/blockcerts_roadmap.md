@@ -42,8 +42,8 @@ Key factors in its success include:
 - Credentials are recipient-owned and long-lived
 - Free for recipients and verifiers due to ability to rely on blockchain APIs (with fallback and checking multiple providers for availability and avoiding centralization/trust on specific providers)
 - Easy for recipients to receive and share credentials
-	- Open source, free iphone and android Blockcerts wallet
-	- Wallet contains HD key generation, easing key management for users
+  - Open source, free iphone and android Blockcerts wallet
+  - Wallet contains HD key generation, easing key management for users
 - Ability to adapt verification to higher-stakes verifying node deployments
 
 

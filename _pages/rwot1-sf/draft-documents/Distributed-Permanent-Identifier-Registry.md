@@ -7,14 +7,16 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Juan Benet"
-	- "Christopher Allen"
-	- "Noah Thorp"
-	- "Harlan T. Wood"
-	- "Markus Sabadello"
-	- "Drummond Reed"
-	- "Duke Dorje"
+  - "Juan Benet"
+  - "Christopher Allen"
+  - "Noah Thorp"
+  - "Harlan T. Wood"
+  - "Markus Sabadello"
+  - "Drummond Reed"
+  - "Duke Dorje"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Distributed-Permanent-Identifier-Registry.md"
+header:
+  image: /rwot1-sf/assets/images/1-graphic-recording/07_Final-Report-Out_Creating-Distrib-Registry.jpg
 
 ---
 

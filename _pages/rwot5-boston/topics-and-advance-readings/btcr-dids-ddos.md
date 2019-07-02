@@ -23,9 +23,9 @@ Creating the initial BTCR DID:
 - Create key set (`B0`/`P0`/`S0`)
 - Create key set (`B1`/`P1`/`S1`)
 - Create Bitcoin transaction as follows:
-	- Output: Change address `B1`
-	- Optional output: `OP_RETURN <link to DDO continuation>`
-	- Signing key is `S0`, which reveals public key `P0` in the transaction
+  - Output: Change address `B1`
+  - Optional output: `OP_RETURN <link to DDO continuation>`
+  - Signing key is `S0`, which reveals public key `P0` in the transaction
 - Issue TX0 and wait for confirmation. Get TX Ref encoding of the transaction `TXREF(TX0)`
 
 At this point we have a DID of the format `did:btcr:<TXREF(TX0)>`
@@ -196,7 +196,7 @@ This partial DID Description grants the following abilities:
       "capability": "IssueCredential",
       "permittedProofType": [
         {
-	  // Would we need a different type for off-chain signatures?
+    // Would we need a different type for off-chain signatures?
           "proofType": "SatoshiBlockchainSignature2017",
           "authenticationCredential": [
             {
