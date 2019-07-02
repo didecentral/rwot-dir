@@ -6,7 +6,8 @@ sidebar:
     nav: rwot1
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
-
+header:
+  image: /rwot1-sf/event-documents/graphic-recording/02_Dot-Voting_Ideas-to-Explore.jpg
 ---
 
 ## Process
