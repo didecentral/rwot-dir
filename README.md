@@ -18,3 +18,11 @@ This project stirred to life, months back, when @identitywoman connected me with
 This is only a demonstration, an MVP, if you like... 
 
 It's a lot of work to process all of this content... and there's a lot more that can be done to make the research around Decentralized Identity more acessible. @DIDecentral will provide educational materials, also, on how to begin participating with minimal barriar to entry.
+
+## Regarding the Quality of Images
+
+The photos and graphic recordings from these workshops are all very high quality, in their home repositories.
+
+After manually editing a couple hundred imags from RWoT1, I decided to use ImageMagic to bulk-resize them, with a maximum height\width of 1300.  This makes them large enough for creating a web-page, while not so huge as to hog all of your bandwidth.
+
+I will encourage you to check out their home repositories if you wish to see any of the images in higher definition.
