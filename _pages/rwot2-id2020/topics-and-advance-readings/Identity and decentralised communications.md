@@ -1,3 +1,11 @@
+---
+title: "Identity and Decentralized Communications"
+authors:
+  - "Harsh Patel"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/Identity-and-decentralised-communications.md"
+
+---
+
 Email is one of the basic method of communication within the internet. But is riddled with some of the very basic problems of identity. Following are the problems of email protocol - 
 
 ##### 1. The problem of lack of ownership.

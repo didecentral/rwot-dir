@@ -1,3 +1,13 @@
+---
+title: "Dex: Deterministic Predicate Expressions for Smarter Signatures"
+authors:
+  - "Peter Todd"
+contributors:
+  - "Christopher Allen"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/DexPredicatesForSmarterSigs.md"
+
+---
+
 # Dex: Deterministic Predicate Expressions for Smarter Signatures
 
 *©2016 Peter Todd, with contributions from Christopher Allen.  

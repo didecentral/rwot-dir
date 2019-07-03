@@ -1,3 +1,11 @@
+---
+title: "Legalizing Identity Protocols for the United Nations 16.9"
+authors:
+  - "Kiara Robles"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/Legalizing-Identity-Protocols-United-Nations.md"
+
+---
+
 # Legalizing Identity Protocols for the United Nations 16.9
 
 This paper reviews the accepted deficits of UN's targets, 16.9: “By 2030 provide legal identity for all including birth registration”, of Sustainable Development Goal 16, and offers proposals that the private technology sector can provide with the aim in achieving this goal. In order for a technology or system to be replaced it only needs to provide a marginal improvement to the current or existing system. Such that the cost of implementation can be realized over a reasonable amount of time, or that the costs are irrelevant because evolving the system is an ethical necessity. In the case of the current standard of centralized identity systems both reasons for change, financial and ethical, are reasonably arguable. There are a vast number ways to improve the efficiency of the current system. As well as an unignorable number of tragic human stories, that provide a humanitarian motive in providing the world with legal identities.

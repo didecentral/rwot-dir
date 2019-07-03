@@ -1,6 +1,14 @@
 ---
 title: "Blockchain Extensions for Linked Data Signatures"
 permalink: rwot2-id2020/draft-documents/blockchain-extensions-for-linked-data-signatures/
+authors:
+  - "Manu Sporny"
+  - "Harlan T. Wood"
+  - "Noah Thorp"
+  - "Christopher Allen"
+  - "Dave Longley"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/blockchain-extensions-for-linked-data-signatures.md"
+
 ---
 
 

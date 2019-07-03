@@ -1,3 +1,10 @@
+---
+title: "A Double-edged Sword: Having an Identity"
+authors:
+  - "Marta Piekarska"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/double_edged_identity.md"
+
+---
 #A DOUBLE EDGED SWORD OF HAVING AN IDENTITY
 
 **By Marta Piekarska**

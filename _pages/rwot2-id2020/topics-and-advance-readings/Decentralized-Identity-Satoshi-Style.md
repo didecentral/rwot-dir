@@ -1,3 +1,10 @@
+---
+title: "Decentralized Identity Satoshi Style"
+authors:
+  - "Darrell Duane"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/Decentralized-Identity-Satoshi-Style"
+
+---
 
 Decentralized Identity Satoshi Style
 Darrell Duane

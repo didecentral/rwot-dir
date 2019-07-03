@@ -1,5 +1,10 @@
 ---
 title: "Scaling a BFT Consensus Protocol for Identity"
+authors:
+  - "Jason Law"
+  - "Lovesh Harchandani"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/scaling-a-bft-consensus-protocol-for-identity.md"
+
 ---
 
 ========

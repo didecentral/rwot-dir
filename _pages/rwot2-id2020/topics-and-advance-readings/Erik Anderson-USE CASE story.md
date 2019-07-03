@@ -1,3 +1,11 @@
+---
+title: "Use Case Story (Bloomberg)"
+authors:
+  - "Erik Anderson"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/Erik-Anderson-USE-CASE-story.md"
+
+---
+
 Erik Anderson
 Bloomberg
 

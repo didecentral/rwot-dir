@@ -1,6 +1,11 @@
 ---
 title: "Smarter Signatures: Experiments in Verifications"
 permalink: rwot2-id2020/draft-documents/smarter-signatures/
+authors:
+  - "Shannon Appelcline"
+  - "Christopher Allen"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/smarter-signatures.md"
+
 ---
 
 ================================================

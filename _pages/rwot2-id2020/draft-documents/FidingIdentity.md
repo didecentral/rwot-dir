@@ -1,6 +1,15 @@
 ---
 title: "Working definitions of identity - Draft Notes. May, 2016."
 permalink: rwot2-id2020/draft-documents/FindingIdentity/
+authors:
+  - "Jon Geater"
+  - "Kaliya Young"
+  - "Russell Haywood"
+  - "Marta Piekarska"
+  - "George Samman"
+  - "Timothy Ruff"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/FidingIdentity.md"
+
 ---
 
 Working definitions of identity

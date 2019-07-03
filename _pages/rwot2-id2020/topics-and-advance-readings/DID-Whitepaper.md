@@ -1,3 +1,11 @@
+---
+title: "Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)"
+authors:
+  - "Les Chasen"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/DID-Whitepaper.md"
+
+---
+
 # Decentralized Identifiers (DIDs) and Decentralized Identity Management (DIDM)
 
 A paper for the ID2020 Design Shop

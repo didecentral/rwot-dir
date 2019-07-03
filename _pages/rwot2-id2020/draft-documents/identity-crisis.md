@@ -1,6 +1,14 @@
 ---
 title: Identity Crisis
 permalink: "rwot2-id2020/draft-documents/identity-crisis/"
+authors:
+  - "Joe Andrieu"
+  - "Kevin Gannon"
+  - "Igor Kruiper"
+  - "Ajit Tripathi"
+  - "Gary Zimmerman"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/identity-crisis.md"
+
 ---
 
 ------------

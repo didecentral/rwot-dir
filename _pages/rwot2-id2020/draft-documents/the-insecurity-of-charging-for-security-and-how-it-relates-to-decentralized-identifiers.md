@@ -1,10 +1,14 @@
 ---
 title: 'The Insecurity of Charging for Authentication And How It Relates To Decentralized Identifiers" (DIDs)'
 permalink: rwot2-id2020/draft-documents/insecurity-charging-for-security-and-decentralized-identifiers/
+authors:
+  - "Greg Slepak"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/the-insecurity-of-charging-for-security-and-how-it-relates-to-decentralized-identifiers.md"
+
 ---
 
 * **ID2020 Designshop**
-* **Greg Slepak${}$\hspace{5em}May 22, 2016**
+* **Greg Slepak - May 22, 2016**
 
 ## The false assumption that digital security is or should be expensive
 

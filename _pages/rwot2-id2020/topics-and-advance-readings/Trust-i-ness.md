@@ -1,3 +1,11 @@
+---
+title: "Trust-i-ness"
+authors:
+  - "Kaliya Young"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/Trust-i-ness.md"
+
+---
+
 # Trust-i-ness 
 
 It is critical that before leaping to use the word trust to describe technical systems we have to unpack its meaning. 

@@ -1,3 +1,11 @@
+---
+title: "Blockstack Rules and Support for Multiple Blockchains"
+authors:
+  - "Muneeb Ali"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/blockstack-rules-and-multiple-blockchains.md"
+
+---
+
 ## Blockstack Rules and Support for Multiple Blockchains
 
 We've already submitted the [blockstack paper](https://blockstack.org/blockstack.pdf) (to be published at [USENIX ATC'16](https://www.usenix.org/conference/atc16))

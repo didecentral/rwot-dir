@@ -1,5 +1,10 @@
 ---
-title: Questions around key management for digital identity systems
+title: "Questions around key management for digital identity systems"
+authors:
+  - "Christian Lundkvist"
+  - "Rouven Heck"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/questions_around_key_management.md"
+
 ---
 
 **By Christian Lundkvist & Rouven Heck**
