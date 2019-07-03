@@ -95,7 +95,7 @@
 <loc>http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/rwot-dir/_pages/rwot2-id2020/supporting-files/LICENSE-CC-BY-4.0/</loc>
+<loc>http://localhost:4000/rwot-dir/assets/images/LICENSE-CC-BY-4.0/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/LICENSE/</loc>
@@ -257,9 +257,6 @@
 <loc>http://localhost:4000/rwot-dir/_pages/rwot4-paris/draft-documents/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/rwot-dir/_pages/rwot4-paris/supporting-files/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/rwot-dir/_pages/rwot4-paris/</loc>
 </url>
 <url>
@@ -308,9 +305,6 @@
 <loc>http://localhost:4000/rwot-dir/rwot3-sf/event-documents/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/rwot-dir/_pages/rwot3-sf/supporting-files/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/rwot-dir/_pages/rwot3-sf/</loc>
 </url>
 <url>
@@ -327,9 +321,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/rwot-dir/rwot2-id2020/event-documents/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/rwot-dir/_pages/rwot2-id2020/supporting-files/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/rwot-dir/_pages/rwot2-id2020/</loc>
@@ -452,7 +443,16 @@
 <loc>http://localhost:4000/rwot-dir/rwot2-id2020/draft-documents/smarter-signatures/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/rwot-dir/_pages/rwot4-paris/supporting-files/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/rwot-dir/rwot1-sf/supporting-files/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/rwot-dir/_pages/rwot3-sf/supporting-files/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/rwot-dir/_pages/rwot2-id2020/supporting-files/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/</loc>

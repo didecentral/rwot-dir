@@ -11,9 +11,9 @@ sidebar:
 
 * [KeyLifecyclesinDPKI.html](KeyLifecyclesinDPKI.html)
 
-![](/assets/images/dpki-img/image00.png)
+![](/assets/images/1-dpki-img/image00.png)
 
-![](/assets/images/dpki-img/image01.png)
+![](/assets/images/1-dpki-img/image01.png)
 
-![](/assets/images/dpki-img/image02.png)
+![](/assets/images/1-dpki-img/image02.png)
 
