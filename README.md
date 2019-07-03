@@ -23,6 +23,6 @@ It's a lot of work to process all of this content... and there's a lot more that
 
 The photos and graphic recordings from these workshops are all very high quality, in their home repositories.
 
-After manually editing a couple hundred imags from RWoT1, I decided to use ImageMagic to bulk-resize them, with a maximum height\width of 1300.  This makes them large enough for creating a web-page, while not so huge as to hog all of your bandwidth.
+After manually editing a couple hundred imags from RWoT1, I decided to use ImageMagic to bulk-resize them, with a maximum height\width of 1300.  This gets all of the images in a decent tractable size-range to work with, and I can always go back to the original if I need a couple in higher def.
 
-I will encourage you to check out their home repositories if you wish to see any of the images in higher definition.
+I will encourage you to check out their home repositories if you're trying to see some fuzzy print, hopefully that won't b necessary.
