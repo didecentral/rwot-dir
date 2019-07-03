@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "DIDecentral"
-  avatar           : /assets/images/did-square.png
+  avatar           : /assets/images/did-square.jpg
   bio              : "Open Source, Public Domain, Educational UnOrganization"
   location         : "Curation Station"
   links:
