@@ -7,7 +7,7 @@ Submitted by, Susan R. Ramonat
 
 In his 1922 Nobel Prize acceptance speech, “The Suffering People of Europe,” Fridtjof Nansen lamented the continent’s long history of war. With the ghosts of WWI still lurking, he spoke movingly about the wages of war and ongoing suffering of millions displaced by years of famine and war across Germany, Eastern Europe, the Soviet Union and Middle East. Nansen stated that the future could not be “built on despair, distrust, hatred, and envy.” Rather, he declared, the first prerequisite for defeating the disease of conflict and war was “an understanding of the cause and nature of the disease itself.” “Such an understanding,” he cautioned, “is certainly not attainable in a day. But the first condition for its final establishment is the sincere will to understand.” [1](http://www.nobelprize.org/nobel_prizes/peace/laureates/1922/nansen-lecture.html)
 
-A polar explorer and scientist, Nansen was named the League of Nation’s first High Commissioner for Refugees in 1920. Over the next decade he helped hundreds of thousands to return home, while enabling others to become legal residents and find work in the countries where they found refuge. Nansen saw that a primary problem faced by refugees was a lack of internationally recognized identification papers. His solution was the first legal instrument for international protection of refugees, which become known as the “Nansen passport.” [2](http://stories.unhcr.org/nansen-passport- p34721.html)
+A polar explorer and scientist, Nansen was named the League of Nation’s first High Commissioner for Refugees in 1920. Over the next decade he helped hundreds of thousands to return home, while enabling others to become legal residents and find work in the countries where they found refuge. Nansen saw that a primary problem faced by refugees was a lack of internationally recognized identification papers. His solution was the first legal instrument for international protection of refugees, which become known as the “Nansen passport.” [2](http://stories.unhcr.org/nansen-passport-p34721.html)
 
 
 ### Problem Statement
@@ -54,7 +54,7 @@ In sum, despite the UNHCR’s mandate and best intentions, the RSD process is br
 ### Citations
 
 1. Fridtjof Nansen, “[The Suffering People of Europe](http://www.nobelprize.org/nobel_prizes/peace/laureates/1922/nansen-lecture.html),” Nobel Lecture, December 19, 1922.
-2. For more about Nansen, see the UNHCR’s website: http://stories.unhcr.org/nansen-passport- p34721.html
+2. For more about Nansen, see the UNHCR’s website: http://stories.unhcr.org/nansen-passport-p34721.html
 3. Sources: UNHCR (http://www.unhcr.org/pages/49c3646c4d6.html); Eurostat (http://ec.europa.eu/eurostat/statistics-explained/).
 4. UNHCR, “Handbook on Procedures and Criteria for Determining Refugee Status under the 1951 Convention and the 1967 Protocol relating to the Status of Refugees,” UN Doc.HCR/IP/4?eng?REV.3 (2011) (“Handbook”), at [28].
 5. Refugee Convention, Preamble, paragraph 2.
