@@ -131,12 +131,12 @@
         
         <a class="site-title" href="/rwot-dir/">Drafts, Documents, Literature</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://decentralized-id.com/" >DIDecentral</a>
+              <a href="https://decentralized-id.com/" target="_blank" rel="noopener noreferrer">DIDecentral</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
             <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
           </svg>
         </button>
@@ -166,9 +166,7 @@
 
 
 
-<div class="page__hero"
-  style=" "
->
+<div class="page__hero" style=" ">
   
     <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="DID (Decentralized Identifier) Data Model and Generic Syntax 1.0 Implementer’s Draft 01" class="page__hero-image">
   
@@ -200,7 +198,7 @@
 
 <nav class="nav__list">
   <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
@@ -259,6 +257,116 @@
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot2-id2020/"><span class="nav__sub-title">RWoT2-ID2020</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot3-sf/"><span class="nav__sub-title">RWoT3-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
   </ul>
 </nav>
     
@@ -301,7 +409,7 @@
 
 <p><em>ACKNOWLEDGMENTS: Work on this specification has been funded in part by the United States Department of Homeland Security’s Science and Technology Directorate under contract HSHQDC-16-R00012-H-SB2016-1-002. The content of this specification does not necessarily reflect the position or the policy of the U.S. Government and no official endorsement should be inferred.</em></p>
 
-<p><em>Work on this specification has also been supported by the <a href="http://www.weboftrust.info/">Rebooting the Web of Trust</a> group facilitated by Christopher Allen, Brian Weller, Kiara Robles, and Shannon Appelcline.</em></p>
+<p><em>Work on this specification has also been supported by the <a href="http://www.weboftrust.info/" target="_blank" rel="noopener noreferrer">Rebooting the Web of Trust</a> group facilitated by Christopher Allen, Brian Weller, Kiara Robles, and Shannon Appelcline.</em></p>
 
 <p>Note: terms in <strong>bold</strong> are defined in the Terminology section.</p>
 
@@ -317,21 +425,21 @@
 
 <h3 id="11-overview">1.1 Overview</h3>
 
-<p>Conventional <a href="https://en.wikipedia.org/wiki/Identity_management">identity management</a> systems are based on centralized authorities such as corporate <a href="https://en.wikipedia.org/wiki/Directory_service">directory services</a>, <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authorities</a>, or <a href="https://en.wikipedia.org/wiki/Domain_name_registry">domain name registries</a>. From the standpoint of cryptographic trust verification, each of these centralized authorities serves as its own <a href="https://en.wikipedia.org/wiki/Trust_anchor">root of trust</a>. To make identity management work across these systems requires implementing <a href="https://en.wikipedia.org/wiki/Federated_identity">federated identity management</a>.</p>
+<p>Conventional <a href="https://en.wikipedia.org/wiki/Identity_management" target="_blank" rel="noopener noreferrer">identity management</a> systems are based on centralized authorities such as corporate <a href="https://en.wikipedia.org/wiki/Directory_service" target="_blank" rel="noopener noreferrer">directory services</a>, <a href="https://en.wikipedia.org/wiki/Certificate_authority" target="_blank" rel="noopener noreferrer">certificate authorities</a>, or <a href="https://en.wikipedia.org/wiki/Domain_name_registry" target="_blank" rel="noopener noreferrer">domain name registries</a>. From the standpoint of cryptographic trust verification, each of these centralized authorities serves as its own <a href="https://en.wikipedia.org/wiki/Trust_anchor" target="_blank" rel="noopener noreferrer">root of trust</a>. To make identity management work across these systems requires implementing <a href="https://en.wikipedia.org/wiki/Federated_identity" target="_blank" rel="noopener noreferrer">federated identity management</a>.</p>
 
 <p>The emergence of <strong>distributed ledger technology</strong> (DLT), sometimes referred to as <strong>blockchain</strong> technology, provides the opportunity to implement fully <strong>decentralized identity management</strong>. In this ecosystem, all participants with identities (called <strong>identity owners</strong>) share a common root of trust in the form of a globally distributed ledger (or a decentralized P2P network that provides similar capabilities).</p>
 
-<p>Each identity owner can be identified on a ledger with a <a href="https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair">key-value pair</a>. The index key is a <strong>DID</strong> (<strong>decentralized identifier</strong>) and the value is its associated <strong>DDO</strong> (<strong>DID description object</strong>). Together these form a <strong>DID record</strong>. Each DID record is cryptographically secured by private keys under the control of an identity owner (in the case of an owner-managed identity) or a <strong>guardian</strong> (in the case of a guardian-managed identity). A corresponding public key is published in the DDO using a <strong>key description</strong>. A DDO may also contain a set of <strong>service endpoints</strong> for interacting with the identity owner. Following the dictums of <a href="https://en.wikipedia.org/wiki/Privacy_by_design">Privacy by Design</a>, each identity owner may have as many DID records as necessary, to respect the identity owner’s desired separation of identities, personas, and contexts.</p>
+<p>Each identity owner can be identified on a ledger with a <a href="https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair" target="_blank" rel="noopener noreferrer">key-value pair</a>. The index key is a <strong>DID</strong> (<strong>decentralized identifier</strong>) and the value is its associated <strong>DDO</strong> (<strong>DID description object</strong>). Together these form a <strong>DID record</strong>. Each DID record is cryptographically secured by private keys under the control of an identity owner (in the case of an owner-managed identity) or a <strong>guardian</strong> (in the case of a guardian-managed identity). A corresponding public key is published in the DDO using a <strong>key description</strong>. A DDO may also contain a set of <strong>service endpoints</strong> for interacting with the identity owner. Following the dictums of <a href="https://en.wikipedia.org/wiki/Privacy_by_design" target="_blank" rel="noopener noreferrer">Privacy by Design</a>, each identity owner may have as many DID records as necessary, to respect the identity owner’s desired separation of identities, personas, and contexts.</p>
 
 <p>To use a DID with a particular distributed ledger or network requires defining a <strong>DID method</strong> in a separate <strong>DID method specification</strong>. A DID method specifies the set of rules for how a DID is registered, resolved, updated, and revoked on that specific ledger or network.</p>
 
-<p>This design eliminates dependence on centralized registries for identifiers as well as centralized certificate authorities for key management—the standard pattern in hierarchical <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">PKI (public key infrastructure</a>). Because DID records are on a distributed ledger, each identity owner may serve as its own root authority—an architecture referred to as <a href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf">DPKI (decentralized PKI)</a>.</p>
+<p>This design eliminates dependence on centralized registries for identifiers as well as centralized certificate authorities for key management—the standard pattern in hierarchical <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure" target="_blank" rel="noopener noreferrer">PKI (public key infrastructure</a>). Because DID records are on a distributed ledger, each identity owner may serve as its own root authority—an architecture referred to as <a href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/dpki.pdf" target="_blank" rel="noopener noreferrer">DPKI (decentralized PKI)</a>.</p>
 
 <p>Note that DID methods may also be developed for identities registered in federated identity management systems. For their part, federated identity systems may add support for DIDs. This creates an interoperability bridge between the worlds of centralized, federated, and decentralized identity.</p>
 
 <h3 id="12-uris-urls-and-urns">1.2. URIs, URLs, and URNs</h3>
 
-<p>DIDs have a foundation in URIs, so it’s important to understand how the W3C <a href="https://www.w3.org/TR/uri-clarification/">clarified</a> the terms <strong>URI</strong> (Uniform Resource Identifier), <strong>URL</strong> (Uniform Resource Locator), and <strong>URN</strong> (Uniform Resource Name) in September 2001. The key difference between these three categories of identifiers are:</p>
+<p>DIDs have a foundation in URIs, so it’s important to understand how the W3C <a href="https://www.w3.org/TR/uri-clarification/" target="_blank" rel="noopener noreferrer">clarified</a> the terms <strong>URI</strong> (Uniform Resource Identifier), <strong>URL</strong> (Uniform Resource Locator), and <strong>URN</strong> (Uniform Resource Name) in September 2001. The key difference between these three categories of identifiers are:</p>
 
 <ol>
   <li>
@@ -363,7 +471,7 @@
 
 <h3 id="14-the-role-of-human-friendly-identifiers">1.4 The Role of Human-Friendly Identifiers</h3>
 
-<p>DIDs achieve global uniqueness without the need for a central registration authority. This comes, however, at the cost of human memorability. The algorithms capable of generating globally unique identifiers automatically produce random strings of characters that have no human meaning. This demonstrates the axiom about identifiers known as <a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko’s Triangle</a>: “human-meaningful, decentralized, secure—pick any two”.</p>
+<p>DIDs achieve global uniqueness without the need for a central registration authority. This comes, however, at the cost of human memorability. The algorithms capable of generating globally unique identifiers automatically produce random strings of characters that have no human meaning. This demonstrates the axiom about identifiers known as <a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle" target="_blank" rel="noopener noreferrer">Zooko’s Triangle</a>: “human-meaningful, decentralized, secure—pick any two”.</p>
 
 <p>There are of course many use cases where it is desirable to discover a DID when starting from a human-friendly identifier—a natural language name, a domain name, or a conventional address for a DID owner such as a mobile telephone number, email address, Twitter handle, or blog URL. However, the problem of mapping human-friendly identifiers to DIDs (and doing so in a way that can be verified and trusted) is out-of-scope for this specification.</p>
 
@@ -373,7 +481,7 @@
 
 <p>The first purpose of this specification is to define the generic DID scheme and a generic set of operations on DID records that can be implemented for any distributed ledger or network capable of accepting DID records. The second purpose of this specification to define the conformance requirements for a <strong>DID method specification</strong>—a separate specification that defines a specific DID scheme and specific set of DID record operations for a specific distributed ledger or network.</p>
 
-<p>Conceptually, the relationship of this specification and a DID method specification is similar to the relationship of the IETF generic URI specification (<a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>) and a specific <a href="http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml">URI scheme</a> (such as the http: and https: schemes specified in <a href="http://www.iana.org/go/rfc7230">RFC 7230</a>). It is also similar to the relationship of the IETF generic URN specification (<a href="https://www.ietf.org/rfc/rfc2141.txt">RFC 2141</a>) and a specific URN namespace definition (such as the UUID URN namespace defined in <a href="https://tools.ietf.org/html/rfc4122">RFC 4122</a>). The difference is that a DID method specification, in addition to defining a specific DID scheme, must also specify the methods for reading, writing, and revoking DID records on the network for which it is written.</p>
+<p>Conceptually, the relationship of this specification and a DID method specification is similar to the relationship of the IETF generic URI specification (<a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a>) and a specific <a href="http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml" target="_blank" rel="noopener noreferrer">URI scheme</a> (such as the http: and https: schemes specified in <a href="http://www.iana.org/go/rfc7230" target="_blank" rel="noopener noreferrer">RFC 7230</a>). It is also similar to the relationship of the IETF generic URN specification (<a href="https://www.ietf.org/rfc/rfc2141.txt" target="_blank" rel="noopener noreferrer">RFC 2141</a>) and a specific URN namespace definition (such as the UUID URN namespace defined in <a href="https://tools.ietf.org/html/rfc4122" target="_blank" rel="noopener noreferrer">RFC 4122</a>). The difference is that a DID method specification, in addition to defining a specific DID scheme, must also specify the methods for reading, writing, and revoking DID records on the network for which it is written.</p>
 
 <p>For a list of DID method specifications, see Appendix A.</p>
 
@@ -381,8 +489,7 @@
 
 <p>This example of a DID uses the Sovrin DID method listed in Appendix A:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>did:sov:21tDAKCERh95uGgKbJNHYp
-</code></pre></div></div>
+<p>did:sov:21tDAKCERh95uGgKbJNHYp</p>
 
 <h3 id="21-example-owner-managed-ddo">2.1. Example Owner-Managed DDO</h3>
 
@@ -390,72 +497,76 @@
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": "https://example.org/did/v1",
+<p>“@context”: “https://example.org/did/v1”,</p>
 
-"id": "did:sov:21tDAKCERh95uGgKbJNHYp",
+<p>“id”: “did:sov:21tDAKCERh95uGgKbJNHYp”,</p>
 
-"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-1",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-1",
 
-	"type": ["CryptographicKey", "EdDsaPublicKey"],
+"type": ["CryptographicKey", "EdDsaPublicKey"],
 
-	"curve": "ed25519",
+"curve": "ed25519",
 
-	"expires": "2017-02-08T16:02:20Z",
+"expires": "2017-02-08T16:02:20Z",
 
-	"publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
-
-}, {
-
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-2",
-
-	"type": ["CryptographicKey", "RsaPublicKey"],
-
-	"expires": "2017-03-22T00:00:00Z",
-
-	"publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
-
-}],
-
-"control": [{
-
-	"type": "OrControl",
-
-	"signer": [
-
-		"did:sov:21tDAKCERh95uGgKbJNHYp",
-
-		"did:sov:8uQhQMGzWxR8vw5P3UWH1j"
-
-	]
-
-}],
-
-"service": {
-
-	"openid": "https://openid.example.com/456",
-
-	"xdi": "https://xdi.example.com/123"
-
-},
-
-"created": "2002-10-10T17:00:00Z",
-
-"updated": "2016-10-17T02:41:00Z",
-
-"signature": {
-
-	"type": "RsaSignature2016",
-
-	"created": "2016-02-08T16:02:20Z",
-
-	"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key/1",
-
-	"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}
+"publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
 </code></pre></div></div>
+
+<p>}, {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key-2",
+
+"type": ["CryptographicKey", "RsaPublicKey"],
+
+"expires": "2017-03-22T00:00:00Z",
+
+"publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
+</code></pre></div></div>
+
+<p>}],</p>
+
+<p>“control”: [{</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "OrControl",
+
+"signer": [
+
+  "did:sov:21tDAKCERh95uGgKbJNHYp",
+
+  "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+
+]
+</code></pre></div></div>
+
+<p>}],</p>
+
+<p>“service”: {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"openid": "https://openid.example.com/456",
+
+"xdi": "https://xdi.example.com/123"
+</code></pre></div></div>
+
+<p>},</p>
+
+<p>“created”: “2002-10-10T17:00:00Z”,</p>
+
+<p>“updated”: “2016-10-17T02:41:00Z”,</p>
+
+<p>“signature”: {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "RsaSignature2016",
+
+"created": "2016-02-08T16:02:20Z",
+
+"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key/1",
+
+"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+</code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
@@ -465,54 +576,55 @@
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": "https://example.org/did/v1",
+<p>“@context”: “https://example.org/did/v1”,</p>
 
-"id": "did:sov:21tDAKCERh95uGgKbJNHYp",
+<p>“id”: “did:sov:21tDAKCERh95uGgKbJNHYp”,</p>
 
-"guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
+<p>“guardian”: “did:sov:8uQhQMGzWxR8vw5P3UWH1j”</p>
 
-"control": [ "did:sov:8uQhQMGzWxR8vw5P3UWH1j" ],
+<p>“control”: [ “did:sov:8uQhQMGzWxR8vw5P3UWH1j” ],</p>
 
-"service": {
+<p>“service”: {</p>
 
-	"openid": "https://openid.example.com/456",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"openid": "https://openid.example.com/456",
 
-	"xdi": "https://xdi.example.com/123"
-
-},
-
-"type": "http://schema.org/Person",
-
-"created": "2002-10-10T17:00:00Z",
-
-"updated": "2016-10-17T02:41:00Z",
-
-"signature": {
-
-	"type": "RsaSignature2016",
-
-	"created": "2016-02-08T16:02:20Z",
-
-	"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key-1",
-
-	"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}
+"xdi": "https://xdi.example.com/123"
 </code></pre></div></div>
+
+<p>},</p>
+
+<p>“type”: “http://schema.org/Person”,</p>
+
+<p>“created”: “2002-10-10T17:00:00Z”,</p>
+
+<p>“updated”: “2016-10-17T02:41:00Z”,</p>
+
+<p>“signature”: {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "RsaSignature2016",
+
+"created": "2016-02-08T16:02:20Z",
+
+"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1j#key-1",
+
+"signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+</code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
 <h2 id="3-terminology-and-acronyms">3. Terminology and Acronyms</h2>
 
-<p>This specification defines the requirements of a conformant DID method specification. The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”,  “MAY”, and “OPTIONAL” in this document are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a>.</p>
+<p>This specification defines the requirements of a conformant DID method specification. The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”,  “MAY”, and “OPTIONAL” in this document are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank" rel="noopener noreferrer">RFC 2119</a>.</p>
 
 <p>All other terms used in this specification are defined in this glossary.</p>
 
-<p><strong>Blockchain.</strong> A specific type of <strong>distributed ledger technology</strong> (DLT) that stores ledger entries in blocks of transactions that are grouped together and hashed into a cryptographic chain. Because this type of DLT was introduced by <a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a>, the term “blockchain” is sometimes used to refer specifically to the Bitcoin ledger.</p>
+<p><strong>Blockchain.</strong> A specific type of <strong>distributed ledger technology</strong> (DLT) that stores ledger entries in blocks of transactions that are grouped together and hashed into a cryptographic chain. Because this type of DLT was introduced by <a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank" rel="noopener noreferrer">Bitcoin</a>, the term “blockchain” is sometimes used to refer specifically to the Bitcoin ledger.</p>
 
 <p><strong>Decentralized identifier (DID).</strong> A globally unique identifier that does not require a centralized registration authority because it is registered with <strong>distributed ledger technology</strong> or other form of decentralized network. The generic format of a DID is defined in this specification. A specific <strong>DID scheme</strong> is defined in a <strong>DID method specification</strong>.</p>
 
-<p><strong>Decentralized identity management (DIDM).</strong> <a href="https://en.wikipedia.org/wiki/Identity_management">Identity management</a> based on decentralized identifiers.  DIDM extends identifier creation authority beyond the traditional roots of trust required by <a href="https://en.wikipedia.org/wiki/X.500">X.500 directory services</a>, the <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a>, national ID systems, etc.</p>
+<p><strong>Decentralized identity management (DIDM).</strong> <a href="https://en.wikipedia.org/wiki/Identity_management" target="_blank" rel="noopener noreferrer">Identity management</a> based on decentralized identifiers.  DIDM extends identifier creation authority beyond the traditional roots of trust required by <a href="https://en.wikipedia.org/wiki/X.500" target="_blank" rel="noopener noreferrer">X.500 directory services</a>, the <a href="https://en.wikipedia.org/wiki/Domain_Name_System" target="_blank" rel="noopener noreferrer">Domain Name System</a>, national ID systems, etc.</p>
 
 <p><strong>Decentralized PKI (DPKI).</strong> Public key infrastructure based on decentralized identifiers and identity records (e.g., <strong>DDOs</strong>) containing verifiable public key descriptions.</p>
 
@@ -522,7 +634,7 @@
 
 <p><strong>DID.</strong> Acronym for <strong>decentralized identifier</strong>.</p>
 
-<p><strong>DID descriptor object (DDO).</strong> A JSON data structure containing metadata describing an identity owner, including the cryptographic key material required for the identity owner to prove ownership and control of the <strong>DID record</strong>. A DDO may also contain other <a href="https://en.wikipedia.org/wiki/Attribute_(computing)">attributes</a> or <a href="https://en.wikipedia.org/wiki/Claims-based_identity">claims</a> describing the identity owner.</p>
+<p><strong>DID descriptor object (DDO).</strong> A JSON data structure containing metadata describing an identity owner, including the cryptographic key material required for the identity owner to prove ownership and control of the <strong>DID record</strong>. A DDO may also contain other <a href="https://en.wikipedia.org/wiki/Attribute_(computing)" target="_blank" rel="noopener noreferrer">attributes</a> or <a href="https://en.wikipedia.org/wiki/Claims-based_identity" target="_blank" rel="noopener noreferrer">claims</a> describing the identity owner.</p>
 
 <p><strong>DID fragment</strong>. The portion of a <strong>DID reference</strong> that follows the first hash sign character (“#”). A DID fragment uses the same syntax as a <strong>URI</strong> fragment. See section 5.5. Note that a <strong>DID fragment</strong> MUST immediately follow a DID. If a DID reference includes a <strong>DID path</strong> followed by a fragment, that fragment is NOT a <strong>DID fragment</strong>.</p>
 
@@ -534,7 +646,7 @@
 
 <p><strong>DID path</strong>. The portion of a <strong>DID reference</strong> that follows the first forward slash character. A DID path uses the identical syntax as a <strong>URI</strong> path. See section 5.4. Note that if a DID path is followed by a fragment, that fragment is NOT a <strong>DID fragment</strong>.</p>
 
-<p><strong>DID record.</strong> The combination of a <strong>DID</strong> and a <strong>DDO</strong> that forms the “root identity record” for an identity owner. From the standpoint of <a href="https://en.wikipedia.org/wiki/Claims-based_identity">claims-based identity</a>, a DID record is the “genesis claim” for an identity.</p>
+<p><strong>DID record.</strong> The combination of a <strong>DID</strong> and a <strong>DDO</strong> that forms the “root identity record” for an identity owner. From the standpoint of <a href="https://en.wikipedia.org/wiki/Claims-based_identity" target="_blank" rel="noopener noreferrer">claims-based identity</a>, a DID record is the “genesis claim” for an identity.</p>
 
 <p><strong>DID reference</strong>. A <strong>DID</strong> plus an optional <strong>DID path</strong> or <strong>DID fragment</strong>.</p>
 
@@ -542,7 +654,7 @@
 
 <p><strong>DIDM.</strong> Acronym for <strong>decentralized identity management</strong>.</p>
 
-<p><strong>Distributed ledger technology (DLT).</strong> A <a href="https://en.wikipedia.org/wiki/Distributed_database">distributed database</a> in which the various nodes use a <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)">consensus protocol</a> to maintain a shared ledger in which each transaction is cryptographically signed and chained to the previous transaction. See also <strong>blockchain</strong>.</p>
+<p><strong>Distributed ledger technology (DLT).</strong> A <a href="https://en.wikipedia.org/wiki/Distributed_database" target="_blank" rel="noopener noreferrer">distributed database</a> in which the various nodes use a <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)" target="_blank" rel="noopener noreferrer">consensus protocol</a> to maintain a shared ledger in which each transaction is cryptographically signed and chained to the previous transaction. See also <strong>blockchain</strong>.</p>
 
 <p><strong>DLT.</strong> Acronym for <strong>distributed ledger technology</strong>.</p>
 
@@ -554,27 +666,27 @@
 
 <p><strong>Identity record.</strong> Another name for a <strong>DID record</strong>.</p>
 
-<p><strong>JSON-LD (JSON Linked Data).</strong> A method of encoding <a href="https://en.wikipedia.org/wiki/Linked_data">Linked Data</a> using JSON. The <a href="https://www.w3.org/TR/json-ld/">W3C JSON-LD 1.0 specification</a> enables object properties in a JSON document to be linked to concepts in an <strong>RDF</strong> <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)">ontology</a>.</p>
+<p><strong>JSON-LD (JSON Linked Data).</strong> A method of encoding <a href="https://en.wikipedia.org/wiki/Linked_data" target="_blank" rel="noopener noreferrer">Linked Data</a> using JSON. The <a href="https://www.w3.org/TR/json-ld/" target="_blank" rel="noopener noreferrer">W3C JSON-LD 1.0 specification</a> enables object properties in a JSON document to be linked to concepts in an <strong>RDF</strong> <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)" target="_blank" rel="noopener noreferrer">ontology</a>.</p>
 
 <p><strong>Key description.</strong> A JSON object contained inside a <strong>DDO</strong> that contains all the metadata necessary to use a public key or verification key. A list of standard key descriptions is included in Appendix C.</p>
 
 <p><strong>Ledger.</strong> In the context of this specification, a shared database of transactions maintained via <strong>distributed ledger technology</strong>.</p>
 
-<p><strong>PKI</strong>. Acronym for <strong><a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">public key infrastructure</a></strong>.</p>
+<p><strong>PKI</strong>. Acronym for <strong><a href="https://en.wikipedia.org/wiki/Public_key_infrastructure" target="_blank" rel="noopener noreferrer">public key infrastructure</a></strong>.</p>
 
-<p><strong>RDF (Resource Description Framework).</strong> A semantic graph model defined by the <a href="https://www.w3.org/2011/rdf-wg/">W3C RDF Working Group</a>.</p>
+<p><strong>RDF (Resource Description Framework).</strong> A semantic graph model defined by the <a href="https://www.w3.org/2011/rdf-wg/" target="_blank" rel="noopener noreferrer">W3C RDF Working Group</a>.</p>
 
 <p><strong>Service endpoint.</strong> A network address at which a service operates on behalf of an identity owner. Examples of specific DIDM services include discovery services, authentication services, authorization services, interaction services, etc. A <strong>DIDM</strong> service endpoint may also be provided by a generalized data interchange protocol such as <strong>XDI</strong>.</p>
 
-<p><strong>UUID.</strong> Universally Unique Identifier as specified by <a href="https://www.ietf.org/rfc/rfc4122.txt">RFC 4122</a>.</p>
+<p><strong>UUID.</strong> Universally Unique Identifier as specified by <a href="https://www.ietf.org/rfc/rfc4122.txt" target="_blank" rel="noopener noreferrer">RFC 4122</a>.</p>
 
-<p><strong>URI (Uniform Resource Identifier).</strong> The official name for all Web identifiers as defined by IETF <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>. See section 1.2.</p>
+<p><strong>URI (Uniform Resource Identifier).</strong> The official name for all Web identifiers as defined by IETF <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a>. See section 1.2.</p>
 
 <p><strong>URL (Uniform Resource Locator). **Any **URI</strong> that can be resolved or de-referenced to locate a specific resource on the Web. See section 1.2.</p>
 
-<p><strong>URN (Uniform Resource Name).</strong> A <strong>URI</strong> intended to serve as a persistent, location-independent identifier of a resource, i.e., an identifier that will always represent the same resource and never change (ideally forever). URN syntax is defined by IETF <a href="https://www.ietf.org/rfc/rfc2141.txt">RFC 2141</a>. In general URNs cannot directly be resolved or de-referenced to locate the resource they identify. See section 1.2.</p>
+<p><strong>URN (Uniform Resource Name).</strong> A <strong>URI</strong> intended to serve as a persistent, location-independent identifier of a resource, i.e., an identifier that will always represent the same resource and never change (ideally forever). URN syntax is defined by IETF <a href="https://www.ietf.org/rfc/rfc2141.txt" target="_blank" rel="noopener noreferrer">RFC 2141</a>. In general URNs cannot directly be resolved or de-referenced to locate the resource they identify. See section 1.2.</p>
 
-<p><strong>XDI (Extensible Data Interchange)</strong> (also XRI Data Interchange)—a semantic graph format and semantic data interchange protocol defined by the <a href="https://www.oasis-open.org/committees/xdi/">OASIS XDI Technical Committee</a>.</p>
+<p><strong>XDI (Extensible Data Interchange)</strong> (also XRI Data Interchange)—a semantic graph format and semantic data interchange protocol defined by the <a href="https://www.oasis-open.org/committees/xdi/" target="_blank" rel="noopener noreferrer">OASIS XDI Technical Committee</a>.</p>
 
 <h2 id="4-design-goals--principles">4. Design Goals &amp; Principles</h2>
 
@@ -640,15 +752,15 @@
 
 <h2 id="5-dids-decentralized-identifiers">5. DIDs (Decentralized Identifiers)</h2>
 
-<p>The foundation of DID architecture is the concept of the decentralized identifier. This concept is not new; <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUIDs</a> (Universally Unique IDentifiers) were first developed in the 1980s and later became a standard feature of the Open Software Foundation’s <a href="https://en.wikipedia.org/wiki/Distributed_Computing_Environment">Distributed Computing Environment</a>. UUIDs achieve global uniqueness without a centralized registry service by using an algorithm that generates 128-bit values with sufficient entropy that the chance of collision are infinitesimally small. UUIDs are formally a URN namespace specified in <a href="https://tools.ietf.org/html/rfc4122">IETF RFC 4122</a>.</p>
+<p>The foundation of DID architecture is the concept of the decentralized identifier. This concept is not new; <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier" target="_blank" rel="noopener noreferrer">UUIDs</a> (Universally Unique IDentifiers) were first developed in the 1980s and later became a standard feature of the Open Software Foundation’s <a href="https://en.wikipedia.org/wiki/Distributed_Computing_Environment" target="_blank" rel="noopener noreferrer">Distributed Computing Environment</a>. UUIDs achieve global uniqueness without a centralized registry service by using an algorithm that generates 128-bit values with sufficient entropy that the chance of collision are infinitesimally small. UUIDs are formally a URN namespace specified in <a href="https://tools.ietf.org/html/rfc4122" target="_blank" rel="noopener noreferrer">IETF RFC 4122</a>.</p>
 
 <p>A DID is similar to a UUID except: (a) it can be resolved or dereferenced to a standard resource describing the identity owner (a DDO—see section 6), and (b) the DDO may contain public key descriptions that enable cryptographic verification of DID ownership.</p>
 
 <h3 id="51-the-generic-did-scheme">5.1. The Generic DID Scheme</h3>
 
-<p>The generic DID scheme is a URI scheme conformant with <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>. It consists of a DID followed by an optional path and/or fragment. The term <strong>DID</strong> refers only to the identifier conforming to the did rule in the ABNF below; when used alone, it does not include a path or fragment. A DID that may optionally include a path and/or fragment is called a <strong>DID reference</strong>.</p>
+<p>The generic DID scheme is a URI scheme conformant with <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a>. It consists of a DID followed by an optional path and/or fragment. The term <strong>DID</strong> refers only to the identifier conforming to the did rule in the ABNF below; when used alone, it does not include a path or fragment. A DID that may optionally include a path and/or fragment is called a <strong>DID reference</strong>.</p>
 
-<p>Following is the ABNF definition using the syntax in <a href="https://tools.ietf.org/html/rfc5234">RFC 5234</a> (which defines ALPHA as upper or lowercase A-Z).</p>
+<p>Following is the ABNF definition using the syntax in <a href="https://tools.ietf.org/html/rfc5234" target="_blank" rel="noopener noreferrer">RFC 5234</a> (which defines ALPHA as upper or lowercase A-Z).</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>did-reference      = did [ "/" did-path ] [ "#" did-fragment ]
 did                = "did:" method ":" specific-idstring                  
 method             = 1*methodchar
@@ -673,13 +785,13 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <h3 id="53-did-paths">5.3 DID Paths</h3>
 
-<p>A generic DID path (the did-path rule in section 5.1) is identical to a URI path and MUST conform to the ABNF of the path-rootless ABNF rule in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>. A DID path SHOULD be used to address resources available via a DID service endpoint. See section 6.6.</p>
+<p>A generic DID path (the did-path rule in section 5.1) is identical to a URI path and MUST conform to the ABNF of the path-rootless ABNF rule in <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a>. A DID path SHOULD be used to address resources available via a DID service endpoint. See section 6.6.</p>
 
 <p>A specific DID scheme MAY specify ABNF rules for DID paths that are more restrictive than the generic rules in this section.</p>
 
 <h3 id="54-did-fragments">5.4 DID Fragments</h3>
 
-<p>A generic DID fragment (the did-fragment rule in section 5.1) is identical to a URI fragment and MUST conform to the ABNF of the fragment ABNF rule in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>. A DID fragment MUST be used only as a method-independent pointer into the DDO to identify a unique key description or other DDO component. To resolve this pointer, the complete DID reference including the DID fragment MUST be used as the value of the id key for the target JSON object.</p>
+<p>A generic DID fragment (the did-fragment rule in section 5.1) is identical to a URI fragment and MUST conform to the ABNF of the fragment ABNF rule in <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a>. A DID fragment MUST be used only as a method-independent pointer into the DDO to identify a unique key description or other DDO component. To resolve this pointer, the complete DID reference including the DID fragment MUST be used as the value of the id key for the target JSON object.</p>
 
 <p>A specific DID scheme MAY specify ABNF rules for DID fragments that are more restrictive than the generic rules in this section.</p>
 
@@ -701,7 +813,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <h3 id="56-did-persistence">5.6 DID Persistence</h3>
 
-<p>A DID MUST be persistent and immutable, i.e., bound to an identity owner once and never changed (forever). Ideally a DID would be a completely abstract decentralized identifier (like a UUID) that could be bound to multiple underlying distributed ledgers or networks over time, thus maintaining its persistence independent of any particular ledger or network. However registering the same identifier on multiple ledgers or networks introduces extremely hard identity ownership and <a href="https://en.wikipedia.org/wiki/List_of_DNS_record_types#SOA">start-of-authority</a> (SOA) problems. It also greatly increases implementation complexity for developers.</p>
+<p>A DID MUST be persistent and immutable, i.e., bound to an identity owner once and never changed (forever). Ideally a DID would be a completely abstract decentralized identifier (like a UUID) that could be bound to multiple underlying distributed ledgers or networks over time, thus maintaining its persistence independent of any particular ledger or network. However registering the same identifier on multiple ledgers or networks introduces extremely hard identity ownership and <a href="https://en.wikipedia.org/wiki/List_of_DNS_record_types#SOA" target="_blank" rel="noopener noreferrer">start-of-authority</a> (SOA) problems. It also greatly increases implementation complexity for developers.</p>
 
 <p>To avoid these issues, it is RECOMMENDED that DID method specifications only produce DIDs and DID methods bound to strong, stable ledgers or networks capable of making the highest level of commitment to persistence of the DID and DID method over time.</p>
 
@@ -711,7 +823,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>If a DID is the index key in a key-value pair, then the DDO is the value to which the index key points. The combination of a DID and its associated DDO forms the root <strong>identity record</strong> for a  decentralized identity.</p>
 
-<p>A DDO MUST be a single JSON object conforming to <a href="https://tools.ietf.org/html/rfc7159">RFC 7159</a>. For purposes of this version of the DID specification, the format of this JSON object is specified in <a href="http://json-ld.org/">JSON-LD</a>, a format for mapping JSON data into the RDF semantic graph model as defined by the <a href="https://www.w3.org/TR/json-ld/">W3C JSON-LD 1.0 specification</a>. Future versions of this specification MAY specify other semantic graph formats for a DDO such as JXD (JSON XDI Data), a serialization format for the <a href="http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml">XDI graph model</a>.</p>
+<p>A DDO MUST be a single JSON object conforming to <a href="https://tools.ietf.org/html/rfc7159" target="_blank" rel="noopener noreferrer">RFC 7159</a>. For purposes of this version of the DID specification, the format of this JSON object is specified in <a href="http://json-ld.org/" target="_blank" rel="noopener noreferrer">JSON-LD</a>, a format for mapping JSON data into the RDF semantic graph model as defined by the <a href="https://www.w3.org/TR/json-ld/" target="_blank" rel="noopener noreferrer">W3C JSON-LD 1.0 specification</a>. Future versions of this specification MAY specify other semantic graph formats for a DDO such as JXD (JSON XDI Data), a serialization format for the <a href="http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml" target="_blank" rel="noopener noreferrer">XDI graph model</a>.</p>
 
 <p>The following sections define the properties of this JSON object, including whether these properties are required or optional.</p>
 
@@ -738,8 +850,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": "https://example.org/did/v1"
-</code></pre></div></div>
+<p>“@context”: “https://example.org/did/v1”</p>
 
 <p>}</p>
 
@@ -768,8 +879,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp"
-</code></pre></div></div>
+<p>“id”: “did:sov:21tDAKCERh95uGgKbJNHYp”</p>
 
 <p>}</p>
 
@@ -801,8 +911,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"guardian": "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
-</code></pre></div></div>
+<p>“guardian”: “did:sov:8uQhQMGzWxR8vw5P3UWH1j”</p>
 
 <p>}</p>
 
@@ -834,30 +943,31 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
 
-	"type": ["CryptographicKey", "EdDsaSAPublicKey"],
+"type": ["CryptographicKey", "EdDsaSAPublicKey"],
 
-	"curve": "ed25519",
+"curve": "ed25519",
 
-	"expires": "2017-02-08T16:02:20Z",
+"expires": "2017-02-08T16:02:20Z",
 
-	"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}, {
-
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
-
-	"type": ["CryptographicKey", "RsaPublicKey"],
-
-	"expires": "2017-03-22T00:00:00Z",
-
-	"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
-
-}]
+"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 </code></pre></div></div>
+
+<p>}, {</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
+
+"type": ["CryptographicKey", "RsaPublicKey"],
+
+"expires": "2017-03-22T00:00:00Z",
+
+"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
+</code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -953,36 +1063,38 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"control": [{
+<p>“control”: [{</p>
 
-	"type": "OrControl",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "OrControl",
 
-	"signer": [
+"signer": [
             "did:sov:21tDAKCERh95uGgKbJNHYp", 
 
             "did:sov:8uQhQMGzWxR8vw5P3UWH1j"
 
        ]
+</code></pre></div></div>
 
-}, {
+<p>}, {</p>
 
-	"type": "AndControl",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "AndControl",
 
-	"signer": [
+"signer": [
 
             "did:sov:7P7xfv5AeTSSWcuq6hPptQ", 
 
             "did:sov:X2v8rvzoCxayhYV5mhESQ1"
 
        ]
+</code></pre></div></div>
 
-}, {
+<p>}, {</p>
 
-	"type": "MofNControl",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "MofNControl",
 
-	"minimumSignatures": 2,
+"minimumSignatures": 2,
 
-	"signer": [
+"signer": [
 
             "did:sov:4XirzuHiNnTrwfjCMtBEJ6", 
 
@@ -991,9 +1103,9 @@ idchar             = ALPHA / DIGIT / "." / "-"
             "did:sov:WUoAyXB7mhfcVESjypm5ty"
 
        ]
-
-}]
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1017,7 +1129,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <p>In this nested JSON object, each property MUST have a key representing the name of a service established in either the generic JSON-LD context (see Appendix B) or a method-specific context definition.</p>
   </li>
   <li>
-    <p>The value of this key MUST be a valid URI conforming to <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a> and normalized according to the rules in section 6 of <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a> and to any normalization rules in its applicable URI scheme specification.</p>
+    <p>The value of this key MUST be a valid URI conforming to <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a> and normalized according to the rules in section 6 of <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">RFC 3986</a> and to any normalization rules in its applicable URI scheme specification.</p>
   </li>
 </ol>
 
@@ -1025,14 +1137,14 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"service": {
+<p>“service”: {</p>
 
-	"openid": "https://openid.example.com/456",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"openid": "https://openid.example.com/456",
 
-	"xdi": "https://xdi.example.com/123"
-
-}
+"xdi": "https://xdi.example.com/123"
 </code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
@@ -1050,13 +1162,13 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <p>The key for this property MUST be created.</p>
   </li>
   <li>
-    <p>The value of this key MUST be a valid XML datetime value as defined in section 3.3.7 of <a href="https://www.w3.org/TR/xmlschema11-2/">W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes</a>.</p>
+    <p>The value of this key MUST be a valid XML datetime value as defined in section 3.3.7 of <a href="https://www.w3.org/TR/xmlschema11-2/" target="_blank" rel="noopener noreferrer">W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes</a>.</p>
   </li>
   <li>
     <p>This datetime value MUST be normalized to UTC 00:00 as indicated by the trailing “Z”.</p>
   </li>
   <li>
-    <p>Method specifications that rely on DLTs SHOULD require time values that are after the known <a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki">“median time past” (defined in Bitcoin BIP 113)</a>, when the DLT supports such a notion.</p>
+    <p>Method specifications that rely on DLTs SHOULD require time values that are after the known <a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki" target="_blank" rel="noopener noreferrer">“median time past” (defined in Bitcoin BIP 113)</a>, when the DLT supports such a notion.</p>
   </li>
 </ol>
 
@@ -1064,8 +1176,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"created": "2002-10-10T17:00:00Z"
-</code></pre></div></div>
+<p>“created”: “2002-10-10T17:00:00Z”</p>
 
 <p>}</p>
 
@@ -1089,8 +1200,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"updated": "2016-10-17T02:41:00Z"
-</code></pre></div></div>
+<p>“updated”: “2016-10-17T02:41:00Z”</p>
 
 <p>}</p>
 
@@ -1119,7 +1229,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <p>The key for this property MUST be signature.</p>
   </li>
   <li>
-    <p>The value of this key MUST be a valid JSON-LD signature as defined by <a href="https://w3c-dvcg.github.io/ld-signatures/">Linked Data Signatures</a>.</p>
+    <p>The value of this key MUST be a valid JSON-LD signature as defined by <a href="https://w3c-dvcg.github.io/ld-signatures/" target="_blank" rel="noopener noreferrer">Linked Data Signatures</a>.</p>
   </li>
 </ol>
 
@@ -1127,24 +1237,24 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"signature": {
+<p>“signature”: {</p>
 
-	"type": "LinkedDataSignature2015",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"type": "LinkedDataSignature2015",
 
-	"created": "2016-02-08T16:02:20Z",
+"created": "2016-02-08T16:02:20Z",
 
-	"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
+"creator": "did:sov:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
 
-	"signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
-
-}
+"signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
 </code></pre></div></div>
+
+<p>}</p>
 
 <p>}</p>
 
 <h2 id="7-did-operations">7. DID Operations</h2>
 
-<p>To enable the full functionality of DIDs and DDOs on a particular distributed ledger or network (called the <em>target system</em>), a DID method specification MUST specify how each of the following <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> operations is performed by a client. Each operation MUST be specified to the level of detail necessary to build and test interoperable client implementations with the target system.</p>
+<p>To enable the full functionality of DIDs and DDOs on a particular distributed ledger or network (called the <em>target system</em>), a DID method specification MUST specify how each of the following <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank" rel="noopener noreferrer">CRUD</a> operations is performed by a client. Each operation MUST be specified to the level of detail necessary to build and test interoperable client implementations with the target system.</p>
 
 <p>Note that, due to the specified contents of DDOs, these operations can effectively be used to perform all the operations required of a CKMS (cryptographic key management system), e.g.:</p>
 
@@ -1218,7 +1328,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <p>DID method specifications MUST include their own Security Considerations sections.</p>
   </li>
   <li>
-    <p>This section MUST consider all the requirements mentioned in section 5 of <a href="https://tools.ietf.org/html/rfc3552">RFC 3552</a> (page 27) for the DID operations defined in the specification. In particular:</p>
+    <p>This section MUST consider all the requirements mentioned in section 5 of <a href="https://tools.ietf.org/html/rfc3552" target="_blank" rel="noopener noreferrer">RFC 3552</a> (page 27) for the DID operations defined in the specification. In particular:</p>
   </li>
 </ol>
 
@@ -1226,7 +1336,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <ol>
   <li>
-    <p>This section MUST also discuss, per Section 5 of <a href="https://tools.ietf.org/html/rfc3552">RFC 3552</a>, residual risks (such as the risks from compromise in a related protocol, incorrect implementation, or cipher) after threat mitigation has been deployed.</p>
+    <p>This section MUST also discuss, per Section 5 of <a href="https://tools.ietf.org/html/rfc3552" target="_blank" rel="noopener noreferrer">RFC 3552</a>, residual risks (such as the risks from compromise in a related protocol, incorrect implementation, or cipher) after threat mitigation has been deployed.</p>
   </li>
   <li>
     <p>This section MUST provide integrity protection and update authentication for all operations required by Section 7 of this specification (DID Operations).</p>
@@ -1235,10 +1345,10 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <p>Where DID methods make use of peer-to-peer computing resources (such as with all known DLTs), the expected burdens of those resources SHOULD be discussed in relation to denial of service.</p>
   </li>
   <li>
-    <p>Method-specific endpoint authentication MUST be discussed. Where DID methods make use of DLTs with varying network topology, sometimes offered as “light node” or “<a href="https://en.bitcoin.it/wiki/Thin_Client_Security">thin client</a>” implementations to reduce required computing resources, the security assumptions of the topology available to implementations of the DID method MUST be discussed.</p>
+    <p>Method-specific endpoint authentication MUST be discussed. Where DID methods make use of DLTs with varying network topology, sometimes offered as “light node” or “<a href="https://en.bitcoin.it/wiki/Thin_Client_Security" target="_blank" rel="noopener noreferrer">thin client</a>” implementations to reduce required computing resources, the security assumptions of the topology available to implementations of the DID method MUST be discussed.</p>
   </li>
   <li>
-    <p>DID methods MUST discuss the policy mechanism by which DIDs are proven to be uniquely assigned. A DID fits the functional definition of a URN as defined in <a href="https://tools.ietf.org/html/rfc2141">RFC 2141</a>—a persistent identifier that is assigned once to a resource and never reassigned. In a security context this is particularly important since a DID may be used to identify a specific party subject to a specific set of authorization rights.</p>
+    <p>DID methods MUST discuss the policy mechanism by which DIDs are proven to be uniquely assigned. A DID fits the functional definition of a URN as defined in <a href="https://tools.ietf.org/html/rfc2141" target="_blank" rel="noopener noreferrer">RFC 2141</a>—a persistent identifier that is assigned once to a resource and never reassigned. In a security context this is particularly important since a DID may be used to identify a specific party subject to a specific set of authorization rights.</p>
   </li>
   <li>
     <p>DID methods that introduce new authentication service endpoint types (section 6.6) SHOULD consider the security requirements of the supported authentication protocol.</p>
@@ -1292,7 +1402,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <h3 id="923-identity-owner-authentication-and-verifiable-claims">9.2.3 Identity Owner Authentication and Verifiable Claims</h3>
 
-<p>A DID and DDO do not inherently carry any <a href="https://en.wikipedia.org/wiki/Personally_identifiable_information">PII</a> (personally-identifiable information). The process of binding a DID to the real-world owner of an identity using claims about the owner is out of scope for this specification. However this topic is the focus of the <a href="https://w3c.github.io/vctf/">verifiable claims</a> standardization work at the W3C (where the term “DID” originated).</p>
+<p>A DID and DDO do not inherently carry any <a href="https://en.wikipedia.org/wiki/Personally_identifiable_information" target="_blank" rel="noopener noreferrer">PII</a> (personally-identifiable information). The process of binding a DID to the real-world owner of an identity using claims about the owner is out of scope for this specification. However this topic is the focus of the <a href="https://w3c.github.io/vctf/" target="_blank" rel="noopener noreferrer">verifiable claims</a> standardization work at the W3C (where the term “DID” originated).</p>
 
 <h3 id="93-authentication-service-endpoints">9.3 Authentication Service Endpoints</h3>
 
@@ -1347,13 +1457,13 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <p>DID method specifications MUST include their own Privacy Considerations sections, if only to point to the general privacy considerations in this section.</p>
   </li>
   <li>
-    <p>The DID method privacy section MUST discuss any subsection of section 5 of <a href="https://tools.ietf.org/html/rfc6973">RFC 6973</a><a href="https://tools.ietf.org/html/rfc6973">t</a> that could apply in a method-specific manner. The subsections to consider are: <em>surveillance, stored data compromise, unsolicited traffic, misattribution, correlation, identification, secondary use, disclosure, exclusion</em>.</p>
+    <p>The DID method privacy section MUST discuss any subsection of section 5 of <a href="https://tools.ietf.org/html/rfc6973" target="_blank" rel="noopener noreferrer">RFC 6973</a><a href="https://tools.ietf.org/html/rfc6973" target="_blank" rel="noopener noreferrer">t</a> that could apply in a method-specific manner. The subsections to consider are: <em>surveillance, stored data compromise, unsolicited traffic, misattribution, correlation, identification, secondary use, disclosure, exclusion</em>.</p>
   </li>
 </ol>
 
 <h3 id="102-keep-personally-identifiable-information-pii-off-ledger">10.2 Keep Personally-Identifiable Information (PII) Off-Ledger</h3>
 
-<p>If a DID method specification is written for a public ledger or network where all DIDs and DDOs will be publicly available, it is STRONGLY RECOMMENDED that DDOs contain no PII. All PII should be kept off-ledger behind service endpoints under the control of the identity owner. With this privacy architecture, PII may be exchanged on a private, peer-to-peer basis using communications channels identified and secured by key descriptions in DID records. This also enables identity owners and relying parties to implement the <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> <a href="https://en.wikipedia.org/wiki/Right_to_be_forgotten">right to be forgotten</a>, as no PII will be written to an immutable ledger.</p>
+<p>If a DID method specification is written for a public ledger or network where all DIDs and DDOs will be publicly available, it is STRONGLY RECOMMENDED that DDOs contain no PII. All PII should be kept off-ledger behind service endpoints under the control of the identity owner. With this privacy architecture, PII may be exchanged on a private, peer-to-peer basis using communications channels identified and secured by key descriptions in DID records. This also enables identity owners and relying parties to implement the <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" target="_blank" rel="noopener noreferrer">GDPR</a> <a href="https://en.wikipedia.org/wiki/Right_to_be_forgotten" target="_blank" rel="noopener noreferrer">right to be forgotten</a>, as no PII will be written to an immutable ledger.</p>
 
 <h3 id="103-did-correlation-risks-and-pseudonymous-dids">10.3 DID Correlation Risks and Pseudonymous DIDs</h3>
 
@@ -1369,7 +1479,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>When an entity is indistinguishable from others in the herd, privacy is available.  When the act of engaging privately with another party is by itself a recognizable flag, privacy is greatly diminished.</p>
 
-<p>DIDs and DID methods SHOULD work to improve herd privacy, particularly for those who legitimately need it most. Choose technologies and human interfaces that default to preserving anonymity and pseudonymity. In order to reduce <a href="https://en.wikipedia.org/wiki/Device_fingerprint">digital fingerprints</a>, share common settings across client implementations, keep negotiated options to a minimum on wire protocols, use encrypted transport layers, and pad messages to standard lengths.</p>
+<p>DIDs and DID methods SHOULD work to improve herd privacy, particularly for those who legitimately need it most. Choose technologies and human interfaces that default to preserving anonymity and pseudonymity. In order to reduce <a href="https://en.wikipedia.org/wiki/Device_fingerprint" target="_blank" rel="noopener noreferrer">digital fingerprints</a>, share common settings across client implementations, keep negotiated options to a minimum on wire protocols, use encrypted transport layers, and pad messages to standard lengths.</p>
 
 <h2 id="11-future-work">11. Future Work</h2>
 
@@ -1379,63 +1489,63 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <h3 id="112-equivalence">11.2 Equivalence</h3>
 
-<p>Including an equivalence property, such as equivID, in DDOs whose value is an array of DIDs would allow identity owners to assert two or more DIDs that represent the same identity owner. This capability has numerous uses, including supporting migration between ledgers and providing forward compatibility of existing DIDs to future DLTs. In theory, equivalent DIDs should have the same identity rights, allowing <a href="https://w3c.github.io/vctf/">verifiable claims</a> made against one DID to apply to equivalent DIDs.</p>
+<p>Including an equivalence property, such as equivID, in DDOs whose value is an array of DIDs would allow identity owners to assert two or more DIDs that represent the same identity owner. This capability has numerous uses, including supporting migration between ledgers and providing forward compatibility of existing DIDs to future DLTs. In theory, equivalent DIDs should have the same identity rights, allowing <a href="https://w3c.github.io/vctf/" target="_blank" rel="noopener noreferrer">verifiable claims</a> made against one DID to apply to equivalent DIDs.</p>
 
 <p>Equivalence was not included in the current specification due to the complexity of verifying equivalence across different DLTs and different DID methods, and also of aggregating properties of equivalent DDOs. However equivalence should be supported in a future version of this specification.</p>
 
 <h3 id="113-timestamps">11.3 Timestamps</h3>
 
-<p>Verifiable timestamps have significant utility for identity records. This is a good fit for DLTs, since most offer some type of timestamp mechanism. Despite some transactional cost, they are the most censorship-resistant transaction ordering systems in the world, so they are nearly ideal for DDO timestamping. In some cases a DLT’s immediate timing is approximate, however their sense of <a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki#Abstract">“median time past” (see Bitcoin BIP 113)</a> can be precisely defined.</p>
+<p>Verifiable timestamps have significant utility for identity records. This is a good fit for DLTs, since most offer some type of timestamp mechanism. Despite some transactional cost, they are the most censorship-resistant transaction ordering systems in the world, so they are nearly ideal for DDO timestamping. In some cases a DLT’s immediate timing is approximate, however their sense of <a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki#Abstract" target="_blank" rel="noopener noreferrer">“median time past” (see Bitcoin BIP 113)</a> can be precisely defined.</p>
 
 <p>A generic DDO timestamping mechanism could would work across all DLTs and might operate via a mechanism including either individual transactions or transaction batches. The generic mechanism was deemed out of scope for this version, although it may be included in a future version of this specification.</p>
 
 <h3 id="114-time-locks-and-ddo-recovery">11.4 Time Locks and DDO Recovery</h3>
 
-<p>Section 9.7 mentions one possible clever use of time locks to recover control of a DID after a key compromise. The technique relies on an ability to override the most recent update to a DDO with Proof of Control applied by an earlier version of the DDO in order to defeat the attacker. This protection depends on adding a <a href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki#Abstract">time lock (see Bitcoin BIP 65)</a> to protect part of the transaction chain, enabling a Proof of Control block to be used to recover control. We plan to add support for time locks in a future version of this specification.</p>
+<p>Section 9.7 mentions one possible clever use of time locks to recover control of a DID after a key compromise. The technique relies on an ability to override the most recent update to a DDO with Proof of Control applied by an earlier version of the DDO in order to defeat the attacker. This protection depends on adding a <a href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki#Abstract" target="_blank" rel="noopener noreferrer">time lock (see Bitcoin BIP 65)</a> to protect part of the transaction chain, enabling a Proof of Control block to be used to recover control. We plan to add support for time locks in a future version of this specification.</p>
 
 <h3 id="115-smart-signatures">11.5 Smart Signatures</h3>
 
-<p>Not all DLTs can support the Proof of Control logic in section 6.5. Therefore, in this version of the specification, all Proof of Control logic must be delegated to DID method specifications. A potential future solution is a <a href="http://www.weboftrust.info/downloads/smart-signatures.pdf">Smart Signature</a> specification that specifies the code any conformant DLT may implement to process signature control logic.</p>
+<p>Not all DLTs can support the Proof of Control logic in section 6.5. Therefore, in this version of the specification, all Proof of Control logic must be delegated to DID method specifications. A potential future solution is a <a href="http://www.weboftrust.info/downloads/smart-signatures.pdf" target="_blank" rel="noopener noreferrer">Smart Signature</a> specification that specifies the code any conformant DLT may implement to process signature control logic.</p>
 
 <h3 id="116-verifiable-claims">11.6 Verifiable Claims</h3>
 
-<p>Although DIDs and DDOs form a foundation for decentralized identity, they are only the first step in describing an identity owner. The rest of the descriptive power comes through collecting and selectively using <a href="https://w3c.github.io/vctf/">verifiable claims</a>. Future versions of the specification will describe in more detail how DIDs and DDO can be integrated with—and help enable—the verifiable claims ecosystem.</p>
+<p>Although DIDs and DDOs form a foundation for decentralized identity, they are only the first step in describing an identity owner. The rest of the descriptive power comes through collecting and selectively using <a href="https://w3c.github.io/vctf/" target="_blank" rel="noopener noreferrer">verifiable claims</a>. Future versions of the specification will describe in more detail how DIDs and DDO can be integrated with—and help enable—the verifiable claims ecosystem.</p>
 
 <h3 id="117-alternate-serializations-and-graph-models">11.7 Alternate Serializations and Graph Models</h3>
 
-<p>This version of the specification relies on JSON-LD and the RDF graph model for expressing a DDO. Future versions of this specification MAY specify other semantic graph formats for a DDO, such as JXD (JSON XDI Data), a serialization format for the XDI graph model as defined by the <a href="http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml">OASIS XDI Core 1.0 specification</a>.</p>
+<p>This version of the specification relies on JSON-LD and the RDF graph model for expressing a DDO. Future versions of this specification MAY specify other semantic graph formats for a DDO, such as JXD (JSON XDI Data), a serialization format for the XDI graph model as defined by the <a href="http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml" target="_blank" rel="noopener noreferrer">OASIS XDI Core 1.0 specification</a>.</p>
 
 <h2 id="12-references">12. References</h2>
 
-<p>[ABNF] Augmented BNF for Syntax Specifications: ABNF. IETF RFC 5234. <a href="https://tools.ietf.org/html/rfc5234">https://tools.ietf.org/html/rfc5234</a></p>
+<p>[ABNF] Augmented BNF for Syntax Specifications: ABNF. IETF RFC 5234. <a href="https://tools.ietf.org/html/rfc5234" target="_blank" rel="noopener noreferrer">https://tools.ietf.org/html/rfc5234</a></p>
 
-<p>[IRI] Internationalized Resource Identifiers. IETF RFC 3987. <a href="https://www.ietf.org/rfc/rfc3987.txt">https://www.ietf.org/rfc/rfc3987.txt</a></p>
+<p>[IRI] Internationalized Resource Identifiers. IETF RFC 3987. <a href="https://www.ietf.org/rfc/rfc3987.txt" target="_blank" rel="noopener noreferrer">https://www.ietf.org/rfc/rfc3987.txt</a></p>
 
-<p>[JSON] The JavaScript Object Notation (JSON) Data Interchange Format <a href="https://tools.ietf.org/html/rfc7159">https://tools.ietf.org/html/rfc7159</a></p>
+<p>[JSON] The JavaScript Object Notation (JSON) Data Interchange Format <a href="https://tools.ietf.org/html/rfc7159" target="_blank" rel="noopener noreferrer">https://tools.ietf.org/html/rfc7159</a></p>
 
-<p>[JSON-LD] JSON-LD 1.0. <a href="http://www.w3.org/TR/json-ld/">http://www.w3.org/TR/json-ld/</a></p>
+<p>[JSON-LD] JSON-LD 1.0. <a href="http://www.w3.org/TR/json-ld/" target="_blank" rel="noopener noreferrer">http://www.w3.org/TR/json-ld/</a></p>
 
-<p>[LINKED-DATA-SIGNATURES] Draft Community Group Report <a href="https://w3c-dvcg.github.io/ld-signatures/">https://w3c-dvcg.github.io/ld-signatures/</a></p>
+<p>[LINKED-DATA-SIGNATURES] Draft Community Group Report <a href="https://w3c-dvcg.github.io/ld-signatures/" target="_blank" rel="noopener noreferrer">https://w3c-dvcg.github.io/ld-signatures/</a></p>
 
-<p>[RFC 3552] Guidelines for Writing RFC Text on Security Considerations. IETF RFC 3552.  <a href="https://tools.ietf.org/html/rfc3552">https://tools.ietf.org/html/rfc3552</a></p>
+<p>[RFC 3552] Guidelines for Writing RFC Text on Security Considerations. IETF RFC 3552.  <a href="https://tools.ietf.org/html/rfc3552" target="_blank" rel="noopener noreferrer">https://tools.ietf.org/html/rfc3552</a></p>
 
-<p>[RFC 6973] Privacy Considerations for Internet Protocols. IETF RFC 6973.  <a href="https://tools.ietf.org/html/rfc6973">https://tools.ietf.org/html/rfc6973</a></p>
+<p>[RFC 6973] Privacy Considerations for Internet Protocols. IETF RFC 6973.  <a href="https://tools.ietf.org/html/rfc6973" target="_blank" rel="noopener noreferrer">https://tools.ietf.org/html/rfc6973</a></p>
 
-<p>[RFC-KEYWORDS] Key words for use in RFCs to Indicate Requirement Levels. IETF RFC 2119. <a href="https://www.ietf.org/rfc/rfc2119.txt">https://www.ietf.org/rfc/rfc2119.txt</a></p>
+<p>[RFC-KEYWORDS] Key words for use in RFCs to Indicate Requirement Levels. IETF RFC 2119. <a href="https://www.ietf.org/rfc/rfc2119.txt" target="_blank" rel="noopener noreferrer">https://www.ietf.org/rfc/rfc2119.txt</a></p>
 
-<p>[SBIR-TOPIC] Applicability of Blockchain Technology to Privacy Respecting Identity Management. U.S Department of Homeland Security Small Business Innovation Research Grant. <a href="https://www.sbir.gov/sbirsearch/detail/867797">https://www.sbir.gov/sbirsearch/detail/867797</a></p>
+<p>[SBIR-TOPIC] Applicability of Blockchain Technology to Privacy Respecting Identity Management. U.S Department of Homeland Security Small Business Innovation Research Grant. <a href="https://www.sbir.gov/sbirsearch/detail/867797" target="_blank" rel="noopener noreferrer">https://www.sbir.gov/sbirsearch/detail/867797</a></p>
 
-<p>[URI] Uniform Resource Identifiers. IETF RFC 3986. <a href="https://www.ietf.org/rfc/rfc3986.txt">https://www.ietf.org/rfc/rfc3986.txt</a></p>
+<p>[URI] Uniform Resource Identifiers. IETF RFC 3986. <a href="https://www.ietf.org/rfc/rfc3986.txt" target="_blank" rel="noopener noreferrer">https://www.ietf.org/rfc/rfc3986.txt</a></p>
 
-<p>[URN] URN (Uniform Resource Name) Syntax. IETF RFC 2141. <a href="https://tools.ietf.org/rfc/rfc2141.txt">https://tools.ietf.org/rfc/rfc2141.txt</a></p>
+<p>[URN] URN (Uniform Resource Name) Syntax. IETF RFC 2141. <a href="https://tools.ietf.org/rfc/rfc2141.txt" target="_blank" rel="noopener noreferrer">https://tools.ietf.org/rfc/rfc2141.txt</a></p>
 
-<p>[UUID] A Universally Unique IDentifier (UUID) URN Namespace. IETF RFC 4122. <a href="https://www.ietf.org/rfc/rfc4122.txt">https://www.ietf.org/rfc/rfc4122.txt</a></p>
+<p>[UUID] A Universally Unique IDentifier (UUID) URN Namespace. IETF RFC 4122. <a href="https://www.ietf.org/rfc/rfc4122.txt" target="_blank" rel="noopener noreferrer">https://www.ietf.org/rfc/rfc4122.txt</a></p>
 
-<p>[VCTF] W3C Verifiable Claims Task Force. <a href="http://opencreds.org/specs/source/claims-data-model/#expressing-entity-credentials-in-json">http://opencreds.org/specs/source/claims-data-model/#expressing-entity-credentials-in-json</a></p>
+<p>[VCTF] W3C Verifiable Claims Task Force. <a href="http://opencreds.org/specs/source/claims-data-model/#expressing-entity-credentials-in-json" target="_blank" rel="noopener noreferrer">http://opencreds.org/specs/source/claims-data-model/#expressing-entity-credentials-in-json</a></p>
 
-<p>[XDI-CORE] OASIS  XDI Core 1.0 Specification Working Draft 01  <a href="http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml">http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml</a></p>
+<p>[XDI-CORE] OASIS  XDI Core 1.0 Specification Working Draft 01  <a href="http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml" target="_blank" rel="noopener noreferrer">http://docs.oasis-open.org/xdi/xdi-core/v1.0/csd01/xdi-core-v1.0-csd01.xml</a></p>
 
-<p>[XML-DATETIME] W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes. W3C Recommendation. <a href="https://www.w3.org/TR/xmlschema11-2/">https://www.w3.org/TR/xmlschema11-2/</a></p>
+<p>[XML-DATETIME] W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes. W3C Recommendation. <a href="https://www.w3.org/TR/xmlschema11-2/" target="_blank" rel="noopener noreferrer">https://www.w3.org/TR/xmlschema11-2/</a></p>
 
 <h2 id="appendix-a-proposed-did-method-specifications">Appendix A: Proposed DID Method Specifications</h2>
 
@@ -1480,66 +1590,66 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>For this implementer’s draft, the URL for this context is:</p>
 
-<p><a href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/did-context-v1-draft-01.txt">https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/did-context-v1-draft-01.txt</a></p>
+<p><a href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/did-context-v1-draft-01.txt" target="_blank" rel="noopener noreferrer">https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/did-context-v1-draft-01.txt</a></p>
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"@context": ["https://w3id.org/identity/v1", {
+<p>“@context”: [“https://w3id.org/identity/v1”, {</p>
 
-	"ctrl": "https://w3id.org/control#",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"ctrl": "https://w3id.org/control#",
 
-	"ddo": "https://w3id.org/ddo#",
+"ddo": "https://w3id.org/ddo#",
 
-	"control": {
+"control": {
 
-		"@id": "ddo:control",
+  "@id": "ddo:control",
 
-		"@type": "@id"
+  "@type": "@id"
 
-	},
+},
 
-	"curve": "sec:curve",
+"curve": "sec:curve",
 
-	"guardian": "ddo:guardian",
+"guardian": "ddo:guardian",
 
-	"minimumSignatures": {
+"minimumSignatures": {
 
-		"@id": "ctrl:minimumSignatures",
+  "@id": "ctrl:minimumSignatures",
 
-		"@type": "xsd:integer"
+  "@type": "xsd:integer"
 
-	},
+},
 
-	"openid": "ddo:openid",
+"openid": "ddo:openid",
 
-	"publicKeyBase64": "sec:publicKeyBase64",
+"publicKeyBase64": "sec:publicKeyBase64",
 
-	"service": "ddo:service",
+"service": "ddo:service",
 
-	"signer": "sec:signer",
+"signer": "sec:signer",
 
-	"updated": {
+"updated": {
 
-		"@id": "ddo:updated",
+  "@id": "ddo:updated",
 
-		"@type": "xsd:dateTime"
+  "@type": "xsd:dateTime"
 
-	},
+},
 
-	"xdi": "ddo:xdi",
+"xdi": "ddo:xdi",
 
-	"EdDsaPublicKey": "sec:EdDsaPublicKey",
+"EdDsaPublicKey": "sec:EdDsaPublicKey",
 
-	"RsaPublicKey": "sec:RsaPublicKey",
+"RsaPublicKey": "sec:RsaPublicKey",
 
-	"OrControl": "ctrl:OrControl",
+"OrControl": "ctrl:OrControl",
 
-	"AndControl": "ctrl:AndControl",
+"AndControl": "ctrl:AndControl",
 
-	"MofNControl": "ctrl:MofNControl"
-
-}]
+"MofNControl": "ctrl:MofNControl"
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1551,18 +1661,18 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/2",
 
-	"type": ["CryptographicKey", "RsaPublicKey"],
+"type": ["CryptographicKey", "RsaPublicKey"],
 
-	"expires": "2017-03-22T00:00:00Z",
+"expires": "2017-03-22T00:00:00Z",
 
-	"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
-
-}]
+"publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1570,20 +1680,20 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
 <p>{</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"owner": [{
+<p>“owner”: [{</p>
 
-	"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"id": "did:sov:21tDAKCERh95uGgKbJNHYp#key/1",
 
-	"type": ["CryptographicKey", "EdDsaSAPublicKey"],
+"type": ["CryptographicKey", "EdDsaSAPublicKey"],
 
-	"curve": "ed25519",
+"curve": "ed25519",
 
-	"expires": "2017-02-08T16:02:20Z",
+"expires": "2017-02-08T16:02:20Z",
 
-	"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-
-}]
+"publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
 </code></pre></div></div>
+
+<p>}]</p>
 
 <p>}</p>
 
@@ -1603,11 +1713,11 @@ idchar             = ALPHA / DIGIT / "." / "-"
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=didecentral&text=DID+%28Decentralized+Identifier%29+Data+Model+and+Generic+Syntax+1.0+Implementer%E2%80%99s+Draft+01%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fdid-implementer-draft-10%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=DID+%28Decentralized+Identifier%29+Data+Model+and+Generic+Syntax+1.0+Implementer%E2%80%99s+Draft+01%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fdid-implementer-draft-10%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fdid-implementer-draft-10%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fdid-implementer-draft-10%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fdid-implementer-draft-10%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fdid-implementer-draft-10%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -1625,8 +1735,10 @@ idchar             = ALPHA / DIGIT / "." / "-"
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-    <div id="results" class="results"></div></div>
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
 
       </div>
     
@@ -1649,15 +1761,15 @@ idchar             = ALPHA / DIGIT / "." / "-"
         
       
         
-          <li><a href="https://decentralized-id.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          <li><a href="https://decentralized-id.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
         
       
         
-          <li><a href="https://twitter.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://github.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
     
@@ -1666,7 +1778,7 @@ idchar             = ALPHA / DIGIT / "." / "-"
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">© 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

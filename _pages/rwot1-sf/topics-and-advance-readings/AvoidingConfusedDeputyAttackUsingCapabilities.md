@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Tyler Close"
+  - "Tyler Close"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md"
 
 ---

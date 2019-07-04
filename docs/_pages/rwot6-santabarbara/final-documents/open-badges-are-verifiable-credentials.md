@@ -93,45 +93,45 @@ Here is an example of a Verifiable Credential/Assertion that a recipient identif
 
 ```json
 {
-	"@context": ["https://w3id.org/credentials/v1", "https://w3id.org/openbadges/v2"],
-	"id": "https://example.com/assertions/1001",
-	"type": ["Credential", "Assertion"],
-	"issuer": "https://example.com/profiles/alice",
-	"issued": "2018-02-28T14:58:57.461422+00:00",
-	"claim": {
-		"id": "https://example.com/profiles/bob",
-		"obi:holds": {
-			"id": "https://example.com/badgeclasses/123",
-			"type": "BadgeClass",
-			"name": "Certificate of Accomplishment",
-			"image": "data:image/png;base64,...",
-			"description": "A badge describing great accomplishments",
-			"criteria": {
-				"narrative": "Perform tasks of valor and wit."
-			},
-			"issuer": {
-				"type": "Profile",
-				"id": "https://example.com/profiles/alice",
-				"name": "Example Issuer",
-				"url": "http://example.com",
-				"email": "test@example.com"
-			}
-		}
-	},
-	"obi:evidence": {
-		"id": "https://example.org/portfolios/25",
-		"name": "Bob's Portfolio",
-		"narrative": "Bob worked hard to develop a good portfolio",
-		"genre": "ePortfolio"
-	},
-	"sec:proof": {
-		"@graph": {
-			"type": "sec:RsaSignature2018",
-			"created": "2018-03-07T19:22:15Z",
-			"creator": "https://example.com/profiles/alice/keys/1",
-			"sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p9RDJqwzXyxfC69dMEz503_ZZ_af1e_hV931dPlIdrofC6p2y_dcjjqIDysReJy6W_fnN_dZGVoXqFAg2OD_SmbDi5dNMOZILot-zJdDJCxXWuwZtiCFlt29KfLmJs6me0bD5pU4RbknXDoyBhA8muMby8j1fUeBDo3Ienmzv5UlB3v0f0-w5l6-z_cswHB_UXIlWw4EzcsmLvHzjB7TI76QLwq3KeVPSB3U9aM3o2Ejkq6Ygh5XxUGkXiZUQ5ungQ9Psy_VicjZyOc19LoBPoiPxDHQodTrqCFNH2qCNhDc4lg2zE8S9KNlQhUUFatzkTN70s23fhWBMKz2a5DWgQ"
-		}
-	}
+  "@context": ["https://w3id.org/credentials/v1", "https://w3id.org/openbadges/v2"],
+  "id": "https://example.com/assertions/1001",
+  "type": ["Credential", "Assertion"],
+  "issuer": "https://example.com/profiles/alice",
+  "issued": "2018-02-28T14:58:57.461422+00:00",
+  "claim": {
+    "id": "https://example.com/profiles/bob",
+    "obi:holds": {
+      "id": "https://example.com/badgeclasses/123",
+      "type": "BadgeClass",
+      "name": "Certificate of Accomplishment",
+      "image": "data:image/png;base64,...",
+      "description": "A badge describing great accomplishments",
+      "criteria": {
+        "narrative": "Perform tasks of valor and wit."
+      },
+      "issuer": {
+        "type": "Profile",
+        "id": "https://example.com/profiles/alice",
+        "name": "Example Issuer",
+        "url": "http://example.com",
+        "email": "test@example.com"
+      }
+    }
+  },
+  "obi:evidence": {
+    "id": "https://example.org/portfolios/25",
+    "name": "Bob's Portfolio",
+    "narrative": "Bob worked hard to develop a good portfolio",
+    "genre": "ePortfolio"
+  },
+  "sec:proof": {
+    "@graph": {
+      "type": "sec:RsaSignature2018",
+      "created": "2018-03-07T19:22:15Z",
+      "creator": "https://example.com/profiles/alice/keys/1",
+      "sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p9RDJqwzXyxfC69dMEz503_ZZ_af1e_hV931dPlIdrofC6p2y_dcjjqIDysReJy6W_fnN_dZGVoXqFAg2OD_SmbDi5dNMOZILot-zJdDJCxXWuwZtiCFlt29KfLmJs6me0bD5pU4RbknXDoyBhA8muMby8j1fUeBDo3Ienmzv5UlB3v0f0-w5l6-z_cswHB_UXIlWw4EzcsmLvHzjB7TI76QLwq3KeVPSB3U9aM3o2Ejkq6Ygh5XxUGkXiZUQ5ungQ9Psy_VicjZyOc19LoBPoiPxDHQodTrqCFNH2qCNhDc4lg2zE8S9KNlQhUUFatzkTN70s23fhWBMKz2a5DWgQ"
+    }
+  }
 }
 ```
 
@@ -144,15 +144,15 @@ In either case, the implementation option is to make an additional claim about t
 
 ```json
 {
-	...
-	"claim": {
-		"holds": { "type": "BadgeClass" },
-		"recipient": {
-			"type": "email",
-			"hashed": false,
-			"identity": "testrecipient@example.com"
-		}
-	}
+  ...
+  "claim": {
+    "holds": { "type": "BadgeClass" },
+    "recipient": {
+      "type": "email",
+      "hashed": false,
+      "identity": "testrecipient@example.com"
+    }
+  }
 }
 ```
 This example does not use any `id` at all for the credential's claim. This is nonstandard in the VC ecosystem if not disallowed. If an issuer desires to not omit `id` while still identifying the recipient via the IdentityObject, a one-time IRI may be generated, such as a randomly UUID, using the `urn:uuid:` scheme. An Open Badges verifier should assume that if a claim is found where `obi:holds` and `recipient` are claimed, the `recipient` IdentityObject takes precedence over the claim subject `id` or that both are valid ways to refer to the recipient. 
@@ -162,49 +162,49 @@ The Verifiable Credentials Specification allows issuers to make a claim about a 
 
 ```json
 {
-	"@context": "https://w3id.org/credentials/v1",
-	"id": "https://some.university.edu/credentials/9732",
-	"type": ["Credential", "OpenBadgeCredential"],
-	"issuer": "https://example.com/i/alice",
-	"issued": "2018-02-28T14:58:57.461422+00:00",
-	"claim": [{
-		"@context": "https://w3id.org/openbadges/v2",
-		"id": "urn:uuid:437fc6ff-bb3c-4987-a4b7-be8661ff6f21",
-		"type": "Assertion",
-		"recipient": {
-			"type": "email",
-			"identity": "testrecipient@example.com",
-			"hashed": false
-		},
-		"badge": {
-			"type": "BadgeClass",
-			"id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
-			"name": "Certificate of Accomplishment",
-			"image": "data:image/png;base64,...",
-			"description": "A badge describing great accomplishments",
-			"criteria": {
-				"narrative": "Perform tasks of valor and wit."
-			},
-			"issuer": {
-				"type": "Profile",
-				"id": "https://example.com/profiles/alice",
-				"name": "Example Issuer",
-				"url": "http://example.com",
-				"email": "test@example.com"
-			}
-		},
-		"verification": {
-			"type": "VerifiableClaim2018"
-		}
-	}],
-	"sec:proof": {
-		"@graph": {
-			"type": "sec:RsaSignature2018",
-			"created": "2018-03-07T19:22:15Z",
-			"creator": "https://example.com/profiles/alice/keys/1",
-			"sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p9RDJqwzXyxfC69dMEz503_ZZ_af1e_hV931dPlIdrofC6p2y_dcjjqIDysReJy6W_fnN_dZGVoXqFAg2OD_SmbDi5dNMOZILot-zJdDJCxXWuwZtiCFlt29KfLmJs6me0bD5pU4RbknXDoyBhA8muMby8j1fUeBDo3Ienmzv5UlB3v0f0-w5l6-z_cswHB_UXIlWw4EzcsmLvHzjB7TI76QLwq3KeVPSB3U9aM3o2Ejkq6Ygh5XxUGkXiZUQ5ungQ9Psy_VicjZyOc19LoBPoiPxDHQodTrqCFNH2qCNhDc4lg2zE8S9KNlQhUUFatzkTN70s23fhWBMKz2a5DWgQ"
-		}
-	}
+  "@context": "https://w3id.org/credentials/v1",
+  "id": "https://some.university.edu/credentials/9732",
+  "type": ["Credential", "OpenBadgeCredential"],
+  "issuer": "https://example.com/i/alice",
+  "issued": "2018-02-28T14:58:57.461422+00:00",
+  "claim": [{
+    "@context": "https://w3id.org/openbadges/v2",
+    "id": "urn:uuid:437fc6ff-bb3c-4987-a4b7-be8661ff6f21",
+    "type": "Assertion",
+    "recipient": {
+      "type": "email",
+      "identity": "testrecipient@example.com",
+      "hashed": false
+    },
+    "badge": {
+      "type": "BadgeClass",
+      "id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
+      "name": "Certificate of Accomplishment",
+      "image": "data:image/png;base64,...",
+      "description": "A badge describing great accomplishments",
+      "criteria": {
+        "narrative": "Perform tasks of valor and wit."
+      },
+      "issuer": {
+        "type": "Profile",
+        "id": "https://example.com/profiles/alice",
+        "name": "Example Issuer",
+        "url": "http://example.com",
+        "email": "test@example.com"
+      }
+    },
+    "verification": {
+      "type": "VerifiableClaim2018"
+    }
+  }],
+  "sec:proof": {
+    "@graph": {
+      "type": "sec:RsaSignature2018",
+      "created": "2018-03-07T19:22:15Z",
+      "creator": "https://example.com/profiles/alice/keys/1",
+      "sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p9RDJqwzXyxfC69dMEz503_ZZ_af1e_hV931dPlIdrofC6p2y_dcjjqIDysReJy6W_fnN_dZGVoXqFAg2OD_SmbDi5dNMOZILot-zJdDJCxXWuwZtiCFlt29KfLmJs6me0bD5pU4RbknXDoyBhA8muMby8j1fUeBDo3Ienmzv5UlB3v0f0-w5l6-z_cswHB_UXIlWw4EzcsmLvHzjB7TI76QLwq3KeVPSB3U9aM3o2Ejkq6Ygh5XxUGkXiZUQ5ungQ9Psy_VicjZyOc19LoBPoiPxDHQodTrqCFNH2qCNhDc4lg2zE8S9KNlQhUUFatzkTN70s23fhWBMKz2a5DWgQ"
+    }
+  }
 }
 ```
 
@@ -287,50 +287,50 @@ Within such a DID Document, one or more public keys can be identified. In the ex
 
 ```json
 {
-	"@context": "https://w3id.org/credentials/v1",
-	"id": "urn:uuid:01f0bb90-86ee-4469-9655-7ca6f4d591ae",
-	"type": ["Credential", "OpenBadgeCredential"],
-	"issuer": "did:example:issuer_did",
-	"issued": "2018-02-28T14:58:57.461422+00:00",
-	"claim": [{
-		"@context": "https://w3id.org/openbadges/v2",
-		"id": "urn:uuid:437fc6ff-bb3c-4987-a4b7-be8661ff6f21",
-		"type": "Assertion",
-		"issuedOn": "2018-02-25T00:00:00+00:00",
-		"recipient": {
-			"type": "id",
-			"identity": "did:example:recipient_did",
-			"hashed": false
-		},
-		"badge": {
-			"type": "BadgeClass",
-			"id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
-			"name": "Certificate of Accomplishment",
-			"image": "data:image/png;base64,...",
-			"description": "Lorem ipsum dolor sit amet, mei docendi concludaturque ad, cu nec partem graece. Est aperiam consetetur cu, expetenda moderatius neglegentur ei nam, suas dolor laudem eam an.",
-			"criteria": {
-				"narrative": "Nibh iriure ei nam, modo ridens neglegentur mel eu. At his cibo mucius."
-			},
-			"issuer": {
-				"type": "Profile",
-				"id": "did:example:issuer_did",
-				"name": "Example Issuer",
-				"url": "http://example.com",
-				"email": "test@example.com"
-			}
-		},
-		"verification": {
-			"type": "VerifiableClaim2018"
-		}
-	}],
-	"sec:proof": {
-		"@graph": {
-			"type": "sec:RsaSignature2018",
-			"created": "2018-03-07T22:26:57Z",
-			"creator": "did:example:issuer_did#keys-1",
-			"sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GMPdCXn-qQcZHPoO6qHn6hBiysMNaZ7nSBx_e27LuDxJvRsCLbR1n7LGG7i8NVW1SVMwRjs8aJ3H2XXFphCZF_dGaueTsaehTzLQgh9n5imPgrQFsAKsRAKTJ_zpVL8JpsbPcrXbb-fkAcD52oDuYJg1uVr3MOhe4BzibDUKaFg5-cXZ-Gs8KcXrh_Ddqtd8CWw0zS3fRvI3SKbO6op6hNB1Jha4mfAn49Q0BRiSuCxbyPNy5MtX7FGoimvLhsluM7UAtPWHBi6iW8Nh57fk4uS5ZywHJSYS9-HPcvbDUGPHPHOnwq4qq7xc47yXveMmyo2VX4YSYe3LM-_9w1TnGg"
-		}
-	}
+  "@context": "https://w3id.org/credentials/v1",
+  "id": "urn:uuid:01f0bb90-86ee-4469-9655-7ca6f4d591ae",
+  "type": ["Credential", "OpenBadgeCredential"],
+  "issuer": "did:example:issuer_did",
+  "issued": "2018-02-28T14:58:57.461422+00:00",
+  "claim": [{
+    "@context": "https://w3id.org/openbadges/v2",
+    "id": "urn:uuid:437fc6ff-bb3c-4987-a4b7-be8661ff6f21",
+    "type": "Assertion",
+    "issuedOn": "2018-02-25T00:00:00+00:00",
+    "recipient": {
+      "type": "id",
+      "identity": "did:example:recipient_did",
+      "hashed": false
+    },
+    "badge": {
+      "type": "BadgeClass",
+      "id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
+      "name": "Certificate of Accomplishment",
+      "image": "data:image/png;base64,...",
+      "description": "Lorem ipsum dolor sit amet, mei docendi concludaturque ad, cu nec partem graece. Est aperiam consetetur cu, expetenda moderatius neglegentur ei nam, suas dolor laudem eam an.",
+      "criteria": {
+        "narrative": "Nibh iriure ei nam, modo ridens neglegentur mel eu. At his cibo mucius."
+      },
+      "issuer": {
+        "type": "Profile",
+        "id": "did:example:issuer_did",
+        "name": "Example Issuer",
+        "url": "http://example.com",
+        "email": "test@example.com"
+      }
+    },
+    "verification": {
+      "type": "VerifiableClaim2018"
+    }
+  }],
+  "sec:proof": {
+    "@graph": {
+      "type": "sec:RsaSignature2018",
+      "created": "2018-03-07T22:26:57Z",
+      "creator": "did:example:issuer_did#keys-1",
+      "sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GMPdCXn-qQcZHPoO6qHn6hBiysMNaZ7nSBx_e27LuDxJvRsCLbR1n7LGG7i8NVW1SVMwRjs8aJ3H2XXFphCZF_dGaueTsaehTzLQgh9n5imPgrQFsAKsRAKTJ_zpVL8JpsbPcrXbb-fkAcD52oDuYJg1uVr3MOhe4BzibDUKaFg5-cXZ-Gs8KcXrh_Ddqtd8CWw0zS3fRvI3SKbO6op6hNB1Jha4mfAn49Q0BRiSuCxbyPNy5MtX7FGoimvLhsluM7UAtPWHBi6iW8Nh57fk4uS5ZywHJSYS9-HPcvbDUGPHPHOnwq4qq7xc47yXveMmyo2VX4YSYe3LM-_9w1TnGg"
+    }
+  }
 }
 ```
 
@@ -344,45 +344,45 @@ A version of the claim using Option 1 looks very similar to non-DID-approach for
 
 ```json
 {
-	"@context": ["https://w3id.org/credentials/v1", "https://w3id.org/openbadges/v2"],
-	"id": "https://example.com/assertions/1001",
-	"type": ["Credential", "Assertion"],
-	"issuer": "did:example:issuer_did",
-	"issued": "2018-02-28T14:58:57.461422+00:00",
-	"claim": {
-		"id": "did:example:recipient_did",
-		"obi:holds": {
-			"id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
-			"type": "BadgeClass",
-			"name": "Certificate of Accomplishment",
-			"image": "data:image/png;base64,...",
-			"description": "A badge describing great accomplishments",
-			"criteria": {
-				"narrative": "Perform tasks of valor and wit."
-			},
-			"issuer": {
-				"type": "Profile",
-				"id": "did:example:issuer_did",
-				"name": "Example Issuer",
-				"url": "http://example.com",
-				"email": "test@example.com"
-			}
-		}
-	},
-	"obi:evidence": {
-		"id": "https://example.org/portfolios/25",
-		"name": "Bob's Portfolio",
-		"narrative": "Bob worked hard to develop a good portfolio",
-		"genre": "ePortfolio"
-	},
-	"sec:proof": {
-		"@graph": {
-			"type": "sec:RsaSignature2018",
-			"created": "2018-03-07T19:22:15Z",
-			"creator": "did:example:issuer_did#keys-1",
-			"sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p9RDJqwzXyxfC69dMEz503_ZZ_af1e_hV931dPlIdrofC6p2y_dcjjqIDysReJy6W_fnN_dZGVoXqFAg2OD_SmbDi5dNMOZILot-zJdDJCxXWuwZtiCFlt29KfLmJs6me0bD5pU4RbknXDoyBhA8muMby8j1fUeBDo3Ienmzv5UlB3v0f0-w5l6-z_cswHB_UXIlWw4EzcsmLvHzjB7TI76QLwq3KeVPSB3U9aM3o2Ejkq6Ygh5XxUGkXiZUQ5ungQ9Psy_VicjZyOc19LoBPoiPxDHQodTrqCFNH2qCNhDc4lg2zE8S9KNlQhUUFatzkTN70s23fhWBMKz2a5DWgQ"
-		}
-	}
+  "@context": ["https://w3id.org/credentials/v1", "https://w3id.org/openbadges/v2"],
+  "id": "https://example.com/assertions/1001",
+  "type": ["Credential", "Assertion"],
+  "issuer": "did:example:issuer_did",
+  "issued": "2018-02-28T14:58:57.461422+00:00",
+  "claim": {
+    "id": "did:example:recipient_did",
+    "obi:holds": {
+      "id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
+      "type": "BadgeClass",
+      "name": "Certificate of Accomplishment",
+      "image": "data:image/png;base64,...",
+      "description": "A badge describing great accomplishments",
+      "criteria": {
+        "narrative": "Perform tasks of valor and wit."
+      },
+      "issuer": {
+        "type": "Profile",
+        "id": "did:example:issuer_did",
+        "name": "Example Issuer",
+        "url": "http://example.com",
+        "email": "test@example.com"
+      }
+    }
+  },
+  "obi:evidence": {
+    "id": "https://example.org/portfolios/25",
+    "name": "Bob's Portfolio",
+    "narrative": "Bob worked hard to develop a good portfolio",
+    "genre": "ePortfolio"
+  },
+  "sec:proof": {
+    "@graph": {
+      "type": "sec:RsaSignature2018",
+      "created": "2018-03-07T19:22:15Z",
+      "creator": "did:example:issuer_did#keys-1",
+      "sec:jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p9RDJqwzXyxfC69dMEz503_ZZ_af1e_hV931dPlIdrofC6p2y_dcjjqIDysReJy6W_fnN_dZGVoXqFAg2OD_SmbDi5dNMOZILot-zJdDJCxXWuwZtiCFlt29KfLmJs6me0bD5pU4RbknXDoyBhA8muMby8j1fUeBDo3Ienmzv5UlB3v0f0-w5l6-z_cswHB_UXIlWw4EzcsmLvHzjB7TI76QLwq3KeVPSB3U9aM3o2Ejkq6Ygh5XxUGkXiZUQ5ungQ9Psy_VicjZyOc19LoBPoiPxDHQodTrqCFNH2qCNhDc4lg2zE8S9KNlQhUUFatzkTN70s23fhWBMKz2a5DWgQ"
+    }
+  }
 }
 ```
 
@@ -395,38 +395,38 @@ Blockchain-tethered issuance of Open Badges/Verifiable Credentials is enabled by
 
 ```json
 {
-	"@context": ["https://w3id.org/credentials/v1", "https://w3id.org/openbadges/v2", "https://w3id.org/blockcerts/v2"],
-	"id": "https://example.com/assertions/1001",
-	"type": ["Credential", "Assertion"],
-	"issuer": "did:example:issuer_did",
-	"issued": "2018-02-28T14:58:57.461422+00:00",
-	"claim": {
-		"id": "did:example:recipient_did",
-		"obi:holds": {
-			"id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
-			"type": "BadgeClass",
-			"name": "Certificate of Accomplishment",
-			"image": "data:image/png;base64,...",
-			"description": "A badge describing great accomplishments",
-			"criteria": {
-				"narrative": "Perform tasks of valor and wit."
-			},
-			"issuer": {
-				"type": "Profile",
-				"id": "did:example:issuer_did",
-				"name": "Example Issuer",
-				"url": "http://example.com",
-				"email": "test@example.com"
-			}
-		}
-	},
-	"obi:evidence": {
-		"id": "https://example.org/portfolios/25",
-		"name": "Bob's Portfolio",
-		"narrative": "Bob worked hard to develop a good portfolio",
-		"genre": "ePortfolio"
-	},
-	"sec:proof": {
+  "@context": ["https://w3id.org/credentials/v1", "https://w3id.org/openbadges/v2", "https://w3id.org/blockcerts/v2"],
+  "id": "https://example.com/assertions/1001",
+  "type": ["Credential", "Assertion"],
+  "issuer": "did:example:issuer_did",
+  "issued": "2018-02-28T14:58:57.461422+00:00",
+  "claim": {
+    "id": "did:example:recipient_did",
+    "obi:holds": {
+      "id": "urn:uuid:7aad3c57-3bfb-45ea-ae79-5a6023cc62e4",
+      "type": "BadgeClass",
+      "name": "Certificate of Accomplishment",
+      "image": "data:image/png;base64,...",
+      "description": "A badge describing great accomplishments",
+      "criteria": {
+        "narrative": "Perform tasks of valor and wit."
+      },
+      "issuer": {
+        "type": "Profile",
+        "id": "did:example:issuer_did",
+        "name": "Example Issuer",
+        "url": "http://example.com",
+        "email": "test@example.com"
+      }
+    }
+  },
+  "obi:evidence": {
+    "id": "https://example.org/portfolios/25",
+    "name": "Bob's Portfolio",
+    "narrative": "Bob worked hard to develop a good portfolio",
+    "genre": "ePortfolio"
+  },
+  "sec:proof": {
             "type": "MerkleProof2017",
             "targetHash": "637ec732fa4b7b56f4c15a6a12680519a17a9e9eade09f5b424a48eb0e6f5ad0",
             "merkleRoot": "f029b45bb1a7b1f0b970f6de35344b73cccd16177b4c037acbc2541c7fc27078",

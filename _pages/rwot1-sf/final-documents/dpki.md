@@ -7,15 +7,15 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Greg Slepak"
-	- "Drummond Reed"
+  - "Greg Slepak"
+  - "Drummond Reed"
 contributors:
-	- "Christopher Allen"
-	- "Arthur Brock"
-	- "Vitalik Buterin"
-	- "Jon Callas"
-	- "Duke Dorje"
-	- "Christian Lundkvist"
+  - "Christopher Allen"
+  - "Arthur Brock"
+  - "Vitalik Buterin"
+  - "Jon Callas"
+  - "Duke Dorje"
+  - "Christian Lundkvist"
   - "Pavel Kravchenko"
   - "Jude Nelson"
   - "Markus Sabadello"

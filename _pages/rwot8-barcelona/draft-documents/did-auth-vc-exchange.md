@@ -21,20 +21,20 @@ W3C Verifiable Credentials Presentation using SIOP
 Questions
 Related Specs, for Reference
 
-Outline	1
-Abstract	1
-Use Cases	2
-Technical Details	2
-(Optional) Registration	2
-Authorization Request	2
-Requesting Claims in the Authorization Request	2
-Authorization Response	2
-Authorization Response Validation	2
-Profile-specific Validation Rules for the Claims	3
-Layers of Interoperability	3
-W3C Verifiable Credentials Presentation using SIOP	3
-Questions	4
-Related Specs, for Reference	4
+Outline  1
+Abstract  1
+Use Cases  2
+Technical Details  2
+(Optional) Registration  2
+Authorization Request  2
+Requesting Claims in the Authorization Request  2
+Authorization Response  2
+Authorization Response Validation  2
+Profile-specific Validation Rules for the Claims  3
+Layers of Interoperability  3
+W3C Verifiable Credentials Presentation using SIOP  3
+Questions  4
+Related Specs, for Reference  4
 
 ## Abstract
 
@@ -77,7 +77,7 @@ There are two layers of interoperability. First, it should be possible to demons
 
 ## Compliance with W3C Verifiable Credentials Specification
 
-	TBD: what is the role of distributed and aggregated claims?
+  TBD: what is the role of distributed and aggregated claims?
 W3C Verifiable Credentials Presentation using SIOP
 RP request W3C VC in the OIDC authorization request using the claim and scope parameter.
 The id token could be seen as the W3C VC Presentation. The id token could either be the W3C Verifiable Credentials Pr can be conveyed as OIDC claims in the id token.

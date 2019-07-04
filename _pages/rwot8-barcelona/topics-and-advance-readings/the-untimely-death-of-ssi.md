@@ -55,15 +55,15 @@ the hoped outcome to be a summary paper and input into a plan of action to count
 opportunities, build up the weaknesses, and maintain the strengths.
 
 ### Strengths
--	Dedication and engagement of SSI technical community
--	Depth of knowledge and experience on digital identity 
--	Engagement and commitment of community
+-  Dedication and engagement of SSI technical community
+-  Depth of knowledge and experience on digital identity 
+-  Engagement and commitment of community
 
 ### Weaknesses
--	Size of and breadth community
--	Economic model of underlying Blockchain or DLT technology
--	Interoperability
--	Immaturity of underlying Blockchain/DLT technology 
+-  Size of and breadth community
+-  Economic model of underlying Blockchain or DLT technology
+-  Interoperability
+-  Immaturity of underlying Blockchain/DLT technology 
 - Missing research into communicating highly technical SSI ideas to non-technical business, government, and general publics
 - Missing research into user experience and user interfaces for SSI
 - Missing centralized or coordinated advocacy and rapid responders to active threats to SSI. Who are SSI's funded lawyers and lobbyists?   
@@ -72,14 +72,14 @@ opportunities, build up the weaknesses, and maintain the strengths.
 - The language of "owning personal data" obstructs the move from data exploitation to data personhood and human rights 
 
 ### Opportunities
--	Rapid technology changes occurring in the base technologies
--	Elimination of centralized identity repository honey pots
+-  Rapid technology changes occurring in the base technologies
+-  Elimination of centralized identity repository honey pots
 
 ### Threats
--	Fragmenting of the internet 
--	Failure to reach critical mass
--	Entrenchment of centralized identity solutions within market
--	Centralized identity systems controlled by State actors
+-  Fragmenting of the internet 
+-  Failure to reach critical mass
+-  Entrenchment of centralized identity solutions within market
+-  Centralized identity systems controlled by State actors
 - Consent Theater lowers demand for vs. informed consent
 - It is becoming harder to persuade key adopters that the problems are solvable with so much identity theft, cyberwar, and incompetent infosec 
 - The language of "owning personal data" conflicts with extant business and civil rights laws  

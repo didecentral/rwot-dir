@@ -35,10 +35,10 @@ During or after the event, receiving workers may provide a feedback about their 
 ### Central regulation, decentralized reputation flow
 
 The initial project is carried out as an Cepa's initiative. In this first phase :
--	catalysts are Cepa consultants ;
--	the format of the connecting events is defined by Cepa ;
--	the rules governing how reputation is issued and handled are stated by Cepa ;
--	the evaluation process leading to the issuance of reputation is decentralized.
+-  catalysts are Cepa consultants ;
+-  the format of the connecting events is defined by Cepa ;
+-  the rules governing how reputation is issued and handled are stated by Cepa ;
+-  the evaluation process leading to the issuance of reputation is decentralized.
 
 Each worker is free to acknowledge the value received from any of her peers through a connecting event. Resulting reputation may be made available to third-parties, without depending on Cepa's policy nor availability of their information system. Managers' reputation is considered as an attribute of their self-sovereign identities. While acquiring reputation requires to play by the rules defined by Cepa as the regulator of the network, workers are to be empowered to use it as they see fit.
 
@@ -93,8 +93,8 @@ The Cepa use case leads to the following challenges proposed for consideration b
 
 1.    Enabling agents to **obfuscate their reputational attributes**, while ensuring that both the identity of each worker and her reputation history are verifiable.
     The core purpose of the system is not to generate reputation ; it is to make it easier for professionals to seek, find and offer valuable help to their peers.
-	Reputation is a by-product, that may prove extremely useful, and extremely sensitive as well. Hence its disclosure shouldn't be imposed by the system. A member should be able to hide or disclose her reputation as she sees fits.	
-	On the other hand, when disclosed to 3rd parties, one's reputation should be (cryptographically) verifiable.
+  Reputation is a by-product, that may prove extremely useful, and extremely sensitive as well. Hence its disclosure shouldn't be imposed by the system. A member should be able to hide or disclose her reputation as she sees fits.  
+  On the other hand, when disclosed to 3rd parties, one's reputation should be (cryptographically) verifiable.
 
 2.    Modelling a web of trust scheme that allows for **verifiable**, **dynamic** and **upgradable** computation of reputation (smart contract architecture).
      Verifiability refers to the ability to independently trace the history of signed evaluations that serves as the raw material for computing reputation.
@@ -102,8 +102,8 @@ The Cepa use case leads to the following challenges proposed for consideration b
      Upgradability relates to the ability to change the rules of the system, including the way rules can be changed. When smart contract are to be used for dynamic processing of reputation, keeping the community of regulators in control of the system requires an instrument for "meta-governance".
 
 3.    Discussing the **social acceptability** of different forms of evaluation in a professional environment.
-	Decentralized evaluations are not necessarily desirable in every circumstance. While some form of social rating (reddit, Stack Overflow, github, etc) do not seem to raise many objections, some others are highly controversial or induce complex strategies to cheat the system.
-	We would like to discuss how different factors might influence the way evaluation is perceived in the context of a web of trust: formats of evaluation and reputation data, transparence vs. obfuscation of evaluation data, etc.
+  Decentralized evaluations are not necessarily desirable in every circumstance. While some form of social rating (reddit, Stack Overflow, github, etc) do not seem to raise many objections, some others are highly controversial or induce complex strategies to cheat the system.
+  We would like to discuss how different factors might influence the way evaluation is perceived in the context of a web of trust: formats of evaluation and reputation data, transparence vs. obfuscation of evaluation data, etc.
 
 ### Some related work
 -  [On Privacy-Preserving Identity within Future Blockchain Systems](https://www.w3.org/2016/04/blockchain-workshop/interest/hardjono-pentland.html)

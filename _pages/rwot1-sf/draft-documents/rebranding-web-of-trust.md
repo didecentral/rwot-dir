@@ -12,6 +12,8 @@ authors:
   - "Randall Farmer"
   - "Justin Newton"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/rebranding-web-of-trust.md"
+header:
+  image: /assets/images/Rebrand-WOT.jpg
 
 ---
 

@@ -45,39 +45,39 @@ Contact [Moses Ma](mailto:moses@futurelab.com) or [Dan Greening](mailto:dan@sene
 ## Goals
 
 * Get ourselves organized
-	* **(DONE)** Agree on mission (see above)
-	* **(DONE)** Setup tools (i.e. Trello)
-	* **(DONE)** Establish web site (see [Self Sovereign ID](https://selfsovereign.id/)
-	* **(in progress)** Complete the final draft of this document
-	* **(not doing until bigger)** Discuss project management
-		* Schedule cadence (scrum) call
-		* Review and refine tribe structure 
-	* Establish site login tiers (public, developer, marketer, press) and tracking to measure reach and engagement
+  * **(DONE)** Agree on mission (see above)
+  * **(DONE)** Setup tools (i.e. Trello)
+  * **(DONE)** Establish web site (see [Self Sovereign ID](https://selfsovereign.id/)
+  * **(in progress)** Complete the final draft of this document
+  * **(not doing until bigger)** Discuss project management
+    * Schedule cadence (scrum) call
+    * Review and refine tribe structure 
+  * Establish site login tiers (public, developer, marketer, press) and tracking to measure reach and engagement
 * Create and promulgate a realistic technology and market roadmap
 * Recruit initial foundational partners as adoption catalysts
    * Identify minimum viable ecosystem (DID network, wallet, browser integration, blog integration?)
-		* Build Drupal plugin for *SuperSignOn*, a decentralized authentication system based on DID-Auth
-		* Allow developers and others to *SuperSignOn* to our (Drupal) site
-	* Recruit and help influential leaders (e.g. Reid Hoffman, Fred Wilson, etc) to speak favorably about SSI
-		* Access to subject matter experts
-		* Sample presentations
-		* Speakers bureau
-	* Recruit/produce minimum viable ecosystem participants
-		* Identify willing networks, wallets, feasible browser plugins, feasible blog plugins
-		* Convince key communication technologies from Slack, Telegram, RocketChat, Wikipedia to support DIDs
-		* Recruit developer support services, such as GitHub, CircleCI, BitBucket, to support DIDs
+    * Build Drupal plugin for *SuperSignOn*, a decentralized authentication system based on DID-Auth
+    * Allow developers and others to *SuperSignOn* to our (Drupal) site
+  * Recruit and help influential leaders (e.g. Reid Hoffman, Fred Wilson, etc) to speak favorably about SSI
+    * Access to subject matter experts
+    * Sample presentations
+    * Speakers bureau
+  * Recruit/produce minimum viable ecosystem participants
+    * Identify willing networks, wallets, feasible browser plugins, feasible blog plugins
+    * Convince key communication technologies from Slack, Telegram, RocketChat, Wikipedia to support DIDs
+    * Recruit developer support services, such as GitHub, CircleCI, BitBucket, to support DIDs
 * Produce *Go To Market Resources* to support developers by year end 2018
-	* **(in progress)** Write glossary of market-relevant terms
-	* **(in progress)** Develop FAQs that debunk myths and promote adoption
-	* Consolidate technical primers (tutorials) into a single "getting started" kit
-	* Develop a Communications Kit
-	   * Simplify and articulate the concepts and benefits of SSI for the masses
-		* Provide a cohesive narrative about SSI and its goals for the Media
-		* Offer common baseline talking points for SSI developers
-	* Explain wallets and DID distribution
-		* Explain who the wallet makers are
-		* Explain how wallets will be [interoperable and secure](http://www.links.org/files/nspw36.pdf) 
-	* Create high-impact videos and other demo recordings (i.e.: RWOT)
+  * **(in progress)** Write glossary of market-relevant terms
+  * **(in progress)** Develop FAQs that debunk myths and promote adoption
+  * Consolidate technical primers (tutorials) into a single "getting started" kit
+  * Develop a Communications Kit
+     * Simplify and articulate the concepts and benefits of SSI for the masses
+    * Provide a cohesive narrative about SSI and its goals for the Media
+    * Offer common baseline talking points for SSI developers
+  * Explain wallets and DID distribution
+    * Explain who the wallet makers are
+    * Explain how wallets will be [interoperable and secure](http://www.links.org/files/nspw36.pdf) 
+  * Create high-impact videos and other demo recordings (i.e.: RWOT)
 
 
 ## Assets
@@ -216,9 +216,9 @@ Here are the goals these other organizations have articulated:
 
 * One million public (open or pseudonymous) DIDs issued by March 2019
 * Formalized plans by year-end 2018 for foundational SSI specifications
-	* W3C DID
-	* W3C VC
-	* Oasis DKMS
+  * W3C DID
+  * W3C VC
+  * Oasis DKMS
 * Public release of a handful of reference applications that can help jumpstart developer applications
 
 # 3. Summary
@@ -239,19 +239,19 @@ We seek your help.
 Another requirement for success is the creation of a design process that would lead to a sustainable flow of compelling technologies that provide a “wow” factor, forming a pipeline of compelling functionality to fortify the value proposition for decentralized identity. An initial set of projects and ideas for “wow prototypes” include:
 
 1. **Industry Demos**: Develop a number of vertical industry references. For example:
-	* FinTech: A demo of the [CULedger](http://culedger.com) CUID Trust Framework that uses the Hyperledger Indy framework. 
-	* Travel and Transportation: A [Dapps](https://coinsutra.com/dapps-decentralized-applications/) that implements one or more  concepts outlined in the [World Economic Forum’s Known Traveler Report](https://www.weforum.org/reports/the-known-traveller-unlocking-the-potential-of-digital-identity-for-secure-and-seamless-travel). 
+  * FinTech: A demo of the [CULedger](http://culedger.com) CUID Trust Framework that uses the Hyperledger Indy framework. 
+  * Travel and Transportation: A [Dapps](https://coinsutra.com/dapps-decentralized-applications/) that implements one or more  concepts outlined in the [World Economic Forum’s Known Traveler Report](https://www.weforum.org/reports/the-known-traveller-unlocking-the-potential-of-digital-identity-for-secure-and-seamless-travel). 
 
 2. **Community Badges Toolkit**: Produce a Starter Kit that would allow any small or large community to begin to issue verifiable credentials in the form of [OpenBadges](https://openbadges.org). Such a toolkit would be a perfect *Getting Started* toolkit for a go-to-market (GTM) package of resources.  
 
-	>NOTE:  The final paper submitted by the [Open Badges are Verifiable Credentials](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/open-badges-are-verifiable-credentials.pdf) RWOT Workgroup is supposed to produce a working prototype that can be used to seed this toolkit.
+  >NOTE:  The final paper submitted by the [Open Badges are Verifiable Credentials](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-spring2018/blob/master/final-documents/open-badges-are-verifiable-credentials.pdf) RWOT Workgroup is supposed to produce a working prototype that can be used to seed this toolkit.
 
-	
+  
 3. **Other Interesting Concepts**: There are a number of other potential reference applications that could be interesting to develop and deploy. 
-	* *SuperSignOn*, a decentralized authentication system based on the DID-Auth specification. 
-	* *GitHub Authentication* using Verifiable Credentials. 
-	* *ICO-LegalAssist*, which would use Verifiable Claims as a basis for attestations by attorneys in ICOs. 
-	* *IDESG’s IDEF assessment*, a [tool for receiving badges](https://www.idefregistry.org/).
+  * *SuperSignOn*, a decentralized authentication system based on the DID-Auth specification. 
+  * *GitHub Authentication* using Verifiable Credentials. 
+  * *ICO-LegalAssist*, which would use Verifiable Claims as a basis for attestations by attorneys in ICOs. 
+  * *IDESG’s IDEF assessment*, a [tool for receiving badges](https://www.idefregistry.org/).
 
 ---
 

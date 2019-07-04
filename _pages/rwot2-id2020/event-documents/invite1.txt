@@ -19,19 +19,19 @@ Anticipated Workshop Outcomes
 It is important to us to bring talent, diversity and championship so we would like to ask you to participate. 
 
 All invitees will be asked to write up a 1 or 2 page “advanced reading” topics paper to be shared with other attendees on either:
-	•	A specific decentralized identity use case related to the topic of the UN ID 2020 Summit
-	•	A specific problem that you'd like to solve with a decentralized or web-of-trust solution, and why current solutions (pgp or ca-based pki) can't address the problem
-	•	A specific solution related to the decentralized identity or web-of-trust that you'd like others to use or contribute to.
+  •  A specific decentralized identity use case related to the topic of the UN ID 2020 Summit
+  •  A specific problem that you'd like to solve with a decentralized or web-of-trust solution, and why current solutions (pgp or ca-based pki) can't address the problem
+  •  A specific solution related to the decentralized identity or web-of-trust that you'd like others to use or contribute to.
 
 For examples of "advance readings" see the ones submitted for our last event [here](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/tree/master/topics-and-advance-readings). If the advance reading is accepted there is an optional reduced charge of $100 for participation in this event.
 
 The steering committee for this event is:
-	•	Christopher Allen /[Principal Architect,  Blockstream;  co-author TLS;  @ChristopherA/]
-	•	Drummond Reed /[Respect Network, OASIS XDI Technical Committee, @drummondreed/]
-	•	Juan Benet /[IPFS, Protocol Labs, @juanbenet/]
-	•	Kiara Robles /[Creator of blockchainMe, @anarchoass/]
-	•	Kaliya “Identity Woman” Young /[Co-founder of The Internet Identity Workshop; Independent advocate for digital identity; @identitywoman/]
-	•	Marta Piekarska /[Security Architect, Blockstream; Lead Architect on the Future of Mobile Privacy at Deutsche Telekom; PhD candidate at Technical University of Berlin/]
+  •  Christopher Allen /[Principal Architect,  Blockstream;  co-author TLS;  @ChristopherA/]
+  •  Drummond Reed /[Respect Network, OASIS XDI Technical Committee, @drummondreed/]
+  •  Juan Benet /[IPFS, Protocol Labs, @juanbenet/]
+  •  Kiara Robles /[Creator of blockchainMe, @anarchoass/]
+  •  Kaliya “Identity Woman” Young /[Co-founder of The Internet Identity Workshop; Independent advocate for digital identity; @identitywoman/]
+  •  Marta Piekarska /[Security Architect, Blockstream; Lead Architect on the Future of Mobile Privacy at Deutsche Telekom; PhD candidate at Technical University of Berlin/]
 
 Current sponsors of this event are [ID2020](http://id2020.org/), [Blockstream](http://blockstream.com/), and [Evernym](http://evernym.com/).
 

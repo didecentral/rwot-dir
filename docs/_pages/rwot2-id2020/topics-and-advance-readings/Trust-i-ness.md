@@ -130,7 +130,7 @@ He went on to talk about how the emergence of blockchain / DLT technologies are 
 Trust is a critical act in these systems and one must trust in the integrity of the mathematical formula and that the majority of the nodes not controlled by one actor or bad actors/dishonest people. 
 
 He highlighted the irony that 
-	**_those who want to eliminate trust end up increasing the need for trust._** 
+  **_those who want to eliminate trust end up increasing the need for trust._** 
 
 We don’t know the future but we need to plan for the future.  We don't know to what extent our perceptions are true. We don’t even know to what extent memories of the past are faithful but we need to believe them to use them to make predictions about the future. We actually re-invent our stories (both individually and collectively) a native about the present based the past. 
 
@@ -172,9 +172,9 @@ These two questions became the basis of a group to work on a paper. The proceede
 Blame is simply the discharging of discomfort and pain (discharging anger) and has an inverse relationship with accountability.   People who blame seldom have the tenacity and grit to hold people accountable. Accountability is a vulnerable process. 
 
 **Do we want an accountable web?  
-	A human web of connection? 
-		A web of empathy? 
-			of vulnerability?**
+  A human web of connection? 
+    A web of empathy? 
+      of vulnerability?**
 
 The tools we are envisioning, and hopefully creating are part of socio-technical systems. We need to ask critical questions about their socio-emotional impact. 
 
@@ -187,9 +187,9 @@ Shame sends the message “You are bad” and received as “I am bad” and if 
 I think we can build a web of accountability, connection, empathy and vulnerability - without thinking about these things I think we build a web of shame and it will have great social cost. 
 
 These are the four qualities of empathy:
-	Perspective taking 
-	Staying out of judgement 
-	Recognizing emotion in other people and communicating that. 
+  Perspective taking 
+  Staying out of judgement 
+  Recognizing emotion in other people and communicating that. 
 
 It is feeling WITH people however in order to connect with you - I have to connect with something in myself that knows that feeling. How is this fostered in what we are calling a web of trust? - if it is not fostered I beleive we won't succeed in our goal of connecting people adn the world.  
 
@@ -201,7 +201,7 @@ If real trust requires vulnerability - baking in systems to “ding” people’
 There is all this effort to build these decentralized, distributed systems so we can 'trust then' and trust each other because we can't trust centralized authorities or registries (at least this is the narrative I hear a lot and was a thread through out the gathering). 
 
 " Trust is to a collaboration-based social order what fear is to an authority-based social order. Trust, then, is the glue that binds everyone together in a large-scale society or organization" 
-								- Miki Kashtan 
+                - Miki Kashtan 
 
 If you want a truly collaboration based social order and you don't want an "authority based" one then imagining that the FEAR of a bad reputation will be the successful underpinning of this web of trust is a fallacy. 
 

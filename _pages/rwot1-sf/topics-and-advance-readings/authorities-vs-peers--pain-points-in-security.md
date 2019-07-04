@@ -66,8 +66,8 @@ Broken security at a single intermediary CA certificate can cascade to the need 
         Pain Points: broken security (users), need to replace certificates (authorities, users)
 
 **Authorities are subvertible.** Centralization itself causes some problems, such as the fact that authorities including ICANN, individual domain registrars, and even web hosts can all be subverted by other agencies. Governments and corporations have already taken advantage of this, using centralized authorities as levers to influence large groups of people. Domain names and websites alike have been snatched away due to shaky claims of ownership, while web hosts have bowed to the broad abuse of Digitical Millennium Copyright Act (DMCA) take-down notices. The possibility of CAs being subverted may be even scarier, as we might never know if certificate were being authorized based on secretive backroom deals instead of trust.
-	
-	Pain Points: loss of services or even livelihood (users)
+  
+  Pain Points: loss of services or even livelihood (users)
 
 ### Non-Centralization Pain
 
@@ -134,7 +134,7 @@ Finally, a number of problems appear in both classic centralized schemes and new
         Pain Points: lack of understanding (users)
 
 **Systems are brittle.** Linking security systems into other services often makes those services more brittle and less reliable. The system being secured can fail during key rotation or due to problems with master key backup. A mail client with a PGP plug-in might crash if the client becomes out of date or if the plug-in does. Integration with Paypal payment services was recently threatened for sites that didn’t upgrade their certificates to SHA-2. There are generally more points of failure for a system with integrated security, which is another reason that people are less willing to use these systems. Newer mechanics like threshold keys and escrow keys may offer more reliability solutions, but are unproven.
-	    Pain Points: System unreliability (administrators, users)
+      Pain Points: System unreliability (administrators, users)
 
 **The number of keys and certificates is increasing.** The average corporation has to manage thousands of CA certificates. If you add SSH keys and PGP certificates, that number might double. Tools for managing these disparate keys and certificates, and their lifecycle, are not easy to use, nor allow for easy integration.
 
@@ -143,10 +143,10 @@ Finally, a number of problems appear in both classic centralized schemes and new
 ### Security Pain
 
 **Key rotation is difficult.** Because the friction of creating keys and certificates is high, users don’t follow best practices for key rotation. The same keys and certificates are used for too long. Web admins desire CA certificates that don’t expire for 4 or 5 years. Many of us in the PGP community still use keys from a decade ago. Re-encrypting old data with new keys may add a reliability risk as well as security risk. The Bitcoin community fortunately does better: it typically throws away a key when it has been used once.
-	    Pain Points: Weak security (users)
+      Pain Points: Weak security (users)
 
 **Trust revocation is difficult.** The trust offered by CAs and PGP is too often de facto irrevocable. CAs theoretically can invalidate certificates, but most historically respond poorly to such requests. Revoking a PGP certificate across a web of trust can be even more problematic.
-	    Pain Points: lack of support when things go bad (administrators)
+      Pain Points: lack of support when things go bad (administrators)
 
 **Privacy is weak.** Generally, CAs and peer-to-peer services alike give out too much information. For CAs, this is a general problem of validation services bundling too many different information together — not all of which is necessary in all situations. This means that casual use of certificates can expose excessive information. However, domain registries are even worse: they require users to pay additional fees to keep their private information private. Similarly, in PGP the very act of key signing reveals information about social networks. If you care about privacy, then both systems have issues.
 

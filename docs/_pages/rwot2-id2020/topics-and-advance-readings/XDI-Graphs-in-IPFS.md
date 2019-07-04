@@ -31,25 +31,25 @@ Contextual arcs and literal arcs form the "backbone" of the graph, and relationa
 
 Example XDI graph with 4 contextual arcs, 2 literal arcs, and 1 relational arc (using the XDI DISPLAY serialization format):
 
-	//=markus
-	//=drummond
-	=markus//<#email>
-	=markus//<#tel>
-	=markus<#email>/&/"markus@danubetech.com"
-	=markus<#tel>/&/"+43 664 3154848"
-	=markus/#friend/=drummond
+  //=markus
+  //=drummond
+  =markus//<#email>
+  =markus//<#tel>
+  =markus<#email>/&/"markus@danubetech.com"
+  =markus<#tel>/&/"+43 664 3154848"
+  =markus/#friend/=drummond
 
-	  ___               ___               ___               ___
-	 |   | ----------> |   | ----------> |   | - - - - - > |   | "markus@danubetech.com"
-	 |___|  =markus    |___|   <#email>  |___|     &       |___|
-	   |                v |
-	   |                v |
-	   |        #friend v |               ___               ___
-	   |                v  ------------> |   | - - - - - > |   | "+43 664 3154848"
-	   |                v       <#tel>   |___|     &       |___|
-	   |                ___ 
-	    -------------> |   | 
-	       =drummond   |___|
+    ___               ___               ___               ___
+   |   | ----------> |   | ----------> |   | - - - - - > |   | "markus@danubetech.com"
+   |___|  =markus    |___|   <#email>  |___|     &       |___|
+     |                v |
+     |                v |
+     |        #friend v |               ___               ___
+     |                v  ------------> |   | - - - - - > |   | "+43 664 3154848"
+     |                v       <#tel>   |___|     &       |___|
+     |                ___ 
+      -------------> |   | 
+         =drummond   |___|
 
 If one considers only the contextual and literal arcs of an XDI graph (in this example, leaving out the `#friend` relational arc, then the graph would be a tree.
 
@@ -60,22 +60,22 @@ In this case, the mapping to IPFS is straight-forward and can be done using the 
 
 Using these rules, the above XDI graph can be stored in IPFS as follows:
 
-	# ./ipfs object data QmePRoNxYBM52rX4Lz9uoUEnbzoFJrdcoQFEmn1iU3Gu3N
-	{}
+  # ./ipfs object data QmePRoNxYBM52rX4Lz9uoUEnbzoFJrdcoQFEmn1iU3Gu3N
+  {}
 
-	# ./ipfs object links QmePRoNxYBM52rX4Lz9uoUEnbzoFJrdcoQFEmn1iU3Gu3N
-	QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz 0 =markus   
-	QmStX2p9x3AV9Gdp1ArLk7bLNzZft5WCBxSLCp4NdbU3z4 0 =drummond 
-	
-	# ./ipfs object links QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz
-	QmeRY6if7tCE3Ftnk7RVWoq9ohshBm87FS1DM1RvEuyxzt 0 <#email> 
-	QmQ6Jwb2uVwBYbaPRwSr61wZYCu6fVS1FX4L2fU4tB9RgW 0 <#tel>   
-	
-	# ./ipfs object data QmeRY6if7tCE3Ftnk7RVWoq9ohshBm87FS1DM1RvEuyxzt
-	{"&":"markus@danubetech.com"}
-	
-	# ./ipfs object data QmQ6Jwb2uVwBYbaPRwSr61wZYCu6fVS1FX4L2fU4tB9RgW
-	{"&":"+43 664 3154848"}
+  # ./ipfs object links QmePRoNxYBM52rX4Lz9uoUEnbzoFJrdcoQFEmn1iU3Gu3N
+  QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz 0 =markus   
+  QmStX2p9x3AV9Gdp1ArLk7bLNzZft5WCBxSLCp4NdbU3z4 0 =drummond 
+  
+  # ./ipfs object links QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz
+  QmeRY6if7tCE3Ftnk7RVWoq9ohshBm87FS1DM1RvEuyxzt 0 <#email> 
+  QmQ6Jwb2uVwBYbaPRwSr61wZYCu6fVS1FX4L2fU4tB9RgW 0 <#tel>   
+  
+  # ./ipfs object data QmeRY6if7tCE3Ftnk7RVWoq9ohshBm87FS1DM1RvEuyxzt
+  {"&":"markus@danubetech.com"}
+  
+  # ./ipfs object data QmQ6Jwb2uVwBYbaPRwSr61wZYCu6fVS1FX4L2fU4tB9RgW
+  {"&":"+43 664 3154848"}
 
 The only remaining question is then how XDI relational arcs can be modeled. Simply modeling them as IPFS links is not possible because of the constraints of the Merkle DAG structure. We explore two options:
 
@@ -83,8 +83,8 @@ The only remaining question is then how XDI relational arcs can be modeled. Simp
 
 Using this approach, the XDI relational arc can be stored in IPFS as follows:
 
-	# ./ipfs object data QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz
-	{"/#friend":["=drummond"]}
+  # ./ipfs object data QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz
+  {"/#friend":["=drummond"]}
 
 The downside of this approach is that graphs may become inconsistent, e.g. the XDI context node `=markus` may indicate an XDI relational arc `#friend` to an XDI context node `=drummond`, but this XDI context node may not actually exist in the graph.
 
@@ -92,11 +92,11 @@ The downside of this approach is that graphs may become inconsistent, e.g. the X
 
 Using this approach, the XDI relational arc can be stored in IPFS as follows:
 
-	# ./ipfs object data Qmebb2jZqQjfTwmhdZsY8nBdb8zs1rHLNRhPL9Kb2kw8Z2
-	/#friend
-	# ./ipfs object links Qmebb2jZqQjfTwmhdZsY8nBdb8zs1rHLNRhPL9Kb2kw8Z2
-	QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz 0 source 
-	QmStX2p9x3AV9Gdp1ArLk7bLNzZft5WCBxSLCp4NdbU3z4 0 target 
+  # ./ipfs object data Qmebb2jZqQjfTwmhdZsY8nBdb8zs1rHLNRhPL9Kb2kw8Z2
+  /#friend
+  # ./ipfs object links Qmebb2jZqQjfTwmhdZsY8nBdb8zs1rHLNRhPL9Kb2kw8Z2
+  QmPFFA37U3nEHVSqsPwKaW6217kCmhjS7xDPam8f2jh3Gz 0 source 
+  QmStX2p9x3AV9Gdp1ArLk7bLNzZft5WCBxSLCp4NdbU3z4 0 target 
 
 The downside of this approach seems to be that is impossible to actually find XDI relational arcs while navigating the graph structure, unless additional overhead such as an index of all XDI relational arcs is introduced.
 

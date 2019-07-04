@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "DIDecentral"
-  avatar           : /assets/images/did-square.png
+  avatar           : /assets/images/did-square.jpg
   bio              : "Open Source, Public Domain, Educational UnOrganization"
   location         : "Curation Station"
   links:
@@ -222,6 +222,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-data
   - jekyll-include-cache
+  - jekyll-target-blank
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -233,6 +234,7 @@ whitelist:
   - jekyll-include-cache
   - jekyll-redirect-from
   - jekyll-data
+  - jekyll-target-blank
 
 
 # Archives

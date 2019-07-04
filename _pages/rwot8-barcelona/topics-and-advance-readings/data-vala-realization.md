@@ -18,10 +18,10 @@ In a 2017 publication, industry thought-leaders collaborated to define the need 
 
 Since data is becoming a key measure of whether a company will remain relevant through the digital revolution (Opher et. al., 2016), new approaches and business models are required to meet the needs of the changing marketplace (Opher et. al., 2016). To address these increasing data value issues, a number of data-value models and frameworks are emerging, including:
 
-1.	Data as Labor
-2.	Data as Property
-3.	Data Commons
-4.	Open Data
+1.  Data as Labor
+2.  Data as Property
+3.  Data Commons
+4.  Open Data
 
 This paper explores the aforementioned frameworks in the context of the emerging human-centred data economy.
 
@@ -58,11 +58,11 @@ Over the past 12 months, regulatory regimes have begun to address the rights of 
 
 The regulation is also trying to provide recourse in parallel to the rapid development and deployment of technologies such as artificial intelligence (AI) inclusive of the data required for training AI.  Some of the key regulatory and legal mechanisms include:
 
-*	The General Data Protection Regulation (GDPR) – Europe, May 2018
-*	Payment Services Directive 2 (PSD2) – European Union, 13th January 2018
-*	Open Banking (European Union & UK - 13th January 2018, Australia -1st February 2020)
-*	Personal Information Protection Act (PIPA) – Japan (30th May 2017)
-*	California Consumer Privacy Act (28th June 2018)
+*  The General Data Protection Regulation (GDPR) – Europe, May 2018
+*  Payment Services Directive 2 (PSD2) – European Union, 13th January 2018
+*  Open Banking (European Union & UK - 13th January 2018, Australia -1st February 2020)
+*  Personal Information Protection Act (PIPA) – Japan (30th May 2017)
+*  California Consumer Privacy Act (28th June 2018)
 
 The primary objective of these regulatory changes is to address the asymmetry of power exercised by centralised data controllers. More often these are multinational social networks, e-commerce platforms and multinational enterprises.
 
@@ -72,15 +72,15 @@ The aim is to protect the rights of individuals in step with the development of 
 
 In 2012 when Meeco was founded, the preliminary research projects focussed on the value of data. Key lines of enquiry included questions such as:
 
-*	Can data actually be owned, or does the nature of it mean there are always multiple parties of interest, e.g. data creator,   subject, observer, issuer etc?
+*  Can data actually be owned, or does the nature of it mean there are always multiple parties of interest, e.g. data creator,   subject, observer, issuer etc?
 
-*	Is data control a more likely mechanism to derive value than ownership?
+*  Is data control a more likely mechanism to derive value than ownership?
 
-*	What could be enabled at an individual, family or community group through data consolidation and collective control?
+*  What could be enabled at an individual, family or community group through data consolidation and collective control?
 
-*	How might society at large; government and commercial ventures create net additional benefit for through data control         mechanisms, such as data commons, trusts or mutual benefit structures?
+*  How might society at large; government and commercial ventures create net additional benefit for through data control         mechanisms, such as data commons, trusts or mutual benefit structures?
 
-*	What would be the potential benefits to society and who be the beneficiaries? 
+*  What would be the potential benefits to society and who be the beneficiaries? 
 
 Reports published by the World Economic Forum painted a picture of an emerging data and identity economy, with the promise of increased agency if trust, transparency and fair value could be established. 
 
@@ -91,25 +91,25 @@ Regardless of the mechanisms for regulation or technology acceptance, there are 
 
 The question is whether this can now be can be applied to data, such that the data subject is able to achieve fair value for participation in the data economy. In a 2015 article on emerging data rights, Katryna Dow described these universal value mechanisms applied to data as follows:
 
-1.	Data is an asset 
+1.  Data is an asset 
 
-2.	Assets generate value
+2.  Assets generate value
 
-3.	Whoever controls the asset derives the value
+3.  Whoever controls the asset derives the value
 
-4.	Markets are built on trading and exchanging value to the advantage of the controller
+4.  Markets are built on trading and exchanging value to the advantage of the controller
 
-5.	Individuals generate data (assets) but don’t have mechanisms to participate in the value chain, therefore control of the       asset needs to lawfully shift to the individual in order for that value to be realised by the individual
+5.  Individuals generate data (assets) but don’t have mechanisms to participate in the value chain, therefore control of the       asset needs to lawfully shift to the individual in order for that value to be realised by the individual
 
-6.	Mechanisms for individuals to achieve this would be required to enable individuals to be part of the value chain
+6.  Mechanisms for individuals to achieve this would be required to enable individuals to be part of the value chain
 
-7.	Being part of the value chain creates parity and parity leads to flatter structures and cost reduction, giving rise to         peer-2-peer services and the potential to remove intermediaries
+7.  Being part of the value chain creates parity and parity leads to flatter structures and cost reduction, giving rise to         peer-2-peer services and the potential to remove intermediaries
 
-8.	Cost reduction creates new forms of value available for distribution between the participants
+8.  Cost reduction creates new forms of value available for distribution between the participants
 
-9.	New forms of distribution enable new business models which drive innovation
+9.  New forms of distribution enable new business models which drive innovation
 
-10.	Innovation supports the evolution of society and often means the things of the past are no longer acceptable, such as the     centralised commercial control of personal data through social networks.
+10.  Innovation supports the evolution of society and often means the things of the past are no longer acceptable, such as the     centralised commercial control of personal data through social networks.
 
 ![](media/dataval-fig2.png)
 
@@ -126,7 +126,7 @@ More so, without the acknowledgement that the ethical, legal and control mechani
 Left to their own devices these platforms are increasingly removing agency in both the physical world and digital transactions. 
 
 “Every child born in today’s digital world will live a dual physical and digital life. How we enable privacy and security for their digital twin in as important as the rights afforded to them in the physical world. Protecting their identity, enabling trusted authentication and authorisation of services is the key challenge for us to solve in an increasingly connected world. If we don’t get this right, we risk a generation born into digital slavery rather than delivering on the promise of empowerment through technology”
-    -	Katryna Dow, World Government Summit, 2019
+    -  Katryna Dow, World Government Summit, 2019
 
 To address these increasing data value issues a number of models are emerging, including Data as Labor (DaL), Data as Property (DaP), Data Commons and Open Data.
 
@@ -137,17 +137,17 @@ In order to evaluate the merits of these proposed frameworks, it’s important t
 
 The prevailing model of treating personal data is essentially a barter system – consumers enjoy free services in exchange for their data, which is gathered by service providers at no charge. This model is called Data as Capital (DaC). An alternative offered is DaL (Ibarra et. al., 2017). This offers incentives to consumers to contribute data. DaL would provide benefits such as
 
-*	Increased quality and quantity of user data, especially in the context of AI and Machine Learning, which requires large       amounts of different data
+*  Increased quality and quantity of user data, especially in the context of AI and Machine Learning, which requires large       amounts of different data
 
-*	Curbing the activity of trans-national companies as sole “buyers” of user data, and the creation of a fair and vibrant         market for data labor
+*  Curbing the activity of trans-national companies as sole “buyers” of user data, and the creation of a fair and vibrant         market for data labor
 
-*	Increased engagement in their own data by individuals, and creation of “digital dignity” even to the point of assisting       Machine Learning in tackling sophisticated tasks, with commensurate reward
+*  Increased engagement in their own data by individuals, and creation of “digital dignity” even to the point of assisting       Machine Learning in tackling sophisticated tasks, with commensurate reward
 
 While pointing out that DaC and DaL can cohabit in the market, the authors acknowledge the difficulties in creating this new “Radical Market” and data economy. They include:
 
-*	The necessity of enlisting very large organisations in the change. There are different business models among the large         commercial data players (Facebook and Google are most reliant on DaC), but all have relatively stable, profitable          `   businesses. To pivot to a different form of data economy will be challenging for them, despite the appeal of access to more   and different data for use in AI and Machine Learning activities.
+*  The necessity of enlisting very large organisations in the change. There are different business models among the large         commercial data players (Facebook and Google are most reliant on DaC), but all have relatively stable, profitable          `   businesses. To pivot to a different form of data economy will be challenging for them, despite the appeal of access to more   and different data for use in AI and Machine Learning activities.
 
-*	The need for users’ to participate in numbers and be prepared to bargain collectively (which implies membership of a form of   union or membership association).
+*  The need for users’ to participate in numbers and be prepared to bargain collectively (which implies membership of a form of   union or membership association).
 
 Finally, governments, despite mandating significant new access to user data (e.g. GDPR), have not created labour laws that are compatible with the DaL economy.
 
@@ -158,7 +158,7 @@ The early thinking around DaL formed the basis for Eric Posner and Glen Weyl to 
 Radical Markets sets out to demonstrate why private property is inherently monopolistic, and how society would all be better served if private ownership were converted into a public auction for public benefit. They show how the principle of one person, one vote inhibits democracy, suggesting instead an ingenious way for voters to effectively influence the issues that matter most to them. They argue that every citizen of a host country should benefit from immigration—not just migrants and their capitalist employers. They propose leveraging antitrust laws to liberate markets from the grip of institutional investors and creating a data labor movement to force digital monopolies to compensate people for their electronic data.
 
 “Only by radically expanding the scope of markets can we reduce inequality, restore robust economic growth, and resolve political conflicts. But to do that, we must replace our most sacred institutions with truly free and open competition”
- 	  — Radical Markets 
+     — Radical Markets 
 
 ## Data as Property
 
@@ -188,11 +188,11 @@ If data has the potential to unlock expediential value in terms of personalisati
     
 As outlined by Renieris and Greenwood, under common law, ownership in property is a collective of five rights:
 
-1.	Of possession
-2.	Control
-3.	Exclusion
-4.	Enjoyment
-5.	Disposition 
+1.  Of possession
+2.  Control
+3.  Exclusion
+4.  Enjoyment
+5.  Disposition 
   
 Whilst title ownership of real property or goods relates to the evidence of a form of deed, bill of lading, receipt – essentially proof of commercial transaction or purchase. Also, property rights are granted and as such enable property or goods to be transferred moving ownership and control to another party.
 
@@ -207,9 +207,9 @@ Whilst Data commons is not a new concept, it is beginning to gain more attention
 
 Critical to a Commons approach is the clarity of purpose, use and application. For data this is particularly challenging because there exists the:
 
-*	data created by individuals (data subject)
-*	data that is created about the data created (metadata)
-*	data the observer creates about what the data subject created or is derived, enhanced or used from the metadata or data processing. 
+*  data created by individuals (data subject)
+*  data that is created about the data created (metadata)
+*  data the observer creates about what the data subject created or is derived, enhanced or used from the metadata or data processing. 
 
 And so, it goes, on between the data subject (or creator) and the observer, collector, processor etc. More often there is more than one party of interest or desired control in any data created. A current example is the data created on social networks. Whilst data subjects may have the “rights” to request data created (posts, media, comments), many networks consider the meta-data, insights and inferences to belong to the processor and not the subject.
 
@@ -219,25 +219,25 @@ Frame works for alternative business models should be tested based on the princi
 
 Christopher Allen (2015) summarises the principles of the commons in the following 10 points:
 
-1.	Define Boundaries: There are clearly defined boundaries around the common resources of a system from the larger               environment.
+1.  Define Boundaries: There are clearly defined boundaries around the common resources of a system from the larger               environment.
 
-2.	Define Legitimate Users: There is a clearly defined community of legitimate user of those resources.
+2.  Define Legitimate Users: There is a clearly defined community of legitimate user of those resources.
 
-3.	Adapt Locally: Rule for use of resources are adapted to local needs and conditions.
+3.  Adapt Locally: Rule for use of resources are adapted to local needs and conditions.
 
-4.	Decide Inclusively: Those using resources are included in decision making.
+4.  Decide Inclusively: Those using resources are included in decision making.
 
-5.	Monitor Effectively: There exists effective monitoring of the system by accountable monitors.
+5.  Monitor Effectively: There exists effective monitoring of the system by accountable monitors.
 
-6.	Share Knowledge: All parties share knowledge of local conditions of the system.
+6.  Share Knowledge: All parties share knowledge of local conditions of the system.
 
-7.	Hold Accountable: Have graduated sanctions for those who violate community rules.
+7.  Hold Accountable: Have graduated sanctions for those who violate community rules.
 
-8.	Offer Mediation: Offer cheap and easy access to conflict resolution.
+8.  Offer Mediation: Offer cheap and easy access to conflict resolution.
 
-9.	Govern Locally: Community self-determination is recognised by higher level authorities.
+9.  Govern Locally: Community self-determination is recognised by higher level authorities.
 
-10.	Don’t Externalise Costs: Resource systems embedded in other resource 		systems are organised in and accountable to           multiple layers of nested 	communities.
+10.  Don’t Externalise Costs: Resource systems embedded in other resource     systems are organised in and accountable to           multiple layers of nested   communities.
 
 Whilst there are many benefits made possible through a Commons approach, the rights of value derived from control of a data asset are not as clear and open to exploitation by entities that have the means to do so.
 

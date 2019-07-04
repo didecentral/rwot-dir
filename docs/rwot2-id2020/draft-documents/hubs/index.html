@@ -131,12 +131,12 @@
         
         <a class="site-title" href="/rwot-dir/">Drafts, Documents, Literature</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://decentralized-id.com/" >DIDecentral</a>
+              <a href="https://decentralized-id.com/" target="_blank" rel="noopener noreferrer">DIDecentral</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
             <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
           </svg>
         </button>
@@ -166,9 +166,7 @@
 
 
 
-<div class="page__hero"
-  style=" "
->
+<div class="page__hero" style=" ">
   
     <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Hubs" class="page__hero-image">
   
@@ -200,7 +198,7 @@
 
 <nav class="nav__list">
   <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
@@ -259,6 +257,116 @@
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot2-id2020/"><span class="nav__sub-title">RWoT2-ID2020</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot3-sf/"><span class="nav__sub-title">RWoT3-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
   </ul>
 </nav>
     
@@ -301,11 +409,11 @@
 
 <h2 id="syncing-data-to-multiple-hubs">Syncing Data to Multiple Hubs</h2>
 
-<p>Hub instances must sync data without requiring master-slave relationships or forcing a single implementation for storage or application logic.  This requires a shared replication protocol for broadcasting and resolving changes. <a href="http://docs.couchdb.org/en/2.0.0/replication/protocol.html">CouchDB</a>, an open source Apache project, will be the data-syncing protocol Hubs must implement. It features an eventually consistent, master-master replication protocol that can be decoupled from the default storage layer provided by CouchDB.</p>
+<p>Hub instances must sync data without requiring master-slave relationships or forcing a single implementation for storage or application logic.  This requires a shared replication protocol for broadcasting and resolving changes. <a href="http://docs.couchdb.org/en/2.0.0/replication/protocol.html" target="_blank" rel="noopener noreferrer">CouchDB</a>, an open source Apache project, will be the data-syncing protocol Hubs must implement. It features an eventually consistent, master-master replication protocol that can be decoupled from the default storage layer provided by CouchDB.</p>
 
 <h2 id="well-known-uris">Well-Known URIs</h2>
 
-<p>Existing web servers need to interact with Hubs.  We are using the IETF convention for globally defined resources that predictably reside at well-known locations as detailed in <a href="https://tools.ietf.org/html/rfc5785" title="IETF well-know URIs">RFC 5785 well-known URIs</a> and the <a href="https://www.ietf.org/assignments/well-known-uris/well-known-uris.xml" title="well-known URI Directory">well-known URI directory</a>. Hubs are accessible via the path: /.well-known/identity/:id, wherein the last segment of the path is the target ID for the identity you wish to interact with.</p>
+<p>Existing web servers need to interact with Hubs.  We are using the IETF convention for globally defined resources that predictably reside at well-known locations as detailed in <a href="https://tools.ietf.org/html/rfc5785" title="IETF well-know URIs" target="_blank" rel="noopener noreferrer">RFC 5785 well-known URIs</a> and the <a href="https://www.ietf.org/assignments/well-known-uris/well-known-uris.xml" title="well-known URI Directory" target="_blank" rel="noopener noreferrer">well-known URI directory</a>. Hubs are accessible via the path: /.well-known/identity/:id, wherein the last segment of the path is the target ID for the identity you wish to interact with.</p>
 
 <h2 id="api-routes">API Routes</h2>
 
@@ -345,12 +453,13 @@
 
 <h4 id="permissions">Permissions</h4>
 
-<p>Agents are external parties that can access and modify Hub data. Hub owners can set permissions in a ACL JSON document, which you can learn more about via the ACL documentation and <a href="https://github.com/decentralized-identity/acl/blob/master/examples/basic.json">examples</a>. This access control document designates:</p>
+<p>Agents are external parties that can access and modify Hub data. Hub owners can set permissions in a ACL JSON document, which you can learn more about via the ACL documentation and <a href="https://github.com/decentralized-identity/acl/blob/master/examples/basic.json" target="_blank" rel="noopener noreferrer">examples</a>. This access control document designates:</p>
 
 <ul>
   <li>What factors can be used for authentication and modification of Hub data</li>
   <li>What data Agents have access to</li>
-  <li>Which Agents are provided with a <code class="highlighter-rouge">store</code></li>
+  <li>Which Agents are provided with a <code class="highlighter-rouge">store</code>
+</li>
 </ul>
 
 <h4 id="messages">Messages</h4>
@@ -371,9 +480,9 @@
 
 <p>The encapsulating format for message payloads shall be:</p>
 
-<p><a href="http://schema.org/Message">http://schema.org/Message</a></p>
+<p><a href="http://schema.org/Message" target="_blank" rel="noopener noreferrer">http://schema.org/Message</a></p>
 
-<p>If the intent of your message is to prompt the receiving Hub to perform a certain semantic activity, you can pass an <a href="http://schema.org/Action">Action</a> object via the Message’s <code class="highlighter-rouge">potentialAction</code> property.</p>
+<p>If the intent of your message is to prompt the receiving Hub to perform a certain semantic activity, you can pass an <a href="http://schema.org/Action" target="_blank" rel="noopener noreferrer">Action</a> object via the Message’s <code class="highlighter-rouge">potentialAction</code> property.</p>
 
 <h4 id="stores">Stores</h4>
 
@@ -473,12 +582,15 @@
   <li>The new objects must be assigned with an <code class="highlighter-rouge">@id</code> property</li>
   <li>The Hub instance must keep an associated record that maps object IDs to the controls set for each. These control properties include:
     <ul>
-      <li><code class="highlighter-rouge">key</code>: the symmetrical public key used to encrypt the object, which Hubs and entities use to reencrypt</li>
+      <li>
+<code class="highlighter-rouge">key</code>: the symmetrical public key used to encrypt the object, which Hubs and entities use to reencrypt</li>
       <li>
         <table>
           <tbody>
             <tr>
-              <td><code class="highlighter-rouge">cache-intent</code>:  <code class="highlighter-rouge">full</code></td>
+              <td>
+<code class="highlighter-rouge">cache-intent</code>:  <code class="highlighter-rouge">full</code>
+</td>
               <td><code class="highlighter-rouge">light</code></td>
               <td><code class="highlighter-rouge">min</code></td>
             </tr>
@@ -496,7 +608,7 @@
 
 <p>The Hub spec does not mandate specific storage and search implementations.  For the purposes of interoperability and developer ergonomics hubs must accept a common search and filtering syntax regardless of the underlying implementation choice.</p>
 
-<p>To avoid the introduction of a new syntax, we feel <a href="http://www.lucenetutorial.com/lucene-query-syntax.html">Apache Lucene’s query filtering syntax</a> balances the desire to select an option with broad, existing support, and the flexibility and expressiveness developers demand.</p>
+<p>To avoid the introduction of a new syntax, we feel <a href="http://www.lucenetutorial.com/lucene-query-syntax.html" target="_blank" rel="noopener noreferrer">Apache Lucene’s query filtering syntax</a> balances the desire to select an option with broad, existing support, and the flexibility and expressiveness developers demand.</p>
 
 <p>Filters can be applied via the <code class="highlighter-rouge">filter</code> parameter of your queries. Additionally, filters are used to enable more granular permissioning - see the ACL spec document for more info.</p>
 
@@ -517,11 +629,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=didecentral&text=Hubs%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhubs%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=Hubs%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhubs%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhubs%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhubs%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhubs%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot2-id2020%2Fdraft-documents%2Fhubs%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -539,8 +651,10 @@
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-    <div id="results" class="results"></div></div>
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
 
       </div>
     
@@ -563,15 +677,15 @@
         
       
         
-          <li><a href="https://decentralized-id.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          <li><a href="https://decentralized-id.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
         
       
         
-          <li><a href="https://twitter.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://github.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
     
@@ -580,7 +694,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">© 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

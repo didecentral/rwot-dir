@@ -39,7 +39,7 @@ The development of an SSI solution can provide opportunities for the Rabobank wi
 * **HR and onboarding of employees**: we want to empower employees with their own data. It should be possible to reuse certificates or assessments they achieved or did at Rabobank everywhere else. Therefore we do projects in order to save certificates, diplomas, trainings and employment credentials. This means also supporting open badges within W3C verifiable credentials. If we can receive data this way during onboarding, we can also drastically improve onboarding times. It also connects to our vision on the future of work and employee mobility.
 
 
-##	Universal Ledger Agent
+##  Universal Ledger Agent
 Within our collaborations we faced the problem that partners were using different standards and blockchains. We can also not deny that in the future, multiple solutions will mature and interoperability issues will arise. For users this will be a challenge and we want to avoid that they have to use multiple apps, logins or platforms. Therefore we designed together with one of our partners the Universal Ledger Agent. Plugins can be developed for each specific set of standards (and so blockchains). This section describes our efforts so far.
 
 
@@ -64,13 +64,13 @@ We are currently working on the Ethereum (ERC-780 as well as W3C verifiable cred
 * **Proof request & responses**: within the Sovrin plugin there is support for proof request and responses as defined by the Sovrin foundation
 
 
-##	From proof of concepts to pilot
+##  From proof of concepts to pilot
 Within Rabobank we did multiple projects with partners to deliver multiple proof of concepts. In the first stages we made the fundamental components more universal. In order to connect data providers or data consumers quickly, we decided to create SSI-as-a-service. With this model, they (or Rabobank) can spin-up a server to issue or verify verifiable credentials. Configurations are e.g. available for their private key, the smart contract being used and on which public keys they rely on (or which trust registry).
 
 Currently we are doing PoC's with dummy data and want to move to pilots with real users and data. Therefore we are now researching if we meet the requirements of compliance and legal (e.g. GDPR) and cybersecurity. Besides current collaborations, we are also looking at providing a nationwide solution with governmental partners. Together with government and banks we explore the possible setup of a dedicated entity for SSI. An important question remains who should be the provider and so owner of such an SSI solution. Preferably, a customer does not end up with a set of identity wallets but only one wallet that is interoperable and delivered by a trusted party.
 
 
-##	Research activities
+##  Research activities
 Besides our current activities we are doing research on a wide range of topics. We encourage parties to think along on these topics with us, or as input for the design workshops of RWOT8.
 * **DID documents and the universal resolver**: despite we support DIDs, we didn't make the final designs for implementing DID documents and the universal resolver
 * **DID auth / login**: using an identity app to sign in using DID auth

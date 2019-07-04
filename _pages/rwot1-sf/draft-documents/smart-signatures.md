@@ -1,23 +1,26 @@
 ---
-title: "Smart Signatures"
-permalink: rwot1-sf/draft-documents/smart-signatures/
+title: "Smart Signatures - Draft"
 sidebar:
-  - title: RWoT1-SF
-    nav: rwot1
+  - title: "RWoT1-SF"
+    nav: "rwot1"
   - title: "Rebooting the Web of Trust"
-    nav: rwotnav
+    nav: "rwotnav"
 authors:
-	- "Christopher Allen"
-	- "Greg Maxwell"
-	- "Peter Todd"
-	- "Ryan Shea"
-	- "Pieter Wuille"
-	- "Joseph Bonneau"
-	- "Joseph Poon"
-	- "Tyler Close"
+  - "Christopher Allen"
+  - "Greg Maxwell"
+  - "Peter Todd"
+  - "Ryan Shea"
+  - "Pieter Wuille"
+  - "Joseph Bonneau"
+  - "Joseph Poon"
+  - "Tyler Close"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/smart-signatures.md"
+header:
+  image: /assets/images/Smart-Signatures.jpg
+permalink: rwot1-sf/draft-documents/smart-signatures/
 
 ---
+
 
 **by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph Bonneau, Joseph Poon, and Tyler Close***
 

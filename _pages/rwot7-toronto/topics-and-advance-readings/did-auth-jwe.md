@@ -40,23 +40,23 @@ By circumventing the use of DNS and CAs, our DID authentication protocols can pr
 
 In designing Hub authentication, we strive to meet the following goals:
 
-1.	The authentication scheme provides data security and privacy that is on-par or stronger than the current status quo based on TLS, DNS, and certificate authorities (see below).
-2.	The scheme should be extensible to support new encryption and signing algorithms and new key types over time.
-3.	The keys used for performing the scheme should be accessible in the application layer, such that keys can be provisioned and managed while providing good user experiences, without requiring the user to install certificates on their device.
-4.	The scheme should avoid any major adoption hurdles, such as requiring OS platform updates or requiring the use of prohibitively large software packages.
-5.	The scheme should minimize request size and server response time as much as possible.
-6.	Ideally, the Hub’s authentication scheme would be re-usable for other web services that are secured by DIDs.
-7.	Where possible, the scheme should reduce the amount of state that must be maintained on the client or Hub for each connection.
+1.  The authentication scheme provides data security and privacy that is on-par or stronger than the current status quo based on TLS, DNS, and certificate authorities (see below).
+2.  The scheme should be extensible to support new encryption and signing algorithms and new key types over time.
+3.  The keys used for performing the scheme should be accessible in the application layer, such that keys can be provisioned and managed while providing good user experiences, without requiring the user to install certificates on their device.
+4.  The scheme should avoid any major adoption hurdles, such as requiring OS platform updates or requiring the use of prohibitively large software packages.
+5.  The scheme should minimize request size and server response time as much as possible.
+6.  Ideally, the Hub’s authentication scheme would be re-usable for other web services that are secured by DIDs.
+7.  Where possible, the scheme should reduce the amount of state that must be maintained on the client or Hub for each connection.
 
 ## Security requirements
 More concretely, we have identified Tthe following basic qualities security requirements of existing for authentication and encryption schemes that we to aim to meetmust be met:
 
 1. The client must be able to authenticate the Hub.
-2.	The Hub must be able to authenticate the client.
-3.	Messages exchanged between the Hub and client must be encrypted.
-4.	Proof should be provided that messages have not been tampered with in transit.
-5.	Requests and responses should be protected against replay attacks.
-6.	Encryption should preserve forward secrecy.
+2.  The Hub must be able to authenticate the client.
+3.  Messages exchanged between the Hub and client must be encrypted.
+4.  Proof should be provided that messages have not been tampered with in transit.
+5.  Requests and responses should be protected against replay attacks.
+6.  Encryption should preserve forward secrecy.
 
 There are certainly additional security properties that could be incorporated over time, but we believe this set is sufficient for the near future.
 
@@ -136,34 +136,34 @@ Since all messages exchanged are protected by JWE, JWE encryption and decryption
 
 > Note: Currently JWT encryption and decryption uses DID keys directly – this does not provide forward secrecy for messages. Future implementations should use a shared symmetric ephemeral key for encryption.
 
-1.	The requester creates a self-signed access request as a JWS. A request to the Hub is considered an “access request” if the JWS header does not contain the did-access-token parameter. A nonce must be added to the did-requester-nonce JWS header parameter for every request sent to the Hub, the Hub must then include the same nonce header in the response to protect the requester from response replays. The requester nonce is included in the header rather than the payload to decouple authentication data from the request or response data. The Hub will ignore the actual payload in the JWS during this phase of the authentication flow.
-2.	Requester sends the JWS to the Hub.
-3.	The Hub verifies the JWS by resolving the requester’s DID then obtaining the public key needed for verification. The requester’s DID and the public-key ID can be derived from kid JWS header parameter. The same public-key must be used for encrypting the response.
+1.  The requester creates a self-signed access request as a JWS. A request to the Hub is considered an “access request” if the JWS header does not contain the did-access-token parameter. A nonce must be added to the did-requester-nonce JWS header parameter for every request sent to the Hub, the Hub must then include the same nonce header in the response to protect the requester from response replays. The requester nonce is included in the header rather than the payload to decouple authentication data from the request or response data. The Hub will ignore the actual payload in the JWS during this phase of the authentication flow.
+2.  Requester sends the JWS to the Hub.
+3.  The Hub verifies the JWS by resolving the requester’s DID then obtaining the public key needed for verification. The requester’s DID and the public-key ID can be derived from kid JWS header parameter. The same public-key must be used for encrypting the response.
 
 > Note: Verification of JWS using public keys obtained via DID resolution is pending real implementation.
 
-4.	The Hub generates a time-bound token for the requester to use in future communication. This token technically can be of any opaque format, however in the DID Hub Core Library implementation, the token is a signed JWT.
-5.	The Hub signs/wraps the token (in our case a signed JWT) as the payload of a JWS. The Hub must also copy the did-requester-nonce JWS header parameter from the request into the JWS header.
+4.  The Hub generates a time-bound token for the requester to use in future communication. This token technically can be of any opaque format, however in the DID Hub Core Library implementation, the token is a signed JWT.
+5.  The Hub signs/wraps the token (in our case a signed JWT) as the payload of a JWS. The Hub must also copy the did-requester-nonce JWS header parameter from the request into the JWS header.
 
 > Note: Currently the DID Hub Core library authentication implementation is stateless, thus it is subject to request replays within the time-bound window allowed by the JWT. In the future, the requester nonce can be cached on the Hub to prevent all request replays.
 
-6.	The Hub sends the JWS back to the requester.
-7.	The requester verifies that JWS is signed by the Hub by resolving the Hub’s DID then obtaining the public key needed for verification. The Hub’s DID and the public-key ID can be derived from kid header parameter.
+6.  The Hub sends the JWS back to the requester.
+7.  The requester verifies that JWS is signed by the Hub by resolving the Hub’s DID then obtaining the public key needed for verification. The Hub’s DID and the public-key ID can be derived from kid header parameter.
 
 > Note: Currently the client will resolve the Hub’s DID by sending a request to a Universal Resolver web service. Future implementations will need to employ other means of public key resolution that do not depend on TLS & DNS security. See appendix for a brief discussion of options.
 
-8.	The requester verifies the value in the did-requester-nonce JWT header parameter matches its requester-issued nonce.
-9.	The Hub is authenticated after the step above. The requester caches the Hub-issued token (signed JWT) locally and reuse it for all future requests to the Hub until the Hub rejects it, most commonly due to token expiry, at which point the requester would request a new access token.
-10.	The requester crafts the actual Hub request, and creates a new nonce.
-11.	The requester signs the Hub request as a JWS, including the new nonce in the did-requester-nonce header parameter and the Hub-signed JWT in the did-access-token header parameter.
-12.	The requester sends the signed Hub request to the Hub.
-13.	The Hub verifies the JWS by resolving the requester’s DID then obtaining the public key needed for verification. The same public-key must be used for encrypting the response.
-14.	The Hub verifies the signed JWT given in the did-access-token header parameter.
-15.	The requester is authenticated after the step above. The Hub process the request and generates an in-memory response.
-16.	The Hub signs the Hub response as a JWS, including the did-requester-nonce header parameter from the request in the JWS header.
-17.	The Hub sends the signed Hub response back to the requester.
-18.	The requester verifies that JWT is signed by the Hub by resolving Hub’s DID and obtaining the public key specified by the kid header in the JWT.  
-19.	The requester verifies that the value in the did-requester-nonce JWS header parameter matches its requester-issued nonce.
+8.  The requester verifies the value in the did-requester-nonce JWT header parameter matches its requester-issued nonce.
+9.  The Hub is authenticated after the step above. The requester caches the Hub-issued token (signed JWT) locally and reuse it for all future requests to the Hub until the Hub rejects it, most commonly due to token expiry, at which point the requester would request a new access token.
+10.  The requester crafts the actual Hub request, and creates a new nonce.
+11.  The requester signs the Hub request as a JWS, including the new nonce in the did-requester-nonce header parameter and the Hub-signed JWT in the did-access-token header parameter.
+12.  The requester sends the signed Hub request to the Hub.
+13.  The Hub verifies the JWS by resolving the requester’s DID then obtaining the public key needed for verification. The same public-key must be used for encrypting the response.
+14.  The Hub verifies the signed JWT given in the did-access-token header parameter.
+15.  The requester is authenticated after the step above. The Hub process the request and generates an in-memory response.
+16.  The Hub signs the Hub response as a JWS, including the did-requester-nonce header parameter from the request in the JWS header.
+17.  The Hub sends the signed Hub response back to the requester.
+18.  The requester verifies that JWT is signed by the Hub by resolving Hub’s DID and obtaining the public key specified by the kid header in the JWT.  
+19.  The requester verifies that the value in the did-requester-nonce JWS header parameter matches its requester-issued nonce.
 
 ## Signature and encryption algorithms
 This section lists the signature and encryption algorithms currently supported (implemented and tested). In reality, the implementation uses Cisco’s JOSE library, which officially supports a few more algorithms such as ECDSA P256, but since we have not tested those curves end-to-end and those are considered insecure by some, they have not been added to the supported list.
@@ -316,8 +316,8 @@ While Client TLS integrates nicely with the exiting TLS infrastructure, it has i
 ### Public key resolution
 The goal of this proposal is two-fold:
 
-1.	To authenticate a client of an identity Hub and 
-2.	To authenticate the Hub and encrypt messages in a way that prevents against the shortcomings of PKI.
+1.  To authenticate a client of an identity Hub and 
+2.  To authenticate the Hub and encrypt messages in a way that prevents against the shortcomings of PKI.
 
 Admittedly, this proposal does not quite achieve the latter. As noted in step 7 of the authentication protocol, the client must validate the signature provided by the Hub using the Hub’s public keys. The Hub’s public keys, however, are located on the distributed ledger where the Hub registered its DID.
 The typical solution for resolving a DID into its public keys is to run an instance of the Universal Resolver. But unfortunately verifying the authenticity of the response received from a Universal Resolver requires an HTTPS request with reliance on the very PKI we were trying to circumvent.

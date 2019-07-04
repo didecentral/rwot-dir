@@ -1,6 +1,6 @@
 # Final Report Out
 
-## CRUD and Multi-device for IPID	
+## CRUD and Multi-device for IPID  
 
 Identified some problems about IPID and some solutions. 
 
@@ -94,7 +94,7 @@ There are cool others to do with social recovery, which is this other
 paper. It's a rubric for identifying different schemes, such as loss,
 theft, and death/incapacitation.
 
-## Sociolegal frameworks for the phygital age	     
+## Sociolegal frameworks for the phygital age       
 
 You have laws that apply to physical world, and others that apply to
 data, and no overlap, and there's a struggle for data laws to keep up.
@@ -110,7 +110,7 @@ Lots of ideas, looking for more comments.
 
 Wrote 10 different use cases for SSIs and publication
 
-## Using OpenID Connect Self-Issued to Achieve DID Auth	Dmitri Z
+## Using OpenID Connect Self-Issued to Achieve DID Auth  Dmitri Z
 ## Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation
 
 Bridge technology

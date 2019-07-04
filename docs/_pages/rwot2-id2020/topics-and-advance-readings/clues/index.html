@@ -131,12 +131,12 @@
         
         <a class="site-title" href="/rwot-dir/">Drafts, Documents, Literature</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://decentralized-id.com/" >DIDecentral</a>
+              <a href="https://decentralized-id.com/" target="_blank" rel="noopener noreferrer">DIDecentral</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
             <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
           </svg>
         </button>
@@ -166,9 +166,7 @@
 
 
 
-<div class="page__hero"
-  style=" "
->
+<div class="page__hero" style=" ">
   
     <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Clues" class="page__hero-image">
   
@@ -200,7 +198,7 @@
 
 <nav class="nav__list">
   <h3 class="nav__title" style="padding-left: 0;">Rebooting the Web of Trust</h3>
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
@@ -254,6 +252,116 @@
             
 
             <li><a href="/rwot-dir/rwot1-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot2-id2020/"><span class="nav__sub-title">RWoT2-ID2020</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot2-id2020/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/rwot-dir/rwot3-sf/"><span class="nav__sub-title">RWoT3-SF</span></a>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/draft-documents/" class="">Draft Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/event-documents/" class="">Event Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/final-documents/" class="">Final Documents</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/supporting-files/" class="">Supporting Files</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/rwot-dir/rwot3-sf/topics-and-advance-readings/" class="">Topics and Advance Readings</a></li>
           
         </ul>
         
@@ -333,7 +441,7 @@ In the case of hashes, users will check if the hash of the content received is t
 
 <p>Existing working projects have pioneered this are such as IPFS - which is often confused to be a DHT, while it is a <em>naming</em> system and a particular <em>discovery</em> for these names. The discovery bit in IPFS is and should be always be swappable.</p>
 
-<p>Note: So far we have discussed of immutable content, there are also working tricks for mutable content. To learn more about this, read about <a href="https://ipfs.io">IPFS</a> and <a href="https://github.com/ipfs/specs/tree/master/ipld">IPLD</a>.</p>
+<p>Note: So far we have discussed of immutable content, there are also working tricks for mutable content. To learn more about this, read about <a href="https://ipfs.io" target="_blank" rel="noopener noreferrer">IPFS</a> and <a href="https://github.com/ipfs/specs/tree/master/ipld" target="_blank" rel="noopener noreferrer">IPLD</a>.</p>
 
 <h2 id="many-little-webs">Many little webs</h2>
 
@@ -397,7 +505,8 @@ In the case of hashes, users will check if the hash of the content received is t
 My simples solution is the following:</p>
 
 <ul>
-  <li>Add a third node that will link to <code class="highlighter-rouge">QmBobZYX</code> and <code class="highlighter-rouge">QmAliceZYX</code></li>
+  <li>Add a third node that will link to <code class="highlighter-rouge">QmBobZYX</code> and <code class="highlighter-rouge">QmAliceZYX</code>
+</li>
   <li>Replace <code class="highlighter-rouge">QmAliceZYX</code> and <code class="highlighter-rouge">QmBobZYX</code> with relative paths (so <code class="highlighter-rouge">../alice</code> and <code class="highlighter-rouge">../bob</code>)</li>
   <li>Now, since neither alice or bob contain hashes, then we can hash them separately</li>
   <li>Make the new root point to the hashes of alice and bob `{alice: AliceBlob,  bob: BobBlob}.</li>
@@ -411,23 +520,23 @@ Using this particular scheme we have a need of coming up with a path scheme.</p>
 
 <h2 id="nice-paths">Nice paths</h2>
 
-<p>I will not repeat the work done by <a href="https://github.com/ipfs/specs/tree/master/ipld">IPLD</a> and that I proposed as merkle-paths.</p>
+<p>I will not repeat the work done by <a href="https://github.com/ipfs/specs/tree/master/ipld" target="_blank" rel="noopener noreferrer">IPLD</a> and that I proposed as merkle-paths.</p>
 
 <p>In this section, I will just point out to conversations that have plenty of clues on how such path scheme should look like.
-The work done is around <a href="https://github.com/ipfs/specs/tree/master/ipld">IPLD</a> and my initial generalized version of <a href="https://github.com/nicola/cross-data-paths">cross data-paths</a> and the <a href="https://github.com/ipfs/specs/issues/97">final agreement</a>. There is definitely something to learn from this effort.</p>
+The work done is around <a href="https://github.com/ipfs/specs/tree/master/ipld" target="_blank" rel="noopener noreferrer">IPLD</a> and my initial generalized version of <a href="https://github.com/nicola/cross-data-paths" target="_blank" rel="noopener noreferrer">cross data-paths</a> and the <a href="https://github.com/ipfs/specs/issues/97" target="_blank" rel="noopener noreferrer">final agreement</a>. There is definitely something to learn from this effort.</p>
 
 <blockquote>
   <p>8 Path scheme should allow to describe the lower level and the higher level representation</p>
 </blockquote>
 
 <p>This is the important challenge of providing a way to point to the low level and the high level representation of data.
-The following link is a submission by itself: <a href="https://github.com/ipfs/specs/issues/91">Separating high-level from low level representation</a></p>
+The following link is a submission by itself: <a href="https://github.com/ipfs/specs/issues/91" target="_blank" rel="noopener noreferrer">Separating high-level from low level representation</a></p>
 
 <p>–</p>
 
 <h2 id="clues-on-using-identity">Clues on using identity</h2>
 
-<p>The following set of clues are from my draft on the <a href="https://github.com/nicola/decentralized-user-security-model">decentralized user security model</a>. In other words, clues on how decentralized application should interface with the user data.</p>
+<p>The following set of clues are from my draft on the <a href="https://github.com/nicola/decentralized-user-security-model" target="_blank" rel="noopener noreferrer">decentralized user security model</a>. In other words, clues on how decentralized application should interface with the user data.</p>
 
 <blockquote>
   <ol>
@@ -512,11 +621,11 @@ The following link is a submission by itself: <a href="https://github.com/ipfs/s
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=didecentral&text=Clues%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fclues%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=Clues%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fclues%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fclues%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fclues%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fclues%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2F_pages%2Frwot2-id2020%2Ftopics-and-advance-readings%2Fclues%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -534,8 +643,10 @@ The following link is a submission by itself: <a href="https://github.com/ipfs/s
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-    <div id="results" class="results"></div></div>
+        <div class="search-content__inner-wrap">
+<input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term...">
+    <div id="results" class="results"></div>
+</div>
 
       </div>
     
@@ -558,15 +669,15 @@ The following link is a submission by itself: <a href="https://github.com/ipfs/s
         
       
         
-          <li><a href="https://decentralized-id.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          <li><a href="https://decentralized-id.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
         
       
         
-          <li><a href="https://twitter.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
-          <li><a href="https://github.com/didecentral" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/didecentral" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
     
@@ -575,7 +686,7 @@ The following link is a submission by itself: <a href="https://github.com/ipfs/s
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">© 2019 DIDecentral. Powered by <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer" target="_blank">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

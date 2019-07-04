@@ -54,13 +54,13 @@ Pre Mortem
 
 
 Legal Map 
-⁃	Where is the overlap?
-	There isn’t much overlap. In general, we have “data-specific laws & regulations” and non-data-specific laws & regulations. We don’t have laws/legal regimes that overlap.  
+⁃  Where is the overlap?
+  There isn’t much overlap. In general, we have “data-specific laws & regulations” and non-data-specific laws & regulations. We don’t have laws/legal regimes that overlap.  
 
-⁃	Where is the gap?
+⁃  Where is the gap?
 The gap is in where the physical meets the digital (i.e. the “phyigital”) esp. in respect of humans/shared humanity. The human digital twin is different. WEF has said they want to apply the same legal frameworks to the digital twin of a physical object/asset but humans are not like other physical objects/assets. 
 
-⁃	How to close the gap to preserve humanity and promote human dignity?
+⁃  How to close the gap to preserve humanity and promote human dignity?
 We need a unique framework but what? Digital bill of rights? Drawing the lines/borders around what/where? 
 
 We struggle to even understand our own disciplines; how can we be ready to commit our complex humanity to one approach/framework? 

@@ -25,11 +25,11 @@ The whole Swift ecosystem can call C functions directly..
 Packages of interest written in C include:
 
 * [Libsecp256k1](https://github.com/bitcoin-core/secp256k1)— Optimized C library for EC operations on curve secp256k1.
-	* Used by: Bitcoin Core and Libbitcoin
+  * Used by: Bitcoin Core and Libbitcoin
 * [Nettle](https://git.lysator.liu.se/nettle/nettle)— A low-level cryptographic library that is designed to fit easily in more or less any context.
-	* Used by: Bread Wallet
+  * Used by: Bread Wallet
 * [Breadwallet Core](https://github.com/breadwallet/breadwallet-core)— An implementation of SPV.
-	* Used by: Bread Wallet
+  * Used by: Bread Wallet
 
 #### C++
 
@@ -40,10 +40,10 @@ Swift cannot call C++ directly, but we can get around this by writing a C-based 
 Packages of interest written in C++ include:
 
 * [Libbitcoin](https://github.com/libbitcoin/libbitcoin-system)— Libbitcoin is a multipurpose bitcoin library targeted towards high end use. An ideal backend to build fast implementations on top: mobile apps, desktop clients and server API's. The library places a heavy focus around asychronicity, speed and availability.
-	* Blockchain Commons have already released a [framework for bridging from Libbitcoin to Swift](https://github.com/BlockchainCommons/iOS-Bitcoin) written by the author.
+  * Blockchain Commons have already released a [framework for bridging from Libbitcoin to Swift](https://github.com/BlockchainCommons/iOS-Bitcoin) written by the author.
 * [Bitcoin Core](https://bitcoincore.org/)— A free and open-source application that serves as a bitcoin node and provides a bitcoin wallet which fully verifies payments. It is considered to be bitcoin's reference implementation.
 * [Boost](https://www.boost.org/)— A set of libraries that provide support for tasks and structures such as linear algebra, pseudorandom number generation, multithreading, image processing, regular expressions, and unit testing. It contains over eighty individual libraries.
-	* Used by Libbitcoin.
+  * Used by Libbitcoin.
 * [V8](https://v8.dev/)— Google’s open source high-performance JavaScript and WebAssembly engine. It is used in Chrome and in Node.js, among others. There are already [available bridges](https://github.com/tris-foundation/javascript/tree/v8) from Swift to V8.
 
 #### Javascript

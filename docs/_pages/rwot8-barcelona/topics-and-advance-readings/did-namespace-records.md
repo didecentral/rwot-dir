@@ -36,8 +36,8 @@ A DID namespace record is very simple because its address is just **the fully qu
 The DID document returned MAY contain one or more DID namespace records. Each DID namespace record is a JSON object in the following form:
 ```
 {
-	"children": ["did:example:foo:", "did:example:bar:"],
-	"remote": ["did:abc:", "did:xyz:"]
+  "children": ["did:example:foo:", "did:example:bar:"],
+  "remote": ["did:abc:", "did:xyz:"]
 }
 ```
 * **Children** are child namespaces of the parent DID namespace.
@@ -48,16 +48,16 @@ The DID document returned MAY contain one or more DID namespace records. Each DI
 The following DID document could be maintained by the authority for the `did:example:` namespace.
 ```
 {
-	"@context": ["https://w3id.org/did/v1"],
-	"id": "did:example:",
-	"publicKey": [{
-		"id": "did:example:123456789abcdefghi#keys-1",
-		"type": "RsaVerificationKey2018",
-		"controller": "did:example:123456789abcdefghi",
-		"publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-	}],
-	"children": ["did:example:foo:", "did:example:bar:"],
-	"remote": ["did:abc:", "did:xyz:"]
+  "@context": ["https://w3id.org/did/v1"],
+  "id": "did:example:",
+  "publicKey": [{
+    "id": "did:example:123456789abcdefghi#keys-1",
+    "type": "RsaVerificationKey2018",
+    "controller": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }],
+  "children": ["did:example:foo:", "did:example:bar:"],
+  "remote": ["did:abc:", "did:xyz:"]
 }
 ```
 ## Value Propositions for Linked DID Namespaces

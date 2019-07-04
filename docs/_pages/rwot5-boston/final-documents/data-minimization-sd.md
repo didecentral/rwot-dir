@@ -39,9 +39,9 @@ Data minimization is the act of limiting the amount of shared data strictly to t
 Data minimization is enacted primarily by policy decisions made by stakeholders in the credentials ecosystem:
 * Credential issuers ensure that credentials may be presented in such a way as to enable data minimization. This may require issuing multiple, related, granular sub-credentials. 
 * Credential inspectors establish in advance policies regarding the data they will examine: 
-	* what is the minimum data necessary to accomplish the task or goal?
-	* what is the minimum time the data can be stored to execute the task?
-	* what processes ensure that the data is applied only to the task at hand and does not, by a process of scope creep, become applied to other tasks or goals?
+  * what is the minimum data necessary to accomplish the task or goal?
+  * what is the minimum time the data can be stored to execute the task?
+  * what processes ensure that the data is applied only to the task at hand and does not, by a process of scope creep, become applied to other tasks or goals?
 
 Data minimization policies impact selective disclosure, the next privacy enhancement.
 

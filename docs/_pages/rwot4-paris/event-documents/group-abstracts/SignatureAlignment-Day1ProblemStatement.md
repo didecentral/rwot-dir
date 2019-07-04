@@ -20,15 +20,15 @@ In scope:
 NOT in scope:
 - Specification of merkle proof structure (e.g. Chainpoint 3.0, Open Timestamps, etc)
 - Not suggesting to use incorporate Koblitz signatures into broader standards 
-	- Note: it's probably useful to describe this in detail, i.e. where they can be used and where they should not
+  - Note: it's probably useful to describe this in detail, i.e. where they can be used and where they should not
 
 
 ## Goal for Friday PM
 
 - Signature suite specification
 - Implementation / prototypes
-	- Blockcerts
-	- LD signatures (playground)
+  - Blockcerts
+  - LD signatures (playground)
 - Writeup
 
 OR...if problems encountered

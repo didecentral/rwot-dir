@@ -194,11 +194,11 @@ This yields the following steps:
     1. Stringify the protected header JSON, sorting the keys. 
         - Note: sorting the protected header parameters is an implementation choice to allow predictability. Since the original JWS header can be obtained from the JWS signature prefix, verification could simply ensure it encodes the JWS headers in the same order.
     2. Encode the stringified header as follows:
-	    1. utf-8 encode
-	    2. base64 url encode
-	    3. ascii encode
+      1. utf-8 encode
+      2. base64 url encode
+      3. ascii encode
     3. Form the JWS input to sign as `<header> + "." + <payload>`
-	    - The critical distinction here is that `payload` is not base64 encoded, per the b64=false argument. 
+      - The critical distinction here is that `payload` is not base64 encoded, per the b64=false argument. 
 2. Sign:
     1. RSASHA256-sign the JWS input
     2. base64-url-encode the signature value

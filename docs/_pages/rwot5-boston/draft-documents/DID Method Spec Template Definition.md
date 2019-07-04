@@ -52,11 +52,11 @@ This is a DID method specification that conforms to the requirements specified i
 
 The namestring that shall identify this DID method is:
 
-	[[[ btcr ]]]
+  [[[ btcr ]]]
 
 A DID that uses this method MUST begin with the following prefix:
 
-	[[[ did:btcr ]]]
+  [[[ did:btcr ]]]
 
 Per the DID specification, this string MUST be in lowercase.
 
@@ -82,7 +82,24 @@ Per the DID specification, this string MUST be in lowercase.
 
 [[[ The official definition of the btcr JSON-LD context is:
 <pre>
-{   "@context":   {      "Person": "http://xmlns.com/foaf/0.1/Person",      "xsd": "http://www.w3.org/2001/XMLSchema#",      "name": "http://xmlns.com/foaf/0.1/name",      "nickname": "http://xmlns.com/foaf/0.1/nick",      "affiliation": "http://schema.org/affiliation",      "depiction":      {         "@id": "http://xmlns.com/foaf/0.1/depiction",         "@type": "@id"      },      "image":      {         "@id": "http://xmlns.com/foaf/0.1/img",         "@type": "@id"      }
+{
+   "@context":
+   {
+      "Person": "http://xmlns.com/foaf/0.1/Person",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "name": "http://xmlns.com/foaf/0.1/name",
+      "nickname": "http://xmlns.com/foaf/0.1/nick",
+      "affiliation": "http://schema.org/affiliation",
+      "depiction":
+      {
+         "@id": "http://xmlns.com/foaf/0.1/depiction",
+         "@type": "@id"
+      },
+      "image":
+      {
+         "@id": "http://xmlns.com/foaf/0.1/img",
+         "@type": "@id"
+      }
 
 }
 </pre>
@@ -148,23 +165,23 @@ Revocation is the one way final operation for a DID.  No use after revocation is
 ### attacks and their residual risks
 
 *At least the following forms of attack MUST be considered: eavesdropping, replay, message insertion, deletion, modification, impersonation, and man-in-the-middle.  Potential denial of service attacks MUST be identified as well.  If the protocol incorporates cryptographic protection mechanisms, it should be clearly indicated which portions of the data are protected and what the protections are (i.e., integrity only, confidentiality, and/or endpoint authentication, etc.).  Some indication should also be given to what sorts of attacks the cryptographic protection is susceptible.  Data which should be held secret (keying material, random seeds, etc.) should be clearly labeled. If the technology involves authentication, particularly user-host authentication, the security of the authentication method MUST be clearly specified.
-
-residual risks (such as the risks from compromise in a related protocol, incorrect implementation, or cipher) after threat mitigation has been deployed.
-
-Recovery from a key compromise MUST be addressed.
-
+  
+  esidual risks (such as the risks from compromise in a related protocol, incorrect implementation, or cipher) after threat mitigation has been deployed.
+  
+  ecovery from a key compromise MUST be addressed.
+  
 This section MUST provide integrity protection and update authentication for all operations required by Section 7 of this specification (DID Operations).
 
 <pre>
 Confused Deputy Problem 
 
   When attempting separation of writeAuthorization from authenticationCredential. 
-
-  [https://en.wikipedia.org/wiki/Confused_deputy_problem](https://en.wikipedia.org/wiki/Confused_deputy_problem)
-</pre>
-
-Other sections from DID spec to incorporate into the outline:
-
+  
+   [https://en.wikipedia.org/wiki/Confused_deputy_problem](https://en.wikipedia.org/wiki/Confused_deputy_problem)
+  /pre>
+  
+  ther sections from DID spec to incorporate into the outline:
+  
 	9.3 Authentication Service Endpoints
 	9.4 Non-Repudiation
 	9.5 Notification of DDO Changes

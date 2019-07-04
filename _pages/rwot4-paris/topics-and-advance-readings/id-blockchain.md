@@ -102,21 +102,21 @@ The ID-BLOCKCHAIN ​​prototype will include:
 
 1. A hardware device owned and controlled by the subjects ensuring:
 
-	a.  communication via BLE (Bluetooth Low Energy) with its environment (PC, smartphone, personal connected object, car computer, home automation center, ..)
+  a.  communication via BLE (Bluetooth Low Energy) with its environment (PC, smartphone, personal connected object, car computer, home automation center, ..)
 
-	b. logical and physical protection of confidential information (encryption keys, identity and personal attribute, etc.)
+  b. logical and physical protection of confidential information (encryption keys, identity and personal attribute, etc.)
 
 2. A mobile application enabling:
 
-	a. the management by the subject of its claims and relationship with providers and peers,
+  a. the management by the subject of its claims and relationship with providers and peers,
 
-	b. the implementation of interfaces with the hardware device, the blockchain, providers and peers
+  b. the implementation of interfaces with the hardware device, the blockchain, providers and peers
 
 3. Verifiable claims management services:
 
-	a. Online enrollment of the subject based either on legacy trusted third party relationship or on the concept of personal relationship, filiation and e-reputation,
+  a. Online enrollment of the subject based either on legacy trusted third party relationship or on the concept of personal relationship, filiation and e-reputation,
 
-	b. Service Providers and identity providers APIs to interact with subjects and the blockchain.
+  b. Service Providers and identity providers APIs to interact with subjects and the blockchain.
 
 #### VI.About the Id-Blockchain project
    A.Context of the project

@@ -9,9 +9,11 @@ sidebar:
 authors:
   - "Kaliya 'IdentityWoman' Young"
   - "John Edge"
-	- "Drummond Reed"
-	- "Noah Thorp"
+  - "Drummond Reed"
+  - "Noah Thorp"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/satisfying-real-world-use-cases.md"
+header:
+  image: /assets/images/Use-Cases.jpg
 
 ---
 

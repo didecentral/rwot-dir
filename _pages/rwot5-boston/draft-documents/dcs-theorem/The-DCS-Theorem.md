@@ -203,28 +203,28 @@ $$C(S) = \mathtt{num\_consensus\_participants}(\{S\})$$
     \centering
     \begin{tikzpicture}
     \begin{axis}[
-  	    domain=0:5,
-  	    xmin=-0.1, xmax=5.1, ymin=-0.1, ymax=5.1,
-  	%   axis equal image,
-  	    set layers,
-  	    xlabel=Population of potential users,
-  	%    xlabel style={scale=0.7},
-  	    xticklabels={},
-  	    xtick=\empty, ytick=\empty,
-  	%    axis line style={opacity=0.3},
-  	]
-  	\addplot [gray, only marks, mark=* , samples=500, mark size=0.75, on layer=axis background] {5*abs(rand)};
-  	\begin{pgfonlayer}{axis foreground}
-  		\draw (3.5,3.5) node [
-  			ellipse, minimum width=3.7cm, minimum height=2.5cm, fill=pink, opacity=0.6,
-  			label={[scale=0.8,fill=white,draw,ultra thin]below:Users of $S_1$}
-  		] {};
-  		\draw (3.7,3.8) node [
-  			ellipse, minimum width=2cm, minimum height=0.9cm, fill=green, opacity=0.5,
-  			label={[scale=0.7,fill=white]below:Consensus participants}
-  		] {};
-  	\end{pgfonlayer}
-  	\end{axis}
+        domain=0:5,
+        xmin=-0.1, xmax=5.1, ymin=-0.1, ymax=5.1,
+    %   axis equal image,
+        set layers,
+        xlabel=Population of potential users,
+    %    xlabel style={scale=0.7},
+        xticklabels={},
+        xtick=\empty, ytick=\empty,
+    %    axis line style={opacity=0.3},
+    ]
+    \addplot [gray, only marks, mark=* , samples=500, mark size=0.75, on layer=axis background] {5*abs(rand)};
+    \begin{pgfonlayer}{axis foreground}
+      \draw (3.5,3.5) node [
+        ellipse, minimum width=3.7cm, minimum height=2.5cm, fill=pink, opacity=0.6,
+        label={[scale=0.8,fill=white,draw,ultra thin]below:Users of $S_1$}
+      ] {};
+      \draw (3.7,3.8) node [
+        ellipse, minimum width=2cm, minimum height=0.9cm, fill=green, opacity=0.5,
+        label={[scale=0.7,fill=white]below:Consensus participants}
+      ] {};
+    \end{pgfonlayer}
+    \end{axis}
     \end{tikzpicture}
     \caption{If $S_1$ is a decentralized consensus system, the DCS Theorem states that as the number of users increases (red circle), the number of consensus participants decreases (green circle).}
 \end{figure}

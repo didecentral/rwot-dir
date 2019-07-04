@@ -452,19 +452,19 @@ The coming tidal wave of digital data due to the proliferation of digital device
 
 Data flows can be provenanced by verifying the end-to-end integrity of data with DIDs. By enabling DIDs to sign claims about other DIDs, the fidelity of these data flows can be increased further. There are several ideas that are good candidates for future exploration. These are as follows:
 
-1. 	Examine how a DID can utilize verifiable credentials to prove verified aspects of their identity when signing claims about other DIDs. Such a use case could enable verified inspectors to sign a claim with their DID that they have serviced an IoT sensor and certify what software and hardware upgrades the sensor is using.
+1.   Examine how a DID can utilize verifiable credentials to prove verified aspects of their identity when signing claims about other DIDs. Such a use case could enable verified inspectors to sign a claim with their DID that they have serviced an IoT sensor and certify what software and hardware upgrades the sensor is using.
 
-2.	Examine how verifiable claims and credentials can be issued for location verification.
+2.  Examine how verifiable claims and credentials can be issued for location verification.
 
-3.	Examine the social/network interactions between DIDs that sign attestations about other DIDs.
+3.  Examine the social/network interactions between DIDs that sign attestations about other DIDs.
 
-4.	Examine how pairwise-unique DIDs and zero-knowledge proofs could empower users to make contentious counterfactual claims in a privacy respecting manner. 
+4.  Examine how pairwise-unique DIDs and zero-knowledge proofs could empower users to make contentious counterfactual claims in a privacy respecting manner. 
 
-5.	Examine how the system could help to drive non-correlation functionality.
+5.  Examine how the system could help to drive non-correlation functionality.
 
-6.	Open discussion on other issues such as cognitive models, optimization and AI models, and the potential use of tokenization to drive behavioral economics.
+6.  Open discussion on other issues such as cognitive models, optimization and AI models, and the potential use of tokenization to drive behavioral economics.
 
-7. 	Examine how attestations or other types of claims on a DID can build an attribution graph that increases the value of the credentials associated with a DID.
+7.   Examine how attestations or other types of claims on a DID can build an attribution graph that increases the value of the credentials associated with a DID.
 
 ## Conclusion
 

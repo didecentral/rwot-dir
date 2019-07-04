@@ -7,7 +7,7 @@ sidebar:
   - title: "Rebooting the Web of Trust"
     nav: rwotnav
 authors:
-	- "Joel Dietz"
+  - "Joel Dietz"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest.md"
 
 ---

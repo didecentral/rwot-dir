@@ -191,11 +191,11 @@ There will be a reference IDM Client written in JavaScript, suitable to use insi
 While applications use the IDM Client to interact with an IDM Wallet, the way they reach each other and communicate is handled by the IDM Bridge. Applications run on a variety of contexts, from within browsers to native applications. An IDM Wallet might coexist in the same context as these applications or, more often, in different contexts and even equipments. Below there's a list of possible scenarios and respective solutions:
 
 1. Both an Application and an IDM Wallet running on the same browser, on the same equipment:
-	- Solution: Use an iframe and the [postMessage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
+  - Solution: Use an iframe and the [postMessage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
 2. An Application running on a browser and an IDM Wallet running as a native OS application, on the same equipment
-	- Solution: The IDM Wallet exposes a local [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) server on a pre-defined port known by the IDM Client
+  - Solution: The IDM Wallet exposes a local [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) server on a pre-defined port known by the IDM Client
 3. Both the Application and IDM Wallet are native OS applications, running on the same equipment
-	- Solution: Use inter-process communication, preferring mechanisms offered by the OS
+  - Solution: Use inter-process communication, preferring mechanisms offered by the OS
 4. An Application running on a laptop and an IDM Wallet running on a smartphone
     - Solution: Use IPFS's pubsub to find and talk to each other
 

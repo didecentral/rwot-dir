@@ -146,14 +146,14 @@ Inputs:
 Steps:
 
 - Check integrity; has not been tampered with
-	- Ensure local hash matches value in proof
-	- Ensure value in blockchain transaction matches value in proof
-	- Check merkle proof: essentially verification of the intermediate steps in the merkle path
+  - Ensure local hash matches value in proof
+  - Ensure value in blockchain transaction matches value in proof
+  - Check merkle proof: essentially verification of the intermediate steps in the merkle path
 - Signature/authenticity
-	- Establish 2-way link between issuer's profile and issuing key. I.e. is this issuing key actually claimed by the issuer? 
-	- Establish that the transaction was issued WHEN issuer key was valid
-	- JSON-LD signature (EcdsaKoblitzSignature2016) -- technically unnecessary
+  - Establish 2-way link between issuer's profile and issuing key. I.e. is this issuing key actually claimed by the issuer? 
+  - Establish that the transaction was issued WHEN issuer key was valid
+  - JSON-LD signature (EcdsaKoblitzSignature2016) -- technically unnecessary
 - Not revoked
-	- The Open Badge format expects a revocationList URI, currently expected to be hosted URL in a certain format. See long term notes
+  - The Open Badge format expects a revocationList URI, currently expected to be hosted URL in a certain format. See long term notes
 - Not expired
-	- Open badges standard supplies an expiration date field, which is currently used by verification. See long term notes.
+  - Open badges standard supplies an expiration date field, which is currently used by verification. See long term notes.

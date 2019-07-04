@@ -18,7 +18,7 @@ Universal Resolver
 
 Work is currently underway at the Decentralized Identity Foundation (DIF, see **[2]**) to design and implement a "Universal Resolver", which provides a client, a web service, and multiple drivers to be able to resolve DIDs (and other identifiers such as human-meaningful names) in a uniform way. Currently, a Java implementation (see **[3]**) of the Universal Resolver exists, which contains experimental drivers for the `btcr` DID method and the `sov` DID method.
 
- * The driver for the `btcr` method builds on `txref-conversion-java` (see **[4]**), which was developed after the RWoT BTCR Virtual Hackathon in July 2017 	(see **[5]**).
+ * The driver for the `btcr` method builds on `txref-conversion-java` (see **[4]**), which was developed after the RWoT BTCR Virtual Hackathon in July 2017   (see **[5]**).
  * The driver for the `sov` method builds on `indy-sdk` (see **[6]**) and its Java wrapper.
 
 In order to build XDI link contracts, data sharing, and messaging on top of DIDs, we use the Universal Resolver for discovering a DID's XDI service endpoint, as well as associated cryptographic keys.
@@ -28,30 +28,30 @@ The "btcr" DID
 
 We registered the DID `did:btcr:xkrn-xzcr-qqlv-j6sl` in the **Bitcoin testnet3**. The Universal Resolver produces the following DDO:
 
-	curl -i -X GET  https://uniresolver.danubetech.com/1.0/identifiers/did:btcr:xkrn-xzcr-qqlv-j6sl
-	
-	HTTP/1.1 200 
-	Server: nginx/1.10.3
-	Date: Tue, 19 Sep 2017 08:16:18 GMT
-	Content-Type: application/ld+json;charset=UTF-8
-	Transfer-Encoding: chunked
-	Connection: keep-alive
-	
-	{
-	  "id" : "did:btcr:xkrn-xzcr-qqlv-j6sl",
-	  "control" : [ ],
-	  "service" : {
-	    "agent" : "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xzcr-qqlv-j6sl",
-	    "xdi" : "https://xdi03-at.danubeclouds.com/cl/=!:did:btcr:xkrn-xzcr-qqlv-j6sl"
-	  },
-	  "owner" : {
-	    "id" : "did:btcr:xkrn-xzcr-qqlv-j6sl",
-	    "type" : [ "CryptographicKey", "EdDsaSAPublicKey" ],
-	    "curve" : "secp256k1",
-	    "publicKeyHex" : "024a63c4362772b0fafc51ac02470dae3f8da8a05d90bae9e1ef3f5243180120dd"
-	  },
-	  "@context" : "https://example.org/did/v1"
-	}
+  curl -i -X GET  https://uniresolver.danubetech.com/1.0/identifiers/did:btcr:xkrn-xzcr-qqlv-j6sl
+  
+  HTTP/1.1 200 
+  Server: nginx/1.10.3
+  Date: Tue, 19 Sep 2017 08:16:18 GMT
+  Content-Type: application/ld+json;charset=UTF-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  
+  {
+    "id" : "did:btcr:xkrn-xzcr-qqlv-j6sl",
+    "control" : [ ],
+    "service" : {
+      "agent" : "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xzcr-qqlv-j6sl",
+      "xdi" : "https://xdi03-at.danubeclouds.com/cl/=!:did:btcr:xkrn-xzcr-qqlv-j6sl"
+    },
+    "owner" : {
+      "id" : "did:btcr:xkrn-xzcr-qqlv-j6sl",
+      "type" : [ "CryptographicKey", "EdDsaSAPublicKey" ],
+      "curve" : "secp256k1",
+      "publicKeyHex" : "024a63c4362772b0fafc51ac02470dae3f8da8a05d90bae9e1ef3f5243180120dd"
+    },
+    "@context" : "https://example.org/did/v1"
+  }
 
 The XDI service endpoint for this DID is `https://xdi03-at.danubeclouds.com/cl/=!:did:btcr:xkrn-xzcr-qqlv-j6sl`.
 
@@ -62,41 +62,41 @@ The "sov" DID
 
 We registered the DID `did:sov:WRfXPg8dantKVubE3HX8pw` in the **Sovrin Provisional Network**. The Universal Resolver produces the following DDO:
 
-	curl -i -X GET  https://uniresolver.danubetech.com/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw
-	
-	HTTP/1.1 200 
-	Server: nginx/1.10.3
-	Date: Tue, 19 Sep 2017 08:21:03 GMT
-	Content-Type: application/ld+json;charset=UTF-8
-	Transfer-Encoding: chunked
-	Connection: keep-alive
-	
-	{
-	  "id" : "did:sov:WRfXPg8dantKVubE3HX8pw",
-	  "control" : [ ],
-	  "service" : {
-	    "xdi" : "https://xdi03-at.danubeclouds.com/cl/=!:did:sov:WRfXPg8dantKVubE3HX8pw"
-	  },
-	  "owner" : {
-	    "id" : "did:sov:WRfXPg8dantKVubE3HX8pw",
-	    "type" : [ "CryptographicKey", "EdDsaSAPublicKey" ],
-	    "curve" : "ed25519",
-	    "publicKeyBase64" : "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
-	  },
-	  "@context" : "https://example.org/did/v1"
-	}
+  curl -i -X GET  https://uniresolver.danubetech.com/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw
+  
+  HTTP/1.1 200 
+  Server: nginx/1.10.3
+  Date: Tue, 19 Sep 2017 08:21:03 GMT
+  Content-Type: application/ld+json;charset=UTF-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  
+  {
+    "id" : "did:sov:WRfXPg8dantKVubE3HX8pw",
+    "control" : [ ],
+    "service" : {
+      "xdi" : "https://xdi03-at.danubeclouds.com/cl/=!:did:sov:WRfXPg8dantKVubE3HX8pw"
+    },
+    "owner" : {
+      "id" : "did:sov:WRfXPg8dantKVubE3HX8pw",
+      "type" : [ "CryptographicKey", "EdDsaSAPublicKey" ],
+      "curve" : "ed25519",
+      "publicKeyBase64" : "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
+    },
+    "@context" : "https://example.org/did/v1"
+  }
 
 The XDI service endpoint for this DID is `https://xdi03-at.danubeclouds.com/cl/=!:did:sov:WRfXPg8dantKVubE3HX8pw`.
 
 Note: The **sovrin-client** (see **[8]**) can also be used to retrieve data associated with a `sov` DID:
 
-	sovrin@live> send GET_NYM dest=WRfXPg8dantKVubE3HX8pw
-	Getting nym WRfXPg8dantKVubE3HX8pw
-	Current verkey for NYM WRfXPg8dantKVubE3HX8pw is ~P7F3BNs5VmQ6eVpwkNKJ5D
-	
-	sovrin@live> send GET_ATTR dest=WRfXPg8dantKVubE3HX8pw raw=endpoint
-	Getting attr WRfXPg8dantKVubE3HX8pw
-	Found attribute {"endpoint": {"xdi": "https://xdi03-at.danubeclouds.com/cl/=!:did:sov:WRfXPg8dantKVubE3HX8pw"}}
+  sovrin@live> send GET_NYM dest=WRfXPg8dantKVubE3HX8pw
+  Getting nym WRfXPg8dantKVubE3HX8pw
+  Current verkey for NYM WRfXPg8dantKVubE3HX8pw is ~P7F3BNs5VmQ6eVpwkNKJ5D
+  
+  sovrin@live> send GET_ATTR dest=WRfXPg8dantKVubE3HX8pw raw=endpoint
+  Getting attr WRfXPg8dantKVubE3HX8pw
+  Found attribute {"endpoint": {"xdi": "https://xdi03-at.danubeclouds.com/cl/=!:did:sov:WRfXPg8dantKVubE3HX8pw"}}
 
 The XDI Link Contract
 ---------------------
@@ -105,17 +105,17 @@ An XDI link contract is a data sharing agreement that is human- and machine-unde
 
 The XDI graph associated with the `btcr` DID contains the following XDI link contract:
 
-	(=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)$contract$do/$get/=!:did:btcr:xkrn-xzcr-qqlv-j6sl<#email>
-	(=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)($contract$if$and/$true){$from}/$is/=!:did:sov:WRfXPg8dantKVubE3HX8pw
-	(=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)($contract$if$and/$true){$msg}<$sig><$valid>/&/true
+  (=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)$contract$do/$get/=!:did:btcr:xkrn-xzcr-qqlv-j6sl<#email>
+  (=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)($contract$if$and/$true){$from}/$is/=!:did:sov:WRfXPg8dantKVubE3HX8pw
+  (=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)($contract$if$and/$true){$msg}<$sig><$valid>/&/true
 
 Here the `btcr` DID is called the "authorizing peer", and the `sov` DID is called the "requesting peer". The link contract authorizes the `sov` DID to request the e-mail address in the XDI graph of the `btcr` DID (note the **$get** operation).
 
 The XDI graph associated with the `sov` DID contains the following XDI link contract:
 
-	(=!:did:sov:WRfXPg8dantKVubE3HX8pw/=!:did:btcr:xkrn-xzcr-qqlv-j6sl)$contract$do/$connect/
-	(=!:did:sov:WRfXPg8dantKVubE3HX8pw/=!:did:btcr:xkrn-xzcr-qqlv-j6sl)($contract$defer$if$and/$true){$from}/$is/=!:did:btcr:xkrn-xzcr-qqlv-j6sl
-	(=!:did:sov:WRfXPg8dantKVubE3HX8pw/=!:did:btcr:xkrn-xzcr-qqlv-j6sl)($contract$defer$if$and/$true){$msg}<$sig><$valid>/&/true
+  (=!:did:sov:WRfXPg8dantKVubE3HX8pw/=!:did:btcr:xkrn-xzcr-qqlv-j6sl)$contract$do/$connect/
+  (=!:did:sov:WRfXPg8dantKVubE3HX8pw/=!:did:btcr:xkrn-xzcr-qqlv-j6sl)($contract$defer$if$and/$true){$from}/$is/=!:did:btcr:xkrn-xzcr-qqlv-j6sl
+  (=!:did:sov:WRfXPg8dantKVubE3HX8pw/=!:did:btcr:xkrn-xzcr-qqlv-j6sl)($contract$defer$if$and/$true){$msg}<$sig><$valid>/&/true
 
 Here the `sov` DID is called the "authorizing peer", and the `btcr` DID is called the "requesting peer". The link contract authorizes the `btcr` DID to request additional link contracts from the `sov` DID (note the **$connect** operation).
 
@@ -126,17 +126,17 @@ The XDI Request and Response
 
 Based on the first link contract shown above, the `sov` DID can send a signed XDI message to request the e-mail address in the XDI graph of the `btcr` DID:
 
-	=!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0/$from/(=!:did:sov:WRfXPg8dantKVubE3HX8pw)
-	=!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0/$to/(=!:did:btcr:xkrn-xzcr-qqlv-j6sl)
-	=!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0/$contract/(=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)$contract
-	=!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0$do/$get/=!:did:btcr:xkrn-xzcr-qqlv-j6sl<#email>
-	=!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0<$sig>/&/"f7c99hAN3hI1E7ttf9+ulwG+x0AmXT4J6C8DV/vs3UPkVk99cvDkXqSe0+dMXG005D6R1GiGuZBEFHNrffDkAg=="
+  =!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0/$from/(=!:did:sov:WRfXPg8dantKVubE3HX8pw)
+  =!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0/$to/(=!:did:btcr:xkrn-xzcr-qqlv-j6sl)
+  =!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0/$contract/(=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)$contract
+  =!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0$do/$get/=!:did:btcr:xkrn-xzcr-qqlv-j6sl<#email>
+  =!:did:sov:WRfXPg8dantKVubE3HX8pw[$msg]@~0<$sig>/&/"f7c99hAN3hI1E7ttf9+ulwG+x0AmXT4J6C8DV/vs3UPkVk99cvDkXqSe0+dMXG005D6R1GiGuZBEFHNrffDkAg=="
 
 Note how the XDI message references the link contract address `(=!:did:btcr:xkrn-xzcr-qqlv-j6sl/=!:did:sov:WRfXPg8dantKVubE3HX8pw)$contract`.
 
 The `btcr` DID's XDI peer will validate the signature on the XDI message by obtaining the DID/DDO keys of the `sov` DID's XDI peer via the Universal Resolver. It will then execute the XDI message and respond:
 
-	=!:did:btcr:xkrn-xzcr-qqlv-j6sl<#email>/&/"markus@danubetech.com"
+  =!:did:btcr:xkrn-xzcr-qqlv-j6sl<#email>/&/"markus@danubetech.com"
 
 Architectural Options
 ---------------------
@@ -145,24 +145,24 @@ Where are the keys that control a DID/DDO? Stored in a web browser (extension)? 
 
 One possible architecture involves identity owners holding the DID/DDO keys on local mobile devices, and communicating with cloud-based "agent" services they control:
 
-	           SOVRIN                                           BITCOIN
-	   ______  ______  ______                            ______  ______  ______
-	  |    __||__  __||__    |                          |    __||__  __||__    |
-	  |___|__||__||__||__|___|                          |___|__||__||__||__|___|
-	      |______||______|      <___                        |______||______|
-	                                \___
-	             |                      \___      DDO              |
-	XDI SERVICE  |                          \___  LOOKUP           |  XDI SERVICE
-	             V                              \___               V
-	   ________________________                     \   ________________________ 
-	  |                        |     LINK CONTRACT     |                        |
-	  | "sov" XDI cloud agent  |  < < < < < < < < < <  | "btcr" XDI cloud agent |
-	  | =!:did:sov:WRfXPg8d... |                       | =!:did:btcr:xkrn-xz... |
-	  |________________________|                 ___>  |________________________|
-	                                         ___/
-	              |                      ___/                      |
-	     CONTROL  |                  ___/                          |  CONTROL
-	              |              ___/     SIGNED                   |
+             SOVRIN                                           BITCOIN
+     ______  ______  ______                            ______  ______  ______
+    |    __||__  __||__    |                          |    __||__  __||__    |
+    |___|__||__||__||__|___|                          |___|__||__||__||__|___|
+        |______||______|      <___                        |______||______|
+                                  \___
+               |                      \___      DDO              |
+  XDI SERVICE  |                          \___  LOOKUP           |  XDI SERVICE
+               V                              \___               V
+     ________________________                     \   ________________________ 
+    |                        |     LINK CONTRACT     |                        |
+    | "sov" XDI cloud agent  |  < < < < < < < < < <  | "btcr" XDI cloud agent |
+    | =!:did:sov:WRfXPg8d... |                       | =!:did:btcr:xkrn-xz... |
+    |________________________|                 ___>  |________________________|
+                                           ___/
+                |                      ___/                      |
+       CONTROL  |                  ___/                          |  CONTROL
+                |              ___/     SIGNED                   |
                  ___         ___/         XDI MSG                 ___
            ~o/  /   \    ___/                               _o   /   \
            /|   | O |                                        |\  | o |
@@ -170,24 +170,24 @@ One possible architecture involves identity owners holding the DID/DDO keys on l
 
 Another possible architecture involves the cloud-based "agent" services to hold the DID/DDO keys, to act on behalf of identity owners:
 
-	           SOVRIN                                           BITCOIN
-	   ______  ______  ______                            ______  ______  ______
-	  |    __||__  __||__    |                          |    __||__  __||__    |
-	  |___|__||__||__||__|___|                          |___|__||__||__||__|___|
-	      |______||______|      <___                        |______||______|
-	                                \___
-	             |                      \___      DDO              |
-	XDI SERVICE  |                          \___  LOOKUP           |  XDI SERVICE
-	             V                              \___               V
-	   ________________________                     \   ________________________ 
-	  |                        |     LINK CONTRACT     |                        |
-	  | "sov" XDI cloud agent  |  < < < < < < < < < <  | "btcr" XDI cloud agent |
-	  | =!:did:sov:WRfXPg8d... |                       | =!:did:btcr:xkrn-xz... |
-	  |________________________|  ------------------>  |________________________|
-	                                    SIGNED
-	              |                     XDI MSG                    |
-	     CONTROL  |                                                |  CONTROL
-	              |                                                |
+             SOVRIN                                           BITCOIN
+     ______  ______  ______                            ______  ______  ______
+    |    __||__  __||__    |                          |    __||__  __||__    |
+    |___|__||__||__||__|___|                          |___|__||__||__||__|___|
+        |______||______|      <___                        |______||______|
+                                  \___
+               |                      \___      DDO              |
+  XDI SERVICE  |                          \___  LOOKUP           |  XDI SERVICE
+               V                              \___               V
+     ________________________                     \   ________________________ 
+    |                        |     LINK CONTRACT     |                        |
+    | "sov" XDI cloud agent  |  < < < < < < < < < <  | "btcr" XDI cloud agent |
+    | =!:did:sov:WRfXPg8d... |                       | =!:did:btcr:xkrn-xz... |
+    |________________________|  ------------------>  |________________________|
+                                      SIGNED
+                |                     XDI MSG                    |
+       CONTROL  |                                                |  CONTROL
+                |                                                |
                  ___                                              ___
            ~o/  /   \                                       _o   /   \
            /|   | O |                                        |\  | o |

@@ -104,17 +104,17 @@ We will start with a basic implementation of DIDs.
   "@context": "https://w3id.org/did/v1",
   "id": "did:ala:123456789abcdefghi",
   "publicKey": [{
-		"id": "did:example:123456789abcdefghi#login",
-		"type": "RsaVerificationKey2018",
-		"owner": "did:example:123456789abcdefghi",
-		"publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-	},
+    "id": "did:example:123456789abcdefghi#login",
+    "type": "RsaVerificationKey2018",
+    "owner": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  },
   {
-		"id": "did:example:123456789abcdefghi#encryption",
-		"type": "RsaVerificationKey2018",
-		"owner": "did:example:123456789abcdefghi",
-		"publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-	}],
+    "id": "did:example:123456789abcdefghi#encryption",
+    "type": "RsaVerificationKey2018",
+    "owner": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }],
   "authentication": [{
     "publicKey": "did:ala:123456789abcdefghi#login"
   }],

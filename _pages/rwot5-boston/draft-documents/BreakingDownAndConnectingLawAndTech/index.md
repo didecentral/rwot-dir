@@ -198,7 +198,7 @@ Most important legal rules from which technical requirements can be elicited:
 
 # Connecting Legal and Technical Dimensions
 
-## Any sound, symbol or process	
+## Any sound, symbol or process  
 
 #### How this technical capability addresses this legal requirements or constraint
 
@@ -214,7 +214,7 @@ Most important legal rules from which technical requirements can be elicited:
 
 * Ceremony
 
-## by a person	
+## by a person  
 
 #### How this technical capability addresses this legal requirements or constraint
 
@@ -222,7 +222,7 @@ Most important legal rules from which technical requirements can be elicited:
 
 * Distringuish between tools and legal entities
 
-## With the intent to sign	
+## With the intent to sign  
 
 #### How this technical capability addresses this legal requirements or constraint
 

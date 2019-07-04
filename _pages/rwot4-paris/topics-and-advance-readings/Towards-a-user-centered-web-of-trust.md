@@ -21,6 +21,6 @@ A natural consequence of those observations could be to use the model of social 
 As for the authentication of the users, we have slowly moved from login/password to two-factor authentication. The triad of what you know, hold, and are, is likely to go undis-turbed, but could distributed ledger technology bring new or contextual elements that could make the authentication process more robust? This goes from the authentication of the user on the device with which the user interacts, to maintaining the security of the iden-tity systems, to passing user credentials among multiple services.
 
 ### References
-1.	Rachna Dhamija and Lisa Dusseault, ‘The Seven Flaws of Identity Management: Usabil-ity and Security Challenges’, IEEE Security Privacy, vol. 6, no. 2, pp. 24–29, Mar. 2008.
-2.	Shayan Eskandari, David Barrera, Elizabeth Stobert, and Jeremy Clark, ‘A First Look at the Usability of Bitcoin Key Management’, presented at the Workshop on Usable Securi-ty (USEC), 2015.
+1.  Rachna Dhamija and Lisa Dusseault, ‘The Seven Flaws of Identity Management: Usabil-ity and Security Challenges’, IEEE Security Privacy, vol. 6, no. 2, pp. 24–29, Mar. 2008.
+2.  Shayan Eskandari, David Barrera, Elizabeth Stobert, and Jeremy Clark, ‘A First Look at the Usability of Bitcoin Key Management’, presented at the Workshop on Usable Securi-ty (USEC), 2015.
 

@@ -4,10 +4,10 @@
 
 Whitepaper proposal for the 04/2017 ‘Rebooting Web of Trust’ Design Workshop
 
-		11 April 2017
-		Tobias Mayer, Omar Hasan, Lionel Brunie
-		Institut National des Sciences Appliquées (INSA) de Lyon, Laboratoire LIRIS
-		{ tobias.mayer // omar.hasan // lionel.brunie} @insa-lyon.fr
+    11 April 2017
+    Tobias Mayer, Omar Hasan, Lionel Brunie
+    Institut National des Sciences Appliquées (INSA) de Lyon, Laboratoire LIRIS
+    { tobias.mayer // omar.hasan // lionel.brunie} @insa-lyon.fr
 
 ##ABSTRACT 
 A secure management of digital identities is an obvious requirement for digital technologies and applications (digital payment, online shops, insurances, etc.). It is typically achieved by pre-defined certificate-based trust. However, pre-defined trust on centralized instances is not always possible or wanted for trust management and the “web-of-trust” emerged as a decentralized alternative. It determines a trust value by aggregating reputations issued by other entities, where the reputations represent a subjective evaluation of the user satisfaction. This mechanism is also suitable for the identity management when using reputations to indicate (the subjective impression of) an identity’s trustworthiness. However, such traditional reputation-based web-of-trust approaches suffer from Sybil attacks, where an identity can increase the own trust value by creating synthetic identities issuing reputations.
