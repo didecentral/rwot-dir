@@ -13,12 +13,9 @@ contributors:
   - "Brian Weller"
   - "Sonia Sawhney"
 gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/whats-the-next-step.pdf"
-<<<<<<< HEAD
 
-=======
 header:
   image: /assets/images/1-graphic-recording/09_Next_Step_Summary.JPG
->>>>>>> ca65df762bfec70f7cc36d9ae3446c4987b418c2
 ---
 
 Having trouble trying to embed the pdf.. would be great if a markdown version existed.
