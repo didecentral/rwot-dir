@@ -1,6 +1,6 @@
 ---
 title: "Advanced Web of Trust Concepts"
-permalink: rwot1-sf/topics-and-advance-readings/advanced-web-of-trust-concepts
+permalink: rwot1-sf/topics-and-advance-readings/advanced-web-of-trust-concepts/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1
