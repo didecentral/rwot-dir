@@ -16,7 +16,7 @@ authors:
 contributors:
   - "Drummond Reed"
   - "Noah Thorp"
-gitlink: "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/satisfying-real-world-use-cases.pdf"
+gitlink: "../satisfying-real-world-use-cases.pdf"
 header:
   image: /assets/images/1-graphic-recording/07_Final-Report-Out_Use-Cases.jpg
 
@@ -24,7 +24,7 @@ header:
 
 Having trouble trying to embed the pdf.. would be great if a markdown version existed.
 
-* [rwot1-sf/final-documents/satisfying-real-world-use-cases.pdf](https://infominer.id/pub-yes/rwot1-sf/final-documents/satisfying-real-world-use-cases.pdf)
+* [rwot1-sf/final-documents/satisfying-real-world-use-cases.pdf](../satisfying-real-world-use-cases.pdf)
 
 
 <iframe src="https://infominer.id/pub-yes/rwot1-sf/final-documents/satisfying-real-world-use-cases.pdf" width="100%" height="100%"></iframe>

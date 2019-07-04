@@ -20,8 +20,8 @@ header:
 
 Having trouble trying to embed the pdf.. would be great if a markdown version existed.
 
-* [rwot1-sf/final-documents/whats-the-next-step.pdf](/rwot-dir/rwot1-sf/final-documents/whats-the-next-step.pdf)
+* [rwot1-sf/final-documents/whats-the-next-step.pdf](../whats-the-next-step.pdf)
 
 
-<iframe src="/rwot-dir/rwot1-sf/final-documents/whats-the-next-step.pdf" frameborder="0"
+<iframe src="../whats-the-next-step.pdf" frameborder="0"
   style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
