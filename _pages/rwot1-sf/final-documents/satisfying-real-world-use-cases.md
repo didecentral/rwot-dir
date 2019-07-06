@@ -262,4 +262,4 @@ Workshop Facilitators: Christopher Allen and Brian Weller with graphic facilitat
 The design workshop and this paper are just starting points for Rebooting the Web of Trust. If you have any comments, thoughts, or expansions on this paper, please post them to our GitHub issues page: http://bit.ly/weboftrust-issues.  We are also planning for more gatherings on this topic in the near future, with the object being to have something notable ready for release on the 25th anniversary of PGP, in July 2016. If you’d like to be involved or would like to help sponsor these events, email:  
 ChristopherA@LifeWithAlacrity.com 
  
- 
+ {% include figure image_path="/assets/cc-logos/by.png" alt="creative commons by attribution logo" caption="creative commons by attribution" %}
