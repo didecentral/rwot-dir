@@ -143,7 +143,9 @@ The way identifier registration is handled in DPKI is different from DNS. Althou
   iv.	By default, software for managing identifiers must ensure that all network communications for creating, updating, renewing, or deleting identifiers is sent via a decentralized, peer-to-peer mechanism. This, again, is to ensure that a single entity (like a registrar) cannot prevent identifiers from being updated or renewed. 
 
 We recommend that DPKI infrastructure also strive to ensure the existence of: 
+
 •	At least one class of identifiers that do not expire once properly registered. 
+
 •	At least one class of neutral registration policies available to all members of the public, as well as to any service provider that wishes to offer registration services. 
 
 DPKI should not discriminate against any party that wishes to use it, and registries should be considered a commons; their design and operation guided by principles of openness, neutrality, and inclusion (NOTE: Ostrom, Elinor (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge, UK: Cambridge University Press. ISBN 9780521405997. or Allen, Christopher (2015). A Revised "Ostrom’s Design Principles for Collective Governance of the Commons" http://www.lifewithalacrity.com/2015/11/a-revised-ostroms-design-principlesfor-collective-governance-of-the-commons-.html). 
@@ -153,7 +155,9 @@ DPKI should not discriminate against any party that wishes to use it, and regist
 Registered identifiers are likely to have two types of keys associated with them: the keypair that’s used for registering and for updating the data associated with the identifier, and the public keys associated with the identifier (subkeys). 
 
 It is recommended that the subkeys be used by the principal to sign messages. They can be stored directly or indirectly in the datastore: 
+
 •	Direct storage means that the public key itself is stored directly in the DPKI datastore. For most blockchains, this is unlikely since some keys are quite large and most blockchains make storing them impossible or very expensive. 
+
 •	Indirect storage means that a pointer (e.g. a URI) is stored alongside with—or itself containing—the fingerprint for the public key.  
 
 ## 5.	Security of Identifiers And Public Keys 
