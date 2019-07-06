@@ -1,6 +1,6 @@
 ---
 title: "Key Transparency for End Users"
-permalink: rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/
+permalink: rwot1-sf/topics-and-advance-readings/key-transparency-for-end-users/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1

@@ -12,11 +12,11 @@ header:
 
 ## Supporting Files
 
-* [dpki-keysharding.ai](/assets/images/1-supporting-files/dpki-keysharding.ai)
+* [dpki-keysharding.ai]({% site.baseurl %}/assets/images/1-supporting-files/dpki-keysharding.ai)
 
-![](/assets/images/1-supporting-files/dpki-keysharding.jpg)
-![](/assets/images/1-supporting-files/dpki-merkle-subset.png)
-![](/assets/images/1-supporting-files/dpki-merkle.png)
+![]({% site.baseurl %}/assets/images/1-supporting-files/dpki-keysharding.jpg)
+![]({% site.baseurl %}/assets/images/1-supporting-files/dpki-merkle-subset.png)
+![]({% site.baseurl %}/assets/images/1-supporting-files/dpki-merkle.png)
 
 * [dpki-mitm.ai](/assets/images/1-supporting-files/dpki-mitm.ai)
 

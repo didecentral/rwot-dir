@@ -1,6 +1,6 @@
 ---
 title: "Avoiding Confused Deputy Attack Using Capabilities"
-permalink: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
+permalink: rwot1-sf/topics-and-advance-readings/avoiding-confused-deputy-attack-using-capabilities/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1

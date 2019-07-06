@@ -1,6 +1,6 @@
 ---
 title: "Binding Identity in a Decentralized System"
-permalink: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
+permalink: rwot1-sf/topics-and-advance-readings/binding-identity-in-decentralized-system/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1

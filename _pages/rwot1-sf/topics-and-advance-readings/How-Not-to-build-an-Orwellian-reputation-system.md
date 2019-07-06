@@ -12,7 +12,7 @@ gitlink: "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-adva
 
 ---
 
-Essay by [Juan S. Galt] (http://twitter.com/juansgalt) 
+Essay by [Juan S. Galt](http://twitter.com/juansgalt) 
 
 ‘Rebooting the web of trust,’ a workshop taking place in San Francisco this November 3rd and 4th, is bringing together some impressive pioneers and could lead to world changing developments in the realm of online reputation systems and in the use of the blockchain.
 
