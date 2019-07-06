@@ -537,7 +537,7 @@ Government–Saving Privacy in the Digital Age, Diane Pub Co, 356pp, ISBN: 0-756
 
 [MCBURNETT]	Neal McBurnett, PGP Web of Trust Statistics,
 
-[http://bcn.boulder.co.us/~neal/pgpstat/]("http://bcn.boulder.co.us/~neal/pgpstat/")
+< http://bcn.boulder.co.us/ ~ neal/pgpstat/>
 
 
 
