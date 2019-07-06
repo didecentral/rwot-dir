@@ -28,6 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : /assets/images/wot-logo.png
 masthead_title           : Drafts, Documents, Literature
 # breadcrumbs            : false # true, false (default)
+force-https              : false
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
