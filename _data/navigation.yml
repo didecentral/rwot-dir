@@ -176,7 +176,7 @@ rwot1:
       - title: "Modern PKI: Identity Assertions Forming Trust Networks"
         url: rwot1-sf/topics-and-advance-readings/modern-pki-identity-assertions/
       - title: PGP Paradigm
-        url: rwot1-sf/topics-and-advance-readings/PGP-Paradigm.pdf
+        url: rwot1-sf/topics-and-advance-readings/PGP-Paradigm/
       - title: PKI Tools in EVM-based blockchains
         url: rwot1-sf/topics-and-advance-readings/pki_tools_in_evm_blockchains/
       - title: Progressive Trust
