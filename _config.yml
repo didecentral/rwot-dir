@@ -108,9 +108,9 @@ analytics:
 # Site Author
 author:
   name             : "DIDecentral"
-  avatar           : /assets/images/did-square.jpg
+  avatar           : https://didecentral.com/assets/images/did-square.png
   bio              : "Open Source, Public Domain, Educational UnOrganization"
-  location         : "Curation Station"
+  location         : "Curating the Web"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
