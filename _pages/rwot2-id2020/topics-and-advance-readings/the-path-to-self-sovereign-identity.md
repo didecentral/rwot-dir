@@ -1,3 +1,11 @@
+---
+title: "Kiara Robles"
+authors:
+  - "The Path to Self-Sovereign Identity"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/the-path-to-self-sovereign-identity.md"
+
+---
+
 # The Path to Self-Sovereign Identity
 
 Today I head out to a month-long series of events associated with identity: I’m starting with the 22st (!) Internet Identity Workshop next week; then I’m speaking at the blockchain conference Consensus about identity; next I am part of the team putting together the first ID2020 Summit on Digital Identity at the United Nations; and finally I'm hosting the second #RebootingWebOfTrust design workshop on decentralized identity.

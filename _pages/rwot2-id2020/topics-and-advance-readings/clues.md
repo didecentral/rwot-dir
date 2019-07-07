@@ -1,5 +1,9 @@
 ---
 title: "Clues"
+authors:
+  - "Nicola Greco"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/clues.md"
+
 ---
 
 I would like to thank all the friends that have supported this late unstructed draft submission over not submitting anything :)

@@ -1,6 +1,20 @@
 ---
 title: Protecting Digital Identities in Developing Countries
 permalink: rwot2-id2020/draft-documents/protecting-digital-identities-in-developing-countries/
+authors:
+  - "Wayne Hennessy-Barrett"
+contributors:
+  - "Kaliya Young"
+  - "Fatma Nasujo"
+  - "Thessy Mehrain"
+  - "Marta Piekarska"
+  - "Kimberly Little"
+  - "Russ Haywood"
+  - "Dave Crocker"
+  - "Jon Geater"
+  - "Timothy Ruff"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/protecting-digital-identities-in-developing-countries.md"
+
 ---
 
 **Use Case: Protecting Digital Identities in Developing Countries**

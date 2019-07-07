@@ -1,3 +1,11 @@
+---
+title: "No Secure Protocol = No Sovereign Identity"
+authors:
+  - "Greg Slepak"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/no-secure-protocol-equals-no-sovereign-identity.md"
+
+---
+
 # No Secure Protocol = No Sovereign Identity
 
 _Submitted by [Greg Slepak](https://twitter.com/taoeffect)_

@@ -1,3 +1,11 @@
+---
+title: "Identities for Moving Things"
+authors:
+  - "Daniel Ford"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/IdentitiesForMovingThings.md"
+
+---
+
 # Identities for Moving Things
 * Daniel Ford - dan@keoja.com
 

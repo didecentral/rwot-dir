@@ -74,7 +74,7 @@ common themes and summarize future prospects.
 1. Selective Disclosure: Proof of Age
 2. Short-term Contracts with Memory: Distributed AirBnB
 3. Bootstrapping Long-Term Identity: Creating A Record of Credit
-   4. Concerns in Non-G20 Nations
+4. Concerns in Non-G20 Nations
 5. Starting From Zero: Refugee
 6. Human Trafficking: Exiting Safe Houses
 
@@ -308,9 +308,7 @@ be reliable enough to serve this role.  Worse, many marginalized people are
 prohibited from creating records that might enfranchise them, either through
 legal exclusion or threats of violence. 
 
-Without such abstract representation of themselves their ability to interact with institutions such as businesses, governments and NGO's is limited. 
-The Gates Foundation considers this
-issue
+Without such abstract representation of themselves their ability to interact with institutions such as businesses, governments and NGO's is limited.  The Gates Foundation considers this issue
 [one of their eight global priorities](http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor):
 
 > Worldwide, more than 2.5 billion adults do not have an account at a financial

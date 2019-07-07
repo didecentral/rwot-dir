@@ -1,5 +1,11 @@
-XDI Graphs in IPFS
-------------------
+---
+title: "XDI Graphs in IPFS"
+authors:
+  - "Markus Sabadello"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/XDI-Graphs-in-IPFS.md"
+
+---
+
 
 XDI (eXtensible Data Interchange) is a technology for modeling, storing and connecting any kind of personal and organizational data.
 Its underlying data model is a graph consisting of nodes and directed arcs.

@@ -12,26 +12,26 @@ header:
 
 ## Supporting Files
 
-* [dpki-keysharding.ai](/assets/images/1-supporting-files/dpki-keysharding.ai)
+* [dpki-keysharding.ai]({{ site.baseurl }}/assets/images/1-supporting-files/dpki-keysharding.ai)
 
-![](/assets/images/1-supporting-files/dpki-keysharding.jpg)
-![](/assets/images/1-supporting-files/dpki-merkle-subset.png)
-![](/assets/images/1-supporting-files/dpki-merkle.png)
+![key sharding]({{ site.baseurl }}/assets/images/1-supporting-files/dpki-keysharding.jpg)
+![dpki merkle subset]({{ site.baseurl }}/assets/images/1-supporting-files/dpki-merkle-subset.png)
+![dpki merkle]({{ site.baseurl }}/assets/images/1-supporting-files/dpki-merkle.png)
 
-* [dpki-mitm.ai](/assets/images/1-supporting-files/dpki-mitm.ai)
+* [dpki-mitm.ai]({{ site.baseurl }}/assets/images/1-supporting-files/dpki-mitm.ai)
 
-![](/assets/images/1-supporting-files/dpki-mitm.jpg)
+![dpki-mitm.jpg]({{ site.baseurl }}/assets/images/1-supporting-files/dpki-mitm.jpg)
 
-* [rebranding-fig1-entity.ai](/assets/images/1-supporting-files/rebranding-fig1-entity.ai)
+* [rebranding-fig1-entity.ai]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig1-entity.ai)
 
-![](/assets/images/1-supporting-files/rebranding-fig1-entity.jpg)
+![rebranding-fig1.jpg]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig1-entity.jpg)
 
-* [rebranding-fig2-action.ai](/assets/images/1-supporting-files/rebranding-fig2-action.ai)
+* [rebranding-fig2-action.ai]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig2-action.ai)
 
-![](/assets/images/1-supporting-files/rebranding-fig2-action.jpg)
+![rebranding-fig2.jpg]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig2-action.jpg)
 
-* [rebranding-fig3-interaction.ai](/assets/images/1-supporting-files/rebranding-fig3-interaction.ai)
+* [rebranding-fig3-interaction.ai]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig3-interaction.ai)
 
-![](/assets/images/1-supporting-files/rebranding-fig3-interaction.jpg)
+![rebranding-fig3-jpg]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig3-interaction.jpg)
 
   

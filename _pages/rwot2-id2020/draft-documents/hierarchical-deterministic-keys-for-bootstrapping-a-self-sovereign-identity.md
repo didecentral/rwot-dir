@@ -1,6 +1,10 @@
 ---
 title: "Hierarchical Deterministic Keys for Bootstrapping a Self-Sovereign Identity"
 permalink: "rwot2-id2020/draft-documents/hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity/"
+authors:
+  - "Kiara Robles"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/draft-documents/hierarchical-deterministic-keys-for-bootstrapping-a-self-sovereign-identity.md"
+
 ---
 
 v0.2 July 18, 2016

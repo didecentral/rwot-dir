@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Key Transparency for End Users - Rebooting the Web of Trust</title>
+<!-- begin _includes/seo.html --><title>Key revocation of lost and stolen keys - Rebooting the Web of Trust</title>
 <meta name="description" content="RWOT Index - Drafts, Documents, Photos, Topics, Advance Readings, and Final Whitepapers">
 
 
@@ -17,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Rebooting the Web of Trust">
-<meta property="og:title" content="Key Transparency for End Users">
+<meta property="og:title" content="Key revocation of lost and stolen keys">
 <meta property="og:url" content="http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/">
 
 
@@ -28,7 +28,7 @@
 
 
   <meta name="twitter:site" content="@didecentral">
-  <meta name="twitter:title" content="Key Transparency for End Users">
+  <meta name="twitter:title" content="Key revocation of lost and stolen keys">
   <meta name="twitter:description" content="RWOT Index - Drafts, Documents, Photos, Topics, Advance Readings, and Final Whitepapers">
   <meta name="twitter:url" content="http://localhost:4000/rwot-dir/rwot1-sf/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys/">
 
@@ -168,7 +168,7 @@
 
 <div class="page__hero" style=" ">
   
-    <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Key Transparency for End Users" class="page__hero-image">
+    <img src="/rwot-dir/assets/images/rebooting-the-web-of-trust-header-pages.jpeg" alt="Key revocation of lost and stolen keys" class="page__hero-image">
   
   
 </div>
@@ -1045,7 +1045,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Key Transparency for End Users">
+    <meta itemprop="headline" content="Key revocation of lost and stolen keys">
     
     
     
@@ -1053,7 +1053,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Key Transparency for End Users
+          <h1 id="page-title" class="page__title" itemprop="headline">Key revocation of lost and stolen keys
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -1061,7 +1061,7 @@
 
 
 
-  1 minute read
+  2 minute read
 </p>
           
         </header>
@@ -1069,20 +1069,62 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>By Joseph Bonneau - jbonneau@cs.stanford.edu</p>
+        <p>By Martin Koeppelmann - martin.koeppelmann@consensys.net</p>
 
-<p>Many people have proposed “running a Certificate Transparency log for user keys” as a way to improve trustworthiness of centralized key servers, as deployed by apps like TextSecure, iMessage or WhatsApp. It isn’t quite as simple as forking the CT code though: user certs have different privacy expectations and different performance requirements. CONIKS is a proposal to solve these problems using several improvements to the basic CT design. It has been adapted (with some modifications) as CoName by Google and Yahoo for their E2E encryption projects.</p>
+<h2 id="introduction">Introduction</h2>
 
-<p>TITLE: CONIKS: Bringing Key Transparency to End Users</p>
+<p>If we usually speak about key revocation we have compromised keys in mind. Compromised means that an unauthorized third party has or even just might have access to a key. For professional entities it is a reasonable assumption that this is worst that can happen. However, a web of trust solutions that aims for broader use of average users has to deal with two even more problematic scenarios: lost and stolen keys. In both cases does the original owner do not have any longer access, while in the second case the key is additionally compromised.</p>
 
-<p>Paper: http://www.jbonneau.com/doc/MBBFF15-coniks.pdf</p>
+<h2 id="decentralized-key-reset">Decentralized key reset</h2>
 
-<p>ABSTRACT: We present CONIKS, an end-user key verification service capable of integration in end-to-end encrypted communication systems. CONIKS builds on transparency log proposals for web server certificates but solves several
-new challenges specific to key verification for end users. CONIKS obviates the need for global third-party
-monitors and enables users to efficiently monitor their own key bindings for consistency, downloading less than
-20 kB per day to do so even for a provider with billions of users. CONIKS users and providers can collectively
-audit providers for non-equivocation, and this requires downloading a constant 2.5 kB per provider per day. Additionally,
-CONIKS preserves the level of privacy offered by today’s major communication services, hiding the list of usernames present and even allowing providers to conceal the total number of users in the system.</p>
+<p>In centralized architectures the central authority usually gives the user the option to reset a lost key (password). In a WoT network we can leverage the trusted nodes and give them the right to reset a key. A certain fraction or a threshold of the trusted nodes could be required. In the case of a lost key a dispute period should give the owner the chance to stop the revocation process by signing a specific message with the key. In the case of a stolen keys the rules about the numbers of trustees needs to be very strict because even the original key owner must not be allowed to stop the process.</p>
+
+<h2 id="evm-based-contract-example">EVM based contract example</h2>
+
+<p>The advantages of an blockchain as PKI has been discussed <a href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/blockchain-opportunities.txt" target="_blank" rel="noopener noreferrer">here</a>. Christian Lundkvist has given an introduction to PKI on EVM based blockchains <a href="https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/pki_tools_in_evm_blockchains.md" target="_blank" rel="noopener noreferrer">here</a>. This simple example is an extension of the introduced example by an implementation of the lost key resetting request. In this implementation every trustee has the right to report a key as stolen and request to replace the key by a new one. This request will trigger a dispute period of one week. During this period the request can be cancelled by the original key owner. After the period the old key is revoked and replaced with the requested one.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>contract KeyRevocationList {
+
+  mapping (address =&gt; bool) public isKeyRevoked;
+  mapping (address =&gt; mapping (address =&gt; bool)) public trustees;
+  mapping (address =&gt; LostKeyRequest) public LostKeyRequests;
+  
+  //one week request period
+  uint constant RQEEST_PERIOD = 7 * 24 * 60 * 60;
+  
+  struct LostKeyRequest{
+      address newKey;
+      uint timeOfRequest;
+  }
+
+  function revokeKey() {
+     // simlpe key revocation
+    isKeyRevoked[msg.sender] = true;
+  }
+
+  function RequestLostKeyReset(address LostKey, address NewKey) {
+      //requester needs to be trustee of the LostKey
+      if (trustees[LostKey][msg.sender]){
+         LostKeyRequests[LostKey].newKey = NewKey;
+         LostKeyRequests[LostKey].timeOfRequest = now;
+     }
+  }
+     
+  function CancelResetRequest() {
+    //the key owner can cancel a request
+    delete LostKeyRequests[msg.sender];
+  }
+  
+  function FinalizeRequest(address LostKey){
+      if (LostKeyRequest[LostKey].timeOfRequest &gt; 0 &amp;&amp; 
+          LostKeyRequest[LostKey].timeOfRequest + RQEEST_PERIOD &gt; now){
+              isKeyRevoked[LostKey] = true;
+              //somehow set newKey
+          }
+  }
+}
+</code></pre></div></div>
+
 
         
       </section>
@@ -1100,7 +1142,7 @@ CONIKS preserves the level of privacy offered by today’s major communication s
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=Key+Transparency+for+End+Users%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2FKey-revokation-of-lost-and-stolen-keys%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=didecentral&amp;text=Key+revocation+of+lost+and+stolen+keys%20http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2FKey-revokation-of-lost-and-stolen-keys%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Frwot-dir%2Frwot1-sf%2Ftopics-and-advance-readings%2FKey-revokation-of-lost-and-stolen-keys%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 

@@ -1,3 +1,11 @@
+---
+title: "Usability and Multiplicity in Global Identity Management"
+authors:
+  - "Dave Crocker"
+gitlink: "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/Crocker-ID-Usability-Multiplicity.md"
+
+---
+
 ## Usability and Multiplicity in Global Identity Management
 *D. Crocker ~ dcrocker@bbiw.net*
 
