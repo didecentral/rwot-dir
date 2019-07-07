@@ -13,7 +13,7 @@ https://github.com/WebOfTrustInfo
 
 ---
 
-This project stirred to life, months back, when @identitywoman connected me with @JuanSC and @ericw , we began brainstorming and exploring different ways to work with this body of information.
+This project stirred to life, months back, when @identitywoman connected @infominer33, @JuanSC and @ericw. They began brainstorming and exploring different ways to work with this body of information.
 
 This is only a demonstration, an MVP, if you like... 
 
