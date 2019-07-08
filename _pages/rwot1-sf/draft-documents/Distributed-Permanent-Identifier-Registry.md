@@ -1,6 +1,6 @@
 ---
 title: Distributed Permanent Identifier Registry
-permalink: rwot1-sf/draft-documents/Distributed-Permenant-Identifier-Registry/
+permalink: rwot1-sf/draft-documents/Distributed-Permanent-Identifier-Registry/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1

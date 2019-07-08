@@ -55,7 +55,7 @@ The modelling of both of these elements focuses on simplicity: an Entity appears
 
 ### A Proposed Entity Model
 
-<img align="right" src="/supporting-files/rebranding-fig1-entity.jpg?raw=true">An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to four concentric circle: information attributes are built on a core identity, which may be verified and which may be authenticated.
+<img align="right" src="{{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig1-entity.jpg?raw=true">An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to four concentric circle: information attributes are built on a core identity, which may be verified and which may be authenticated.
 
 **_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as an email address or a phone number.
 
@@ -73,7 +73,7 @@ Though attributes are connected to an Entity, they aren’t necessarily controll
 
 Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
 
-<img align="right" src="/supporting-files/rebranding-fig2-action.jpg?raw=true">An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
+<img align="right" src="{{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig2-action.jpg?raw=true">An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
 
 **_Decision of Privacy_** requires for Entities to decide what they’re going to reveal to each other as part of the Action. They must each decide how much of their Identity, their Verification, their Authentication, and their Attributes to expose, if any; the Entities might decide to reveal nothing, creating a totally anonymous Action.
 
@@ -89,7 +89,7 @@ From the point of view of each Entity, the Action is now complete. They’ve mad
 
 **_Manipulation of Feedback_** is the final step, where an automated system takes any reputation data stated by an Entity and adjusts it according to specific rules defined by the Web of Trust that the Entities are members of.
 
-![Interaction Diagram](/supporting-files/rebranding-fig3-interaction.jpg?raw=true)
+![Interaction Diagram]({{ site.baseurl }}/assets/images/1-supporting-files/rebranding-fig3-interaction.jpg?raw=true)
 
 Together these rules for reporting reputation and for massaging feedback can do a lot to control the feel of the entire Web. They can discourage negative feedback by bridging problems between Entities; or they could do the opposite. The end result helps to describe what sort of Web is actually being created: is it a true Web of Trust, or is it a Web of Shame?
 

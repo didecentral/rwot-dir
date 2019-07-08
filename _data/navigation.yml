@@ -128,7 +128,7 @@ rwot1:
       - title: "Authorities vs. Peers: Pain Points in Security"
         url: rwot1-sf/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security/
       - title: Avoiding Confused Deputy Attack Using Capabilities
-        url: rwot1-sf/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities/
+        url: rwot1-sf/topics-and-advance-readings/avoiding-confused-deputy-attack-using-capabilities/
       - title: Binding Identity in a Decentralized System
         url: rwot1-sf/topics-and-advance-readings/binding-identity-in-decentralized-system/
       - title: Blockchain-based Trust for Software Components
@@ -249,14 +249,12 @@ rwot1:
   - title: "Draft Documents"
     url: rwot1-sf/draft-documents/
     children:
-      - title: DPKI-OBSOLETE
-        url: rwot1-sf/draft-documents/DPKI-OBSOLETE/
       - title: Decentralized-Public-Key-Infrastructure
         url: rwot1-sf/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT/
       - title: Detecting Key Misuse on a Blockchain
         url: rwot1-sf/draft-documents/detecting-key-misuse-on-a-blockchain/
       - title: Distributed Permanent Identifier Registry
-        url: rwot1-sf/draft-documents/Distributed-Permanent-Identifier-Registry
+        url: rwot1-sf/draft-documents/Distributed-Permanent-Identifier-Registry/
       - title: Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data
         url: rwot1-sf/draft-documents/satisfying-real-world-use-cases/
       - title: Rebranding Web of Trust
