@@ -66,7 +66,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : # false (default)
 search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -101,16 +101,16 @@ social:
 analytics:
   provider               : google
   google:
-    tracking_id          : UA-132558656-3
+    tracking_id          : UA-132558656-2
     anonymize_ip         : true
 
 
 # Site Author
 author:
   name             : "DIDecentral"
-  avatar           : /assets/images/did-square.jpg
-  bio              : "Open Source, Public Domain, Educational UnOrganization"
-  location         : "Curation Station"
+  avatar           : https://didecentral.com/assets/images/did-square.png
+  bio              : "Open Source, Public Domain, Educational Co-Creation"
+  location         : "Curating the Web"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
