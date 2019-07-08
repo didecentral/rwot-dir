@@ -1,6 +1,6 @@
 ---
 title: "The PGP Paradigm"
-permalink: rwot1-sf/topics-and-advance-readings/PGP-paradigm/
+permalink: rwot1-sf/topics-and-advance-readings/PGP-Paradigm/
 sidebar:
   - title: RWoT1-SF
     nav: rwot1

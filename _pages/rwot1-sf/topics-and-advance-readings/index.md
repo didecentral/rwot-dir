@@ -46,7 +46,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[Lightning Network and Web of Trust](lightning-network-and-web-of-trust/)** — by Joseph Poon *\<joseph@lightning.network\>*
 * **[Linked Local Names](linked-local-names/)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[Modern PKI: Identity Assertions Forming Trust Networks](modern-pki-identity-assertions/)** — by Duke Dorje  *[@dukedorje](https://twitter.com/dukedorje) \<duke@citizencode.io\>*
-* **[PGP Paradigm](PGP-Paradigm.pdf)** - by Jon Callas - *[@JonCallas](https://twitter.com/joncallas) \<jon@crypto.expert>* & Phil Zimmerman - *\<prz@mit.edu\>*
+* **[PGP Paradigm](PGP-Paradigm/)** - by Jon Callas - *[@JonCallas](https://twitter.com/joncallas) \<jon@crypto.expert>* & Phil Zimmerman - *\<prz@mit.edu\>*
 * **[PKI Tools in EVM-based blockchains](pki_tools_in_evm_blockchains/)** - by ChristianLundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
 * **[Principle of Relativity for Web of Trust](Principle-of-Relativity-for-WoT/)** - by David Strayhorn
 * **[Progressive Trust](progressive-trust/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
