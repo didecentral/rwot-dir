@@ -1,6 +1,8 @@
 ---
 title: RWoT2 - Index
+permalink: /rwot2-id2020/
 ---
+
 ## Rebooting the Web of Trust II: ID2020 (May 2016)
 
 This repository contains documents related to RWOT2, the second Rebooting the Web of Trust design workshop, which ran in San Francisco, CA, on May 21st & 22nd, 2016. It was run in conjunction with the UN ID2020 Summit on Identity, which occurred at the UN in New York on May 20th, 2016. The goal of the workshop was to generate five technical white papers and/or proposals on topics decided by the group that would have the greatest impact on the future.
@@ -62,15 +64,15 @@ The design workshop successfully completed its five papers, which are now all av
 
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
 
-* [Rebooting the Web of Trust I: San Francisco (November 2015)](../RWoT1/)
-* [Rebooting the Web of Trust II: ID2020 (May 2016)](../RWoT2/)
-* [Rebooting the Web of Trust III: San Francisco (October 2016)](../RWoT3/)
-* [Rebooting the Web of Trust IV: Paris (April 2017)](../RWoT4/)
-* [Rebooting the Web of Trust V: Boston (October 2017)](../RWoT5/)
-* [Rebooting the Web of Trust VI: Santa Barbara (March 2018)](../RWoT6/)
-* [Rebooting the Web of Trust VII: Toronto (September 2018)](../RWoT7/)
-* [Rebooting the Web of Trust VIII: Barcelona](../RWoT8)
+* [Rebooting the Web of Trust I: San Francisco (November 2015/)](/rwot1-sf/)
+* [Rebooting the Web of Trust II: ID2020 (May 2016/)](/rwot2-id2020/)
+* [Rebooting the Web of Trust III: San Francisco (October 2016/)](/rwot3-sf/)
+* [Rebooting the Web of Trust IV: Paris (April 2017/)](/rwot4-paris/)
+* [Rebooting the Web of Trust V: Boston (October 2017/)](/rwot5-boston/)
+* [Rebooting the Web of Trust VI: Santa Barbara (March 2018/)](/rwot6-santabarbara/)
+* [Rebooting the Web of Trust VII: Toronto (September 2018/)](/rwot7-toronto/)
+* [Rebooting the Web of Trust VIII: Barcelona](/rwot8-barcelona/)
 
 ## License
 
-All of the contents of this directory are licensed [Creative Commons CC-BY](../LICENSE-CC-BY-4.0/) their contributors.
+All of the contents of this directory are licensed [Creative Commons CC-BY](/LICENSE-CC-BY-4.0/) their contributors.

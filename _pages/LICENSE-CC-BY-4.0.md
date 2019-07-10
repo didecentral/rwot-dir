@@ -1,5 +1,7 @@
-# LICENSE-CC-BY-4.0.md
-
+---
+title: LICENSE-CC-BY-4.0.md
+permalink: /LICENSE-CC-BY-4.0/ 
+---
 UNLESS OTHERWISE NOTED, THE CONTENTS OF THIS DIRECTORY ARE LICENSED UNDER THE CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
 
 ![https://creativecommons.org/licenses/by/4.0/](https://i.creativecommons.org/l/by/4.0/88x31.png)
