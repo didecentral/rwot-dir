@@ -37,7 +37,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[First Encounters with PGP](FirstEncountersWithPGP/)** - by Kiara Robles *[@anarchoass](https://twitter.com/anarchoass) \<kiara.robles@gmail.com\>*
 * **[Five Desirable Features for the Next Generation Web of Trust"](Five-Desired-WoT-Features/)** - by David Strayhorn 
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](hierarchical-deterministic-keys--bip32-and-beyond/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
-* **[How not to build an Orwellian reputation system](How-not-to-build-an-orwellian-reputation-system/)** - by Juan S. Galt *[@juansgalt](https://twitter.com/juansgalt) \<juans.galt@tuta.io\>*
+* **[How not to build an Orwellian reputation system](How-Not-to-build-an-Orwellian-reputation-system/)** - by Juan S. Galt *[@juansgalt](https://twitter.com/juansgalt) \<juans.galt@tuta.io\>*
 * **[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness/)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 *  **[Identity, Property and Simulation](Identity-Property-Simulation/)** - by Patrick Deegan *\<pdeegan@gmail.com\>*
 * **[Key revocation of lost and stolen keys](Key-revokation-of-lost-and-stolen-keys/)** - by Martin Koeppelmann *[@koeppelmann](https://twitter.com/koeppelmann) \<martin.koeppelmann@consensys.net \>*
