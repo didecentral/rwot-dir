@@ -1,6 +1,8 @@
 # main links
 main:
   - title: "DIDecentral"
+    url: https://didecentral.com/
+  - title: "decentralized-ID"
     url: https://decentralized-id.com/
   #- title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
