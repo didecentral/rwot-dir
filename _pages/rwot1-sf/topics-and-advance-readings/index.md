@@ -21,7 +21,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[Advanced Web-of-Trust Concepts](advanced-web-of-trust-concepts/)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[Attempts at common terminology for digital identity systems](shared_terminology_for_digital_identity_systems/)** - by Christian Lundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
 * **[Authorities vs. Peers: Pain Points in Security](authorities-vs-peers--pain-points-in-security/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
-* **[Avoiding Confused Deputy Attack Using Capabilities](AvoidingConfusedDeputyAttackUsingCapabilities/)** - by Tyler Close *\<tyler.close@gmail.com\>*
+* **[Avoiding Confused Deputy Attack Using Capabilities](avoiding-confused-deputy-attack-using-capabilities/)** - by Tyler Close *\<tyler.close@gmail.com\>*
 * **[Binding Identity in a Decentralized System](binding-identity-in-decentralized-system/)** - Wayne Thayer *[@WThayer](https://twitter.com/wthayer) \<wthayer@gmail.com\>*
 * **[Blockchain-based Trust for Software Components](code-and-file-signing/)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
 * **[Blockchain Tech Opportunities in the Web-of-Trust](blockchain-opportunities/)** - by Peter Todd *[@PeterToddBTC](https://twitter.com/PeterToddBTC) \<pete@petertodd.org\>*
@@ -37,7 +37,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[First Encounters with PGP](FirstEncountersWithPGP/)** - by Kiara Robles *[@anarchoass](https://twitter.com/anarchoass) \<kiara.robles@gmail.com\>*
 * **[Five Desirable Features for the Next Generation Web of Trust"](Five-Desired-WoT-Features/)** - by David Strayhorn 
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](hierarchical-deterministic-keys--bip32-and-beyond/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
-* **[How not to build an Orwellian reputation system](How-not-to-build-an-orwellian-reputation-system/)** - by Juan S. Galt *[@juansgalt](https://twitter.com/juansgalt) \<juans.galt@tuta.io\>*
+* **[How not to build an Orwellian reputation system](How-Not-to-build-an-Orwellian-reputation-system/)** - by Juan S. Galt *[@juansgalt](https://twitter.com/juansgalt) \<juans.galt@tuta.io\>*
 * **[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness/)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 *  **[Identity, Property and Simulation](Identity-Property-Simulation/)** - by Patrick Deegan *\<pdeegan@gmail.com\>*
 * **[Key revocation of lost and stolen keys](Key-revokation-of-lost-and-stolen-keys/)** - by Martin Koeppelmann *[@koeppelmann](https://twitter.com/koeppelmann) \<martin.koeppelmann@consensys.net \>*
@@ -57,11 +57,11 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](../) on November 3rd &
 * **[Secure Naming on the Blockchain](Secure-Naming-on-the-Blockchain/)** - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@onename.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 * **[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](Selective-Disclosure-of-Identity/)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 * **[Tensions related to identity and community regulation](tensions-related-to-identity-and-community-regulation/)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
-* **[The Naming of Things](The-Naming-of-Things.txt/)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
+* **[The Naming of Things](The-Naming-of-Things/)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 * **[Thin Clients](thin-clients/)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[Trust Exchange: An Architecture for a Permanent Open Trust Network](Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network/)** - by Harlan T. Wood *[@HarlanTWood](https://twitter.com/harlantwood) \<h@rlan.me \>*
 * **[Web of Trust with Blockchain IDs](Web-of-Trust-with-Blockchain-IDs/)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
-* **[White Papers, Specifications & Proofs of Concept](white-papers--specifications---and-proof-of-concept-code/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+* **[White Papers, Specifications & Proofs of Concept]white-papers-specifications-proof-of-concept-code/)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[XDI Link Contracts: An Overview](xdi-link-contracts/)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
 
 We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/pulls) with clarifications and additional links.

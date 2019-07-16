@@ -1,6 +1,8 @@
 # main links
 main:
   - title: "DIDecentral"
+    url: https://didecentral.com/
+  - title: "Decentralized-ID"
     url: https://decentralized-id.com/
   #- title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
@@ -113,7 +115,7 @@ rwot1:
       - title: Rebranding Web of Trust
         url: rwot1-sf/final-documents/rebranding-web-of-trust/
       - title: Satisfying Real World Use Cases
-        url: rwot1-sf/final-documents/satisfying-real-worl-use-cases/
+        url: rwot1-sf/final-documents/satisfying-real-world-use-cases/
       - title: Smart Signatures
         url: rwot1-sf/final-documents/smart-signatures/
       - title: What's the Next Step?
@@ -158,7 +160,7 @@ rwot1:
       - title: "Hierarchical Deterministic Keys: BIP32 & Beyond"
         url: rwot1-sf/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond/
       - title: How not to build an Orwellian reputation system
-        url: rwot1-sf/topics-and-advance-readings/How-not-to-build-an-orwellian-reputation-system/
+        url: rwot1-sf/topics-and-advance-readings/How-Not-to-build-an-Orwellian-reputation-system/
       - title: Identity, Guidance and Situational Awareness
         url: rwot1-sf/topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness/
       - title: Identity, Property and Simulation
@@ -196,7 +198,7 @@ rwot1:
       - title: Tensions related to identity and community regulation
         url: rwot1-sf/topics-and-advance-readings/tensions-related-to-identity-and-community-regulation/
       - title: The Naming of Things
-        url: rwot1-sf/topics-and-advance-readings/The-Naming-of-Things.txt/
+        url: rwot1-sf/topics-and-advance-readings/The-Naming-of-Things/
       - title: Thin Clients
         url: rwot1-sf/topics-and-advance-readings/thin-clients/
       - title: "Trust Exchange: An Architecture for a Permanent Open Trust Network"
