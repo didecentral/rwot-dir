@@ -1,5 +1,5 @@
 ---
-title: "RWoT1-SF - Plenary #6. Presentations."
+title: "Plenary 6 - Presentations"
 permalink: rwot1-sf/event-documents/plenaries/6-presentations/
 sidebar:
   - title: RWoT1-SF

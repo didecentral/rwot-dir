@@ -1,5 +1,5 @@
 ---
-title: "RWoT1-SF - Plenary #8. Table Seven"
+title: "Plenary 8 - Table Seven"
 permalink: rwot1-sf/event-documents/plenaries/8-table-seven/
 sidebar:
   - title: RWoT1-SF

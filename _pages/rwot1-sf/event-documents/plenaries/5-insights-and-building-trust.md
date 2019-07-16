@@ -1,5 +1,5 @@
 ---
-title: "RWoT1-SF - Plenary #5. Insights and Building Trust."
+title: "Plenary 5 - Insights and Building Trust."
 permalink: rwot1-sf/event-documents/plenaries/5-insights-and-building-trust/
 sidebar:
   - title: RWoT1-SF

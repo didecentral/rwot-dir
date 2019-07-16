@@ -1,5 +1,5 @@
 ---
-title: "RWoT1-SF - Plenary #3. Table Topics"
+title: "Plenary 3 - Table Topics"
 permalink: rwot1-sf/event-documents/plenaries/3-table-topics/
 sidebar:
   - title: RWoT1-SF

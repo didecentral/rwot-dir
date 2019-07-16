@@ -1,5 +1,5 @@
 ---
-title: "Schutte’s Critique of the Self-Sovereign Identity Principles"
+title: "Schutte's Critique of the Self-Sovereign Identity Principles"
 permalink: self-sovereign-identity/Shutte-on-SSI/
 ---
 

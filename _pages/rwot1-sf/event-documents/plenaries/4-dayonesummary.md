@@ -1,5 +1,5 @@
 ---
-title: "RWoT1-SF - Plenary #4. Day One Summary"
+title: "Plenary 4 - Day One Summary"
 permalink: rwot1-sf/event-documents/plenaries/4-dayonesummary/
 sidebar:
   - title: RWoT1-SF

@@ -1,5 +1,5 @@
 ---
-title: "RWoT1-SF - Plenary #7. Where do we go from here?"
+title: "Plenary 7 - Where do we go from here?"
 permalink: rwot1-sf/event-documents/plenaries/7-where-do-we-go-from-here/
 sidebar:
   - title: RWoT1-SF

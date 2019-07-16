@@ -1,6 +1,6 @@
 ---
-title: "RWoT1-SF - Plenary #1: Introduction"
-permalink: rwot1-sf/event-documents/plenaries/1-introduction/
+title: "Plenary 1. Introduction"
+permalink: 'rwot1-sf/event-documents/plenaries/1-introduction/'
 sidebar:
   - title: RWoT1-SF
     nav: rwot1
