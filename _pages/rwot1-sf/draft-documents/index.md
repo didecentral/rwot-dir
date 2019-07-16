@@ -14,7 +14,6 @@ header:
 
 ## Contents
 
-# * [DPKI-OBSOLETE](DPKI-OBSOLETE/)
 * [Decentralized-Public-Key-Infrastructure](Decentralized-Public-Key-Infrastructure-CURRENT/)
 * [Detecting Key Misuse on a Blockchain](detecting-key-misuse-on-a-blockchain/)
 * [Distributed Permanent Identifier Registry](Distributed-Permanent-Identifier-Registry)
